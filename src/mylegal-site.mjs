@@ -89,8 +89,11 @@ export function renderReferenceSite(existing) {
         return;
       }
       const office=/2026-02-Artboar(?:d-1-coxpy-6|xd-1(?:-copy-5)?)-scaled/.test(local)||/\/(?:10f7722574f2|3d66811e79df)\.webp/.test(local);
-      $(el).attr('src',office?'/mylegal/images/static/felexia-office.jpg':local);
-      if(office||/Felexia Conseils|Résidence Al Ihssane/.test($(el).attr('alt')||''))$(el).attr('alt','Accompagnement et espaces professionnels — photographie d’illustration');
+      const exterior=local.includes('photo-bureau-ext')||local.includes('fe7006bc400d');
+      $(el).attr('src',office?'/mylegal/images/brand/felexia-office.webp':exterior?'/mylegal/images/brand/felexia-exterior-sans-enseigne.webp':local);
+      if(office||exterior){$(el).attr({width:'1280',height:'853',alt:office?'Bureaux avec le logo original Felexia Conseils — visuel d’illustration':'Bâtiment professionnel de style marocain sans enseigne — visuel d’illustration'});}
+      else if(/Felexia Conseils|Résidence Al Ihssane/.test($(el).attr('alt')||''))$(el).attr('alt','Accompagnement et espaces professionnels — photographie d’illustration');
+      if(exterior)$(el).after('<span class="felexia-photo-caption">Visuel d’illustration</span>');
       $(el).attr('width',$(el).attr('width')||'1200').attr('height',$(el).attr('height')||'800');
       if(!$(el).attr('alt'))$(el).attr({alt:'','aria-hidden':'true'});
       if(!$(el).attr('loading'))$(el).attr('loading','lazy');

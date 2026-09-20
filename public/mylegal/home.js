@@ -70,8 +70,8 @@
       "href": "/fr/domiciliation/"
     },
     "image": {
-      "src": "/mylegal/images/static/2026-01-photo-bureau-ext-3.jpg",
-      "alt": "Façade d’un centre d’affaires — photographie d’illustration"
+      "src": "/mylegal/images/brand/felexia-exterior-sans-enseigne.webp",
+      "alt": "Bâtiment professionnel de style marocain sans enseigne — visuel d’illustration"
     }
   },
   {

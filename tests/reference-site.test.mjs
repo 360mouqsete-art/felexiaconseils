@@ -82,6 +82,32 @@ test('every French page displays the authentic Felexia header and footer logo', 
   }
 });
 
+test('rendered pages and active scripts use the new Felexia office illustrations', async () => {
+  // These files were visually inspected: some show MyLegal signage or the
+  // former Oasis building; others are the neutral replacements being retired.
+  const formerOffices = /(?:2026-01-photo-bureau-ext-3|fe7006bc400d|office-neutral|10f7722574f2|3d66811e79df|2026-02-Artboar(?:d-1-coxpy-6|xd-1(?:-copy-5)?)-scaled)\.(?:jpe?g|webp)|\/mylegal\/images\/static\/felexia-office\.jpg/i;
+  const activeScripts = new Set();
+  const published = [];
+  for (const { relative, $, html } of documents.values()) {
+    assert.equal(formerOffices.test(decoded(html)), false, `${relative}: retired office image`);
+    published.push(html);
+    $('script[src]').each((_, script) => {
+      const src = $(script).attr('src');
+      if (src.startsWith('/')) activeScripts.add(src.split(/[?#]/)[0]);
+    });
+  }
+  for (const src of activeScripts) {
+    const script = await readFile(new URL(`dist${src}`, root), 'utf8');
+    assert.equal(formerOffices.test(decoded(script)), false, `${src}: retired image restored by an interaction`);
+    published.push(script);
+  }
+  const content = published.join('\n');
+  for (const src of ['/mylegal/images/brand/felexia-exterior-sans-enseigne.webp', '/mylegal/images/brand/felexia-office.webp']) {
+    assert.ok(content.includes(src), `New office illustration is actually used: ${src}`);
+    assert.ok((await readFile(new URL(`dist${src}`, root))).byteLength > 0, `Published illustration exists: ${src}`);
+  }
+});
+
 test('internal section links resolve to real targets, including guide FAQ entries', () => {
   const failures = [];
   for (const { relative, $ } of documents.values()) {

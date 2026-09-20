@@ -2,6 +2,7 @@
 .felexia-languages{display:flex;justify-content:center;gap:24px;padding:20px;font-size:13px;border-top:1px solid #e6e9ef}
 .felexia-languages a:hover{color:#2446d8}
 .felexia-author-logo{width:40px;height:40px;object-fit:cover;object-position:left;background:#0b1340;border-radius:50%}
+.felexia-photo-caption{position:absolute;inset-inline-start:12px;top:12px;z-index:2;padding:5px 9px;border-radius:5px;background:rgba(255,255,255,.94);color:#0b1340;font-size:10px;font-weight:500}
 header nav a[aria-current="page"]{color:#2446d8}
 .felexia-extra-section{max-width:1184px;margin:0 auto;padding:80px 24px 96px;color:#0b1340}
 .felexia-extra-section>h1{font-size:clamp(32px,4vw,56px);line-height:1.13;font-weight:650;letter-spacing:-.04em;margin:18px 0 26px;max-width:850px}
