@@ -1,0 +1,20 @@
+.felexia-contact-details { display:flex; flex-direction:column; gap:11px; }
+.felexia-contact-details a { display:flex; align-items:flex-start; gap:10px; line-height:1.65; overflow-wrap:anywhere; }
+.felexia-contact-details svg { width:17px; height:17px; flex-shrink:0; margin-top:3px; color:var(--color-brand-ocean); }
+.felexia-contact-title { font-size:15px; font-weight:650; margin-bottom:12px; color:var(--color-brand-midnight); }
+:root {
+  --color-brand-ocean:#2446D8;
+  --color-brand-pale:#DEE4FC;
+  --color-brand-cloud:#EEF1FF;
+  --color-brand-fog:#F6F7FD;
+}
+.felexia-brand-slot { width:188px; max-width:100%; height:auto; padding:4px 8px; border-radius:6px; background:#0B1340; object-fit:contain; box-sizing:border-box; flex-shrink:0; }
+footer .felexia-brand-slot { width:224px; padding:8px 12px; }
+.felexia-skip { position:fixed; z-index:100; inset-inline-start:16px; top:-80px; background:white; color:#0d1b2d; padding:12px 20px; border:2px solid var(--color-brand-ocean); border-radius:6px; }
+.felexia-skip:focus { top:12px; }
+main { overflow-x:clip; }
+main .grid > * { min-width:0; }
+main .grid-cols-12 > .col-span-12 { grid-column-start:1; }
+[class*="background-image:radial-gradient(circle,"] { background-image:radial-gradient(circle,#b2bff0 1.5px,transparent 1.5px); }
+.bg-brand-midnight .text-brand-ocean { color:#A8B8FF; }
+@media(prefers-reduced-motion:reduce) { .marquee-left { animation:none!important; } html { scroll-behavior:auto!important; } }

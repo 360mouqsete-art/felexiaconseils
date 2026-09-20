@@ -1,0 +1,121 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/contact.js": {
+      "maxDuration": 30
+    }
+  },
+  "redirects": [
+    {
+      "source": "/fr/guides/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page",
+          "value": "2"
+        }
+      ],
+      "destination": "/fr/guides/page/2/",
+      "statusCode": 308
+    },
+    {
+      "source": "/",
+      "destination": "/fr/",
+      "statusCode": 302
+    },
+    {
+      "source": "/:locale(fr|en|ar)",
+      "destination": "/:locale/",
+      "statusCode": 308
+    },
+    {
+      "source": "/:locale(fr|en|ar)/:path((?:[^/]+/)*[^/.]+)",
+      "destination": "/:locale/:path/",
+      "statusCode": 308
+    },
+    {
+      "source": "/:page(creation-entreprise|domiciliation|guides|contact|rejoignez-nous|mentions-legales|politique-confidentialite|cgu)",
+      "destination": "/fr/:page/",
+      "statusCode": 308
+    },
+    {
+      "source": "/:page(creation-entreprise|domiciliation|guides|contact|rejoignez-nous|mentions-legales|politique-confidentialite|cgu)/",
+      "destination": "/fr/:page/",
+      "statusCode": 308
+    },
+    {
+      "source": "/tarif/:plan(creation|domiciliation)",
+      "destination": "/fr/tarif/:plan/",
+      "statusCode": 308
+    },
+    {
+      "source": "/tarif/:plan(creation|domiciliation)/",
+      "destination": "/fr/tarif/:plan/",
+      "statusCode": 308
+    },
+    {
+      "source": "/guides/:slug",
+      "destination": "/fr/guides/:slug/",
+      "statusCode": 308
+    },
+    {
+      "source": "/guides/:slug/",
+      "destination": "/fr/guides/:slug/",
+      "statusCode": 308
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/contact/",
+      "destination": "/api/contact"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+        }
+      ]
+    },
+    {
+      "source": "/api/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    },
+    {
+      "source": "/assets/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}

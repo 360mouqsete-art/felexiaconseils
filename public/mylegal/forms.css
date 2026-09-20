@@ -1,0 +1,96 @@
+/* Felexia's working forms, isolated from the reference site's utility styles. */
+.felexia-form-zone {
+  --form-blue: #2446d8;
+  --form-ink: #0b1340;
+  --form-muted: #536078;
+  --form-line: #dbe1ef;
+  color: var(--form-ink);
+  font-family: Inter, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+.felexia-form-zone *,
+.felexia-form-zone *::before,
+.felexia-form-zone *::after { box-sizing: border-box; }
+.felexia-form-zone [hidden] { display: none !important; }
+.felexia-form-zone :is(input, select, textarea, button) { font: inherit; }
+.felexia-form-zone :focus-visible { outline: 3px solid var(--form-blue); outline-offset: 3px; }
+.felexia-form-zone :is(h2, legend) { margin: 0 0 .75rem; color: var(--form-ink); font-size: clamp(1.25rem, 2.2vw, 1.7rem); font-weight: 700; line-height: 1.3; letter-spacing: -.025em; }
+.felexia-form-zone p { margin: .75rem 0; color: var(--form-muted); }
+.felexia-form-zone .small { font-size: .8125rem; line-height: 1.65; }
+.felexia-form-zone .eyebrow { display: block; margin-bottom: .9rem; color: var(--form-blue); font-size: .75rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+.felexia-form-zone .form-layout { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
+.felexia-form-zone .form-layout > * { min-width: 0; }
+.felexia-form-zone .contact-info { margin-top: 1.75rem; }
+.felexia-form-zone .contact-info > div { padding: 1rem 0; border-bottom: 1px solid var(--form-line); }
+.felexia-form-zone .contact-info > div:last-child { border-bottom: 0; }
+.felexia-form-zone .contact-info > div > span { display: block; margin-bottom: .35rem; color: var(--form-muted); font-size: .8125rem; }
+.felexia-form-zone .contact-info a { display: inline-block; color: var(--form-blue); font-weight: 500; overflow-wrap: anywhere; }
+.felexia-form-zone .contact-info a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.felexia-form-zone .contact-info p { margin: .2rem 0 .65rem; }
+.felexia-form-zone .text-link { font-size: .875rem; }
+.felexia-form-zone .form-card { position: relative; min-width: 0; padding: clamp(1.25rem, 3vw, 2.25rem); border: 1px solid var(--form-line); border-radius: 1rem; background: #fff; box-shadow: 0 8px 28px #0b134008; }
+.felexia-form-zone .form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 1.25rem; margin-top: 1.5rem; }
+.felexia-form-zone .field { display: flex; min-width: 0; flex-direction: column; gap: .5rem; }
+.felexia-form-zone .field.full { grid-column: 1 / -1; }
+.felexia-form-zone .field label { color: var(--form-ink); font-size: .8125rem; font-weight: 600; }
+.felexia-form-zone .field :is(input, select, textarea) { display: block; width: 100%; min-width: 0; min-height: 46px; padding: .7rem .85rem; border: 1px solid #cbd4e8; border-radius: .5rem; background: #fff; color: var(--form-ink); font-size: 1rem; line-height: 1.5; transition: border-color .15s, box-shadow .15s; }
+.felexia-form-zone .field :is(input, select, textarea):focus { outline: 0; border-color: var(--form-blue); box-shadow: 0 0 0 3px #2446d81c; }
+.felexia-form-zone .field textarea { min-height: 132px; resize: vertical; }
+.felexia-form-zone .field :is(input, textarea)::placeholder { color: #6d7890; }
+.felexia-form-zone :is(input, select, textarea)[aria-invalid="true"] { border-color: #b42336; }
+.felexia-form-zone .consent { display: flex; align-items: start; gap: .75rem; margin: 1.5rem 0; color: var(--form-muted); font-size: .8125rem; line-height: 1.7; cursor: pointer; }
+.felexia-form-zone input:is([type="checkbox"], [type="radio"]) { width: 1rem; height: 1rem; flex: 0 0 1rem; margin: .28rem 0 0; accent-color: var(--form-blue); }
+.felexia-form-zone .consent a { color: var(--form-blue); text-decoration: underline; text-underline-offset: 3px; }
+.felexia-form-zone .button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; gap: .75rem; padding: .8rem 1.25rem; border: 1px solid var(--form-blue); border-radius: .5rem; background: var(--form-blue); color: #fff; font-size: .875rem; font-weight: 600; line-height: 1.4; text-align: center; text-decoration: none; cursor: pointer; transition: background .15s, border-color .15s; }
+.felexia-form-zone .button:hover { background: #1838b6; border-color: #1838b6; }
+.felexia-form-zone .button.secondary { background: #fff; border-color: #cbd4e8; color: var(--form-ink); }
+.felexia-form-zone .button.secondary:hover { background: #eef1ff; border-color: var(--form-blue); }
+.felexia-form-zone .button:disabled { opacity: .6; cursor: wait; }
+.felexia-form-zone .honeypot { position: absolute; width: 1px; height: 1px; inset: 0 auto auto 0; overflow: hidden; clip: rect(0, 0, 0, 0); clip-path: inset(50%); white-space: nowrap; pointer-events: none; }
+.felexia-form-zone .status { margin-top: 1.25rem; font-size: .875rem; line-height: 1.7; overflow-wrap: anywhere; }
+.felexia-form-zone .status:empty { display: none; }
+.felexia-form-zone .status.error { padding: 1rem; border: 1px solid #f0c7cd; border-radius: .6rem; background: #fff4f5; color: #992337; }
+.felexia-form-zone .status.success { padding: 1rem; border: 1px solid #b8dfd4; border-radius: .6rem; background: #eefaf6; color: #146047; }
+.felexia-form-zone .fallback { margin-top: 1.25rem; padding: 1rem; border: 1px solid var(--form-line); border-radius: .75rem; background: #f6f7fd; }
+.felexia-form-zone .fallback p { margin: 0 0 .85rem; font-size: .875rem; }
+.felexia-form-zone .fallback .button { margin: .25rem .25rem .25rem 0; font-size: .8125rem; }
+.felexia-form-zone .notice { margin: 1.4rem 0; padding: 1rem 1.25rem; border-inline-start: 3px solid var(--form-blue); border-radius: .3rem; background: #eef1ff; color: #303d6b; font-size: .875rem; }
+.felexia-form-zone .wizard-shell { width: 100%; max-width: 960px; margin-inline: auto; }
+.felexia-form-zone .form-intro { margin: 0 0 1.75rem; }
+.felexia-form-zone .wizard-progress { display: flex; gap: .75rem; margin: 0 0 2rem; padding: 0; list-style: none; }
+.felexia-form-zone .wizard-progress li { flex: 1; min-width: 0; padding-top: .8rem; border-top: 3px solid var(--form-line); color: var(--form-muted); font-size: .8125rem; line-height: 1.6; }
+.felexia-form-zone .wizard-progress li > span { display: block; margin-bottom: .2rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.felexia-form-zone .wizard-progress li.active { border-color: var(--form-blue); color: var(--form-blue); font-weight: 600; }
+.felexia-form-zone .wizard-progress li.complete { border-color: #00877f; }
+.felexia-form-zone fieldset { min-width: 0; margin: 0; padding: 0; border: 0; }
+.felexia-form-zone legend { display: block; width: 100%; padding: 0; }
+.felexia-form-zone .choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; margin-top: 1.5rem; }
+.felexia-form-zone .choice { display: flex; align-items: start; gap: .75rem; padding: 1rem; border: 1px solid var(--form-line); border-radius: .65rem; color: var(--form-ink); font-size: .875rem; line-height: 1.6; cursor: pointer; transition: background .15s, border-color .15s; }
+.felexia-form-zone .choice:hover { border-color: #9aa9e8; }
+.felexia-form-zone .choice:has(input:checked) { border-color: var(--form-blue); background: #eef1ff; }
+.felexia-form-zone .choice:has(input:focus-visible) { outline: 3px solid var(--form-blue); outline-offset: 2px; }
+.felexia-form-zone .wizard-actions { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--form-line); }
+.felexia-form-zone .wizard-next { margin-inline-start: auto; }
+.felexia-form-zone .summary-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.4rem; }
+.felexia-form-zone .summary-grid > div { min-width: 0; padding: 1rem; border-radius: .5rem; background: #f5f7fc; overflow-wrap: anywhere; }
+.felexia-form-zone .summary-grid dt { margin-bottom: .4rem; color: var(--form-muted); font-size: .75rem; }
+.felexia-form-zone .summary-grid dd { margin: 0; color: var(--form-ink); font-size: .875rem; }
+@media (max-width: 900px) {
+  .felexia-form-zone .form-layout { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+  .felexia-form-zone .form-layout > aside .contact-info { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1.5rem; }
+}
+@media (max-width: 600px) {
+  .felexia-form-zone .form-card { padding: 1.3rem 1rem; }
+  .felexia-form-zone :is(.form-grid, .choice-grid, .summary-grid) { grid-template-columns: minmax(0, 1fr); }
+  .felexia-form-zone .form-grid { gap: 1.1rem; }
+  .felexia-form-zone .form-layout > aside .contact-info { grid-template-columns: minmax(0, 1fr); }
+  .felexia-form-zone .wizard-progress { gap: .5rem; }
+  .felexia-form-zone .wizard-progress li { font-size: .75rem; }
+  .felexia-form-zone .wizard-actions { gap: .65rem; }
+  .felexia-form-zone .wizard-actions .button { padding-inline: .85rem; font-size: .8125rem; }
+  .felexia-form-zone .fallback .button { display: flex; width: 100%; margin: .65rem 0 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .felexia-form-zone * { transition: none !important; }
+}

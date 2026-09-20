@@ -1,0 +1,33 @@
+/* Shared Felexia pages, forms and original services in the reference layout. */
+.felexia-languages{display:flex;justify-content:center;gap:24px;padding:20px;font-size:13px;border-top:1px solid #e6e9ef}
+.felexia-languages a:hover{color:#2446d8}
+.felexia-author-logo{width:40px;height:40px;object-fit:cover;object-position:left;background:#0b1340;border-radius:50%}
+header nav a[aria-current="page"]{color:#2446d8}
+.felexia-extra-section{max-width:1184px;margin:0 auto;padding:80px 24px 96px;color:#0b1340}
+.felexia-extra-section>h1{font-size:clamp(32px,4vw,56px);line-height:1.13;font-weight:650;letter-spacing:-.04em;margin:18px 0 26px;max-width:850px}
+.felexia-extra-section>h2{font-size:30px;font-weight:650;margin:0 0 20px}
+.felexia-extra-section>p{font-size:17px;line-height:1.7;max-width:760px;color:#536079;margin:0 0 28px}
+.felexia-extra-section .felexia-form-zone{margin-top:36px}
+.felexia-form-zone.is-embedded .form-card{padding:0;border:0;box-shadow:none}
+.felexia-eyebrow{font-size:12px;letter-spacing:.12em;color:#2446d8;font-weight:600}
+.felexia-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;border-radius:9px;background:#2446d8;color:#fff;padding:14px 22px;font-weight:600;text-decoration:none;border:1px solid #2446d8;transition:background .2s}
+.felexia-action:hover{background:#1935b5}
+.felexia-action.secondary{background:#fff;color:#2446d8}
+.felexia-account-actions{display:flex;flex-wrap:wrap;gap:16px;margin:34px 0}
+.felexia-account-note{padding:18px 22px;border-radius:10px;background:#eef1ff;font-size:14px!important}
+.felexia-map-link{display:flex;align-items:center;justify-content:center;min-height:250px;padding:40px;background:#eef1ff;border:1px solid #dee4fc;color:#2446d8;text-align:center;font-weight:600}
+.felexia-legacy{--navy:#0b1340;--indigo:#2446d8;--teal:#2446d8;--silver:#e6e9ef;--white:#fff;color:#0b1340}
+.felexia-legacy .page-hero{background:#eef1ff!important;border-bottom:1px solid #dee4fc;color:#0b1340}
+.felexia-legacy .page-hero h1,.felexia-legacy .page-hero p,.felexia-legacy .page-hero a{color:#0b1340}
+.felexia-legacy .page-hero .eyebrow{color:#2446d8}
+.felexia-legacy .button{border-radius:9px;background:#2446d8!important;color:white!important;border-color:#2446d8!important}
+.felexia-legacy .button.secondary{background:white!important;color:#2446d8!important}
+.felexia-legacy .cta-section{background:white}
+.felexia-legacy .cta{background:#0b1340!important}
+.felexia-legacy .service-card.featured{background:#eef1ff;color:#0b1340}
+.felexia-legacy .service-card.featured p{color:#536079}
+.felexia-legacy .text-link{color:#2446d8}
+main details summary{cursor:pointer}
+[class*="hover:bg-[#0B8EDF]"]:hover{background-color:#1935b5}
+main :is(a,button,summary,input,select,textarea):focus-visible{outline:3px solid #2446d8;outline-offset:4px}
+@media(max-width:640px){.felexia-extra-section{padding:48px 20px 64px}.felexia-extra-section>p{font-size:16px}.felexia-account-actions{display:grid}.felexia-extra-section>h1{font-size:36px}.felexia-brand-slot{max-width:180px}}

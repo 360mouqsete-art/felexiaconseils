@@ -1,0 +1,7 @@
+/* Interaction states kept in a stylesheet for the site's strict CSP. */
+html.mylegal-menu-open { overflow: hidden; }
+#mobile-menu { max-height: calc(100dvh - 56px); overflow-y: auto; overscroll-behavior: contain; }
+[id^="tab-panel-"][role="tabpanel"][hidden] { display: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  .marquee-left, .marquee-right { animation: none !important; }
+}

@@ -1,0 +1,10 @@
+.git
+.env
+.env.*
+node_modules
+dist
+test-results
+docs
+tests
+reference/mylegal/original-assets
+reference/mylegal/analysis
