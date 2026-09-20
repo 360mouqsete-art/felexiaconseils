@@ -18,3 +18,9 @@
 - Correction d’un décor de menu flottant qui masquait le logo et les boutons en mode sombre.
 
 La réception réelle d’un formulaire dans Supabase et le nettoyage de la demande technique sont documentés dans `SUPABASE.md`. Ces modifications d’affichage ne changent pas le traitement des demandes.
+
+## Publication vérifiée
+
+Le commit `c7e237d` a été poussé sur `main` et a déclenché automatiquement Vercel. Déploiement `dpl_7tX6nBFZzGKeQcvEKGtLW42ZThG2` READY après 12 secondes. Sur l’alias public, le navigateur confirme les quatre photos au ratio naturel, le nouveau logo, les trois liens linguistiques et le changement FR → AR RTL → FR avec maintien du thème.
+
+Contrôle HTTP de ce déploiement : sitemap 200, **120/120 URL publiques en 200**, un H1 par page, langues et RTL corrects. Huit ressources de thème, logo et Domiciliation répondent 200 avec leur type MIME attendu. Aucun domaine MyLegal dans les HTML contrôlés.

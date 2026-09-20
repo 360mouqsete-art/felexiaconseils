@@ -17,7 +17,7 @@
 - DNS du domaine `felexiaconseils.com` inchangé. L’adresse Vercel est opérationnelle ; aucun basculement du domaine principal n’est annoncé.
 - Contrôles cloud détaillés dans `docs/RECETTE-VERCEL.md` et `docs/SUPABASE.md`. Le formulaire navigateur a réellement enregistré la demande technique `FLX-E441274B` ; répétition identique confirmée sans doublon, contenu modifié rejeté avec 409, donnée technique nettoyée. Une réception en base ne déclenche pas de notification par courriel.
 
-Le déploiement `dpl_59rMNGeJCMQNiqmGkMVwBrP8zzrp` reste la référence historique de cette activation. Les modifications suivantes sont en cours de publication : leur disponibilité ne doit pas être déduite de ce contrôle antérieur. Le build local constaté à cette étape contient **124 entrées HTML, dont 120 pages publiques** ; ce nouveau décompte ne remplace pas les 118 pages vérifiées dans la première recette HTTP cloud.
+Le déploiement `dpl_59rMNGeJCMQNiqmGkMVwBrP8zzrp` reste la référence historique de l’activation Supabase. Les corrections d’affichage ont ensuite été publiées automatiquement après le push GitHub `c7e237d` : déploiement `dpl_7tX6nBFZzGKeQcvEKGtLW42ZThG2`, état **READY**, build distant de 12 secondes, alias `felexiaconseils.vercel.app`. Le navigateur de production confirme le nouveau logo, les photos entières et la navigation FR/AR avec maintien du thème. Ce build contient **124 entrées HTML, dont 120 pages publiques**.
 
 La construction locale Vercel échoue sous cet environnement Windows (`spawn cmd.exe ENOENT`). La construction distante Vercel est l’alternative effectivement validée. Après authentification et configuration : `npx vercel deploy --prod --yes --scope 360mouqsete-art`.
 
