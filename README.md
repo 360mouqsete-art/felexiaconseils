@@ -1,10 +1,10 @@
 # Felexia Conseils
 
-Site Felexia développé dans ce projet, avec reprise page par page de la structure publique du site MyLegal fourni par son propriétaire. Le véritable logo Felexia, le bleu royal `#2446D8` et les coordonnées du cabinet sont conservés. Aucun lien publié ne dirige vers `mylegal.ma` ou `app.mylegal.ma`.
+Site Felexia développé dans ce projet, avec reprise page par page de la structure publique du site MyLegal fourni par son propriétaire. Le logo Felexia possède une version simplifiée pour l’interface ; l’original est conservé. Le bleu royal `#2446D8` et les coordonnées du cabinet sont préservés. Aucun lien publié ne dirige vers `mylegal.ma` ou `app.mylegal.ma`.
 
-Le build génère **118 pages publiques**, trois pages 404 linguistiques et la redirection racine, soit 122 entrées HTML, auxquelles s’ajoute la 404 générique de l’hébergement. Les pages Felexia existantes restent disponibles en français, anglais et arabe avec RTL. Les nouveaux guides sont en français ; les hreflang ne désignent que des traductions réellement disponibles.
+Le build génère **120 pages publiques**, trois pages 404 linguistiques et la redirection racine, soit 124 entrées HTML, auxquelles s’ajoute la 404 générique de l’hébergement. Les pages Felexia existantes et Domiciliation sont disponibles en français, anglais et arabe avec RTL. Les nouveaux guides sont en français ; les hreflang ne désignent que des traductions réellement disponibles.
 
-**La publication GitHub, Supabase et Vercel reste à effectuer avec les bons accès.** La version actuelle est développée et vérifiée localement. Le site public existant et son DNS n’ont pas été remplacés.
+**Publié sur [felexiaconseils.vercel.app](https://felexiaconseils.vercel.app/fr/).** GitHub est synchronisé et déclenche automatiquement Vercel. La réception des demandes dans Supabase est configurée et a été vérifiée avec une demande technique ensuite nettoyée. Le DNS du domaine principal reste inchangé.
 
 ## Prévisualiser
 
@@ -38,8 +38,9 @@ npm start
 - Contact, candidature et demande de rendez-vous. Le cabinet confirme le créneau ; aucun calendrier externe n’est simulé. Le CV est envoyé par le candidat à l’adresse e-mail indiquée, sans faux téléversement.
 - Page « Mon dossier » pour contacter le cabinet : aucun portail authentifié, paiement ou accès à des documents privés n’est revendiqué.
 - Menus ordinateur/mobile, onglets de services, navigation clavier, retour en haut et respect des préférences de mouvement réduit.
+- Sélecteur FR / EN / العربية visible, thème clair/sombre mémorisé et photos de Domiciliation au ratio naturel.
 - Téléphone du bureau, mobile, WhatsApp, e-mail et carte du cabinet ; activité présentée à l’échelle du Maroc.
-- Métadonnées propres aux pages, canonicals, hreflang réels, sitemap de 118 URL publiques, fichiers locaux et anciennes URL conservées.
+- Métadonnées propres aux pages, canonicals, hreflang réels, sitemap de 120 URL publiques, fichiers locaux et anciennes URL conservées.
 
 Les prix, témoignages, certifications, garanties, délais et fonctionnalités du site source ne sont pas présentés automatiquement comme ceux de Felexia. Les textes commerciaux ont été adaptés aux informations disponibles et aux demandes de devis. Les scripts de suivi et le serveur applicatif distant de la référence ne sont pas utilisés.
 
@@ -69,7 +70,7 @@ npm run check
 npm test
 ```
 
-Les contrôles couvrent routes, liens, assets, traductions disponibles, logo, absence de destinations MyLegal, formulaires, erreurs, adaptateur Vercel et déduplication Supabase. Les prestataires sont simulés dans les tests : aucune réception cloud réelle n’est ainsi prouvée. Voir [la recette](docs/RECETTE.md).
+Les 40 tests couvrent routes, liens, assets, traductions disponibles, logo, absence de destinations MyLegal, formulaires, erreurs, adaptateur Vercel et déduplication Supabase. Les prestataires sont simulés dans ces tests. Les vérifications réelles de production sont consignées dans [la recette d’affichage](docs/RECETTE-AFFICHAGE.md) et [la réception Supabase](docs/SUPABASE.md) : 120 URL accessibles, navigateur et réception en base vérifiés séparément.
 
 ## Publier
 
@@ -79,9 +80,9 @@ Destinations demandées :
 - [Vercel : espace 360mouqsete-art](https://vercel.com/360mouqsete-art).
 - [Supabase : projet yxdmkqdnesemaqzagatm](https://supabase.com/dashboard/project/yxdmkqdnesemaqzagatm).
 
-Le dépôt local est initialisé sur `main` avec l’origine GitHub demandée. Les connexions disponibles n’autorisent pas actuellement la publication : accès GitHub en lecture seule et accès refusé aux cibles Supabase/Vercel. Aucun déploiement cloud réussi n’est revendiqué.
+Le dépôt est connecté au compte propriétaire sur `main`, avec l’origine GitHub demandée. Après vérification locale et commit, `git push origin main` déclenche automatiquement le déploiement Vercel.
 
-`vercel.json`, `api/contact.js` et le build statique sont préparés. Suivre [la procédure de déploiement](docs/DEPLOIEMENT.md), puis [la migration et la vérification Supabase](docs/SUPABASE.md). La publication sur une URL Vercel et le raccordement DNS du domaine sont deux opérations distinctes.
+`vercel.json`, `api/contact.js` et le build statique sont déployés ; la migration Supabase est appliquée. Voir [la procédure de déploiement](docs/DEPLOIEMENT.md) et [la configuration Supabase](docs/SUPABASE.md). La publication sur une URL Vercel et le raccordement DNS du domaine sont deux opérations distinctes.
 
 Un serveur Node reste possible : installer avec `npm ci`, construire, exécuter les contrôles puis `npm start`, avec les variables privées configurées et un proxy HTTPS. Le proxy doit acheminer aussi `/api/contact`. L’hébergement de `dist/` seul ne fournit pas le traitement du formulaire.
 
@@ -90,8 +91,8 @@ Le Dockerfile est fourni, mais aucune construction Docker ni recette du conteneu
 ## Informations extérieures à compléter
 
 - Raison sociale officielle, RC, ICE, IF, directeur de publication et hébergeur : champs isolés dans `src/business-details.mjs`, sans valeur inventée.
-- Droits réels des comptes GitHub, Supabase et Vercel ; clés conservées côté serveur.
-- Réception d’une demande de contrôle sur le backend déployé, après migration/configuration.
+- Raccordement DNS du domaine principal, si souhaité.
+- Notifications par e-mail si nécessaires : les demandes sont actuellement enregistrées dans Supabase.
 - Modalités de conservation et de traitement des données à valider par le cabinet.
 
 ## Modifier le site
