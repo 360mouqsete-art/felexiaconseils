@@ -71,14 +71,59 @@ test('published URLs and executable assets never send visitors to MyLegal', asyn
   }
 });
 
-test('every French page displays the authentic Felexia header and footer logo', () => {
-  for (const { relative, $ } of french) {
+test('every language displays the simplified Felexia header and footer logo', () => {
+  for (const { relative, $ } of documents.values()) {
+    if(!/^(fr|en|ar)\//.test(relative))continue;
     for (const position of ['header', 'footer']) {
       const logo = $(`${position} img`).first();
-      assert.equal(logo.attr('src'), '/assets/logo-original.png', `${relative}: ${position} logo`);
+      assert.equal(logo.attr('src'), '/assets/logo-simple-mark.svg', `${relative}: ${position} logo`);
       assert.match(logo.attr('alt'), /Felexia Conseils/);
+      assert.equal($(`${position} .felexia-logo-wordmark strong`).text(),'FELEXIA',`${relative}: readable ${position} wordmark`);
     }
     assert.equal($('img').filter((_, image) => /mylegal-logo/.test($(image).attr('src'))).length, 0);
+  }
+});
+
+test('header language controls open real translated pages or explicitly marked section fallbacks', () => {
+  for(const {relative,$} of documents.values()) {
+    if(!/^(fr|en|ar)\//.test(relative))continue;
+    const language=$('html').attr('lang');
+    const controls=$('header [data-language-switch]');
+    assert.equal(controls.length,1,`${relative}: one visible language group`);
+    assert.equal(controls.closest('#mobile-menu,#navigation').length,0,`${relative}: language choice outside collapsed menus`);
+    assert.equal(controls.find('a').length,3,`${relative}: FR, EN and AR`);
+    assert.equal(controls.find('[aria-current="true"]').attr('lang'),language);
+    controls.find('a').each((_,anchor)=>{
+      const path=$(anchor).attr('href'), target=documents.get(`${path}index.html`);
+      assert.ok(target,`${relative}: real target ${path}`);
+      assert.equal(target.$('html').attr('lang'),$(anchor).attr('lang'));
+      if($(anchor).attr('lang')==='ar')assert.equal(target.$('html').attr('dir'),'rtl');
+      if($(anchor).attr('data-language-target')==='equivalent')assert.equal(path.slice(4),`/${relative}`.slice(4).replace(/index\.html$/,''),`${relative}: equivalent page retained`);
+    });
+    assert.equal($('header [data-theme-toggle]').length,1,`${relative}: theme toggle`);
+    assert.ok($('script[src^="/theme.js"]:not([defer])').length,`${relative}: theme restored before rendering`);
+  }
+  const guide=documents.get('/fr/guides/page/2/index.html');
+  assert.equal(guide.$('header a[lang="en"]').attr('href'),'/en/guides/');
+  assert.equal(guide.$('header a[lang="en"]').attr('data-language-target'),'section');
+});
+
+test('domiciliation has real English and Arabic content and keeps the selected page across languages', () => {
+  for(const language of ['fr','en','ar']) {
+    const document=documents.get(`/${language}/domiciliation/index.html`);
+    assert.ok(document,`${language}: domiciliation page exists`);
+    const {$}=document;
+    for(const targetLanguage of ['fr','en','ar']) {
+      const choice=$(`header [data-language-switch] a[lang="${targetLanguage}"]`);
+      assert.equal(choice.attr('href'),`/${targetLanguage}/domiciliation/`);
+      assert.equal(choice.attr('data-language-target'),'equivalent');
+    }
+    if(language==='fr')continue;
+    assert.match($('main h1').text(),language==='en'?/Business domiciliation in Morocco/:/توطين الشركات في المغرب/);
+    assert.equal($('main details').length,6,`${language}: translated questions and answers`);
+    assert.equal($('main .domiciliation-photo img').length,2,`${language}: complete office illustrations`);
+    assert.ok($(`main a[href="/${language}/contact/?service=other"]`).length);
+    assert.ok($('link[href="/domiciliation.css"]').length);
   }
 });
 

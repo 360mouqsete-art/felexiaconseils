@@ -1,0 +1,11 @@
+.domiciliation-feature { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:center; gap:64px; }
+.domiciliation-feature h2 { font-size:clamp(1.8rem,3vw,2.6rem); }
+.domiciliation-feature p { max-width:640px; }
+.domiciliation-photo { margin:0; min-width:0; }
+.domiciliation-photo img { width:100%; height:auto; display:block; object-fit:contain; border-radius:20px; box-shadow:0 20px 44px #0B134018; }
+.domiciliation-photo figcaption { font-size:12px; text-align:end; padding:10px 3px 0; color:var(--muted); }
+.domiciliation-address { margin:24px 0; padding:20px 24px; border:1px solid var(--line); border-radius:12px; }
+.domiciliation-address strong { font-size:14px; }
+.domiciliation-address p { margin:8px 0; font-size:15px; }
+.domiciliation-address a { color:var(--indigo); }
+@media(max-width:850px) { .domiciliation-feature { grid-template-columns:1fr; gap:32px; } }

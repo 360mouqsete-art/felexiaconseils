@@ -9,13 +9,15 @@
 
 ## État réel au 20 septembre 2026
 
-- Vercel connecté au compte `360mouqsete-art`, projet `felexiaconseils` créé et publié en production : https://felexiaconseils.vercel.app.
-- Dernier déploiement vérifié : `dpl_EEaeptzmCPo3x9ptMyBJ4DtQEW8Q`, état `READY`, source `aeb5a8c`, construction distante réussie en 6 secondes avec Node 24.x.
+- Vercel connecté au compte `360mouqsete-art`, projet `felexiaconseils` créé et publié en production : [ouvrir le site](https://felexiaconseils.vercel.app/fr/).
+- Déploiement d’activation Supabase vérifié : `dpl_59rMNGeJCMQNiqmGkMVwBrP8zzrp`, état `READY`, source `4f0f234`, construction distante réussie en 6 secondes avec Node 24.x.
 - Variables `SITE_URL=https://felexiaconseils.com` et `TRUST_PROXY=1` configurées sur Production et Preview. Les domaines système Vercel sont autorisés par le gestionnaire de formulaire.
-- GitHub : dépôt configuré mais push refusé avec les identifiants précédents ; connexion au compte `360mouqsete-art` en attente. La connexion Git automatique Vercel a également été refusée. Aucun push confirmé.
-- Supabase : connecteur sans accès au projet demandé ; connexion au compte propriétaire en attente. Aucune migration cloud appliquée et aucune clé Supabase installée sur Vercel.
+- GitHub : connexion au compte `360mouqsete-art` réussie ; branche `main` envoyée au dépôt demandé, commit `4f0f234` et empreinte distante vérifiés. Après installation de l’application Vercel par le propriétaire, `vercel git connect` a confirmé **Connected** : la liaison GitHub–Vercel est désormais active. Les publications par CLI fonctionnent également.
+- Supabase : CLI connectée au compte propriétaire. Migration `20260920162424` appliquée au projet demandé ; RLS/FORCE RLS, privilèges privés et advisors vérifiés. `SUPABASE_URL` et la clé secrète existante sont installées sur Vercel Production et Preview. La clé a été transférée en mémoire via stdin sans affichage ni enregistrement dans les fichiers du projet.
 - DNS du domaine `felexiaconseils.com` inchangé. L’adresse Vercel est opérationnelle ; aucun basculement du domaine principal n’est annoncé.
-- Contrôles cloud détaillés dans `docs/RECETTE-VERCEL.md`. Le formulaire valide les données et répond `503 not_configured` pour une demande valide tant que Supabase ou un autre fournisseur n’est pas installé ; aucun succès de livraison n’est simulé.
+- Contrôles cloud détaillés dans `docs/RECETTE-VERCEL.md` et `docs/SUPABASE.md`. Le formulaire navigateur a réellement enregistré la demande technique `FLX-E441274B` ; répétition identique confirmée sans doublon, contenu modifié rejeté avec 409, donnée technique nettoyée. Une réception en base ne déclenche pas de notification par courriel.
+
+Le déploiement `dpl_59rMNGeJCMQNiqmGkMVwBrP8zzrp` reste la référence historique de cette activation. Les modifications suivantes sont en cours de publication : leur disponibilité ne doit pas être déduite de ce contrôle antérieur. Le build local constaté à cette étape contient **124 entrées HTML, dont 120 pages publiques** ; ce nouveau décompte ne remplace pas les 118 pages vérifiées dans la première recette HTTP cloud.
 
 La construction locale Vercel échoue sous cet environnement Windows (`spawn cmd.exe ENOENT`). La construction distante Vercel est l’alternative effectivement validée. Après authentification et configuration : `npx vercel deploy --prod --yes --scope 360mouqsete-art`.
 
@@ -43,26 +45,20 @@ Aperçu : `http://localhost:4173/fr/`.
 
 ## Connexion et publication
 
-Depuis la racine du projet, utiliser la CLI Vercel après vérification de sa version et de l’aide disponible :
+Le dépôt est maintenant lié au projet Vercel. Depuis la racine du projet, après les contrôles locaux :
 
 ```powershell
-npx vercel --version
-npx vercel login
-npx vercel whoami
-npx vercel link --scope 360mouqsete-art
-npx vercel pull --environment=preview --scope 360mouqsete-art
-npx vercel build
-npx vercel deploy --prebuilt --scope 360mouqsete-art
+git add <fichiers-valides>
+git commit -m "Description de la modification"
+git push origin main
 ```
 
-Choisir le projet Felexia correspondant au dépôt indiqué, puis vérifier `.vercel/project.json`. Conserver `.vercel/`, `.env`, les variantes locales des fichiers d’environnement et les clés hors du dépôt Git. Ne jamais mettre un secret dans `public/`, `dist/`, une commande enregistrée ou un message de discussion.
+Le push sur `main` déclenche la construction distante et la publication de production. Vérifier son état dans le tableau de bord Vercel. Conserver `.vercel/`, `.env`, les variantes locales des fichiers d’environnement et les clés hors du dépôt Git. Ne jamais mettre un secret dans `public/`, `dist/`, une commande enregistrée ou un message de discussion.
 
-Après recette de l’aperçu, la publication de production utilise :
+En alternative, la commande distante suivante a été validée sur cet ordinateur Windows et évite l’erreur locale `spawn cmd.exe ENOENT` :
 
 ```powershell
-npx vercel pull --environment=production --scope 360mouqsete-art
-npx vercel build --prod
-npx vercel deploy --prebuilt --prod --scope 360mouqsete-art
+npx --yes vercel@59.23.2 deploy --prod --yes --scope 360mouqsete-art
 ```
 
 Vérifier ensuite les pages, les anciennes URL, les fichiers statiques, la 404 et le formulaire sur l’URL réellement publiée. Utiliser `vercel curl` pour un aperçu protégé au lieu de désactiver sa protection. Le raccordement DNS de `felexiaconseils.com` reste distinct du premier déploiement `vercel.app`.
@@ -76,7 +72,7 @@ Dans les variables d’environnement Vercel, choisir les environnements Preview 
 - Stockage Supabase prioritaire : `SUPABASE_URL=https://yxdmkqdnesemaqzagatm.supabase.co` et `SUPABASE_SECRET_KEY`, après application de la migration documentée dans `docs/SUPABASE.md`. La clé reste exclusivement côté serveur. La réception est enregistrée en base ; aucun e-mail de notification n’est simulé.
 - Alternatives : vider les variables Supabase puis utiliser soit `CONTACT_WEBHOOK_URL` HTTPS et éventuellement `CONTACT_WEBHOOK_TOKEN`, soit `RESEND_API_KEY`, `CONTACT_FROM_EMAIL` et `CONTACT_TO_EMAIL=hadigui.aziz@gmail.com`.
 
-Sans fournisseur configuré, le formulaire répond honnêtement `503 not_configured` et propose les coordonnées directes. Le connecteur Supabase est implémenté et testé avec un fournisseur simulé ; la migration et la réception réelle restent à vérifier dans le projet existant après connexion au compte autorisé.
+Sans fournisseur configuré, le formulaire répond honnêtement `503 not_configured` et propose les coordonnées directes. Sur les environnements Vercel Production et Preview, Supabase est désormais configuré. La migration et la réception réelle depuis la production ont été vérifiées, y compris la reprise sans doublon et le refus d’écrasement. La réception depuis un déploiement Preview n’a pas fait l’objet d’un envoi distinct.
 
 La déduplication Supabase est persistante et conserve le premier contenu reçu pour chaque identifiant de demande. La limitation de débit reste en mémoire d’instance ; configurer une protection globale au niveau de Vercel pour une limite partagée entre instances.
 

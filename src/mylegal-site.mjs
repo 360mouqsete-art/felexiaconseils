@@ -4,6 +4,7 @@ import {load} from 'cheerio';
 import {company} from './content.mjs';
 import {contactForm, wizard} from './forms.mjs';
 import {adaptReferenceContent} from './reference-content.mjs';
+import {headerTools, languageSwitch, simplifiedLogo} from './header-tools.mjs';
 
 // Frozen public pages supplied by the owner. Remote scripts are never executed.
 const read = path => readFileSync(new URL('../'+path, import.meta.url), 'utf8');
@@ -56,7 +57,7 @@ export function renderReferenceSite(existing) {
   const knownPaths=new Set([...Object.keys(existing).map(x=>'/'+x.replace(/index\.html$/,'')),...pages.map(p=>localRoute(p.route))]);
   knownPaths.add('/fr/espace-client/');
   const fingerprint=createHash('sha256');
-  for(const path of ['public/app.js','public/styles.css','public/mylegal/home.js','public/mylegal/pages.js','public/mylegal/identity.css','public/mylegal/forms.css','public/mylegal/behavior.css','public/mylegal/site.css','src/mylegal-site.mjs','src/reference-content.mjs','reference/mylegal/pages-assets.json'])fingerprint.update(read(path));
+  for(const path of ['public/app.js','public/styles.css','public/header-tools.css','public/theme.css','public/theme.js','public/mylegal/home.js','public/mylegal/pages.js','public/mylegal/identity.css','public/mylegal/forms.css','public/mylegal/behavior.css','public/mylegal/site.css','src/header-tools.mjs','src/mylegal-site.mjs','src/reference-content.mjs','reference/mylegal/pages-assets.json'])fingerprint.update(read(path));
   for(const page of pages)fingerprint.update(read(page.file));
   const version=fingerprint.digest('hex').slice(0,12);
 
@@ -156,14 +157,28 @@ export function renderReferenceSite(existing) {
     });
     $('main a').filter((_,e)=>$(e).attr('href')==='/fr/espace-client/').attr('href','/fr/contact/');
     $('main img').first().attr({loading:'eager',fetchpriority:'high'});
-    $('footer').append('<div class="felexia-languages" aria-label="Choisir la langue"><a href="/fr/" lang="fr">Français</a><a href="/en/" lang="en">English</a><a href="/ar/" lang="ar">العربية</a></div>');
-    $('[style]').each((_,el)=>{const style=$(el).attr('style');if(!inline.has(style))inline.set(style,`felexia-inline-${inline.size}`);$(el).removeAttr('style').addClass(inline.get(style));});
+    for(const position of ['header','footer']) {
+      const brandLink=$(`${position} img.felexia-brand-slot`).first().closest('a');
+      brandLink.html(simplifiedLogo({footer:position==='footer'})).addClass('felexia-brand-link');
+    }
+    const routeSlug=route.replace(/^\/+|\/+$/g,'');
+    const tools=headerTools('fr',routeSlug,knownPaths);
+    if($('#mobile-menu').length)$('#mobile-menu').before(tools);else $('header').append(tools);
+    $('footer').append(`<div class="felexia-languages">${languageSwitch('fr',routeSlug,knownPaths)}</div>`);
+    $('[style]').each((_,el)=>{
+      const style=$(el).attr('style');
+      // Semantic colour roles remain stable when the generated class order changes.
+      if (/(?:^|;)\s*color:\s*rgb\(26,\s*35,\s*50\)/.test(style)) $(el).addClass('felexia-editorial-ink');
+      if (/(?:^|;)\s*color:\s*rgb\(11,\s*92,\s*255\)/.test(style)) $(el).addClass('felexia-editorial-link');
+      if(!inline.has(style))inline.set(style,`felexia-inline-${inline.size}`);
+      $(el).removeAttr('style').addClass(inline.get(style));
+    });
     const canonical=company.origin+localRoute(route);
     const alternates=['fr','en','ar'].map(l=>({l,path:localRoute(route).replace('/fr/','/'+l+'/')})).filter(x=>knownPaths.has(x.path));
-    const css=[...baseCss,'/mylegal/site-inline.css','/mylegal/identity.css','/mylegal/behavior.css','/mylegal/forms.css','/mylegal/legacy.css','/mylegal/site.css'];
+    const css=[...baseCss,'/mylegal/site-inline.css','/mylegal/identity.css','/mylegal/behavior.css','/mylegal/forms.css','/mylegal/legacy.css','/mylegal/site.css','/header-tools.css','/theme.css'];
     const scripts=['/mylegal/home.js','/mylegal/pages.js','/app.js'];
     $('html').attr({lang:'fr',dir:'ltr'});$('body').attr('data-lang','fr');
-    $('head').html(`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#2446D8"><link rel="canonical" href="${canonical}">${alternates.map(x=>`<link rel="alternate" hreflang="${x.l}" href="${company.origin+x.path}">`).join('')}<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:type" content="website"><meta property="og:image" content="${company.origin}/assets/logo-original.png"><link rel="icon" href="/assets/logo-original.png">${css.map(x=>`<link rel="stylesheet" href="${x}?v=${version}">`).join('')}${scripts.map(x=>`<script src="${x}?v=${version}" defer></script>`).join('')}<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'ProfessionalService',name:company.name,url:company.origin,logo:company.origin+'/assets/logo-original.png',email:company.email,telephone:company.officeTel,areaServed:'MA',address:{'@type':'PostalAddress',streetAddress:company.address,addressCountry:'MA'}}).replace(/</g,'\\u003c')}</script>`);
+    $('head').html(`<meta charset="utf-8"><script src="/theme.js?v=${version}"></script><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#2446D8"><link rel="canonical" href="${canonical}">${alternates.map(x=>`<link rel="alternate" hreflang="${x.l}" href="${company.origin+x.path}">`).join('')}<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:type" content="website"><meta property="og:image" content="${company.origin}/assets/logo-original.png"><link rel="icon" href="/assets/logo-simple-mark.svg" type="image/svg+xml">${css.map(x=>`<link rel="stylesheet" href="${x}?v=${version}">`).join('')}${scripts.map(x=>`<script src="${x}?v=${version}" defer></script>`).join('')}<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'ProfessionalService',name:company.name,url:company.origin,logo:company.origin+'/assets/logo-original.png',email:company.email,telephone:company.officeTel,areaServed:'MA',address:{'@type':'PostalAddress',streetAddress:company.address,addressCountry:'MA'}}).replace(/</g,'\\u003c')}</script>`);
     $('body').prepend('<a class="felexia-skip" href="#main">Aller au contenu</a>');
     return $.html();
   }

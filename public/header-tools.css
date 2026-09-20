@@ -1,0 +1,47 @@
+/* Shared navigation tools stay visible outside the mobile menu. */
+#mobile-menu { max-height:calc(100dvh - 140px); overflow-y:auto; }
+@font-face { font-family:Sora; font-style:normal; font-weight:600; font-display:swap; src:url('/assets/fonts/font-14.woff2') format('woff2'); }
+.felexia-logo { display:inline-flex; align-items:center; gap:10px; direction:ltr; flex:none; }
+:is(header,footer) .felexia-logo img.felexia-logo-mark { display:block; width:51px; height:39px; padding:0; border:0; border-radius:0; background:none; object-fit:contain; flex:none; }
+.felexia-logo-wordmark { display:flex; flex-direction:column; color:#0B1340; line-height:1; text-align:left; }
+.felexia-logo-wordmark strong { font-family:Sora,Inter,Arial,sans-serif; font-size:21px; font-weight:600; letter-spacing:2px; line-height:1.2; }
+.felexia-logo-wordmark>span { font-family:Inter,Arial,sans-serif; font-size:9px; font-weight:500; letter-spacing:4.3px; padding-top:5px; color:#157D83; }
+footer:has(.footer-grid) .felexia-logo-wordmark, html[data-theme="dark"] .felexia-logo-wordmark { color:#fff; }
+footer:has(.footer-grid) .felexia-logo-wordmark>span, html[data-theme="dark"] .felexia-logo-wordmark>span { color:#5DD9D2; }
+.felexia-header-tools { display:flex; align-items:center; justify-content:space-between; gap:16px; width:100%; max-width:1280px; margin:0 auto; padding:5px 24px 7px; border-top:1px solid #E8EBF4; box-sizing:border-box; }
+.felexia-language-switch.language { display:flex; align-items:center; justify-content:flex-start; flex-wrap:nowrap; gap:2px; padding:3px; margin:0; border:1px solid #DCE2F1; border-radius:8px; background:#F3F5FC; position:static; color:#344261; }
+.felexia-language-switch.language a { display:inline-flex; align-items:center; justify-content:center; min-height:30px; min-width:38px; padding:3px 8px; border:0; border-radius:5px; font-family:Inter,Arial,sans-serif; font-size:12px; font-weight:600; line-height:1.5; color:#435174; text-decoration:none; white-space:nowrap; }
+.felexia-language-switch.language a[aria-current="true"] { color:#fff; background:#2446D8; box-shadow:0 1px 3px #0B134018; }
+.felexia-language-switch.language a:hover:not([aria-current="true"]) { color:#2446D8; background:#E2E8FC; }
+.felexia-language-switch.language a:focus-visible { outline:2px solid #2446D8; outline-offset:3px; }
+.felexia-languages { margin-top:24px; }
+footer .felexia-language-switch.language { width:fit-content; margin-inline:auto; background:#162441; border-color:#34405D; }
+footer .felexia-language-switch.language a { color:#EDF1FF; }
+footer .felexia-language-switch.language a:hover:not([aria-current="true"]) { background:#293A5F; color:#fff; }
+.header .brand { width:auto; max-width:none; }
+.header .nav { min-height:72px; }
+.header .felexia-logo-wordmark { color:#fff; }
+.header .felexia-logo-wordmark>span { color:#5DD9D2; }
+.header .felexia-header-tools { max-width:calc(1240px + 48px); }
+.header .nav>nav { gap:22px; }
+@media(max-width:1100px) {
+  .header .nav>nav { gap:12px; }
+  .header .nav>nav .button { padding-inline:16px; }
+}
+@media(max-width:850px) {
+  .header .nav { position:static; }
+  .header .nav>nav { top:100%; max-height:calc(100dvh - 132px); }
+}
+@media(max-width:600px) {
+  .felexia-logo { gap:8px; }
+  :is(header,footer) .felexia-logo img.felexia-logo-mark { width:42px; height:32px; }
+  .felexia-logo-wordmark strong { font-size:18px; letter-spacing:1.5px; }
+  .felexia-logo-wordmark>span { font-size:8px; letter-spacing:3.5px; padding-top:4px; }
+  .felexia-header-tools { padding-inline:16px; gap:8px; }
+  .header .nav { min-height:64px; }
+}
+html[data-theme="dark"] .felexia-header-tools { border-color:#2B3957; }
+html[data-theme="dark"] .felexia-language-switch.language { background:#172540; border-color:#35415F; }
+html[data-theme="dark"] .felexia-language-switch.language a { color:#DFE7F8; }
+html[data-theme="dark"] .felexia-language-switch.language a[aria-current="true"] { color:#fff; background:#365CE4; }
+html[data-theme="dark"] .felexia-language-switch.language a:hover:not([aria-current="true"]) { color:#fff; background:#293B63; }

@@ -8,8 +8,7 @@
   --color-brand-cloud:#EEF1FF;
   --color-brand-fog:#F6F7FD;
 }
-.felexia-brand-slot { width:188px; max-width:100%; height:auto; padding:4px 8px; border-radius:6px; background:#0B1340; object-fit:contain; box-sizing:border-box; flex-shrink:0; }
-footer .felexia-brand-slot { width:224px; padding:8px 12px; }
+header .felexia-brand-link,footer .felexia-brand-link { display:inline-flex; align-items:center; padding:0; background:none; }
 .felexia-skip { position:fixed; z-index:100; inset-inline-start:16px; top:-80px; background:white; color:#0d1b2d; padding:12px 20px; border:2px solid var(--color-brand-ocean); border-radius:6px; }
 .felexia-skip:focus { top:12px; }
 main { overflow-x:clip; }

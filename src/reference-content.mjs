@@ -157,9 +157,27 @@ export function adaptReferenceContent($, route) {
   }
 
   if (route === '/domiciliation') {
+    $('main img').first().attr('class', 'felexia-office-photo').removeAttr('style').parent().removeClass('aspect-[4/3]');
+    // Preserve the full photographs instead of stretching landscape images into
+    // the source's narrow auto-placed grid tracks or a full-height split panel.
+    const officeCollage = $('main div.grid').filter((_, el) => ($(el).attr('class') || '').includes('grid-rows-12'));
+    officeCollage.attr('class', 'felexia-office-collage');
+    officeCollage.children('div').each((i, el) => {
+      $(el).attr('class', `felexia-office-frame ${i === 0 ? 'primary' : 'secondary'}`);
+      $(el).find('img').attr('class', 'felexia-office-photo').removeAttr('style');
+    });
+    $('main h2').filter((_, el) => /Domiciliation.*Création/.test(normalize($(el).text()))).each((_, el) => {
+      const split = $(el).closest('div.grid');
+      split.addClass('felexia-domiciliation-combo');
+      const media = split.children('div').last();
+      media.addClass('felexia-combo-media');
+      media.children('img').attr('class', 'felexia-combo-photo').removeAttr('style');
+      media.children('div').addClass('felexia-combo-caption');
+    });
     $('main h1').html('Domiciliation d’entreprise<br><span class="text-brand-ocean">au Maroc.</span>');
     setParagraphs($, 'main h2', /Une domiciliation professionnelle à Casablanca/, 'Une domiciliation adaptée à votre activité');
     setParagraphs($, 'main p', /^à Résidence|^Une adresse professionnelle reconnue,|^Résidence.*situé sur la Route/, 'Étudions votre besoin de siège social et les modalités de domiciliation adaptées à votre entreprise.');
+    $('main h1').parent().children('p').first().text('Une adresse professionnelle pour votre projet au Maroc.');
     setParagraphs($, 'main p', /^Notre adresse principale/, 'Felexia Conseils accompagne les projets d’implantation partout au Maroc. Les solutions de domiciliation sont étudiées selon votre activité et la ville souhaitée.');
     setParagraphs($, 'main p', /^Felexia Conseils peut aussi gérer/, 'La domiciliation peut être étudiée dans le cadre de votre projet de création d’entreprise. Son périmètre et ses modalités sont précisés dans votre proposition.');
     const answers = [

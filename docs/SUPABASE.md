@@ -2,6 +2,36 @@
 
 Projet demandé par le propriétaire : `yxdmkqdnesemaqzagatm`.
 
+## Activation cloud vérifiée le 20 septembre 2026
+
+Après connexion autorisée de la CLI Supabase 2.117.0 au compte du propriétaire, le projet demandé était accessible. L'inspection préalable a confirmé l'absence de table publique et d'historique de migrations. Le connecteur MCP précédemment relié à un autre compte n'a pas été utilisé pour cette activation.
+
+L'unique migration `20260920162424_felexia_contact_requests.sql` a été appliquée avec succès après simulation. La commande n'incluait ni seeds ni rôles globaux et utilisait `--skip-vault`. L'historique distant confirme désormais la version `20260920162424`, nom `felexia_contact_requests`.
+
+Vérifications effectuées sur le projet cloud :
+
+- `relrowsecurity = true` et `relforcerowsecurity = true`.
+- Aucune politique RLS publique et aucun privilège de table pour `anon`, `authenticated` ou `PUBLIC`.
+- `service_role` possède uniquement `SELECT` et `INSERT` ; le propriétaire administratif `postgres` conserve ses droits.
+- Table vide au moment de l'activation, avant tout test applicatif.
+- Advisors Supabase, sécurité et performances : **aucun problème signalé**.
+- Lecture REST avec la clé serveur moderne existante : **HTTP 200** et liste vide. Lecture avec la clé publique : **HTTP 401, accès à la table refusé**.
+
+Aucune clé n'a été affichée, enregistrée dans le projet ou ajoutée à Git. Sa récupération pour la configuration serveur se fait en mémoire.
+
+## Réception réelle et nettoyage vérifiés
+
+La configuration serveur Vercel a ensuite permis une demande de contrôle depuis le formulaire public, sous le nom explicite `TEST TECHNIQUE FELEXIA 20260920` et l'adresse fictive `qa@example.test`. Le navigateur a confirmé la référence `FLX-E441274B`, puis une lecture SQL a confirmé l'enregistrement correspondant dans Supabase.
+
+La recette HTTP complémentaire a repris uniquement cette demande technique :
+
+- Même contenu et même identifiant : **HTTP 200**, même référence `FLX-E441274B`.
+- Même identifiant avec message modifié : **HTTP 409 `idempotency_conflict`**.
+- Contrôle SQL après ces deux appels : **une seule ligne**, empreinte du contenu original inchangée.
+- Nettoyage administratif strictement limité à cette ligne, filtrée par identifiant, référence, adresse, nom technique et empreinte : **une ligne supprimée**, puis **zéro ligne restante pour cet identifiant**.
+
+Ce contrôle confirme la réception Vercel → Supabase et l'absence de doublon ou d'écrasement pour ces reprises. Il ne constitue pas un test de charge, de toutes les instances serverless ou d'envoi d'e-mail. Aucun e-mail n'a été envoyé par cet adaptateur et aucune autre demande n'a été modifiée.
+
 ## Ce qui est préparé
 
 - Adaptateur serveur sans dépendance : `src/supabase-contact.mjs`.
