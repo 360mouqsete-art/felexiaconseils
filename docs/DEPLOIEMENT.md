@@ -7,7 +7,17 @@
 - Projet Supabase existant : `yxdmkqdnesemaqzagatm`
 - Compte de connexion indiqué : `360mouqsete@gmail.com`
 
-Ce document décrit la configuration préparée. Il ne constitue pas une confirmation de publication ni de connexion aux comptes.
+## État réel au 20 septembre 2026
+
+- Vercel connecté au compte `360mouqsete-art`, projet `felexiaconseils` créé et publié en production : https://felexiaconseils.vercel.app.
+- Dernier déploiement vérifié : `dpl_EEaeptzmCPo3x9ptMyBJ4DtQEW8Q`, état `READY`, source `aeb5a8c`, construction distante réussie en 6 secondes avec Node 24.x.
+- Variables `SITE_URL=https://felexiaconseils.com` et `TRUST_PROXY=1` configurées sur Production et Preview. Les domaines système Vercel sont autorisés par le gestionnaire de formulaire.
+- GitHub : dépôt configuré mais push refusé avec les identifiants précédents ; connexion au compte `360mouqsete-art` en attente. La connexion Git automatique Vercel a également été refusée. Aucun push confirmé.
+- Supabase : connecteur sans accès au projet demandé ; connexion au compte propriétaire en attente. Aucune migration cloud appliquée et aucune clé Supabase installée sur Vercel.
+- DNS du domaine `felexiaconseils.com` inchangé. L’adresse Vercel est opérationnelle ; aucun basculement du domaine principal n’est annoncé.
+- Contrôles cloud détaillés dans `docs/RECETTE-VERCEL.md`. Le formulaire valide les données et répond `503 not_configured` pour une demande valide tant que Supabase ou un autre fournisseur n’est pas installé ; aucun succès de livraison n’est simulé.
+
+La construction locale Vercel échoue sous cet environnement Windows (`spawn cmd.exe ENOENT`). La construction distante Vercel est l’alternative effectivement validée. Après authentification et configuration : `npx vercel deploy --prod --yes --scope 360mouqsete-art`.
 
 ## Architecture Vercel
 
