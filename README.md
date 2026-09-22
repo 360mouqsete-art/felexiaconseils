@@ -70,7 +70,7 @@ npm run check
 npm test
 ```
 
-Les 45 tests couvrent routes, liens, assets, traductions disponibles, logo, absence de destinations vers le site source, formulaires, erreurs, adaptateur Vercel et déduplication Supabase. Les prestataires sont simulés dans ces tests. Les vérifications réelles de production sont consignées dans [la recette d’affichage](docs/RECETTE-AFFICHAGE.md) et [la réception Supabase](docs/SUPABASE.md) : 120 URL accessibles, navigateur et réception en base vérifiés séparément.
+Les 48 tests couvrent routes, liens, assets, traductions disponibles, logo, absence de destinations vers le site source, formulaires, erreurs, adaptateur Vercel et déduplication Supabase. Les prestataires sont simulés dans ces tests. Les vérifications réelles de production sont consignées dans [la recette d’affichage](docs/RECETTE-AFFICHAGE.md) et [la réception Supabase](docs/SUPABASE.md) : 120 URL accessibles, navigateur et réception en base vérifiés séparément.
 
 ## Publier
 
@@ -87,6 +87,10 @@ Le dépôt est connecté au compte propriétaire sur `main`, avec l’origine Gi
 Un serveur Node reste possible : installer avec `npm ci`, construire, exécuter les contrôles puis `npm start`, avec les variables privées configurées et un proxy HTTPS. Le proxy doit acheminer aussi `/api/contact`. L’hébergement de `dist/` seul ne fournit pas le traitement du formulaire.
 
 Le Dockerfile est fourni, mais aucune construction Docker ni recette du conteneur n’a été effectuée dans cette session.
+
+## Suivi d’audience
+
+Google Analytics 4 utilise un consentement facultatif FR/EN/AR. Refus et acceptation sont équivalents ; le lien de pied de page permet de changer d’avis. Aucun champ de formulaire ni paramètre d’URL n’est transmis. Les demandes sont comptées uniquement après réception confirmée par le serveur. Les configurations et limites sont décrites dans [SEO_TRACKING_PLAN.md](SEO_TRACKING_PLAN.md).
 
 ## Informations extérieures à compléter
 

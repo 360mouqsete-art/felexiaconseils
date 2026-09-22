@@ -1,4 +1,6 @@
 /* Editorial additions inherit the current Felexia palette and typography. */
+/* Keep secondary copy readable on the existing white and pale surfaces. */
+html:not(.dark):not([data-theme="dark"]) .text-brand-steel{color:#536579}
 .seo-content{max-width:1100px;margin-inline:auto;padding:48px 24px;color:#0b1340;line-height:1.8}
 .seo-content>section{margin-block:0 42px;scroll-margin-top:150px}
 .prose-lg>section{scroll-margin-top:150px}
@@ -22,3 +24,16 @@ html[data-theme="dark"] :is(.seo-content,.seo-breadcrumb) a:not(.felexia-action)
 html[data-theme="dark"] :is(.seo-breadcrumb,.seo-revised){color:#b5c0d4}
 [dir="rtl"] .seo-content h2{font-family:'Noto Sans Arabic',Inter,sans-serif;letter-spacing:0;line-height:1.6}
 @media(max-width:600px){.seo-content{padding:32px 20px}.seo-content>section{margin-bottom:30px}.seo-breadcrumb{padding:14px 20px}}
+.audience-consent{position:fixed;z-index:200;inset-inline:20px;bottom:20px;max-width:620px;margin-inline:auto;padding:22px;background:#fff;color:#0b1340;border:1px solid #c8d2e8;border-radius:16px;box-shadow:0 12px 44px #0b13402b;font:14px/1.6 Inter,sans-serif;max-height:85vh;overflow:auto}
+.audience-consent[hidden]{display:none}
+.audience-consent h2{font:600 18px/1.4 Sora,Inter,sans-serif;margin:0 0 10px}
+.audience-consent p{margin:0 0 16px}
+.audience-consent a{color:#2446d8;text-decoration:underline}
+.audience-consent>div{display:flex;gap:12px;flex-wrap:wrap}
+.audience-consent button{flex:1;min-width:160px;padding:10px 14px;border:1px solid #2446d8;border-radius:8px;background:#fff;color:#2446d8;font:600 14px/1.4 Inter,sans-serif;cursor:pointer}
+.audience-consent button:hover{background:#eef1ff}
+.audience-footer{max-width:1280px;margin:auto;padding:12px 24px}
+.audience-footer button{font:inherit;text-decoration:underline;cursor:pointer;color:inherit}
+.audience-consent button:focus-visible,.audience-footer button:focus-visible{outline:3px solid #00c2b8;outline-offset:3px}
+html[data-theme="dark"] .audience-consent{background:#0b1340;color:#fff;border-color:#536579}
+html[data-theme="dark"] .audience-consent a{color:#aabaff}

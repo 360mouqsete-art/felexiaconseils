@@ -1,5 +1,11 @@
 # Configurer Google Search Console
 
+## Réalisé le 22 septembre 2026
+
+Propriété **préfixe HTTPS www** validée dans le compte propriétaire par le fichier `public/google686e2b14c4678c24.html`, à conserver. Sitemap soumis et **traitement réussi : 150 pages découvertes**. Inspection de la page création : Google a accès à cette URL, page indexable, fil d’Ariane valide. La demande d’indexation manuelle échoue côté Google (« Un problème est survenu ») ; aucune indexation obtenue n’est revendiquée. Les rapports initiaux sont en cours de traitement. La propriété Domaine créée reste non validée ; aucun DNS modifié.
+
+## Extension éventuelle à la propriété Domaine
+
 1. Avec le compte propriétaire, ouvrir [Search Console](https://search.google.com/search-console/) et ajouter une **propriété Domaine** : `felexiaconseils.com` (sans protocole ni www).
 2. Choisir la vérification DNS. Copier exactement le TXT fourni par Google ; aucun token n’est inventé dans le dépôt.
 3. Ajouter ce TXT chez le **gestionnaire DNS actuellement actif**. Le 22 septembre 2026, Vercel observe `pdns1.registrar-servers.com` et `pdns2.registrar-servers.com`, cohérents avec Namecheap. Revérifier les NS au moment de l’opération. Dans Namecheap : Domain List → Manage → Advanced DNS → Add New Record → TXT, Host `@`, valeur Google, TTL automatique. Ne pas remplacer les enregistrements existants ni changer les nameservers.

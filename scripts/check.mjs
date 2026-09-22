@@ -3,7 +3,9 @@ import {resolve} from 'node:path';
 import assert from 'node:assert/strict';
 async function walk(dir){const output=[];for(const item of await readdir(dir,{withFileTypes:true})){const file=dir+'/'+item.name;if(item.isDirectory())output.push(...await walk(file));else output.push(file);}return output;}
 const files=await walk('dist');let pages=0,links=0,images=0;const failures=[];const titles=new Set();
-for(const file of files.filter(f=>f.endsWith('.html')&&!['dist/index.html','dist/404.html'].includes(f))){pages++;const html=await readFile(file,'utf8');
+const verification='dist/google686e2b14c4678c24.html';
+assert.equal((await readFile(verification,'utf8')).trim(),'google-site-verification: google686e2b14c4678c24.html');
+for(const file of files.filter(f=>f.endsWith('.html')&&!['dist/index.html','dist/404.html',verification].includes(f))){pages++;const html=await readFile(file,'utf8');
 const check=(condition,message)=>{if(!condition)failures.push(`${file}: ${message}`);};
 check((html.match(/<h1[ >]/g)||[]).length===1,'exactly one H1');check(/name="description" content="[^"]{20,}"/.test(html),'description');check(/rel="canonical"/.test(html),'canonical');check(html.includes(`hreflang="${file.split('/')[1]}"`),'self language alternate');check(html.includes('id="main"'),'skip target');if(file.startsWith('dist/ar/'))check((/<html[^>]*lang="ar"[^>]*dir="rtl"/).test(html),'Arabic RTL');
 const title=html.match(/<title>(.*?)<\/title>/)?.[1];const titleKey=file.split('/')[1]+':'+title;check(!titles.has(titleKey),'unique title');titles.add(titleKey);

@@ -2,6 +2,7 @@ import {load} from 'cheerio';
 import {createHash} from 'node:crypto';
 import {readFileSync} from 'node:fs';
 import {company} from './content.mjs';
+import {addAnalytics} from './analytics.mjs';
 import {editorial,editorialDate,creationSections,guideBody,contentHelpers,pick} from './seo-content.mjs';
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -125,6 +126,7 @@ export function optimizeSeo(pages){
     $('main img').slice(1).removeAttr('fetchpriority').attr({loading:'lazy',decoding:'async'});
     if(!slug)$('main img').removeAttr('fetchpriority').attr('loading','lazy');
     $('img').each((_,e)=>{const original=$(e).attr('src');if(optimizedImages[original])$(e).attr('src',optimizedImages[original]);const size=imageDimensions[$(e).attr('src')];if(size)$(e).attr({width:String(size[0]),height:String(size[1])});});
+    addAnalytics($,l,slug);
     pages[file]=$.html();
   }
   return pages;

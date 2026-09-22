@@ -2,7 +2,7 @@
 
 ## État réel
 
-Aucun GA4, Tag Manager ou autre collecteur analytics actif n’a été trouvé dans le code publié. Aucun collecteur ni cookie supplémentaire n’a donc été ajouté. Les formulaires existants continuent à envoyer les demandes à l’API serveur ; les tests utilisent un service de stockage simulé et n’envoient pas de faux prospect en production.
+Google Analytics 4 créé après autorisation des conditions par le propriétaire : compte 409106729, propriété 555480986, flux 15827411869, ID public G-5CTT86CCQ2. Fuseau Maroc et MAD ; partages facultatifs et mesures améliorées automatiques désactivés. Le site charge GA uniquement après consentement explicite, avec refus aussi visible, retrait dans le pied de page et textes FR/EN/AR. Aucun script Google avant consentement ; collecte limitée au domaine www de production. Les formulaires transmettent toujours leurs données au serveur du cabinet, jamais à Analytics. Seul generate_lead doit être considéré comme conversion principale ; submit_contact et request_quote sont des diagnostics de réception, les clics restent distincts. La vérification de réception réelle Analytics est consignée dans la recette de publication.
 
 ## Tableau de bord mensuel
 
