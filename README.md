@@ -1,6 +1,6 @@
 # Felexia Conseils
 
-Site Felexia développé dans ce projet, avec reprise page par page de la structure publique du site MyLegal fourni par son propriétaire. Le logo Felexia possède une version simplifiée pour l’interface ; l’original est conservé. Le bleu royal `#2446D8` et les coordonnées du cabinet sont préservés. Aucun lien publié ne dirige vers `mylegal.ma` ou `app.mylegal.ma`.
+Site Felexia développé dans ce projet, avec reprise page par page de la structure publique du site fourni par son propriétaire. Le logo Felexia possède une version simplifiée pour l’interface ; l’original est conservé. Le bleu royal `#2446D8` et les coordonnées du cabinet sont préservés. Aucun lien publié ne dirige vers le site source ou son application.
 
 Le build génère **120 pages publiques**, trois pages 404 linguistiques et la redirection racine, soit 124 entrées HTML, auxquelles s’ajoute la 404 générique de l’hébergement. Les pages Felexia existantes et Domiciliation sont disponibles en français, anglais et arabe avec RTL. Les nouveaux guides sont en français ; les hreflang ne désignent que des traductions réellement disponibles.
 
@@ -31,16 +31,16 @@ npm start
 
 ## Pages et parcours
 
-- Accueil, création d’entreprise, domiciliation, offres de création et domiciliation sur devis, contact, recrutement et pages légales repris dans le système visuel de la référence.
-- Bibliothèque de guides avec pagination réelle et 16 articles importés, sommaires, FAQ natives, copie et partage des liens Felexia.
-- Pages du cabinet, expertises, conseil fiscal, conseil en gestion, formalités, investisseurs, formes juridiques et ressources Felexia préexistantes conservées.
-- Questionnaire de projet en quatre étapes : validation, retour, récapitulatif et envoi à `/api/contact`.
-- Contact, candidature et demande de rendez-vous. Le cabinet confirme le créneau ; aucun calendrier externe n’est simulé. Le CV est envoyé par le candidat à l’adresse e-mail indiquée, sans faux téléversement.
-- Page « Mon dossier » pour contacter le cabinet : aucun portail authentifié, paiement ou accès à des documents privés n’est revendiqué.
-- Menus ordinateur/mobile, onglets de services, navigation clavier, retour en haut et respect des préférences de mouvement réduit.
-- Sélecteur FR / EN / العربية visible, thème clair/sombre mémorisé et photos de Domiciliation au ratio naturel.
-- Téléphone du bureau, mobile, WhatsApp, e-mail et carte du cabinet ; activité présentée à l’échelle du Maroc.
-- Métadonnées propres aux pages, canonicals, hreflang réels, sitemap de 120 URL publiques, fichiers locaux et anciennes URL conservées.
+* Accueil, création d’entreprise, domiciliation, offres de création et domiciliation sur devis, contact, recrutement et pages légales repris dans le système visuel de la référence.
+* Bibliothèque de guides avec pagination réelle et 16 articles importés, sommaires, FAQ natives, copie et partage des liens Felexia.
+* Pages du cabinet, expertises, conseil fiscal, conseil en gestion, formalités, investisseurs, formes juridiques et ressources Felexia préexistantes conservées.
+* Questionnaire de projet en quatre étapes : validation, retour, récapitulatif et envoi à `/api/contact`.
+* Contact, candidature et demande de rendez-vous. Le cabinet confirme le créneau ; aucun calendrier externe n’est simulé. Le CV est envoyé par le candidat à l’adresse e-mail indiquée, sans faux téléversement.
+* Page « Mon dossier » pour contacter le cabinet : aucun portail authentifié, paiement ou accès à des documents privés n’est revendiqué.
+* Menus ordinateur/mobile, onglets de services, navigation clavier, retour en haut et respect des préférences de mouvement réduit.
+* Sélecteur FR / EN / العربية visible, thème clair/sombre mémorisé et photos de Domiciliation au ratio naturel.
+* Téléphone du bureau, mobile, WhatsApp, e-mail et carte du cabinet ; activité présentée à l’échelle du Maroc.
+* Métadonnées propres aux pages, canonicals, hreflang réels, sitemap de 120 URL publiques, fichiers locaux et anciennes URL conservées.
 
 Les prix, témoignages, certifications, garanties, délais et fonctionnalités du site source ne sont pas présentés automatiquement comme ceux de Felexia. Les textes commerciaux ont été adaptés aux informations disponibles et aux demandes de devis. Les scripts de suivi et le serveur applicatif distant de la référence ne sont pas utilisés.
 
@@ -70,15 +70,15 @@ npm run check
 npm test
 ```
 
-Les 40 tests couvrent routes, liens, assets, traductions disponibles, logo, absence de destinations MyLegal, formulaires, erreurs, adaptateur Vercel et déduplication Supabase. Les prestataires sont simulés dans ces tests. Les vérifications réelles de production sont consignées dans [la recette d’affichage](docs/RECETTE-AFFICHAGE.md) et [la réception Supabase](docs/SUPABASE.md) : 120 URL accessibles, navigateur et réception en base vérifiés séparément.
+Les 40 tests couvrent routes, liens, assets, traductions disponibles, logo, absence de destinations vers le site source, formulaires, erreurs, adaptateur Vercel et déduplication Supabase. Les prestataires sont simulés dans ces tests. Les vérifications réelles de production sont consignées dans [la recette d’affichage](docs/RECETTE-AFFICHAGE.md) et [la réception Supabase](docs/SUPABASE.md) : 120 URL accessibles, navigateur et réception en base vérifiés séparément.
 
 ## Publier
 
 Destinations demandées :
 
-- [GitHub : 360mouqsete-art/felexiaconseils](https://github.com/360mouqsete-art/felexiaconseils).
-- [Vercel : espace 360mouqsete-art](https://vercel.com/360mouqsete-art).
-- [Supabase : projet yxdmkqdnesemaqzagatm](https://supabase.com/dashboard/project/yxdmkqdnesemaqzagatm).
+* [GitHub : 360mouqsete-art/felexiaconseils](https://github.com/360mouqsete-art/felexiaconseils).
+* [Vercel : espace 360mouqsete-art](https://vercel.com/360mouqsete-art).
+* [Supabase : projet yxdmkqdnesemaqzagatm](https://supabase.com/dashboard/project/yxdmkqdnesemaqzagatm).
 
 Le dépôt est connecté au compte propriétaire sur `main`, avec l’origine GitHub demandée. Après vérification locale et commit, `git push origin main` déclenche automatiquement le déploiement Vercel.
 
@@ -90,27 +90,8 @@ Le Dockerfile est fourni, mais aucune construction Docker ni recette du conteneu
 
 ## Informations extérieures à compléter
 
-- Raison sociale officielle, RC, ICE, IF, directeur de publication et hébergeur : champs isolés dans `src/business-details.mjs`, sans valeur inventée.
-- Raccordement DNS du domaine principal, si souhaité.
-- Notifications par e-mail si nécessaires : les demandes sont actuellement enregistrées dans Supabase.
-- Modalités de conservation et de traitement des données à valider par le cabinet.
+* Raison sociale officielle, RC, ICE, IF, directeur de publication et hébergeur : champs isolés dans `src/business-details.mjs`, sans valeur inventée.
+* Raccordement DNS du domaine principal, si souhaité.
+* Notifications par e-mail si nécessaires : les demandes sont actuellement enregistrées dans Supabase.
+* Modalités de conservation et de traitement des données à valider par le cabinet.
 
-## Modifier le site
-
-| Fichier ou dossier | Rôle |
-| --- | --- |
-| `src/mylegal-site.mjs` | Import complet, liens locaux, logo et formulaires Felexia |
-| `src/reference-content.mjs` | Adaptations commerciales et éditoriales |
-| `reference/mylegal/pages-manifest.json` | Inventaire des 27 pages sources |
-| `reference/mylegal/pages/` | Sources figées, dont la seconde page des guides |
-| `public/mylegal/` | Styles, photos locales et interactions de la refonte |
-| `src/content.mjs` | Coordonnées, interface et expertises dans les trois langues |
-| `src/editorial.mjs`, `src/pages.mjs`, `src/templates.mjs` | Contenus conservés et génération |
-| `src/forms.mjs`, `public/app.js` | Formulaires, traductions, validation et envoi |
-| `src/business-details.mjs` | Informations légales officielles à renseigner |
-| `src/contact-api.mjs`, `src/supabase-contact.mjs` | Validation et réception serveur |
-| `api/contact.js`, `src/vercel-contact.mjs`, `vercel.json` | Fonction et hébergement Vercel |
-| `supabase/migrations/` | Schéma privé de réception des demandes |
-| `server.mjs` | Prévisualisation et hébergement Node natif |
-
-`dist/` est généré : modifier les sources puis reconstruire. Le détail de la reprise est consigné dans [ACCUEIL-MYLEGAL.md](docs/ACCUEIL-MYLEGAL.md).
