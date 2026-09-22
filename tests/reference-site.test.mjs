@@ -84,7 +84,7 @@ test('every language displays the simplified Felexia header and footer logo', ()
   }
 });
 
-test('header language controls open real translated pages or explicitly marked section fallbacks', () => {
+test('header language controls retain the exact page in every language', () => {
   for(const {relative,$} of documents.values()) {
     if(!/^(fr|en|ar)\//.test(relative))continue;
     const language=$('html').attr('lang');
@@ -98,14 +98,15 @@ test('header language controls open real translated pages or explicitly marked s
       assert.ok(target,`${relative}: real target ${path}`);
       assert.equal(target.$('html').attr('lang'),$(anchor).attr('lang'));
       if($(anchor).attr('lang')==='ar')assert.equal(target.$('html').attr('dir'),'rtl');
+      assert.equal($(anchor).attr('data-language-target'),'equivalent',`${relative}: all pages have a translated equivalent`);
       if($(anchor).attr('data-language-target')==='equivalent')assert.equal(path.slice(4),`/${relative}`.slice(4).replace(/index\.html$/,''),`${relative}: equivalent page retained`);
     });
     assert.equal($('header [data-theme-toggle]').length,1,`${relative}: theme toggle`);
     assert.ok($('script[src^="/theme.js"]:not([defer])').length,`${relative}: theme restored before rendering`);
   }
   const guide=documents.get('/fr/guides/page/2/index.html');
-  assert.equal(guide.$('header a[lang="en"]').attr('href'),'/en/guides/');
-  assert.equal(guide.$('header a[lang="en"]').attr('data-language-target'),'section');
+  assert.equal(guide.$('header a[lang="en"]').attr('href'),'/en/guides/page/2/');
+  assert.equal(guide.$('header a[lang="en"]').attr('data-language-target'),'equivalent');
 });
 
 test('domiciliation has real English and Arabic content and keeps the selected page across languages', () => {
@@ -119,11 +120,26 @@ test('domiciliation has real English and Arabic content and keeps the selected p
       assert.equal(choice.attr('data-language-target'),'equivalent');
     }
     if(language==='fr')continue;
-    assert.match($('main h1').text(),language==='en'?/Business domiciliation in Morocco/:/توطين الشركات في المغرب/);
-    assert.equal($('main details').length,6,`${language}: translated questions and answers`);
-    assert.equal($('main .domiciliation-photo img').length,2,`${language}: complete office illustrations`);
-    assert.ok($(`main a[href="/${language}/contact/?service=other"]`).length);
-    assert.ok($('link[href="/domiciliation.css"]').length);
+    assert.match($('main h1').text(),language==='en'?/domiciliation|registered office/i:/توطين|مقر/);
+    assert.equal($('main details').length,5,`${language}: same questions and answers as French`);
+    assert.equal($('main .felexia-office-photo,main .felexia-combo-photo').length,4,`${language}: same uncropped illustrations as French`);
+    assert.ok($(`main a[href="/${language}/create/"]`).length);
+    assert.ok($('link[href^="/mylegal/site.css"]').length);
+  }
+});
+
+test('all French pages share their template, photographs and navigation with EN and AR', () => {
+  for(const source of french) {
+    for(const language of ['en','ar']) {
+      const target=documents.get('/'+source.relative.replace(/^fr\//,language+'/'));
+      assert.ok(target,`${source.relative}: ${language} equivalent`);
+      assert.deepEqual(target.$('header a[href]').map((_,e)=>target.$(e).attr('href').replace(/^\/(fr|en|ar)\//,'/locale/')).get(),source.$('header a[href]').map((_,e)=>source.$(e).attr('href').replace(/^\/(fr|en|ar)\//,'/locale/')).get(),`${source.relative}: identical header navigation`);
+      assert.deepEqual(target.$('main img[src]').map((_,e)=>target.$(e).attr('src')).get(),source.$('main img[src]').map((_,e)=>source.$(e).attr('src')).get(),`${source.relative}: identical photographs`);
+      const mainStructure=document=>document.$('main').find('section,article,aside,h1,h2,h3,details,form').map((_,e)=>e.tagName+':'+(document.$(e).attr('class')||'')).get();
+      assert.deepEqual(mainStructure(target),mainStructure(source),`${source.relative}: identical page sections and components`);
+      assert.ok(target.$('[data-primary-navigation]').length,`${source.relative}: uses the current French navigation system`);
+      assert.equal(target.$('header.header').length,0,`${source.relative}: no old navigation shell`);
+    }
   }
 });
 

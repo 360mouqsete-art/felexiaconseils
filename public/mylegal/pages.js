@@ -1,6 +1,8 @@
 /* Public guide interactions. All copied links stay on the current Felexia site. */
 (() => {
   'use strict';
+  const language = document.documentElement.lang || 'fr';
+  const copy = window.FelexiaInteractionCopy?.[language] || window.FelexiaInteractionCopy.fr;
   const pageUrl = new URL(window.location.pathname, window.location.origin).href;
   function revealSection() {
     let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
@@ -12,19 +14,19 @@
   revealSection();
   window.addEventListener('hashchange',revealSection);
   const shares = [
-    ['Partager sur LinkedIn', 'https://www.linkedin.com/sharing/share-offsite/', 'url'],
-    ['Partager sur X', 'https://x.com/intent/tweet', 'url'],
-    ['Partager sur Facebook', 'https://www.facebook.com/sharer/sharer.php', 'u']
+    ['linkedin', 'https://www.linkedin.com/sharing/share-offsite/', 'url'],
+    ['x', 'https://x.com/intent/tweet', 'url'],
+    ['facebook', 'https://www.facebook.com/sharer/sharer.php', 'u']
   ];
   for (const [label, endpoint, parameter] of shares) {
-    for (const anchor of document.querySelectorAll(`main a[aria-label="${label}"]`)) {
+    for (const anchor of document.querySelectorAll(`main a[data-share-guide="${label}"]`)) {
       const share = new URL(endpoint);
       share.searchParams.set(parameter, pageUrl);
-      if (label === 'Partager sur X') share.searchParams.set('text', document.querySelector('main h1')?.textContent.trim() || document.title);
+      if (label === 'x') share.searchParams.set('text', document.querySelector('main h1')?.textContent.trim() || document.title);
       anchor.href = share.href;
     }
   }
-  const copyButtons = document.querySelectorAll('main button[aria-label="Copier le lien"]');
+  const copyButtons = document.querySelectorAll('main button[data-copy-guide]');
   if (!copyButtons.length) return;
   const status = document.createElement('p');
   status.className = 'sr-only';
@@ -51,9 +53,9 @@
         path.setAttribute('d', 'm5 12 4 4L19 6');
         check.append(path);
         button.replaceChildren(check);
-        button.setAttribute('aria-label', 'Lien copié');
-        button.setAttribute('title', 'Lien copié');
-        status.textContent = 'Le lien de ce guide Felexia Conseils a été copié.';
+        button.setAttribute('aria-label', copy.copied);
+        button.setAttribute('title', copy.copied);
+        status.textContent = copy.copySuccess;
         restoreTimer = setTimeout(() => {
           button.replaceChildren(...originalContents.map(node => node.cloneNode(true)));
           button.setAttribute('aria-label', originalLabel);
@@ -64,12 +66,12 @@
         manualCopy.type = 'text';
         manualCopy.readOnly = true;
         manualCopy.value = url;
-        manualCopy.setAttribute('aria-label', 'Lien du guide à copier');
+        manualCopy.setAttribute('aria-label', copy.copyField);
         manualCopy.className = 'block w-full rounded-lg border border-brand-pale bg-white px-3 py-2 text-sm text-brand-midnight';
         button.parentElement.after(manualCopy);
         manualCopy.focus();
         manualCopy.select();
-        status.textContent = 'La copie automatique est indisponible. Le lien est sélectionné ; utilisez la commande Copier de votre appareil.';
+        status.textContent = copy.copyFallback;
       }
     });
   }

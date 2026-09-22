@@ -1,0 +1,25 @@
+/* Shared reference layout, with typographic and directional adaptations only. */
+@font-face {font-family:'Noto Sans Arabic';font-style:normal;font-weight:400 700;font-display:swap;src:url('/assets/fonts/font-8.woff2') format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-089F,U+08A0-08FF,U+200C-200E,U+FB50-FDFF,U+FE70-FEFF;}
+html[dir="rtl"] body {font-family:'Noto Sans Arabic',Inter,Arial,sans-serif;}
+html[dir="rtl"] :is(h1,h2,h3,h4,h5,button,input,select,textarea,summary) {font-family:'Noto Sans Arabic',Inter,Arial,sans-serif;letter-spacing:0;}
+html[dir="rtl"] :is(h1,h2,h3,h4) {line-height:1.5;}
+html[dir="rtl"] :is(p,li,summary) {line-height:1.9;}
+html[dir="rtl"] [class*="tracking-"] {letter-spacing:0;}
+html[dir="rtl"] .text-left {text-align:right;}
+html[dir="rtl"] .text-right {text-align:left;}
+html[dir="rtl"] :is(.prose ul,.prose ol) {padding-inline-start:1.6em;padding-inline-end:0;}
+html[dir="rtl"] .prose blockquote {border-left:0;border-right:4px solid var(--color-brand-ocean);padding-inline-start:1.25em;padding-inline-end:0;}
+html[dir="rtl"] .border-l-2 {border-left-width:0;border-right-width:2px;}
+html[dir="rtl"] .pl-3 {padding-left:0;padding-right:.75rem;}
+html[dir="rtl"] :is(.lucide-arrow-right,.lucide-arrow-left,.lucide-chevron-right,.lucide-chevron-left) {transform:scaleX(-1);}
+html[dir="rtl"] .felexia-domiciliation-combo .felexia-combo-media {padding:32px 0 32px 28px;}
+html[dir="rtl"] :is(.felexia-contact-details a[href^="tel:"],.felexia-contact-details a[href^="mailto:"]) {justify-content:flex-end;}
+html[dir="rtl"] .felexia-logo-wordmark {text-align:left;}
+html[dir="rtl"] :is(.button>span,.card-link>span) {transform:scaleX(-1);}
+html[dir="rtl"] [dir="ltr"] {unicode-bidi:isolate;}
+html[lang="en"] header [data-primary-navigation] {gap:0;}
+html[lang="en"] header [data-primary-navigation]>a,html[lang="en"] header [data-primary-navigation]>div>button {padding-inline:8px;}
+html[dir="rtl"] [data-primary-navigation] {gap:0;}
+html[dir="rtl"] [data-primary-navigation]>a,html[dir="rtl"] [data-primary-navigation]>div>button {padding-inline:8px;font-size:13px;}
+@media(max-width:1023px){html[dir="rtl"] .felexia-domiciliation-combo .felexia-combo-media{padding:0 24px 28px;}}
+@media(max-width:480px){html[dir="rtl"] .felexia-domiciliation-combo .felexia-combo-media{padding:0 18px 22px;}html[dir="rtl"] h1{font-size:2rem;}}

@@ -1,6 +1,8 @@
 /* Standalone interactions for the MyLegal homepage supplied by its owner. */
 (() => {
   'use strict';
+  const language = document.documentElement.lang || 'fr';
+  const localeCopy = window.FelexiaInteractionCopy?.[language] || window.FelexiaInteractionCopy.fr;
   const tabContent = [
   {
     "id": "creation",
@@ -111,6 +113,16 @@
     }
   }
 ];
+  for (const content of tabContent) {
+    const translated = localeCopy.panels?.[content.id];
+    if (translated) {
+      content.heading = translated.heading;
+      content.bullets.forEach((bullet,index)=>{[bullet.title,bullet.description]=translated.bullets[index];});
+      content.cta.label = translated.cta;
+      content.image.alt = translated.alt;
+    }
+    content.cta.href = content.cta.href.replace(/^\/fr\//,`/${language}/`);
+  }
   const header = document.querySelector('body > header');
   const headerShell = header?.firstElementChild;
   const mobileMenu = document.getElementById('mobile-menu');
@@ -138,7 +150,7 @@
     if (!mobileMenu || !menuButton) return;
     menuOpen = open && !desktopQuery.matches;
     menuButton.setAttribute('aria-expanded', String(menuOpen));
-    menuButton.setAttribute('aria-label', menuOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+    menuButton.setAttribute('aria-label', menuOpen ? localeCopy.closeMenu : localeCopy.openMenu);
     mobileMenu.classList.toggle('hidden', !menuOpen);
     mobileMenu.classList.toggle('block', menuOpen);
     document.documentElement.classList.toggle('mylegal-menu-open', menuOpen);
@@ -176,7 +188,7 @@
   });
 
   // The reference has one desktop dropdown, separate from the mobile links.
-  const dropdownButton = header?.querySelector('nav[aria-label="Navigation principale"] button[aria-haspopup="true"]');
+  const dropdownButton = header?.querySelector('nav[data-primary-navigation] button[aria-haspopup="true"]');
   if (dropdownButton) {
     const group = dropdownButton.parentElement;
     const dropdown = dropdownButton.nextElementSibling;
@@ -310,8 +322,9 @@
       tab.addEventListener('click', () => activateTab(tab));
       tab.addEventListener('keydown', event => {
         let next;
-        if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % tabs.length;
-        else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index - 1 + tabs.length) % tabs.length;
+        const rtl = document.documentElement.dir === 'rtl';
+        if (event.key === (rtl ? 'ArrowLeft' : 'ArrowRight') || event.key === 'ArrowDown') next = (index + 1) % tabs.length;
+        else if (event.key === (rtl ? 'ArrowRight' : 'ArrowLeft') || event.key === 'ArrowUp') next = (index - 1 + tabs.length) % tabs.length;
         else if (event.key === 'Home') next = 0;
         else if (event.key === 'End') next = tabs.length - 1;
         if (next !== undefined) {
@@ -323,7 +336,7 @@
     activateTab(tabs[0]);
   }
 
-  const backToTop = document.querySelector('button[aria-label="Retour en haut"]');
+  const backToTop = document.querySelector('button[data-back-to-top]');
   function updateScrollControls() {
     updateHeader();
     if (!backToTop) return;

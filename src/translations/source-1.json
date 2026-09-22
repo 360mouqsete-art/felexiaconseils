@@ -1,0 +1,6668 @@
+[
+  {
+    "id": "ba1ca9d5bbba",
+    "fr": "Aller au contenu",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "a8ff8fd20789",
+    "fr": "Accueil",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "1e5636d743f1",
+    "fr": "Création d'entreprise",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "a841d1b2f24d",
+    "fr": "Domiciliation",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "b8e3be7a18e1",
+    "fr": "Tarifs",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "38c0f957d9f1",
+    "fr": "Tarifs création d'entreprise",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "633d37e73092",
+    "fr": "Tarifs domiciliation",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "b37456c4530b",
+    "fr": "Contact",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "929a28d26142",
+    "fr": "Guides",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "8a069aaa18d0",
+    "fr": "Rejoignez-nous",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "0a22493e2a3f",
+    "fr": "Mon dossier",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "ee98a7417167",
+    "fr": "Créer mon entreprise",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "0c77d13cc7a6",
+    "fr": "Votre cabinet de conseil au Maroc",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "3174844393d4",
+    "fr": "Lancez et gérez votre société",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "4fab97718d29",
+    "fr": "simplement.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "17bf3d60665a",
+    "fr": "Création d’entreprise, domiciliation et accompagnement des entrepreneurs : un cabinet pour votre projet partout au Maroc.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "ee28355babed",
+    "fr": "Découvrir nos offres",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "4b65ecc5c7d9",
+    "fr": "Un accompagnement adapté à votre projet au Maroc",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "02404b780c07",
+    "fr": "Accompagnement personnalisé",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "f8ebd9551df7",
+    "fr": "Organismes utiles à vos démarches",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "64e4b03c91f4",
+    "fr": "Tout ce que Felexia Conseils fait pour vous",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "c0d3ba172613",
+    "fr": "Un cabinet,",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "dbb5fec721d2",
+    "fr": "tous vos services.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "e3ea079ded57",
+    "fr": "Modification",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "8290d0f319d3",
+    "fr": "Créez votre société avec un accompagnement clair.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "dea487a76916",
+    "fr": "Votre projet, étape par étape",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "2e2a397b6244",
+    "fr": "Présentez votre projet en ligne. Le cabinet vous précise les pièces, signatures et démarches nécessaires.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "efb857b8f6d8",
+    "fr": "Un accompagnement personnalisé",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "bb8add21c703",
+    "fr": "Un interlocuteur du cabinet vous accompagne du début à la fin tout au long de votre procédure de création.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "7c1cf2bc9501",
+    "fr": "Des démarches coordonnées",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "0720ae4603b8",
+    "fr": "Certificat négatif, statuts, RC, IF, ICE, CNSS : nous définissons avec vous les formalités et le périmètre de notre accompagnement.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "67c8f888b964",
+    "fr": "Préparation de votre dossier",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "145232b6ce85",
+    "fr": "Nous vous aidons à préparer les pièces et à comprendre les demandes de complément des administrations.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "62c0f0da8c41",
+    "fr": "Échanges à distance",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5a249c656983",
+    "fr": "Un premier échange depuis chez vous.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "e60c5c09918c",
+    "fr": "Pourquoi nous faire confiance",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "fa1b97201574",
+    "fr": "La création d'entreprise,",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "335c9f97c96e",
+    "fr": "sans friction.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "61b1cafed43b",
+    "fr": "Un accompagnement pensé pour les entrepreneurs marocains, MRE et investisseurs qui souhaitent structurer leur projet.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "d7d30cd6502e",
+    "fr": "Simplicité",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "544399c51b76",
+    "fr": "Une procédure claire et entièrement guidée, de la réservation du nom jusqu'à l'immatriculation de votre société.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "90c1168806b7",
+    "fr": "Fiabilité",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5d5de53be8cf",
+    "fr": "Les documents et pièces nécessaires sont examinés selon les besoins de votre projet.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "d0bbddf372ef",
+    "fr": "Un devis détaillé",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "8e9edc4f5218",
+    "fr": "Un devis détaille le périmètre de la mission, les honoraires et les frais à prévoir avant votre engagement.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "2f509c30a298",
+    "fr": "Accompagnement",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "9711c069fff4",
+    "fr": "Un interlocuteur du cabinet vous accompagne à chaque étape, du lancement de votre dossier jusqu'à l'immatriculation de votre société.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "408b5a82bc31",
+    "fr": "Comment ça marche",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "facfac363081",
+    "fr": "Les étapes de",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "8dba56c08e55",
+    "fr": "création de société.",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "053dc78f4fb2",
+    "fr": "Un parcours organisé avec votre interlocuteur, de la préparation des pièces aux formalités d’immatriculation.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "3bae0f3d1eec",
+    "fr": "Vous renseignez vos informations",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "c8c54797c4c1",
+    "fr": "Remplissez votre dossier en ligne en quelques minutes.",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "ad4ce6fee7df",
+    "fr": "Un interlocuteur du cabinet vous accompagne",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "71e6443e04d7",
+    "fr": "Un expert Felexia Conseils vous guide et vérifie votre dossier à chaque étape.",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "acade8d8a532",
+    "fr": "Vous signez vos documents",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "de343942767c",
+    "fr": "Nous vous indiquons les signatures et éventuelles procurations requises pour votre dossier.",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "7eff789f9198",
+    "fr": "Votre société est créée",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "66360c692012",
+    "fr": "Nous finalisons les démarches administratives et vous recevez votre dossier complet.",
+    "routes": [
+      "/",
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "173e1575e2fa",
+    "fr": "Démarrer maintenant",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "a57d5e1fd5d4",
+    "fr": "Création SARL",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "222f218a6355",
+    "fr": "Étape 1/4",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "cdd4c7c94e6c",
+    "fr": "Renseignez votre projet en quelques minutes.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "051f6759da05",
+    "fr": "SARL",
+    "routes": [
+      "/",
+      "/guides/creation-entreprise-rabat",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "68d52f1c036b",
+    "fr": "SARLAU",
+    "routes": [
+      "/",
+      "/guides/creation-entreprise-rabat",
+      "/guides/creer-une-sarl-maroc"
+    ]
+  },
+  {
+    "id": "2a41e25bd2cd",
+    "fr": "Calendrier du projet",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "bd5681f57f68",
+    "fr": "Délais précisés selon votre dossier",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5a472c705484",
+    "fr": "Visuel d’illustration",
+    "routes": [
+      "/",
+      "/domiciliation",
+      "/guides",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "f733d63aca8d",
+    "fr": "Felexia Conseils",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "22cc16689468",
+    "fr": "Mabrouka · Marrakech, Maroc",
+    "routes": [
+      "/",
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "8b848b57e00d",
+    "fr": "Une adresse professionnelle,",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5a70486e6684",
+    "fr": "sans louer de bureau.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "a9999b3fca53",
+    "fr": "Étudions ensemble la solution de domiciliation adaptée à votre société et à votre lieu d’implantation au Maroc.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "a9a29f134570",
+    "fr": "Votre siège social",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5bc62d805d71",
+    "fr": "Étudions la solution de siège social adaptée à votre activité et aux formalités de création.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "541c50eb445e",
+    "fr": "Gestion du courrier",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "26bb18873245",
+    "fr": "Les modalités de réception, de transmission et de récupération du courrier sont précisées dans l’offre retenue.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "2785167a81f0",
+    "fr": "Contrat conforme",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "faaab01a00a7",
+    "fr": "Les modalités, pièces et délais du contrat sont étudiés avec vous avant votre engagement.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "0b76a0a9eafd",
+    "fr": "Mabrouka, Marrakech",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "d3fcb49f6503",
+    "fr": "Immeuble 3 · Appartement 4",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "7aa0f26ac7db",
+    "fr": "Accompagnement partout au Maroc",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "b6e749cece3e",
+    "fr": "Domicilier ma société",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "408090cac332",
+    "fr": "Voir les tarifs",
+    "routes": [
+      "/",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "99183159a068",
+    "fr": "MRE et investisseurs",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "0036b013f92f",
+    "fr": "Créez votre société au Maroc,",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "4565115e6aa0",
+    "fr": "depuis n'importe où.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "ec3820fab2c2",
+    "fr": "Entrepreneur marocain, MRE ou investisseur étranger : nous étudions votre projet au Maroc et les formalités adaptées à votre situation.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5d9cb4d1e515",
+    "fr": "Premier échange et demande en ligne",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "2cbbd8958cb7",
+    "fr": "Modalités de signature expliquées",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "e81902eb0fe4",
+    "fr": "Un interlocuteur pour votre projet",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "42b780576ca6",
+    "fr": "Solution de domiciliation à étudier",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "80ea303fc414",
+    "fr": "Suivi avec votre interlocuteur",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5058c96f6440",
+    "fr": "Préparation des pièces pour vos démarches bancaires",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "278137241032",
+    "fr": "Créer ma société à distance",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "b18198843c72",
+    "fr": "Un seul interlocuteur",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "ae016c695158",
+    "fr": "pour toutes vos formalités.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "a1388c4189ac",
+    "fr": "Notre cabinet vous accompagne avant, pendant et après la création, selon la mission définie avec vous.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "36413b14f647",
+    "fr": "Joignable par WhatsApp, e-mail ou téléphone",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5f6894aaef51",
+    "fr": "Suivi de A à Z jusqu'au Registre du Commerce",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "371f4977de8e",
+    "fr": "Contacter l'équipe",
+    "routes": [
+      "/",
+      "/tarif/creation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "47181712da2a",
+    "fr": "Une question ?",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "a38b7bacfe64",
+    "fr": "Notre équipe",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "bdc8b3205f57",
+    "fr": "vous répond rapidement.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "fc46f283fefe",
+    "fr": "Nous prenons le temps de vous orienter avant que vous ne payiez quoi que ce soit.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "bd40069794ae",
+    "fr": "Démarrer ma société",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "3f878a5c753e",
+    "fr": "Votre cabinet pour créer, structurer et développer votre société partout au Maroc.",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "ec4802ef346e",
+    "fr": "Contactez-nous",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "8c29cf46399b",
+    "fr": "Résidence Al Ihssane, Immeuble 3, Appartement 4, Mabrouka, Marrakech, Maroc",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "426682e394e8",
+    "fr": "Bureau : +212 520 825 825",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "34c954f5b61e",
+    "fr": "Mobile : +212 661 080 862",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "7ffb25e099fc",
+    "fr": "WhatsApp : +212 661 400 352",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "324b7a8d32cf",
+    "fr": "hadigui.aziz@gmail.com",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "0a8d9e5105c0",
+    "fr": "Liens utiles",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "932bf80b8477",
+    "fr": "Liens Rapides",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "ab2fb6f70729",
+    "fr": "Secteurs d'activités",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "cbc7c7de0c2b",
+    "fr": "Mentions Légales",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "a8ebb0b890b1",
+    "fr": "Politique de Confidentialité",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "e4fd5c2bb747",
+    "fr": "Conditions Générales d'Utilisation",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "c336993ffaee",
+    "fr": "Besoin d'être accompagné(e) ?",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "61090c901cc8",
+    "fr": "Toute l’équipe de Felexia Conseils est là pour répondre à vos questions.",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "e8981e4d2adc",
+    "fr": "© 2026 Felexia Conseils. Tous droits réservés.",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "ba0d15dddac7",
+    "fr": "Felexia Conseils | Création et accompagnement d’entreprise au Maroc",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "17d1241687fe",
+    "fr": "Felexia Conseils accompagne votre création d’entreprise, vos formalités, votre implantation et votre développement partout au Maroc. Présentez votre projet.",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "1b1c427274cb",
+    "fr": "Felexia Conseils — accueil",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "aa3ac56ee26d",
+    "fr": "Navigation principale",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "43c7e150dbdd",
+    "fr": "Ouvrir le menu",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "dc49c549fc14",
+    "fr": "Navigation mobile",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "55f2fc81aec3",
+    "fr": "direct info",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "884f1971f2a8",
+    "fr": "Direction generale des impots logo",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "03ec3bff84e2",
+    "fr": "logo mic",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "1ac96b3ffc9d",
+    "fr": "logo ompic",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5ad8e426b18d",
+    "fr": "ministere transfer num",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "0e9080362f27",
+    "fr": "Tamwilcom",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "86f956d6899d",
+    "fr": "ADA",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "f9460492306d",
+    "fr": "ADD",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "6090f362b380",
+    "fr": "Entrepreneurs signant les documents de création de leur société",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "5a018e6a6c9e",
+    "fr": "Entrepreneurs lisant et signant un contrat de création d'entreprise",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "id": "f81fe9479e7c",
+    "fr": "Bâtiment professionnel de style marocain sans enseigne — visuel d’illustration",
+    "routes": [
+      "/",
+      "/domiciliation",
+      "/guides",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "2e4d039db46c",
+    "fr": "Bureaux avec le logo original Felexia Conseils — visuel d’illustration",
+    "routes": [
+      "/",
+      "/domiciliation",
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "336bc1e63e7a",
+    "fr": "Accompagnement et espaces professionnels — photographie d’illustration",
+    "routes": [
+      "/",
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "3ac177473652",
+    "fr": "Contacter sur WhatsApp",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "38c7ce345b59",
+    "fr": "Retour en haut",
+    "routes": [
+      "/",
+      "/creation-entreprise",
+      "/domiciliation",
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides",
+      "/contact",
+      "/rejoignez-nous",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne",
+      "/mentions-legales",
+      "/politique-confidentialite",
+      "/cgu",
+      "/guides/page/2",
+      "/espace-client",
+      "/create",
+      "/rendez-vous"
+    ]
+  },
+  {
+    "id": "5ad95fcf9ae6",
+    "fr": "Simplifiez votre lancement",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "4ea1388cca7f",
+    "fr": "Lancez votre entreprise",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "c5e45e6bc23f",
+    "fr": "avec facilité.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "e434a8f52dc9",
+    "fr": "Chez Felexia Conseils, nous rendons la création d'entreprise simple et rapide.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "c4f70d283487",
+    "fr": "Notre processus en ligne vous guide de la complétion du formulaire à l'immatriculation, assurant une transition fluide.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "5edfb897a592",
+    "fr": "Transformez votre idée en réalité avec notre expertise et économisez temps et argent.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "50ec46716c0c",
+    "fr": "Créez votre société maintenant",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "44f5d752f5a9",
+    "fr": "Votre partenaire en création d'entreprise",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "4b3ca21399a7",
+    "fr": "Créer votre SARL",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "4c8a1017fa8e",
+    "fr": "rapidement !",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "3baf827f6c1d",
+    "fr": "Accompagnement personnalisé par nos formalistes jusqu'à l'obtention du Registre du Commerce.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "754eec677bea",
+    "fr": "Achat et revente",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "eeb7111ccc48",
+    "fr": "Construction et travaux",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "f450d07354fe",
+    "fr": "Services aux entreprises",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "04658349d912",
+    "fr": "Santé et beauté",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "d3440a619712",
+    "fr": "Commerce",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "7241151ec176",
+    "fr": "Consultants et freelance",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "997d51e40680",
+    "fr": "Informatique et web",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "1d02d727dbee",
+    "fr": "Services à la personne",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "a71319a4bde3",
+    "fr": "Restauration",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "315e0f46ecfb",
+    "fr": "Vente en ligne",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "d0253a7e1310",
+    "fr": "Automobile et transport",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "2f0dd0426a89",
+    "fr": "Autres",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "56fc5a8d9c41",
+    "fr": "Créez maintenant",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "8d8fb8063f3d",
+    "fr": "Calendrier défini selon les formalités",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "06101e7fed97",
+    "fr": "Simplifiez le juridique",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "cb5758630d05",
+    "fr": "Pourquoi",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "726babfbce2d",
+    "fr": "Felexia Conseils ?",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "940a2085ce51",
+    "fr": "Devenez indépendant en créant votre entreprise et ne perdez plus de temps ni d'argent avec les formalités juridiques.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "e1b36be4610f",
+    "fr": "Concentrez-vous sur votre activité avec un accompagnement pour vos formalités.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "d1a3da5111c6",
+    "fr": "Lancer mon entreprise",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "ac6323d6bd19",
+    "fr": "Excellence et sécurité à chaque étape.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "3b9c6f7cfcb8",
+    "fr": "Votre société entre de bonnes mains",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "30fdfb2b54b7",
+    "fr": "Pourquoi choisir",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "9769d65014df",
+    "fr": "Chez Felexia Conseils, nous simplifions la création de votre société avec un accompagnement juridique clair et adapté à votre situation.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "63c02a7ddd98",
+    "fr": "Un interlocuteur du cabinet vous accompagne à chaque étape",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "338b00933e63",
+    "fr": "Vos documents et données sont traités de manière sécurisée",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "6a954bed156c",
+    "fr": "Les étapes et les pièces à réunir sont coordonnées avec votre interlocuteur",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "da124d839f11",
+    "fr": "Un interlocuteur pour préparer les étapes de votre projet",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "56acd73b67a5",
+    "fr": "Les pièces et formalités sont examinées avec vous avant le dépôt de votre dossier",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "eb967c2a2f36",
+    "fr": "Créer maintenant",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "16664684bf73",
+    "fr": "Questions fréquentes",
+    "routes": [
+      "/creation-entreprise",
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "038b5db21ce4",
+    "fr": "Tout ce qu'il faut savoir avant de",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "acd76dcc56f6",
+    "fr": "créer votre société.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "0244a7feed8e",
+    "fr": "Découvrez comment Felexia Conseils vous accompagne à chaque étape : création d’entreprise accompagnée, domiciliation, documents juridiques, délais, fiscalité et démarches administratives.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "36b2c590e85b",
+    "fr": "Combien de temps faut-il pour créer une société au Maroc avec Felexia Conseils ?",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "9abac040976c",
+    "fr": "Le calendrier dépend de la forme juridique, des pièces disponibles et du traitement des administrations. Le cabinet vous précise les étapes et les délais estimés pour votre situation.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "28ed4eb913a7",
+    "fr": "Quels types de sociétés puis-je créer avec Felexia Conseils ?",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "60a673147f32",
+    "fr": "Felexia Conseils accompagne la création de SARL, SARL AU (associé unique) et SA au Maroc. La SARL reste la forme juridique la plus choisie pour les PME, startups et activités commerciales.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "34231add7d68",
+    "fr": "Faut-il se déplacer pour créer sa société avec Felexia Conseils ?",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "d2b518c58cac",
+    "fr": "Le premier échange et la préparation du dossier peuvent commencer à distance. Les signatures, procurations ou présences éventuellement requises sont précisées selon votre situation.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "7be2c31b7c1b",
+    "fr": "Quels documents sont nécessaires pour créer une société au Maroc ?",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "b14e58570a28",
+    "fr": "Les pièces principales sont : pièce d'identité du ou des associés, justificatif de domiciliation, dépôt de capital auprès d'une banque marocaine, et les formulaires légaux fournis par Felexia Conseils.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "ffaa3e14b6f3",
+    "fr": "Quel est le tarif pour créer une société avec Felexia Conseils ?",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "688346e8579b",
+    "fr": "L’accompagnement est proposé sur devis, après étude de votre projet. Les honoraires, frais et prestations sont précisés avant votre engagement.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "539dab350d0d",
+    "fr": "Un MRE ou étranger non-résident peut-il créer une société au Maroc avec Felexia Conseils ?",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "5c34e5e6d6d0",
+    "fr": "Le cabinet accompagne les MRE et investisseurs étrangers dans l’étude de leur projet au Maroc. Les pièces et formalités dépendent de la structure, de l’activité et de la situation des associés.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "ebcb1227eba5",
+    "fr": "Parler à un expert",
+    "routes": [
+      "/creation-entreprise",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "41aee32dece9",
+    "fr": "Création d’entreprise au Maroc | Felexia Conseils",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "c7d0b8e6b3af",
+    "fr": "Préparez la création de votre société au Maroc avec Felexia Conseils : choix de la structure, pièces, formalités et accompagnement sur devis.",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "ab188015c127",
+    "fr": "Hommes d'affaires consultant un document sur tablette",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "b2654aeb0b51",
+    "fr": "Professionnel signant un document à un bureau équipé d'un ordinateur",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "09eaf1024303",
+    "fr": "Deux personnes signant des documents importants",
+    "routes": [
+      "/creation-entreprise"
+    ]
+  },
+  {
+    "id": "1811f1321924",
+    "fr": "Réunion d'affaires professionnelle",
+    "routes": [
+      "/creation-entreprise",
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "6e918dcbdac6",
+    "fr": "Domiciliation d’entreprise",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "c474e59a9fe5",
+    "fr": "au Maroc.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "1774602221f4",
+    "fr": "Une adresse professionnelle pour votre projet au Maroc.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "d38e9022ff28",
+    "fr": "Étudions votre besoin de siège social et les modalités de domiciliation adaptées à votre entreprise.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "9d7ea8c8b66e",
+    "fr": "Démarrer ma domiciliation",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "ebeaa101f333",
+    "fr": "Voir nos tarifs",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "e804b08dbb38",
+    "fr": "Ce que comprend la",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "414b2b78ebec",
+    "fr": "domiciliation",
+    "routes": [
+      "/domiciliation",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "c4fbb95ab0b1",
+    "fr": "Adresse de domiciliation professionnelle",
+    "routes": [
+      "/domiciliation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "6a4bb488a7c2",
+    "fr": "Organisation de la réception du courrier à préciser",
+    "routes": [
+      "/domiciliation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "ca6988378b18",
+    "fr": "Modalités de numérisation du courrier à convenir",
+    "routes": [
+      "/domiciliation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "da55080abfbd",
+    "fr": "Canaux de transmission du courrier à convenir",
+    "routes": [
+      "/domiciliation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "7adcc07a0a88",
+    "fr": "Modalités de remise des documents à préciser",
+    "routes": [
+      "/domiciliation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "bda5534538f8",
+    "fr": "Contrat de domiciliation conforme à la réglementation marocaine",
+    "routes": [
+      "/domiciliation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "93d5a6e8d43b",
+    "fr": "Cette solution est idéale pour",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "18e58cac7263",
+    "fr": "Entrepreneurs et freelances",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "717a5adeb086",
+    "fr": "Créateurs de sociétés (SARL / SARLAU / SAS)",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "1428c045350f",
+    "fr": "Investisseurs et MRE",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "a97fee7736af",
+    "fr": "Sociétés souhaitant une adresse crédible sans louer un bureau",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "6ce4c03a0b06",
+    "fr": "Une domiciliation adaptée à votre activité",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "1c9bfde17f94",
+    "fr": "Quartier dynamique et accessible",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "6b6722ac309a",
+    "fr": "Adresse professionnelle adaptée au projet",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "af798a065b38",
+    "fr": "Organisation de votre courrier",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "eaef71091968",
+    "fr": "Formalités et pièces à examiner",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "4c1492151d14",
+    "fr": "Tout-en-un",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "b2418765fbd3",
+    "fr": "Domiciliation + Création",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "63c35c396db5",
+    "fr": "de société.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "9564f5fd982b",
+    "fr": "La domiciliation peut être étudiée dans le cadre de votre projet de création d’entreprise. Son périmètre et ses modalités sont précisés dans votre proposition.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "999799571788",
+    "fr": "Statuts rédigés par nos formalistes",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "be4cc0706831",
+    "fr": "Domiciliation à prévoir selon votre projet",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "86ff1bafded3",
+    "fr": "Suivi jusqu'à l'obtention du Registre du Commerce",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "c293efc8aad9",
+    "fr": "Démarrer la création de mon entreprise",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "235f4f505b02",
+    "fr": "Création + domiciliation",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "2df509712baa",
+    "fr": "Un seul interlocuteur, un parcours unique.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "ccc86d64392d",
+    "fr": "Présence nationale",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "b46af1795ea7",
+    "fr": "Domiciliation à travers",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "9646f6974275",
+    "fr": "tout le Maroc.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "c90477365a22",
+    "fr": "Felexia Conseils accompagne les projets d’implantation partout au Maroc. Les solutions de domiciliation sont étudiées selon votre activité et la ville souhaitée.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "2c3fd8c6693d",
+    "fr": "Projet à Casablanca",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "5475096448cf",
+    "fr": "Projet à Rabat",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "27c603f51da9",
+    "fr": "Projet à Marrakech",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "f703a76208f1",
+    "fr": "Projet à Laâyoune",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "6ed5edaca962",
+    "fr": "Réponses à",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "3d5d10408a5c",
+    "fr": "vos questions.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "0e8ff16da77c",
+    "fr": "Qu'est-ce que la domiciliation d'entreprise ?",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "2f649d765bbd",
+    "fr": "La domiciliation permet de disposer d’une adresse administrative et juridique pour une société. Le choix de cette adresse et les pièces justificatives sont étudiés selon l’activité et les formalités à réaliser.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "ee622348164c",
+    "fr": "Est-ce que je reçois mon courrier ?",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "df29de9eb6f0",
+    "fr": "Les modalités de réception, de numérisation, de transmission et de récupération du courrier doivent être précisées dans l’offre et le contrat de domiciliation retenus.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "9f2ffac91e3f",
+    "fr": "Dois-je me déplacer pour domicilier ou créer ma société ?",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "45ef11b25060",
+    "fr": "Vous pouvez nous présenter votre projet à distance. Nous vous indiquons ensuite les pièces, signatures ou éventuelles présences nécessaires selon votre situation.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "faf26f081170",
+    "fr": "Dans quelles autres villes proposez-vous la domiciliation ?",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "e83287df7500",
+    "fr": "Nous étudions les projets dans tout le Maroc. Contactez le cabinet avec votre ville souhaitée pour connaître les possibilités de domiciliation adaptées à votre activité.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "1a0aad73592f",
+    "fr": "En combien de temps puis-je obtenir mon contrat de domiciliation ?",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "9f17cd94e7be",
+    "fr": "Le calendrier dépend de votre dossier et de la solution retenue. Les pièces nécessaires et les délais estimés vous sont précisés avant votre engagement.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "5e3d5a6eb1fa",
+    "fr": "Casablanca",
+    "routes": [
+      "/domiciliation",
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "13db4ff4f58f",
+    "fr": "Notre adresse à Casablanca",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "f146379d769f",
+    "fr": "Résidence Al Ihssane, Immeuble 3, Appartement 4, Mabrouka, Marrakech, Maroc— Route de l'Oasis, Immeuble 3 · Appartement 4, Maarif, Casablanca.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "51490e828101",
+    "fr": "Itinéraire",
+    "routes": [
+      "/domiciliation",
+      "/contact"
+    ]
+  },
+  {
+    "id": "f2ad3870d763",
+    "fr": "Horaires",
+    "routes": [
+      "/domiciliation",
+      "/contact"
+    ]
+  },
+  {
+    "id": "206e958d4581",
+    "fr": "Lundi – Vendredi",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "133d2dadb8c4",
+    "fr": "9h – 18h",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "ec900fb480c0",
+    "fr": "Samedi – Dimanche",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "79516c40b958",
+    "fr": "Fermé",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "9851bda2698f",
+    "fr": "Voir l’adresse du cabinet sur la carte ↗",
+    "routes": [
+      "/domiciliation",
+      "/contact"
+    ]
+  },
+  {
+    "id": "65df838c364c",
+    "fr": "Domiciliation d’entreprise au Maroc | Felexia Conseils",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "2547ac7e1972",
+    "fr": "Étudiez une solution de domiciliation adaptée à votre activité au Maroc. Felexia Conseils vous accompagne dans les démarches et la préparation de votre dossier.",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "7acbf4d1342f",
+    "fr": "Deux professionnels signant des documents",
+    "routes": [
+      "/domiciliation"
+    ]
+  },
+  {
+    "id": "9ba72a5a1c9a",
+    "fr": "Nos tarifs",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "059714c6f55f",
+    "fr": "Explorez nos offres",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "22f551c77fd8",
+    "fr": "tarifaires.",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "87fc745678f4",
+    "fr": "Trois périmètres d’accompagnement pour préparer votre création d’entreprise. Les prestations retenues sont confirmées après étude de votre projet.",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "956c17a80297",
+    "fr": "Pack Essentiel",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "fc8965d8d3a7",
+    "fr": "Pour démarrer",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "16f117cf8c94",
+    "fr": "Sur devis",
+    "routes": [
+      "/tarif/creation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "2a6e661979a0",
+    "fr": "Périmètre et modalités précisés dans votre devis",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "6a0f5c84333e",
+    "fr": "Étude de votre besoin de domiciliation",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "2bfe23e592fc",
+    "fr": "À étudier",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "da8f100aef56",
+    "fr": "Création de société",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "240423de607c",
+    "fr": "Registre de commerce",
+    "routes": [
+      "/tarif/creation",
+      "/guides/auto-entrepreneur-vs-sarlau"
+    ]
+  },
+  {
+    "id": "38b86374073e",
+    "fr": "Taxe professionnelle",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "5d212c743cbe",
+    "fr": "Identifiant fiscal",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "2dcaabb24746",
+    "fr": "Statuts",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "50eba91abf65",
+    "fr": "Contrat de domiciliation",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "fc0c4025b251",
+    "fr": "Enregistrement des contrats",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "7cf39a049e5a",
+    "fr": "Affiliation de la société à la CNSS",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "8f81ff618d2b",
+    "fr": "Publication dans un journal d'annonce légal",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "a5f85bb8fcd1",
+    "fr": "Publication au Bulletin Officiel",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "8a1f1c6ce769",
+    "fr": "Demander un devis",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "7230de88fc56",
+    "fr": "Projet complet",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "a9ec66bac5fd",
+    "fr": "Pack Pro",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "0dcb7174604e",
+    "fr": "Pour structurer votre projet",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "84836d25c88d",
+    "fr": "Domiciliation selon votre projet",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "508e6d073e9b",
+    "fr": "Cachet de la société",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "282f98ef4852",
+    "fr": "Pack Premium",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "c03f77f26ebb",
+    "fr": "Le choix de la sérénité",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "c8567839bf74",
+    "fr": "Protection de marque : périmètre à définir",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "e8f076fc68c2",
+    "fr": "Les honoraires, frais administratifs, services et modalités de règlement sont précisés dans un devis avant votre engagement.",
+    "routes": [
+      "/tarif/creation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "03688ba6aa34",
+    "fr": "FAQ",
+    "routes": [
+      "/tarif/creation",
+      "/tarif/domiciliation",
+      "/guides/certificat-negatif-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc"
+    ]
+  },
+  {
+    "id": "2610c79babfc",
+    "fr": "Tout ce que vous devez",
+    "routes": [
+      "/tarif/creation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "0fb7162f1de9",
+    "fr": "savoir.",
+    "routes": [
+      "/tarif/creation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "c2a3be3134f7",
+    "fr": "Une question sur nos offres, le contrat de domiciliation ou le déroulement de la création ? Notre équipe vous répond rapidement.",
+    "routes": [
+      "/tarif/creation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "ffdbd5ccbd09",
+    "fr": "Consulter les guides",
+    "routes": [
+      "/tarif/creation",
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "548b8b8a1673",
+    "fr": "Offres de création d’entreprise sur devis | Felexia Conseils",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "61bbb3bc7d97",
+    "fr": "Comparez les périmètres d’accompagnement à la création d’entreprise et demandez un devis adapté à votre projet au Maroc auprès de Felexia Conseils.",
+    "routes": [
+      "/tarif/creation"
+    ]
+  },
+  {
+    "id": "9b9fede54565",
+    "fr": "Tarifs Domiciliation",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "f0476923f6b3",
+    "fr": "Une adresse professionnelle",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "bdd0b220652e",
+    "fr": "adaptée à votre projet.",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "e0db69fea93c",
+    "fr": "Étudiez les modalités de domiciliation, la durée et l’organisation du courrier avec votre interlocuteur. Chaque proposition fait l’objet d’un devis.",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "7c86cedd907a",
+    "fr": "Domiciliation 12 mois",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "3cbeea57e341",
+    "fr": "12 mois",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "3dc58d9e8d4d",
+    "fr": "Selon votre projet et les services retenus",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "78ae47944b22",
+    "fr": "Choisir 12 mois",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "63c4942a07e6",
+    "fr": "Projet à étudier",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "2e4c4f372bb1",
+    "fr": "Domiciliation 24 mois",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "c14791b5792e",
+    "fr": "24 mois",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "02eb7f696ef0",
+    "fr": "Une proposition adaptée à la durée souhaitée",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "98adef69cd98",
+    "fr": "Choisir 24 mois",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "6402c2e0de50",
+    "fr": "Domiciliation sur devis au Maroc | Felexia Conseils",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "c235ad9c1989",
+    "fr": "Demandez une proposition de domiciliation adaptée à votre entreprise. Les services, la durée et les modalités sont précisés dans votre devis Felexia Conseils.",
+    "routes": [
+      "/tarif/domiciliation"
+    ]
+  },
+  {
+    "id": "283ce610d080",
+    "fr": "Tout pour réussir votre projet d'entreprise au Maroc",
+    "routes": [
+      "/guides",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "397ff0616c46",
+    "fr": "Ressources, démarches et conseils pour créer, domicilier et faire grandir votre société.",
+    "routes": [
+      "/guides",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "5c0d5b5e1980",
+    "fr": "Comptabilité & Fiscalité",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/mre-etranger",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "09904560b360",
+    "fr": "Facturation électronique au Maroc : ce qui change en 2026",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "90208640f1cd",
+    "fr": "La facturation électronique devient progressivement obligatoire au Maroc à partir de 2026, sous l'impulsion de la DGI. Calendrier, format UBL, sanctions : l'essentiel à connaître pour anticiper cette réforme fiscale majeure.",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "80751fe48b02",
+    "fr": "10 septembre 2026",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "e11326faec62",
+    "fr": "Création d'entreprise à Rabat",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "5a4494644e38",
+    "fr": "Capitale administrative et politique du Royaume, Rabat offre un cadre stable et institutionnel pour les entrepreneurs. Découvrez les spécificités des démarches de création de société à Rabat en 2026.",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "ad3ef05b972d",
+    "fr": "17 août 2026",
+    "routes": [
+      "/guides",
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "af659a4ef425",
+    "fr": "Fiduciaire à Casablanca : comment bien choisir en 2026",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc"
+    ]
+  },
+  {
+    "id": "3876a07152da",
+    "fr": "Casablanca concentre l'essentiel de l'offre en cabinets fiduciaires au Maroc — ce qui complique parfois le choix plus que ça ne le facilite. On te donne les critères concrets pour bien choisir, les tarifs à attendre et les erreurs à éviter avant de signer.",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc"
+    ]
+  },
+  {
+    "id": "96a36013b6e5",
+    "fr": "3 juillet 2026",
+    "routes": [
+      "/guides",
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "514f2cdfd0dd",
+    "fr": "Création d'Entreprise",
+    "routes": [
+      "/guides",
+      "/guides/creation-entreprise-rabat",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "8ab76f080c04",
+    "fr": "Registre de Commerce au Maroc : RC et immatriculation",
+    "routes": [
+      "/guides",
+      "/guides/creation-entreprise-rabat",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "6c2f1492c43b",
+    "fr": "Tu veux immatriculer ta société ou vérifier le RC d'une entreprise au Maroc ? Le Registre de Commerce est l'acte qui donne une existence légale à ton activité. On t'explique qui doit s'inscrire, comment obtenir ton numéro RC, ce qu'il coûte et comment le consulter en ligne.",
+    "routes": [
+      "/guides",
+      "/guides/creation-entreprise-rabat",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "f2ef19424e29",
+    "fr": "22 juin 2026",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "30a38fc91736",
+    "fr": "Certificat négatif au Maroc : c'est quoi et comment l'obtenir",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "2678387f0567",
+    "fr": "Avant de rédiger tes statuts ou de déposer ton capital, une étape est incontournable : le certificat négatif. C'est la toute première formalité pour créer ta société au Maroc. On te montre à quoi il sert, comment l'obtenir en ligne auprès de l'OMPIC, son coût et sa validité.",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "44de65373b90",
+    "fr": "16 juin 2026",
+    "routes": [
+      "/guides",
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "ea49df3b409e",
+    "fr": "Créer une SARL au Maroc : Le Guide Complet 2026",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "f0d2189fd928",
+    "fr": "Tout savoir sur la SARL au Maroc en 2026 : de l'obtention du certificat négatif à l'immatriculation finale au Registre de commerce pour commencer votre projet en toute sérénite.",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "178dde71e366",
+    "fr": "20 mai 2026",
+    "routes": [
+      "/guides",
+      "/guides/creer-une-sarl-maroc"
+    ]
+  },
+  {
+    "id": "70753e88c492",
+    "fr": "ICE au Maroc : c'est quoi, comment l'obtenir et le vérifier",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc"
+    ]
+  },
+  {
+    "id": "d0afc7a16235",
+    "fr": "Tu vois « ICE » sur chaque facture sans vraiment savoir ce que c'est ? Cet identifiant de 15 chiffres est indispensable pour facturer, t'affilier à la CNSS et travailler avec les grands donneurs d'ordre. Voici comment l'obtenir gratuitement, le retrouver et le vérifier.",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc"
+    ]
+  },
+  {
+    "id": "6b4d6fd6c911",
+    "fr": "15 mai 2026",
+    "routes": [
+      "/guides",
+      "/guides/ice-identifiant-commun-entreprise-maroc"
+    ]
+  },
+  {
+    "id": "ba3f6f4e01ba",
+    "fr": "Investissement",
+    "routes": [
+      "/guides",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/mre-etranger",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "670e56e44771",
+    "fr": "Filiale ou succursale au Maroc : quelle structure choisir ?",
+    "routes": [
+      "/guides",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "2502f4682f59",
+    "fr": "Tu diriges une société étrangère et tu veux t'implanter au Maroc ? Filiale ou succursale : ce choix décide de ta responsabilité, de ta fiscalité et de ton image locale. On compare les deux options point par point pour t'aider à choisir la structure adaptée à ton projet.",
+    "routes": [
+      "/guides",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "670494c78c98",
+    "fr": "11 mai 2026",
+    "routes": [
+      "/guides",
+      "/guides/filiale-ou-succursale-maroc"
+    ]
+  },
+  {
+    "id": "b05c3ab4597e",
+    "fr": "Guide de création d'entreprise à Casablanca",
+    "routes": [
+      "/guides",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "966f3781de42",
+    "fr": "Capitale économique du Royaume, Casablanca offre un écosystème dynamique pour les entreprises. Découvrez les spécificités des démarches de création de société à Casablanca en 2026.",
+    "routes": [
+      "/guides",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "11a2991ef585",
+    "fr": "8 mai 2026",
+    "routes": [
+      "/guides",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "89e6b812f564",
+    "fr": "Guides création et gestion d'entreprise au Maroc | Felexia Conseils",
+    "routes": [
+      "/guides"
+    ]
+  },
+  {
+    "id": "ffd0e542bfb5",
+    "fr": "Guides pratiques pour créer, gérer et développer votre entreprise au Maroc — fiscalité, droit des sociétés, démarches administratives.",
+    "routes": [
+      "/guides",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "b4eec3185101",
+    "fr": "facture éléctronique",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "0b5eae2d2ed4",
+    "fr": "Domiciliation Rabat",
+    "routes": [
+      "/guides",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "cf5b602c8489",
+    "fr": "Registre RC",
+    "routes": [
+      "/guides",
+      "/guides/creation-entreprise-rabat",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "77880b75eea3",
+    "fr": "Entreprise mre",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "5a0c2dfb575c",
+    "fr": "Creer une entreprise",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "a26e24d5cd0d",
+    "fr": "certificat négatif",
+    "routes": [
+      "/guides",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "3dd20261f879",
+    "fr": "Creation société",
+    "routes": [
+      "/guides",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "cd409bf77f19",
+    "fr": "Pagination des guides",
+    "routes": [
+      "/guides",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "9e15ded9d3a9",
+    "fr": "Page précédente",
+    "routes": [
+      "/guides",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "86b1be4080ba",
+    "fr": "Page suivante",
+    "routes": [
+      "/guides",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "e9aaba5afce8",
+    "fr": "Parlons de votre projet",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "cdc472800976",
+    "fr": "Une question sur la création de votre société, la domiciliation ou la fiscalité ? L'équipe Felexia Conseils vous accompagne.",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "70d4735862af",
+    "fr": "Bureau",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "4ae81383cca2",
+    "fr": "Appeler maintenant →",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "b1d702459399",
+    "fr": "Mobile",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "b336fc558722",
+    "fr": "WhatsApp",
+    "routes": [
+      "/contact",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "728cd1066a9d",
+    "fr": "Échangez directement avec le cabinet",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "ff147c724f48",
+    "fr": "Démarrer la discussion →",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "0d01e2e86669",
+    "fr": "E-mail",
+    "routes": [
+      "/contact",
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "a10f7db3db86",
+    "fr": "Nous écrire →",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "522e14667960",
+    "fr": "Adresse",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "bea5cb11ae36",
+    "fr": "Accueil au cabinet sur rendez-vous.",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "0617e3b2da5b",
+    "fr": "Choisir mes préférences de rendez-vous →",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "5282eab753b6",
+    "fr": "Écrivez-nous",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "45850ea66506",
+    "fr": "Décrivez votre besoin et nous reviendrons vers vous rapidement avec un plan d'action.",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "9a8c488deec2",
+    "fr": "Notre cabinet au Maroc",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "cb43ef19de28",
+    "fr": "Le cabinet vous reçoit sur rendez-vous à Marrakech. Nous accompagnons également vos projets dans tout le Maroc par téléphone, WhatsApp et courriel.",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "745522e7eded",
+    "fr": "Adresse :",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "d2c27a9778fb",
+    "fr": "Prendre rendez-vous",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "b054884aad15",
+    "fr": "Contactez Felexia Conseils | Votre projet au Maroc",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "2e7d9ca00d8c",
+    "fr": "Contactez Felexia Conseils par téléphone, WhatsApp, courriel ou formulaire pour préparer votre projet au Maroc ou organiser un rendez-vous au cabinet.",
+    "routes": [
+      "/contact"
+    ]
+  },
+  {
+    "id": "221ef45d665e",
+    "fr": "Carrières",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "3bc48649f4c7",
+    "fr": "Rejoignez l’aventure Felexia Conseils",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "86709333e691",
+    "fr": "Felexia Conseils accompagne les entrepreneurs et investisseurs dans la création, la structuration et le développement de leur activité au Maroc.",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "732742298d9e",
+    "fr": "Notre mission est de simplifier la vie des entrepreneurs grâce à une approche qui mêle juridique, comptabilité et technologie.",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "c971d5a35055",
+    "fr": "Vous souhaitez contribuer à l’accompagnement des entrepreneurs ? Présentez-nous votre expérience et les missions qui vous intéressent.",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "3417761609b0",
+    "fr": "Échangeons sur votre profil",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "75fde67239be",
+    "fr": "Vous pouvez présenter une candidature spontanée au cabinet.",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "2a4dec41472c",
+    "fr": "Candidature spontanée",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "221819ceda5f",
+    "fr": "Vous pouvez adresser une candidature spontanée au cabinet en présentant votre expérience et les missions recherchées. Aucune ouverture de poste n’est annoncée sur cette page.",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "7d96cbca852a",
+    "fr": "Envoyer mon profil ↗",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "ea38b13421b6",
+    "fr": "Présentez votre candidature",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "e216cbbabe5f",
+    "fr": "Décrivez votre expérience et les missions qui vous intéressent. Vous pouvez adresser votre CV directement à",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "2e44979b2e9b",
+    "fr": "Candidature spontanée | Felexia Conseils",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "0954d9c390a2",
+    "fr": "Présentez votre expérience et votre candidature spontanée à Felexia Conseils, cabinet de conseil et d’accompagnement des entreprises au Maroc.",
+    "routes": [
+      "/rejoignez-nous"
+    ]
+  },
+  {
+    "id": "79fe2d4cd5f3",
+    "fr": "Par Felexia Conseils",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "7b4e9eb2dd0f",
+    "fr": "6 min de lecture",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/fiduciaire-maroc",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "ad2b5814308f",
+    "fr": "Sommaire",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "c209714e1c63",
+    "fr": "Anticipez la réforme dès la création de votre société",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "7e1abf152145",
+    "fr": "C'est quoi la facturation électronique ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "9b6942e4de2f",
+    "fr": "Pourquoi cette réforme ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "2d28a5e2251b",
+    "fr": "Quelles entreprises sont concernées, et quand ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "a1c5edce3b36",
+    "fr": "Comment fonctionne le système de la DGI ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "e176f416b5c3",
+    "fr": "Ce qui change concrètement pour vous",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "350d688342c6",
+    "fr": "Comment se préparer ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "ef4320c30571",
+    "fr": "Que se passe-t-il en cas de non-conformité ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "9fdb997125ae",
+    "fr": "Quel impact sur la relation avec votre fiduciaire ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "e4237074a24c",
+    "fr": "Une comptabilité prête pour la réforme, dès la création",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "c75d6b8019a9",
+    "fr": "FAQ - Facturation électronique au Maroc",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "1d258b925cb9",
+    "fr": "La facturation électronique est-elle déjà obligatoire en 2026 ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "83bf6ba3bc2f",
+    "fr": "Qui pilote la réforme ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "b0067ccfafa6",
+    "fr": "Faut-il changer de logiciel de facturation ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "b45a8f2ea8cb",
+    "fr": "Le papier garde-t-il une valeur légale après la réforme ?",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "ae7a82b1833b",
+    "fr": "Sources officielles",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/certificat-negatif-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc"
+    ]
+  },
+  {
+    "id": "8f2a02747dd3",
+    "fr": "Créez votre entreprise au Maroc en quelques jours",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "d0a3cd351eac",
+    "fr": "Accompagnement complet : statuts, immatriculation, domiciliation. Devis instantané, sans engagement.",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "cbcb7f0c3981",
+    "fr": "Partager",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "16b74722ff3c",
+    "fr": "Felexia Conseils vous accompagne dans la création de votre entreprise et vous met en relation avec des fiduciaires déjà prêtes pour la facturation électronique.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "d420f3671b24",
+    "fr": "La facturation électronique cesse d'être une option au Maroc : la DGI en fait une obligation légale progressive, entreprise par entreprise, à partir de 2026. Que vous soyez déjà assujetti ou que ça n'arrive que dans quelques années pour votre structure, mieux vaut comprendre la réforme maintenant plutôt que la découvrir sous pression. Ce guide vous explique le principe, le calendrier, ce qui va concrètement changer et comment vous y préparer.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "20f9bc7e9f3e",
+    "fr": "Contrairement à un simple PDF envoyé par e-mail, une facture électronique au sens de la réforme est un document structuré (format normalisé de type UBL) qui peut être lu, validé et traité automatiquement par les systèmes informatiques — le vôtre comme celui de l'administration fiscale.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "a2a765165f1c",
+    "fr": "La différence essentielle avec la pratique actuelle : aujourd'hui, la facture papier ou le PDF que vous envoyez fait foi. Demain, dans le nouveau système, c'est la version électronique validée par la DGI qui devient l'original légal de la facture. Le papier perd sa valeur probante.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "06bb5339b6f7",
+    "fr": "La Direction Générale des Impôts (DGI) pilote cette transformation dans le cadre de la modernisation du système fiscal marocain, sur la base légale de l'article 145 du Code Général des Impôts, tel que modifié par les lois de finances successives.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "26d7ae2143ea",
+    "fr": "Les objectifs affichés sont clairs : réduire les fausses factures et la fraude à la TVA, améliorer la traçabilité des transactions commerciales, fluidifier les déclarations fiscales, et faire reculer l'informel qui s'infiltre parfois dans des comptabilités par ailleurs structurées. La réforme s'inscrit dans la continuité d'autres mesures récentes — retenue à la source de la TVA, attestations de régularité fiscale, encadrement des délais de paiement — qui préparaient déjà le terrain.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "663d7a561e4a",
+    "fr": "À terme, la réforme concernera la quasi-totalité du tissu économique marocain assujetti à la TVA — potentiellement plus d'un million d'entreprises, des grands groupes aux auto-entrepreneurs. Mais le déploiement se fait par vagues, en commençant par les plus grandes structures :",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "4ec0ed9849d8",
+    "fr": "Grandes entreprises — premières concernées, dès 2026.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "3cf06c6a4465",
+    "fr": "Entreprises moyennes — intégrées dans un second temps.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "bea6ed29387f",
+    "fr": "PME, TPE et auto-entrepreneurs dépassant un certain chiffre d'affaires — généralisation prévue dans les phases suivantes, à horizon 2027-2028.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "ffaa4cc011cc",
+    "fr": "Point important à retenir : les seuils précis de chiffre d'affaires séparant chaque vague varient encore selon les sources tant que le décret d'application définitif n'a pas été publié par la DGI. Si vous voulez savoir exactement à quelle phase votre société sera rattachée, le plus fiable est de vérifier directement avec votre fiduciaire ou sur le portail officiel de la DGI au moment de la publication du texte — plutôt que de vous fier à une date unique communiquée en amont.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "e4c9614c4fbc",
+    "fr": "Dans un premier temps, le dispositif ne concernera que les transactions B2B (entre entreprises), avant une éventuelle extension au B2C.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "96c964574aa0",
+    "fr": "Le Maroc a opté pour un modèle dit de « clearance », c'est-à-dire de validation préalable par l'administration. Concrètement, le parcours d'une facture se déroule en cinq étapes :",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "99ee365d8c96",
+    "fr": "Émission. Le fournisseur crée la facture au format structuré, depuis son logiciel de gestion ou directement sur le portail de la DGI.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "f67af251348b",
+    "fr": "Signature. La facture est signée électroniquement à l'aide d'un certificat numérique qualifié.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "7ebb2c73c6fd",
+    "fr": "Transmission. Elle transite par la plateforme centralisée de la DGI.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "8610abebfcac",
+    "fr": "Validation. La DGI vérifie la conformité du format, de la signature et des données obligatoires, puis valide la facture.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "605643a7e9c1",
+    "fr": "Réception. La facture validée est transmise au client, avec une date et une confirmation de réception officielles.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "347dc4bf6052",
+    "fr": "Dans ce modèle, la DGI joue un rôle central : une facture qui n'a pas transité et été validée par la plateforme n'a, en principe, pas de valeur légale.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "2258de39ee90",
+    "fr": "Trois conséquences pratiques à anticiper, quelle que soit la taille de votre structure :",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "920e912a5c89",
+    "fr": "Votre logiciel de facturation ou de comptabilité doit être compatible avec les normes de la DGI — format structuré, connexion à la plateforme, capacité à gérer la signature électronique.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "4faf3a88f625",
+    "fr": "La signature électronique devient un outil de travail courant, ce qui implique l'acquisition d'un certificat numérique qualifié pour l'entreprise ou son représentant.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "b4e03408a535",
+    "fr": "Le suivi comptable se resserre : chaque facture étant validée en quasi temps réel par la DGI, les délais d'enregistrement et de correction des erreurs se réduisent mécaniquement.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "29b67a4f4f25",
+    "fr": "Même si votre société n'est pas dans la première vague, il est plus confortable d'anticiper que de se retrouver au pied du mur. Trois réflexes utiles :",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "1ea826e27d8c",
+    "fr": "Vérifiez la compatibilité de votre logiciel comptable avec les futures normes DGI, auprès de votre éditeur ou de votre fiduciaire.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "27f6677dfa92",
+    "fr": "Anticipez le budget : mise à jour logicielle, certificat de signature électronique, éventuel accompagnement — les coûts varient selon la taille de l'entreprise et les volumes de factures traités.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "c67da8db3f21",
+    "fr": "Impliquez votre fiduciaire tôt dans la démarche : c'est elle qui pourra vous indiquer précisément à quelle phase du calendrier votre société sera rattachée et vous aider à faire l'audit préalable de vos outils actuels.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "929f7d8b9376",
+    "fr": "Une fois une entreprise entrée dans le périmètre obligatoire de la réforme, émettre des factures hors du circuit validé par la DGI expose à un risque fiscal direct : une facture non conforme au nouveau format perd sa valeur d'original légal, ce qui peut fragiliser la déduction de TVA côté client comme côté fournisseur, en plus d'exposer à des sanctions prévues par le Code Général des Impôts. C'est une raison supplémentaire de ne pas attendre la dernière minute pour mettre vos outils à niveau.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "6ae25e625632",
+    "fr": "Le risque n'est pas seulement fiscal, il est aussi commercial. Un client assujetti à la réforme ne pourra tout simplement pas accepter une facture qui n'a pas transité par la plateforme DGI, même si elle est par ailleurs correcte sur le fond. Concrètement, un fournisseur qui traîne dans sa mise en conformité peut se retrouver écarté par des clients eux-mêmes déjà soumis à l'obligation, indépendamment de toute sanction administrative. Pour une entreprise qui travaille avec de grands comptes — souvent parmi les premiers concernés par la réforme — la pression pour se mettre à niveau peut donc arriver plus tôt que ne le laisse penser la seule lecture du calendrier officiel par taille d'entreprise.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "454bb4843997",
+    "fr": "La facturation électronique rebat en partie les rôles entre l'entreprise et sa fiduciaire. Aujourd'hui, une bonne partie du travail comptable consiste à ressaisir et vérifier des factures reçues au format papier ou PDF. Avec des factures structurées et validées en amont par la DGI, une partie de cette saisie manuelle devient automatisable, ce qui libère du temps pour du conseil à plus forte valeur ajoutée.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "43a20b753541",
+    "fr": "En pratique, c'est aussi votre fiduciaire qui sera la mieux placée pour vous indiquer, dossier en main, à quelle vague de la réforme votre société sera rattachée, et pour vous accompagner dans le choix ou la mise à jour de votre logiciel de facturation. Autant l'associer à la réflexion en amont plutôt qu'au moment où l'obligation devient effective.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "f4e9ad2f16e9",
+    "fr": "Felexia Conseils vous accompagne dans la préparation de votre création d’entreprise au Maroc. Vous pouvez présenter votre projet à distance ; le cabinet vous précise ensuite les pièces, formalités et modalités adaptées à votre situation.",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "93bb996e4c58",
+    "fr": "Elle le devient progressivement à partir de 2026, en commençant par les plus grandes entreprises. La généralisation à l'ensemble du tissu économique, y compris les PME et auto-entrepreneurs, est prévue dans les phases suivantes, jusqu'en 2027-2028 selon les sources actuelles.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "19e5c8610dae",
+    "fr": "La Direction Générale des Impôts (DGI), sur la base légale de l'article 145 du Code Général des Impôts modifié par les lois de finances successives.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "22bedb8308f1",
+    "fr": "Pas nécessairement : tout dépend de la compatibilité de votre solution actuelle avec les normes DGI. Un audit préalable, souvent réalisé avec votre fiduciaire, permet de savoir si une mise à jour suffit ou si un changement de solution est nécessaire.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "c702c4349e5a",
+    "fr": "Non, pour les entreprises entrées dans le périmètre obligatoire : la version électronique validée par la DGI devient l'original légal de la facture, le papier perdant sa valeur probante.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "e3ceb1c0a60d",
+    "fr": "Direction Générale des Impôts (DGI) — tax.gov.ma",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "a2b80dd2334a",
+    "fr": "Code Général des Impôts, article 145 (modifié par les lois de finances successives)",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "ddcf78ace313",
+    "fr": "Bulletin Officiel du Royaume du Maroc (décrets d'application, à jour à la publication)",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "215e0257a7c6",
+    "fr": "Votre fiduciaire en ligne au Maroc",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "40ad2e0f61bd",
+    "fr": "Création de société, domiciliation, comptabilité, accompagnement juridique — une équipe d'experts à vos côtés. de réponse pendant les jours ouvrés.",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "d3b023eabc9c",
+    "fr": "Téléphone",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "5ad395e28424",
+    "fr": "Réponse rapide",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "9de3a67d8b0d",
+    "fr": "Discuter avec un expert",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "676558cec250",
+    "fr": "Rédigé par",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "fe5df342e37e",
+    "fr": "Ressource informative sur la création d’entreprise et les formalités au Maroc.",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "ffcf56f759f8",
+    "fr": "Discuter avec un expert →",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "995e29196837",
+    "fr": "À lire aussi",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "c74a9cf24b2c",
+    "fr": "Tous les guides",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "67f505330337",
+    "fr": "Fiduciaire au Maroc : tout savoir en 2026",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/fiduciaire-maroc",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "34af35ff27fd",
+    "fr": "Tout savoir sur le rôle d'une fiduciaire au Maroc en 2026. Découvrez comment optimiser votre gestion comptable, sécuriser vos déclarations fiscales (TVA, IS, IR) et assurer la conformité légale de votre entreprise avec Felexia Conseils.",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/fiduciaire-maroc",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "0ce130385a0a",
+    "fr": "Facturation électronique au Maroc 2026 | Felexia Conseils",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "e9690deae585",
+    "fr": "Facturation électronique obligatoire au Maroc dès 2026 : calendrier DGI, format UBL, sanctions. MyLegal vous accompagne dans votre mise en conformité.",
+    "routes": [
+      "/guides/facturation-electronique-maroc"
+    ]
+  },
+  {
+    "id": "938c790b54eb",
+    "fr": "Fil d'Ariane",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "985eb3f25b2a",
+    "fr": "Partager sur LinkedIn",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "d710b6fe12ea",
+    "fr": "Partager sur X",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "98ad32fb35c5",
+    "fr": "Partager sur Facebook",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "31505d9ade31",
+    "fr": "Copier le lien",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/creation-entreprise-rabat",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/registre-de-commerce-maroc",
+      "/guides/certificat-negatif-maroc",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger",
+      "/guides/creation-entreprise-en-ligne"
+    ]
+  },
+  {
+    "id": "32e996ad69ac",
+    "fr": "fiduciaire",
+    "routes": [
+      "/guides/facturation-electronique-maroc",
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/fiduciaire-maroc",
+      "/guides/page/2"
+    ]
+  },
+  {
+    "id": "4d27afc74b51",
+    "fr": "7 min de lecture",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/nom-commercial-enseigne-et-marque",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau"
+    ]
+  },
+  {
+    "id": "eb3422cc0766",
+    "fr": "Pourquoi choisir Rabat pour créer votre société ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "3b95bcd8c755",
+    "fr": "Un environnement institutionnel favorable aux entreprises",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "e0f270a1ab39",
+    "fr": "Les avantages de la création de société au Maroc en ligne avec Felexia Conseils",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "35915317bacd",
+    "fr": "Des démarches préparées avec vous",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "df575a34c629",
+    "fr": "Un accompagnement juridique inclus",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "47c491cdd56a",
+    "fr": "Quelle forme juridique choisir pour votre société à Rabat ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "655d18e9dc9c",
+    "fr": "SARL, SARLAU ou SAS : laquelle choisir ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "9b76351270fa",
+    "fr": "Comment fonctionne la création en ligne avec Felexia Conseils ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "ee9274ba541e",
+    "fr": "Un processus en 6 étapes simples",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "71c45fd01869",
+    "fr": "Quels documents à fournir pour créer une société à Rabat ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "d5d0bbada410",
+    "fr": "Le cas particulier des entrepreneurs étrangers : évitez tout blocage administratif",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "ad92c39695ff",
+    "fr": "Domiciliation à Rabat : la solution pour démarrer sans local",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "f2107311c312",
+    "fr": "Rabat ou Casablanca : quelle ville pour quelle activité ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "17791f4dc84b",
+    "fr": "Immatriculez votre entreprise à Rabat avec Felexia Conseils",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "26cce92f052a",
+    "fr": "FAQ - création de société à Rabat",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "51bb486d1e6a",
+    "fr": "Combien coûte la création d'une société à Rabat ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "d07d67309e71",
+    "fr": "Peut-on créer une société à Rabat sans se déplacer ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "4108384ec8b7",
+    "fr": "Quel est le délai pour créer une société à Rabat ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "c3e3c891167d",
+    "fr": "Faut-il obligatoirement un local pour créer une société à Rabat ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "f01035af8c32",
+    "fr": "Peut-on créer une société à Rabat en tant qu'étranger non-résident ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "7311b33b733a",
+    "fr": "Comment ouvrir un compte bancaire professionnel après la création de ma société ?",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "3bd67b2c3c3d",
+    "fr": "Capitale administrative du Maroc, Rabat concentre les ministères, les institutions publiques, les ambassades et un tissu croissant d'entreprises de conseil, de services et de technologie. Que vous souhaitiez lancer un cabinet de conseil, une agence de services ou une structure travaillant avec l'administration, la création d'entreprise à Rabat s'appuie sur un environnement stable et bien desservi. Voici les spécificités locales à maîtriser en 2026.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "7f7f386cbcaf",
+    "fr": "Plus besoin de courir les administrations ou de multiplier les déplacements physiques. En 2026, la transformation digitale du droit des affaires au Maroc vous permet de lancer votre structure entièrement à distance. Découvrez comment Felexia Conseils simplifie et sécurise vos démarches administratives et juridiques.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "a957f5bb947e",
+    "fr": "Rabat n'est pas seulement le siège du gouvernement marocain : c'est aussi une ville qui concentre administrations centrales, ambassades, organismes internationaux et un nombre croissant de sièges sociaux d'entreprises travaillant en lien avec le secteur public ou les institutions. Elle offre un cadre stable, une qualité de vie reconnue et une proximité directe avec les centres de décision.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "05e9b758a8f9",
+    "fr": "Créer votre société à Rabat, c'est bénéficier d'un accès facilité aux administrations centrales, d'un écosystème propice aux activités de conseil, juridiques et institutionnelles, et d'une ville à taille humaine qui simplifie les démarches du quotidien.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "3d6da5f5d452",
+    "fr": "Pour les entrepreneurs dont l'activité touche au conseil, au droit, à la formation ou aux relations avec l'administration, s'implanter à Rabat envoie un signal de sérieux et de proximité institutionnelle. La ville attire aussi des MRE et des investisseurs qui recherchent un cadre plus posé que Casablanca, tout en restant à moins d'une heure de la capitale économique.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "1c4311665685",
+    "fr": "La création de société en ligne au Maroc permet de gagner un temps précieux et de simplifier l'ensemble des démarches administratives. Plus besoin de vous déplacer auprès des différentes administrations : toutes les étapes peuvent être réalisées à distance, depuis le dépôt de vos documents jusqu'à la signature des formalités nécessaires.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "19be451b181e",
+    "fr": "Créer une société en ligne avec Felexia Conseils vous permet de bénéficier d'un accompagnement personnalisé tout au long du processus. Les documents sont préparés et vérifiés par le cabinet qui vous accompagne tout le long de la création de votre société, ce qui réduit les risques d'erreurs et accélère le traitement de votre dossier.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "97752be3116e",
+    "fr": "Cette solution est particulièrement adaptée aux entrepreneurs, aux MRE (Marocains Résidant à l'Étranger) et aux investisseurs étrangers qui souhaitent créer une société au Maroc sans avoir à se déplacer.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "a1ba32746f86",
+    "fr": "Chez Felexia Conseils, notre service de création d'entreprise prend en charge l'ensemble des formalités de SARL et SARLAU au Maroc, du certificat négatif jusqu'à l'obtention du Registre de Commerce, de l'ICE, de l'Identifiant Fiscal et de l'affiliation CNSS.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "786c20e9a1b4",
+    "fr": "Le choix de la forme juridique est une étape clé dans la création de votre société. À Rabat comme partout au Maroc, les formes les plus courantes sont la SARLAU (Société à Responsabilité Limitée à Associé Unique), la SARL (Société à Responsabilité Limitée), la SASU et la SAS. La SARLAU est idéale si vous lancez votre projet seul : elle est simple à gérer, protège votre patrimoine personnel et ne nécessite aucun capital minimum depuis la réforme de 2006.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "a7c1add51f89",
+    "fr": "Forme juridique",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "4d67e67a82e6",
+    "fr": "Adaptée pour",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "d8dc2499c485",
+    "fr": "Capital minimum",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "979e23094c56",
+    "fr": "Entrepreneur seul",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "b2ed82f1bf1c",
+    "fr": "Aucun",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/auto-entrepreneur-vs-sarlau"
+    ]
+  },
+  {
+    "id": "4c9ff865ffa8",
+    "fr": "Plusieurs associés, gouvernance souple",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "9eced0e58125",
+    "fr": "SAS",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "0c39c6a31cfd",
+    "fr": "Startups, levées de fonds, liberté statutaire",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "6dfbff2d325e",
+    "fr": "Avant de choisir, il est conseillé de consulter un juriste pour analyser votre situation fiscale, vos besoins en capital et la structure de votre actionnariat. Chez Felexia Conseils, les membres de notre équipe vous orientent vers la forme la plus adaptée à votre projet, sans jargon inutile.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "9615d5a112b1",
+    "fr": "1. Décrivez votre projet",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "81bdf6d4737c",
+    "fr": "Remplissez un formulaire en ligne avec les informations concernant votre activité, le nom de votre future société et vos associés éventuels.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "e8d174ff2b0c",
+    "fr": "2. Accompagnement par le cabinet dédié",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "950c4b2f5061",
+    "fr": "Un interlocuteur du cabinet analyse votre dossier, répond à vos questions, vous conseille et prépare l'ensemble des documents nécessaires à la création de votre société.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "73c62e77c551",
+    "fr": "3. Signature des documents",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "2b27a070f6e7",
+    "fr": "4. Domiciliation de votre société à Rabat",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "ace0b2202459",
+    "fr": "Felexia Conseils étudie avec vous la solution de domiciliation adaptée à votre activité et à la ville souhaitée. L’adresse proposée, les services, les modalités de courrier et les coûts sont précisés dans le devis et le contrat retenus.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creer-une-sarl-maroc",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise",
+      "/guides/auto-entrepreneur-vs-sarlau",
+      "/guides/mre-etranger"
+    ]
+  },
+  {
+    "id": "f1883cf9f79e",
+    "fr": "5. Gestion complète des formalités administratives",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "739096d6ea6e",
+    "fr": "Nous prenons en charge toutes les démarches auprès des administrations compétentes jusqu'à l'obtention de vos identifiants officiels.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "b38eb6dfe7ec",
+    "fr": "6. Réception de vos documents : RC, identifiant fiscal et ICE",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "9c5c2626afb9",
+    "fr": "Une fois l'immatriculation finalisée, vous recevez votre dossier complet comprenant notamment le Registre de Commerce (RC), l'Identifiant Fiscal (IF), l'ICE, la Taxe Professionnelle et votre affiliation CNSS.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "fa632baa94d8",
+    "fr": "La constitution d'un dossier de création de société peut sembler complexe, mais avec Felexia Conseils, vous savez exactement ce dont vous avez besoin dès le départ. Pour une SARLAU ou une SARL, les documents généralement requis comprennent : une copie de la carte nationale d'identité (CIN) ou du passeport pour chaque associé, un justificatif de domicile personnel récent, le choix du nom de la société (avec une liste de noms alternatifs pour le certificat négatif), ainsi que la description précise de l'activité envisagée.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "0d2acced8ad4",
+    "fr": "Si vous êtes étranger non-résident, des pièces complémentaires peuvent être nécessaires, notamment une attestation bancaire ou un document justifiant votre capacité d'investissement. Notre équipe juridique vous accompagne dans la préparation de chaque pièce du dossier et s'assure que tout est conforme avant de déposer votre demande.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca"
+    ]
+  },
+  {
+    "id": "ba533575c669",
+    "fr": "Si vous n'avez pas besoin d'un local commercial pour exercer votre activité, la domiciliation d'entreprise est une solution simple et économique pour obtenir une adresse professionnelle à Rabat sans supporter les coûts élevés d'un bail commercial. Elle convient particulièrement aux activités de conseil, aux professions juridiques, aux consultants et aux sociétés de services qui souhaitent une adresse reconnue par les banques et l'administration sans les charges fixes d'un bureau.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "c0d88fe41f7c",
+    "fr": "Felexia Conseils vous oriente vers une solution de domiciliation à Rabat adaptée à votre activité, avec gestion du courrier et conformité réglementaire.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "9ee478decad7",
+    "fr": "Le choix entre Rabat et Casablanca dépend surtout de la nature de votre activité et de vos interlocuteurs habituels.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "7da7042a4ac8",
+    "fr": "Critère",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/filiale-ou-succursale-maroc",
+      "/guides/fiduciaire-maroc",
+      "/guides/sarl-sarl-au",
+      "/guides/auto-entrepreneur-vs-sarlau"
+    ]
+  },
+  {
+    "id": "b24f57975c8b",
+    "fr": "Rabat",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "669fe25a324e",
+    "fr": "Profil",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "187af9dbef33",
+    "fr": "Capitale administrative et politique",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "71b40ecd94ee",
+    "fr": "Capitale économique et financière",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "b7d240d46f80",
+    "fr": "Idéal pour",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/filiale-ou-succursale-maroc"
+    ]
+  },
+  {
+    "id": "78cf3cfde8d3",
+    "fr": "Conseil, droit, formation, activités liées à l'administration",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "0e382f41da6c",
+    "fr": "Commerce, industrie, finance, startups",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "baf046d8f003",
+    "fr": "Ambiance",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "e721b7ca6cc5",
+    "fr": "Ville institutionnelle, cadre posé",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "8b9627366eb9",
+    "fr": "Hub d'affaires dense et dynamique",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "fff1c233155b",
+    "fr": "Rien n'empêche par ailleurs de domicilier votre société dans une ville et de développer votre activité dans l'autre : le siège social n'impose pas de restriction géographique à votre clientèle.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "481d44f95ec2",
+    "fr": "Prêt à conquérir Rabat avec une structure conforme et bien accompagnée ? Découvrez notre offre de création d'entreprise avec Felexia Conseils.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "0e725337b8ca",
+    "fr": "Démarrer ma création",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/nom-commercial-enseigne-et-marque"
+    ]
+  },
+  {
+    "id": "73a353bfcb64",
+    "fr": "Les modalités de signature, de légalisation ou de procuration sont déterminées selon les documents et votre situation. Felexia Conseils vous indique les formalités à prévoir pour votre dossier.",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/creation-societe-casablanca",
+      "/guides/creation-entreprise"
+    ]
+  },
+  {
+    "id": "842343575ed3",
+    "fr": "Le délai moyen de création d'une société à Rabat est généralement de 10 jours, comparable aux autres grandes villes du Maroc.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "67de46e3750c",
+    "fr": "Non. Vous pouvez domicilier votre société dans un centre de domiciliation agréé. Cette solution permet d'obtenir une adresse de siège social conforme à la réglementation marocaine sans louer de local.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "b0ccdeb2e4a3",
+    "fr": "Oui, il est tout à fait possible pour un étranger non-résident de créer une société au Maroc, y compris à Rabat. Le Maroc dispose d'un cadre légal favorable à l'investissement étranger, et aucune restriction ne s'applique à la détention de parts dans une SARL ou une SAS par des ressortissants étrangers.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "8d753562e9fe",
+    "fr": "L'ouverture d'un compte bancaire professionnel est une étape obligatoire après l'immatriculation. Vous aurez besoin de votre Registre de Commerce, de votre Identifiant Fiscal (IF), de votre ICE, des statuts de la société et d'une pièce d'identité du ou des gérants.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "d386a9cec13d",
+    "fr": "Office Marocain de la Propriété Industrielle et Commerciale (",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/certificat-negatif-maroc",
+      "/guides/filiale-ou-succursale-maroc"
+    ]
+  },
+  {
+    "id": "79199ddf7ea1",
+    "fr": "ompic.ma",
+    "routes": [
+      "/guides/creation-entreprise-rabat",
+      "/guides/certificat-negatif-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc",
+      "/guides/filiale-ou-succursale-maroc"
+    ]
+  },
+  {
+    "id": "99194e390a1f",
+    "fr": "Chambre de Commerce, d'Industrie et de Services de Rabat-Salé-Kénitra",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "3ed5043504f2",
+    "fr": "Création de société à Rabat : guide 2026 | Felexia Conseils",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "a9d6dbba904d",
+    "fr": "Créez votre société à Rabat avec un accompagnement adapté : étapes, coûts et délais. Un juriste MyLegal vous accompagne jusqu'à l'immatriculation.",
+    "routes": [
+      "/guides/creation-entreprise-rabat"
+    ]
+  },
+  {
+    "id": "117448764716",
+    "fr": "Crée ta société, on t'oriente vers le bon cabinet",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "d49ce8112c9e",
+    "fr": "Cabinet comptable, fiduciaire, expert-comptable : de quoi parle-t-on ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "5b2e45628698",
+    "fr": "Pourquoi Casablanca concentre l'offre",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "7f9d47ce56db",
+    "fr": "Les critères pour bien choisir ton cabinet comptable",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "46801da10bfa",
+    "fr": "Taille et spécialisation du cabinet",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "c0d54d64f7b3",
+    "fr": "Réactivité et interlocuteur dédié",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "311778ba7434",
+    "fr": "Outils numériques et préparation à la e-facturation",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "8265abcb9011",
+    "fr": "Transparence des honoraires",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "d3bc96451de5",
+    "fr": "Combien coûte un cabinet comptable à Casablanca ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "16d265d78cfb",
+    "fr": "Cabinet traditionnel ou fiduciaire en ligne ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "2e669f1b888e",
+    "fr": "Les questions à poser avant de signer",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "3925f64191e6",
+    "fr": "Les erreurs à éviter",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/fiduciaire-maroc"
+    ]
+  },
+  {
+    "id": "1585297578b2",
+    "fr": "Crée ta société, on te met sur de bons rails",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca",
+      "/guides/fiduciaire-maroc"
+    ]
+  },
+  {
+    "id": "9d0a97da61ba",
+    "fr": "FAQ — Cabinet comptable à Casablanca",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "5d56ec5b3b8e",
+    "fr": "Quelle différence entre un cabinet comptable et un expert-comptable ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "78278b877c04",
+    "fr": "Faut-il choisir un cabinet spécialisé dans mon secteur ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "741ede101040",
+    "fr": "Comment savoir si un cabinet est prêt pour la facturation électronique ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "0e58c33b9fb3",
+    "fr": "Casablanca concentre l'essentiel du tissu économique marocain, et donc l'essentiel de l'offre en cabinets comptables et experts-comptables. Ce qui devrait faciliter le choix le complique souvent : difficile de départager des dizaines de cabinets sur la seule base d'un site web ou d'un bouche-à-oreille. Ce guide te donne les critères concrets pour choisir un cabinet comptable à Casablanca, ce que ça coûte, et les erreurs qui reviennent le plus souvent.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "835b7a1e453b",
+    "fr": "Dans le langage courant, ces trois termes se confondent souvent. Pour aller vite : le cabinet comptable et la fiduciaire désignent en pratique la même réalité au Maroc — une structure qui gère la comptabilité, la fiscalité et souvent la paie de plusieurs entreprises clientes. L'expert-comptable, lui, est un professionnel inscrit à l'Ordre des Experts Comptables, habilité à certifier les comptes et à exercer des missions réglementées ; il peut diriger un cabinet ou intervenir ponctuellement sur des missions qui exigent sa signature.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "8d57824d4e38",
+    "fr": "Ce guide se concentre volontairement sur le choix concret d'un cabinet à Casablanca. Si tu veux d'abord comprendre en détail le rôle, les missions et le prix d'une fiduciaire, notre guide complet sur la fiduciaire au Maroc couvre ce point en profondeur.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "2a20065ae3a6",
+    "fr": "Capitale économique du Royaume, Casablanca regroupe une part disproportionnée des sièges sociaux, des centres d'affaires et donc des cabinets comptables marocains. C'est un avantage — le choix est large, la concurrence tire la qualité de service vers le haut — mais aussi une difficulté : plus l'offre est dense, plus il est facile de se tromper en choisissant sur des critères superficiels comme la seule proximité géographique ou le prix affiché le plus bas.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "d293bfe1b277",
+    "fr": "Cette densité se traduit concrètement par plusieurs types d'acteurs sur le marché casablancais :",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "c4f487082c4e",
+    "fr": "De grands cabinets pluridisciplinaires, souvent adossés à un réseau national ou international.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "9bb674c24b47",
+    "fr": "Des cabinets de taille moyenne, généralistes ou spécialisés par secteur d'activité.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "0901fd0a09a5",
+    "fr": "Des structures plus petites, parfois portées par un expert-comptable indépendant, avec un suivi très personnalisé.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "f3e1f9af3f8d",
+    "fr": "Au-delà du tarif, quatre critères font vraiment la différence dans la durée.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "277008fc2375",
+    "fr": "Un grand cabinet généraliste n'est pas forcément le bon choix pour une jeune SARL ou un auto-entrepreneur : le suivi peut être moins personnalisé, et les tarifs souvent calibrés pour des structures plus grandes. À l'inverse, un petit cabinet spécialisé dans ton secteur d'activité (e-commerce, BTP, import-export, professions libérales) connaît déjà les spécificités comptables et fiscales de ton métier, ce qui accélère la mise en route et réduit le risque d'erreur.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "998e046ff534",
+    "fr": "C'est le critère le plus souvent négligé à la signature, et le plus souvent regretté ensuite. Avant de t'engager, demande-toi : auras-tu un interlocuteur nommé et joignable, ou seras-tu un dossier parmi des centaines traité par une équipe tournante ? Un cabinet réactif qui répond en quelques heures fait une différence considérable le jour où une déclaration urgente ou une question de trésorerie se pose.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "0a22b7b12ef7",
+    "fr": "Avec la généralisation progressive de la facturation électronique au Maroc, la maturité numérique d'un cabinet devient un critère de choix à part entière. Un cabinet doté d'un portail client pour la dématérialisation des pièces, déjà en veille sur les normes de la DGI, t'évitera une transition douloureuse le jour où ton entreprise entrera dans le périmètre obligatoire de la réforme.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "2c1db795edde",
+    "fr": "Un bon cabinet détaille clairement ce qui est inclus dans l'abonnement mensuel — tenue comptable, déclarations fiscales, paie — et ce qui est facturé en supplément — conseil ponctuel, missions exceptionnelles, dossiers de financement. Une offre floue ou un devis systématiquement « à discuter » est souvent un signal à prendre au sérieux.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "155e91def856",
+    "fr": "Le prix dépend principalement du volume d'écritures comptables, du nombre de salariés à gérer en paie, et de l'étendue des missions confiées. La facturation se fait le plus souvent sous forme d'abonnement mensuel, moins cher pour une activité de services à faible volume de factures que pour un commerce à fort volume ou une société avec plusieurs salariés.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "98080bcb65b7",
+    "fr": "Le réflexe à éviter : choisir uniquement sur le prix le plus bas. Une gestion comptable bâclée coûte presque toujours plus cher à moyen terme, entre pénalités fiscales, redressements et temps perdu à corriger des erreurs — un point d'autant plus vrai à l'approche de la facturation électronique, qui laisse moins de marge d'erreur qu'aujourd'hui.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "1d9d43ae940b",
+    "fr": "Casablanca offre aussi, de plus en plus, le choix entre un cabinet comptable de quartier classique et une fiduciaire en ligne. Le cabinet traditionnel reste pertinent si tu préfères un contact physique régulier, un dépôt de pièces en agence, ou si ton activité génère un volume de documents difficile à dématérialiser (commerce avec beaucoup de tickets de caisse, par exemple).",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "b303fab67ce1",
+    "fr": "La fiduciaire en ligne, elle, mise sur la dématérialisation complète : envoi des pièces via une application ou un portail, suivi de tes indicateurs en temps réel, échanges par messagerie plutôt que par rendez-vous physique. Pour une société de services, une activité e-commerce ou une structure gérée à distance — notamment par des MRE — cette option est souvent plus fluide et plus rapide à mettre en place. Le choix dépend surtout de ton mode de fonctionnement au quotidien et de tes habitudes de travail, plutôt que d'une option objectivement meilleure ou plus fiable que l'autre dans l'absolu.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "d0f4874e4ea4",
+    "fr": "Qui sera mon interlocuteur au quotidien, et quel est son délai de réponse habituel ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "2992cfe3d478",
+    "fr": "Le cabinet a-t-il déjà des clients dans mon secteur d'activité ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "634483b8a491",
+    "fr": "Que couvre exactement l'abonnement, et qu'est-ce qui est facturé en plus ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "3b1317e16883",
+    "fr": "Comment se passe la transmission des pièces : portail en ligne, e-mail, dépôt physique ?",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "ae8f2926680c",
+    "fr": "Quelques réflexes simples permettent d'éviter les déconvenues les plus fréquentes :",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "20e7680721f2",
+    "fr": "Signer avec le premier cabinet contacté sans comparer au moins deux ou trois offres — les écarts de prix et de périmètre de service sont souvent plus importants qu'on ne l'imagine.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "0f03c46964f2",
+    "fr": "Négliger la compatibilité fonctionnelle : un cabinet à l'autre bout de la ville n'est pas un problème si les échanges se font en ligne, mais ça devient un frein si le cabinet privilégie encore les dépôts physiques de documents.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "0a8bdecfc2ac",
+    "fr": "Attendre d'avoir un problème — retard de déclaration, contrôle fiscal — avant de s'entourer d'un cabinet comptable, plutôt que de s'organiser dès la création.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "f8d01bdc6b50",
+    "fr": "S'organiser dès la création évite d'accumuler du retard comptable, un piège classique qui transforme la première clôture d'exercice en cauchemar administratif — bien plus coûteux à rattraper après coup qu'à anticiper dès le départ.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "03cf3f701e00",
+    "fr": "Un cabinet comptable assure la gestion courante — comptabilité, fiscalité, paie — pour plusieurs entreprises clientes. L'expert-comptable est inscrit à l'Ordre et habilité à certifier les comptes ; il peut diriger un cabinet ou intervenir sur des missions réglementées spécifiques.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "f789beaf13b5",
+    "fr": "Cela dépend du volume comptable, du nombre de salariés et des missions confiées. La facturation se fait généralement sous forme d'abonnement mensuel — demande un devis détaillant précisément le périmètre inclus.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "e39ee881227e",
+    "fr": "Ce n'est pas obligatoire, mais c'est un vrai avantage : un cabinet qui connaît déjà les spécificités comptables et fiscales de ton secteur d'activité est généralement plus rapide et plus fiable dès le démarrage.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "b5aae07042bd",
+    "fr": "Demande-lui directement s'il dispose d'un portail de dématérialisation et s'il suit les évolutions réglementaires de la DGI sur le sujet. Un cabinet mature sur ces outils t'évitera une transition sous pression.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "91f30a98e5f8",
+    "fr": "Cabinet comptable Casablanca : comment choisir | Felexia Conseils",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "5c15b2e13333",
+    "fr": "Comment choisir un cabinet comptable à Casablanca : critères, tarifs et erreurs à éviter.",
+    "routes": [
+      "/guides/cabinet-comptable-casablanca"
+    ]
+  },
+  {
+    "id": "d78b678a937b",
+    "fr": "Immatricule ta société sans te déplacer au tribunal",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "f8ecb51a25dc",
+    "fr": "C'est quoi le Registre de Commerce au Maroc ?",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "f780ba5c50d9",
+    "fr": "Qui doit s'immatriculer au RC ?",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "d8d7b62660ea",
+    "fr": "Les sociétés commerciales",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "c11ede70db47",
+    "fr": "Les commerçants personnes physiques",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "58ae71003088",
+    "fr": "Le cas des auto-entrepreneurs",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "01100d7c6df2",
+    "fr": "Comment obtenir son numéro RC : les étapes",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "65e388edc9f2",
+    "fr": "RC, ICE, IF : ne pas confondre",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "9e5d52498fa7",
+    "fr": "RC en ligne : consulter et obtenir un extrait (Modèle J)",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "92b072fa02e6",
+    "fr": "Modifier son RC : siège, gérant, capital",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "836d6987109a",
+    "fr": "Radiation du registre de commerce",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "e65edb0328a0",
+    "fr": "Que risque-t-on sans immatriculation ?",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "7c4b080fa2d1",
+    "fr": "Erreurs fréquentes à éviter",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "f670f85863d0",
+    "fr": "Crée ta société, RC compris",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "512d176a0a3f",
+    "fr": "FAQ — Registre de Commerce au Maroc",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "6eeb200a4305",
+    "fr": "Combien de temps faut-il pour obtenir un RC au Maroc ?",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "eda9c7cf6ea6",
+    "fr": "Comment consulter le RC d'une entreprise en ligne ?",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "ebe375c96bbe",
+    "fr": "Quelle différence entre RC, ICE et IF ?",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "001321b3bf7d",
+    "fr": "Combien coûte un extrait Modèle J ?",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "f6c28441f14b",
+    "fr": "Un auto-entrepreneur a-t-il besoin d'un RC ?",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "b9f2a7b7fb45",
+    "fr": "Tu veux immatriculer ta société ou vérifier le Registre de Commerce d'une entreprise au Maroc ? Le Registre de Commerce est l'acte fondateur qui donne une existence légale à ton activité — sans lui, pas de compte bancaire pro, pas de contrats, pas de facturation en règle. Ce guide t'explique ce qu'est le RC, qui doit s'y inscrire, comment obtenir ton numéro, ce qu'il coûte, et comment le consulter ou le modifier en ligne.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "9a0f47f63f0f",
+    "fr": "Felexia Conseils s'occupe de ton certificat négatif, tes statuts et ton immatriculation au RC, ICE et IF inclus.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "454a3873badf",
+    "fr": "Le Registre de Commerce (RC) est le répertoire officiel dans lequel doit s'inscrire toute personne, physique ou morale, qui exerce une activité commerciale au Maroc. Il est encadré par la loi n° 15-95 formant Code de commerce et fonctionne à deux niveaux : des registres locaux, tenus par les secrétariats-greffes de chaque tribunal de commerce, et un Registre Central, géré par l'OMPIC (Office Marocain de la Propriété Industrielle et Commerciale), qui centralise les informations de tous les tribunaux du Royaume.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "2c718ab4fdb6",
+    "fr": "Concrètement, s'immatriculer au RC, c'est faire reconnaître juridiquement l'existence de ton entreprise. C'est ce numéro qui apparaîtra sur tes factures, tes contrats et devant tous tes interlocuteurs — banques, fournisseurs, clients, administration.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "b3c5753914a3",
+    "fr": "Pour une société (SARL ou SARL AU), l'immatriculation au RC est aussi l'acte qui lui confère la personnalité morale : avant l'immatriculation, la société n'existe pas juridiquement, même si les statuts sont signés.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "7cdb63445bf6",
+    "fr": "L'obligation d'immatriculation touche plusieurs profils, avec un point commun : un délai légal de trois mois à compter du début de l'activité ou de la création de la société.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "26925b159731",
+    "fr": "Toute SARL, SARL AU, SA, SNC ou autre forme de société commerciale doit obligatoirement s'immatriculer avant de démarrer son activité. C'est un passage obligé après l'obtention du certificat négatif et la signature des statuts.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "73a73fc6c22d",
+    "fr": "Toute personne physique qui exerce une activité commerciale à titre professionnel — commerce, artisanat commercial, prestations de services à caractère commercial — est également soumise à cette obligation, dans le même délai de trois mois.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "584745bcd6c7",
+    "fr": "Les auto-entrepreneurs sont, à l'inverse, expressément exemptés de l'inscription au RC. Ils relèvent d'un registre distinct, le RNAE (Registre National de l'Auto-Entrepreneur), géré par Barid Al-Maghrib. C'est l'un des grands avantages administratifs de ce statut pour démarrer une activité individuelle légère.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "0b912b5a1ebf",
+    "fr": "Le circuit d'immatriculation suit un enchaînement précis :",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "0f29229bd5fc",
+    "fr": "Certificat négatif. Tu dois d'abord réserver et faire valider la dénomination de ta société auprès de l'OMPIC.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "704e0cdd50d7",
+    "fr": "Rédaction des statuts. Les statuts fixent les règles de fonctionnement de la société et doivent être légalisés.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "2057d4c7a97b",
+    "fr": "Enregistrement auprès de la DGI. Enregistrement des contrat auprès de la Direction Générale des impôts",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "49119f0324d9",
+    "fr": "Immatriculation par le tribunal. C'est le secrétariat-greffe du tribunal de commerce compétent qui attribue le numéro RC",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "a9851d456ad7",
+    "fr": "Obtention des identifiants associés. En même temps que le RC, tu obtiens ton ICE, ton identifiant fiscal (IF) et ton numéro CNSS.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "b73af0ff9424",
+    "fr": "Publication légale. Dans le mois qui suit l'immatriculation, une publication au bulletin officiel et dans un journal d'annonces légales est obligatoire, en français et en arabe. Sans cette publication, l'immatriculation reste opposable aux tiers de manière fragile.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "3bdee805393b",
+    "fr": "Le numéro RC lui-même est un identifiant séquentiel, attribué par le tribunal local — il n'existe pas de format national unique. Deux entreprises situées dans deux villes différentes peuvent porter le même numéro : c'est la mention de la ville qui les distingue (exemple : RC 123456 Casablanca).",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "f5fde612e32b",
+    "fr": "Trois identifiants sont délivrés en même temps lors de la création, et beaucoup d'entrepreneurs les confondent alors qu'ils ont des rôles différents.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "68e546fce7dc",
+    "fr": "Identifiant",
+    "routes": [
+      "/guides/registre-de-commerce-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc"
+    ]
+  },
+  {
+    "id": "2327887a5a71",
+    "fr": "Délivré par",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "8b8247902242",
+    "fr": "Rôle",
+    "routes": [
+      "/guides/registre-de-commerce-maroc",
+      "/guides/nom-commercial-enseigne-et-marque"
+    ]
+  },
+  {
+    "id": "57fdad685146",
+    "fr": "RC",
+    "routes": [
+      "/guides/registre-de-commerce-maroc",
+      "/guides/ice-identifiant-commun-entreprise-maroc"
+    ]
+  },
+  {
+    "id": "512550d8e573",
+    "fr": "Tribunal de commerce",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "3e7ef839b278",
+    "fr": "Identité juridique, propre au tribunal local",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "074176b193e8",
+    "fr": "ICE (15 chiffres)",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "154b91023be7",
+    "fr": "OMPIC",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "ab86d9e04806",
+    "fr": "Identifiant national unique, obligatoire sur toutes les factures",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "2e5409ce7f9a",
+    "fr": "IF (8 chiffres)",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "4c86bdc1ffdc",
+    "fr": "DGI",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "af2a2ecb2ea8",
+    "fr": "Identifiant fiscal, utilisé pour tes déclarations d'impôts",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "c210b370b3df",
+    "fr": "Le RC prouve que ton entreprise existe légalement. L'ICE l'identifie de façon unique dans toutes tes démarches administratives et commerciales. L'IF, lui, sert spécifiquement à ta relation avec l'administration fiscale.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "31a41e5f75e4",
+    "fr": "Tu peux consulter le RC d'une entreprise marocaine — la tienne ou celle d'un partenaire — directement en ligne, notamment via le portail DirectInfo de l'OMPIC, accessible depuis n'importe quel pays.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "078c5dc3280e",
+    "fr": "L'extrait officiel du registre de commerce s'appelle le Modèle J (parfois désigné Modèle 7). C'est ce document que te demanderont systématiquement ta banque à l'ouverture d'un compte professionnel, tes partenaires commerciaux avant de signer un contrat important, ou l'administration dans le cadre d'un appel d'offres. Il est délivré par le tribunal de commerce ou via le portail de l'OMPIC, moyennant un règlement de 20 DH, et reste valable trois mois à partir de sa date de délivrance — passé ce délai, il faut en redemander un.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "971ca5fb2e70",
+    "fr": "Toute modification touchant les informations inscrites au RC doit être déclarée : changement de siège social, de gérant, d'objet social, ou augmentation/réduction du capital.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "a00d291a126d",
+    "fr": "Un cas particulier : le transfert de siège vers une autre juridiction. Si le nouveau siège dépend d'un autre tribunal de commerce, cela entraîne une radiation du RC d'origine et une nouvelle immatriculation auprès du tribunal du nouveau siège — avec, mécaniquement, un nouveau numéro RC.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "ca1d2f3578e5",
+    "fr": "Pour les modifications sensibles (cession de parts, augmentation de capital), il est vivement recommandé de se faire accompagner : les erreurs rédactionnelles ou les oublis de publication légale sont fréquents et peuvent rendre la modification inopposable aux tiers.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "033d6e4a4627",
+    "fr": "La radiation intervient en cas de cessation d'activité, de dissolution ou de liquidation de la société. Comme pour l'immatriculation, elle doit être déclarée auprès du tribunal de commerce compétent et fait l'objet d'une publication légale.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "9a782a3af5c1",
+    "fr": "Exercer une activité commerciale sans être immatriculé au RC, ou au-delà du délai légal de trois mois, expose à plusieurs risques concrets :",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "41bc24778391",
+    "fr": "Exercice illégal de l'activité, passible d'amendes.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "a112c0a1c680",
+    "fr": "Rejet systématique par les banques pour l'ouverture d'un compte professionnel.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "d9ad02a84566",
+    "fr": "Impossibilité de domicilier des titres d'importation ou d'exporter en bonne et due forme.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "52d5e3c4413b",
+    "fr": "Absence de personnalité morale pour une société : sur le plan juridique, elle n'existe simplement pas.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "13169e1266b3",
+    "fr": "Responsabilité personnelle accrue du dirigeant, qui n'est plus protégé par la structure sociétaire.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "44afec8ef400",
+    "fr": "La première erreur classique est de laisser traîner la publication légale après l'immatriculation — un oubli qui fragilise juridiquement l'opposabilité de la société aux tiers.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "b5f2581f8b89",
+    "fr": "La deuxième est de ne pas mettre à jour le RC après un changement de gérant ou de siège, ce qui crée un décalage entre la réalité de l'entreprise et ce qu'en dit le registre officiel — un problème classique lors d'un contrôle ou d'une levée de fonds.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "1e6bfb5e6b7e",
+    "fr": "Enfin, beaucoup d'entrepreneurs attendent la dernière minute avant l'échéance des trois mois légaux, ce qui laisse peu de marge en cas de dossier incomplet ou de pièce manquante au greffe.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "2be13916ba43",
+    "fr": "L'immatriculation est généralement délivrée 10 jours. Le délai légal maximum pour s'immatriculer après le début d'activité est de trois mois.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "c897b74e15e0",
+    "fr": "Via le portail DirectInfo de l'OMPIC, accessible depuis n'importe quel pays, en renseignant le numéro RC ou la dénomination de l'entreprise recherchée.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "a3844cddd352",
+    "fr": "Le RC est délivré par le tribunal de commerce et atteste l'existence juridique de l'entreprise. L'ICE (15 chiffres) est l'identifiant national unique délivré par l'OMPIC, obligatoire sur toutes les factures. L'IF (8 chiffres) est l'identifiant fiscal délivré par la DGI.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "e1d5e42480ee",
+    "fr": "L'extrait officiel du RC (Modèle J) coûte de l'ordre de 20 DH et reste valable trois mois à compter de sa délivrance.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "f94e3cfa77b0",
+    "fr": "Non. Les auto-entrepreneurs sont exemptés d'immatriculation au RC et relèvent du RNAE, un registre distinct géré par Barid Al-Maghrib.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "3ea1f3b1803b",
+    "fr": "Registre de Commerce au Maroc : RC en ligne | Felexia Conseils",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "45efbf507e3e",
+    "fr": "Registre de Commerce au Maroc : immatriculation, numéro RC, Modèle J, RC en ligne et coût.",
+    "routes": [
+      "/guides/registre-de-commerce-maroc"
+    ]
+  },
+  {
+    "id": "5114c37d3c7c",
+    "fr": "Qu'est-ce qu'un certificat négatif ?",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "d10b3c5c59e0",
+    "fr": "Pourquoi le certificat négatif est-il obligatoire ?",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "a5dbc9cc0968",
+    "fr": "Comment obtenir un certificat négatif en ligne",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "06a93fb38404",
+    "fr": "Étape 1 : préparer plusieurs noms",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "24e9aee42e39",
+    "fr": "Étape 2 : soumettre la demande sur la plateforme OMPIC",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "a34d435312bc",
+    "fr": "Étape 3 : régler les frais et télécharger le certificat",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "efe1d247b926",
+    "fr": "Coût et durée de validité",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "8734277d9b31",
+    "fr": "Que faire en cas de refus de dénomination ?",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "898f29e151c2",
+    "fr": "Les cas où le certificat négatif n'est pas requis",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "b3268702fdbc",
+    "fr": "Et après ? Les étapes suivantes de la création",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "ef0f989a30bc",
+    "fr": "C'est quoi un certificat négatif ?",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "312affebcf5d",
+    "fr": "Quelle est la durée de validité d'un certificat négatif ?",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "13c5d09182c6",
+    "fr": "Un auto-entrepreneur a-t-il besoin d'un certificat négatif ?",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "4aa712dcc139",
+    "fr": "Que faire si mon nom est refusé ?",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  },
+  {
+    "id": "bdb7222c92df",
+    "fr": "Avant même de rédiger tes statuts ou de déposer ton capital, il y a une étape que tu ne peux pas sauter : obtenir un certificat négatif. C'est la toute première formalité de la création d'une société au Maroc, et sans elle, aucune immatriculation n'est possible. Beaucoup d'entrepreneurs découvrent son existence au dernier moment, alors qu'elle conditionne tout le reste du processus.",
+    "routes": [
+      "/guides/certificat-negatif-maroc"
+    ]
+  }
+]

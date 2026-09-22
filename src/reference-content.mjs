@@ -1,3 +1,4 @@
+import {company} from './content.mjs';
 // Keep the source layout, but never transfer another brand's prices, guarantees,
 // reviews or software capabilities to Felexia without evidence.
 const normalize = value => value.replace(/\s+/g, ' ').trim();
@@ -98,6 +99,8 @@ export function adaptReferenceContent($, route) {
 
   rewriteText($, 'body', value => {
     let result = replacements.get(normalize(value)) ?? value;
+    if(normalize(result)==='Notre adresse à Casablanca')result='Adresse du cabinet';
+    if(result.includes('Résidence Al Ihssane')&&/Route de l['’]Oasis/.test(result))result=company.address;
     result = result.replace(/un juriste Felexia Conseils|un juriste dédié|nos juristes|par un juriste/gi, match => /^nos/i.test(match) ? 'les membres de notre équipe' : /^par/i.test(match) ? 'par le cabinet' : /^Un/.test(match) ? 'Un interlocuteur du cabinet' : 'un interlocuteur du cabinet');
     result = result.replace(/,?\s*en moyenne en moins d['’]une heure(?: pendant les jours ouvrés)?\.?/gi, '.')
       .replace(/vous répond —\s*\./g, 'vous accompagne.')
@@ -139,6 +142,42 @@ export function adaptReferenceContent($, route) {
     $('main a[href*="/create/"]').text('Demander un devis').attr('href', '/fr/contact/?service=' + (route.endsWith('domiciliation') ? 'domiciliation' : 'creation-entreprise'));
     if (route.endsWith('creation')) {
       setParagraphs($, 'main p', /^Trois formules transparentes/, 'Trois périmètres d’accompagnement pour préparer votre création d’entreprise. Les prestations retenues sont confirmées après étude de votre projet.');
+      const pack = name => $('main article').filter((_, el) => $(el).find('h1,h2,h3,h4').toArray().some(node => $(node).text().trim() === name));
+      for (const name of ['Pack Essentiel', 'Pack Pro', 'Pack Premium']) pack(name).children('div').filter((_, el) => /^mt-6 border-t/.test($(el).attr('class') || '')).remove();
+      const unify = article => {
+        const highlights = article.children('ul').eq(0);
+        const services = article.children('ul').eq(1);
+        const icon = services.children('li').first().children('span').first();
+        const textClass = services.children('li').first().children('span').eq(1).attr('class');
+        highlights.children('li').each((_, li) => {
+          const item = $(li);
+          item.children('span').first().replaceWith(icon.clone());
+          item.find('span').filter((_, el) => /font-semibold/.test($(el).attr('class') || '')).attr('class', textClass);
+        });
+        const spacing = highlights.attr('class');
+        services.prepend(highlights.children('li'));
+        highlights.remove();
+        services.attr('class', spacing);
+      };
+      for (const name of ['Pack Essentiel', 'Pack Pro', 'Pack Premium']) unify(pack(name));
+      const bulletin = article => article.find('li').filter((_, el) => normalize($(el).text()) === 'Publication au Bulletin Officiel');
+      const appendServices = (article, labels) => {
+        const anchor = bulletin(article);
+        for (const label of labels) {
+          const item = anchor.clone();
+          item.find('span').last().text(label);
+          anchor.parent().append(item);
+        }
+      };
+      appendServices(pack('Pack Pro'), ['Création de logo', 'Charte graphique', 'Carte de visite']);
+      const premiumAnchor = bulletin(pack('Pack Premium'));
+      const premiumItem = premiumAnchor.clone();
+      const premiumLabel = premiumItem.find('span').last().empty();
+      for (const [text, separator] of [['Application de gestion de l’entreprise', ''], ['Mini ERP', ' — '], ['Vente', ' : '], ['Achat', ' • '], ['Stock', ' • '], ['Comptabilité', ' • '], ['CRM', ' • ']]) {
+        if (separator) premiumLabel.append($('<span></span>').text(separator));
+        premiumLabel.append($('<span></span>').text(text));
+      }
+      premiumAnchor.parent().append(premiumItem);
     } else {
       $('main h1').html('Une adresse professionnelle<br><span class="text-brand-ocean">adaptée à votre projet.</span>');
       setParagraphs($, 'main p', /^Domiciliation d'entreprise/, 'Étudiez les modalités de domiciliation, la durée et l’organisation du courrier avec votre interlocuteur. Chaque proposition fait l’objet d’un devis.');

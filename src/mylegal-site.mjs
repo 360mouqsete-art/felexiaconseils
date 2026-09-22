@@ -1,10 +1,11 @@
-import {readFileSync, writeFileSync} from 'node:fs';
+import {readFileSync, writeFileSync, readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {company} from './content.mjs';
 import {contactForm, wizard} from './forms.mjs';
 import {adaptReferenceContent} from './reference-content.mjs';
 import {headerTools, languageSwitch, simplifiedLogo} from './header-tools.mjs';
+import {localizeReferenceSite} from './localize-reference.mjs';
 
 // Frozen public pages supplied by the owner. Remote scripts are never executed.
 const read = path => readFileSync(new URL('../'+path, import.meta.url), 'utf8');
@@ -54,11 +55,12 @@ export function renderReferenceSite(existing) {
   const urlMap={...initial.urlMap,...assets.urlMap};
   const out={}; const inline=new Map();
   const baseCss=initial.css;
-  const knownPaths=new Set([...Object.keys(existing).map(x=>'/'+x.replace(/index\.html$/,'')),...pages.map(p=>localRoute(p.route))]);
-  knownPaths.add('/fr/espace-client/');
+  const knownPaths=new Set([...Object.keys(existing).map(x=>'/'+x.replace(/index\.html$/,'')),...pages.map(p=>localRoute(p.route))].flatMap(path=>['fr','en','ar'].map(l=>path.replace(/^\/(fr|en|ar)\//,`/${l}/`))));
+  for(const l of ['fr','en','ar'])knownPaths.add(`/${l}/espace-client/`);
   const fingerprint=createHash('sha256');
   for(const path of ['public/app.js','public/styles.css','public/header-tools.css','public/theme.css','public/theme.js','public/mylegal/home.js','public/mylegal/pages.js','public/mylegal/identity.css','public/mylegal/forms.css','public/mylegal/behavior.css','public/mylegal/site.css','src/header-tools.mjs','src/mylegal-site.mjs','src/reference-content.mjs','reference/mylegal/pages-assets.json'])fingerprint.update(read(path));
   for(const page of pages)fingerprint.update(read(page.file));
+  for(const file of ['src/localize-reference.mjs','public/mylegal/locale.css','public/mylegal/interaction-copy.js',...readdirSync(new URL('./translations/',import.meta.url)).filter(f=>/\.json$/.test(f)).map(f=>'src/translations/'+f)])fingerprint.update(read(file));
   const version=fingerprint.digest('hex').slice(0,12);
 
   function render(source, route, mainOverride) {
@@ -103,7 +105,7 @@ export function renderReferenceSite(existing) {
     $('footer ul').first().replaceWith(contactBlock());
     $('main').attr('id','main');
     const adapted=adaptReferenceContent($,route);
-    title=adapted.title||title;description=adapted.description||description;
+    title=brandText(adapted.title||title);description=brandText(adapted.description||description);
     if(route==='/guides/page/2')title+=' — Page 2';
 
     // Felexia is a cabinet: retain the reference layouts without inventing its
@@ -157,6 +159,10 @@ export function renderReferenceSite(existing) {
     });
     $('main a').filter((_,e)=>$(e).attr('href')==='/fr/espace-client/').attr('href','/fr/contact/');
     $('main img').first().attr({loading:'eager',fetchpriority:'high'});
+    $('header nav[aria-label="Navigation principale"]').attr('data-primary-navigation','');
+    $('button[aria-label="Retour en haut"]').attr('data-back-to-top','');
+    $('button[aria-label="Copier le lien"]').attr('data-copy-guide','');
+    for(const [label,network] of [['Partager sur LinkedIn','linkedin'],['Partager sur X','x'],['Partager sur Facebook','facebook']])$(`a[aria-label="${label}"]`).attr('data-share-guide',network);
     for(const position of ['header','footer']) {
       const brandLink=$(`${position} img.felexia-brand-slot`).first().closest('a');
       brandLink.html(simplifiedLogo({footer:position==='footer'})).addClass('felexia-brand-link');
@@ -175,8 +181,8 @@ export function renderReferenceSite(existing) {
     });
     const canonical=company.origin+localRoute(route);
     const alternates=['fr','en','ar'].map(l=>({l,path:localRoute(route).replace('/fr/','/'+l+'/')})).filter(x=>knownPaths.has(x.path));
-    const css=[...baseCss,'/mylegal/site-inline.css','/mylegal/identity.css','/mylegal/behavior.css','/mylegal/forms.css','/mylegal/legacy.css','/mylegal/site.css','/header-tools.css','/theme.css'];
-    const scripts=['/mylegal/home.js','/mylegal/pages.js','/app.js'];
+    const css=[...baseCss,'/mylegal/site-inline.css','/mylegal/identity.css','/mylegal/behavior.css','/mylegal/forms.css','/mylegal/legacy.css','/mylegal/site.css','/header-tools.css','/theme.css','/mylegal/locale.css'];
+    const scripts=['/mylegal/interaction-copy.js','/mylegal/home.js','/mylegal/pages.js','/app.js'];
     $('html').attr({lang:'fr',dir:'ltr'});$('body').attr('data-lang','fr');
     $('head').html(`<meta charset="utf-8"><script src="/theme.js?v=${version}"></script><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#2446D8"><link rel="canonical" href="${canonical}">${alternates.map(x=>`<link rel="alternate" hreflang="${x.l}" href="${company.origin+x.path}">`).join('')}<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:type" content="website"><meta property="og:image" content="${company.origin}/assets/logo-original.png"><link rel="icon" href="/assets/logo-simple-mark.svg" type="image/svg+xml">${css.map(x=>`<link rel="stylesheet" href="${x}?v=${version}">`).join('')}${scripts.map(x=>`<script src="${x}?v=${version}" defer></script>`).join('')}<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'ProfessionalService',name:company.name,url:company.origin,logo:company.origin+'/assets/logo-original.png',email:company.email,telephone:company.officeTel,areaServed:'MA',address:{'@type':'PostalAddress',streetAddress:company.address,addressCountry:'MA'}}).replace(/</g,'\\u003c')}</script>`);
     $('body').prepend('<a class="felexia-skip" href="#main">Aller au contenu</a>');
@@ -188,16 +194,17 @@ export function renderReferenceSite(existing) {
   // Remaining Felexia services and guided forms keep their implementation,
   // under the same navigation and visual system as the copied public pages.
   for(const [file,html] of Object.entries(existing)){
-    if(!file.startsWith('fr/')||out[file]||file.includes('/404/'))continue;
+    if(!file.startsWith('fr/')||out[file])continue;
     const route='/'+file.slice(3).replace(/\/index\.html$/,'');
     const old=load(html);const content=old('main').html();
     let main=`<div class="felexia-legacy">${content}</div>`;
     if(route==='/create')main=`<section class="felexia-extra-section"><span class="felexia-eyebrow">VOTRE PROJET AU MAROC</span><h1>Créons votre entreprise.</h1><p>Présentez-nous votre projet. Nous préparerons les prochaines étapes avec vous.</p>${formZone(wizard('fr'))}</section>`;
     if(route==='/rendez-vous')main=`<section class="felexia-extra-section"><h1>Préparons notre rendez-vous.</h1><p>Indiquez vos préférences. Le cabinet vous recontactera pour confirmer le créneau.</p>${formZone(contactForm('fr',true))}</section>`;
-    const $=load(render(homeSource,route,main));$('title').text(old('title').text());$('meta[name="description"],meta[property="og:description"]').attr('content',old('meta[name="description"]').attr('content'));$('meta[property="og:title"]').attr('content',old('title').text());out[file]=$.html();
+    const $=load(render(homeSource,route,main));$('title').text(old('title').text());$('meta[name="description"],meta[property="og:description"]').attr('content',old('meta[name="description"]').attr('content'));$('meta[property="og:title"]').attr('content',old('title').text());if(route==='/404')$('head').append('<meta name="robots" content="noindex,follow">');out[file]=$.html();
   }
   const account=`<section class="felexia-extra-section"><span class="felexia-eyebrow">FELEXIA CONSEILS</span><h1>Parlons de votre dossier.</h1><p>Pour connaître l’avancement de votre accompagnement, contactez directement votre cabinet en précisant votre nom et, si vous en disposez, la référence de votre demande.</p><div class="felexia-account-actions"><a class="felexia-action" href="/fr/contact/?service=support">Contacter le cabinet ↗</a><a class="felexia-action secondary" href="https://wa.me/${company.whatsapp}">Échanger sur WhatsApp ↗</a></div><p class="felexia-account-note">Aucun compte en ligne n’est nécessaire pour nous contacter. Cet espace ne donne pas accès à des documents privés.</p></section>`;
   const $account=load(render(homeSource,'/espace-client',account));$account('title').text('Mon dossier | Felexia Conseils');$account('meta[property="og:title"]').attr('content','Mon dossier | Felexia Conseils');$account('meta[name="description"],meta[property="og:description"]').attr('content','Contactez Felexia Conseils pour faire le point sur votre dossier et les prochaines étapes de votre accompagnement.');out['fr/espace-client/index.html']=$account.html();
+  Object.assign(out,localizeReferenceSite(out,existing,version));
   writeFileSync(new URL('../public/mylegal/site-inline.css',import.meta.url),[...inline].map(([style,cls])=>`.${cls}{${style}}`).join('\n'));
   return out;
 }
