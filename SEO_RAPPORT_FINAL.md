@@ -1,6 +1,6 @@
 # Rapport de réalisation SEO — Felexia Conseils
 
-Révision locale du 22 septembre 2026. Prévisualisation : http://localhost:4173/fr/creation-entreprise/. Travail appliqué au projet ; aucun push ni déploiement effectué pendant cette intervention.
+Révision du 22 septembre 2026, publiée dans la nuit du 22 au 23 septembre. Site : https://www.felexiaconseils.com/fr/creation-entreprise/. Commits applicatifs `63de37c` et `e2a3257` poussés sur main, déploiements Vercel production READY. Voir [la recette de publication](docs/PUBLICATION-SEO.md).
 
 ## 1. Analyse initiale
 
@@ -32,7 +32,7 @@ Accueil → création/tarifs/guides/SARL/MRE. Création → guides, tarifs, fisc
 
 ## 8. Données structurées
 
-Un seul graphe JSON-LD remplace le bloc précédent : Organization/ProfessionalService, WebSite, WebPage, BreadcrumbList et Article sur les guides. Breadcrumbs identiques au contenu visible, adresse réelle, aucune note, aucun avis ni prix fictif. Aucune promesse de résultat enrichi FAQ. Contrôles structurels locaux réussis ; test Google externe à effectuer après publication.
+Un seul graphe JSON-LD remplace le bloc précédent : Organization/ProfessionalService, WebSite, WebPage, BreadcrumbList et Article sur les guides. Breadcrumbs identiques au contenu visible, adresse réelle, aucune note, aucun avis ni prix fictif. Aucune promesse de résultat enrichi FAQ. Contrôles structurels locaux réussis ; le test en direct Search Console de la page création détecte un fil d’Ariane valide.
 
 ## 9. Sitemap / robots / canonical / hreflang
 
@@ -40,15 +40,15 @@ Domaine vérifié : **https://www.felexiaconseils.com**. L’apex redirige déj�
 
 ## 10. Performance
 
-23 dérivés WebP, originaux conservés, **3 485 620 octets économisés** sur les fichiers concernés ; dimensions réelles et lazy loading des images secondaires. Brotli/gzip validés. Aucun score Lighthouse ou Core Web Vitals terrain inventé ; contrôle en production et Search Console encore nécessaire.
+23 dérivés WebP, originaux conservés, **3 485 620 octets économisés** sur les fichiers concernés ; dimensions réelles et lazy loading des images secondaires. Brotli/gzip validés. PageSpeed mobile du 23 septembre à 00:03 : **100 performance, 100 accessibilité, 100 bonnes pratiques, 100 SEO**, LCP 1,5 s, CLS 0, TBT 0 ms. Mesure de laboratoire sur la page création, pas une preuve de Core Web Vitals terrain ; aucune donnée CrUX disponible.
 
 ## 11. SEO local
 
-Contact enrichi pour Marrakech, adresse Mabrouka exacte, accueil sur rendez-vous et service national conservés. Pas de fausse présence locale ni de nouvelle landing page artificielle. Google Business Profile nécessite une action du propriétaire.
+Contact enrichi pour Marrakech, adresse Mabrouka exacte, accueil sur rendez-vous et service national conservés. Pas de fausse présence locale ni de nouvelle landing page artificielle. La fiche Google suggérée appartient à une autre entreprise : reprise interrompue, assistance contactée pour retirer l’association non validée sans modifier le contenu public. La fiche propre à Felexia reste à finaliser après résolution.
 
 ## 12. Tracking
 
-Aucun collecteur existant détecté. Aucun GA4 fictif ajouté. [Plan de suivi](SEO_TRACKING_PLAN.md) : conversion uniquement après confirmation de réception, événements sans données personnelles, dédoublonnage et séparation entre clic WhatsApp, prospect et vente.
+GA4 créé et connecté après autorisation, avec consentement explicite FR/EN/AR et retrait dans le pied de page. Réception de page_view, first_visit et session_start observée en temps réel. generate_lead enregistré comme événement clé, sans montant fictif, uniquement après confirmation serveur. Aucun contenu de formulaire envoyé à Analytics. Voir [le suivi](SEO_TRACKING_PLAN.md).
 
 ## 13. Fichiers créés ou modifiés
 
@@ -58,11 +58,11 @@ Documents : [audit](SEO_AUDIT_FELEXIA.md), [carte mots-clés](SEO_KEYWORD_MAP.md
 
 ## 14. Résultat du build
 
-Build réussi : **172 entrées**. **45 tests réussis**. **171 routes**, **12 498 liens/ressources**, **894 occurrences d’images** et **33 anciennes URLs** vérifiés. Syntaxe de 32 fichiers JS/MJS valide. Pas de lint/typecheck configuré dans la stack. Contrôle navigateur à 375/820/1440 px sur cinq pages prioritaires, RTL/jour-nuit/FAQ/sommaires et parcours jusqu’au récapitulatif vérifiés. Tests API avec stockage simulé ; aucun prospect réel envoyé.
+Build réussi : **172 entrées**. **48 tests réussis**. **171 routes**, **12 840 liens/ressources**, **894 occurrences d’images** et **33 anciennes URLs** vérifiés. Pas de lint/typecheck configuré dans la stack. Contrôle navigateur à 375/820/1440 px sur cinq pages prioritaires, RTL/jour-nuit/FAQ/sommaires et parcours jusqu’au récapitulatif vérifiés. Tests API avec stockage simulé ; aucun prospect réel envoyé. Les 150 URLs du sitemap répondent 200 en production avec canonical cohérent et un H1.
 
 ## 15. Actions externes que vous devez réaliser manuellement
 
-Après revue, publier avec le workflow GitHub/Vercel existant ; renseigner explicitement SITE_URL avec www si souhaité (l’ancienne valeur est normalisée par le code). Vérifier Search Console par TXT chez le gestionnaire DNS actif, soumettre le sitemap et inspecter les pages. Vérifier la fiche Google Business Profile et les informations légales manquantes. Faire relire les affirmations juridiques/fiscales résiduelles identifiées dans l’audit. Configurer un unique outil analytics si retenu, avec information et consentement appropriés. Aucun secret à versionner.
+Publication, propriété Search Console par préfixe URL, sitemap et Analytics réalisés. La propriété Domaine par DNS reste non validée ; aucune modification DNS effectuée. La demande d’indexation manuelle rencontre une erreur Google, malgré un test en direct indexable. Attendre la résolution de l’association Business Profile erronée avant de finaliser la fiche Felexia. Faire valider les informations légales manquantes et les affirmations fiscales résiduelles de l’audit. Aucun secret versionné.
 
 ## 16. Priorités des 30 prochains jours
 
@@ -73,14 +73,16 @@ Après revue, publier avec le workflow GitHub/Vercel existant ; renseigner expli
 
 | Action | Statut | Impact SEO | Fichier/URL | Action suivante |
 |---|---|---|---|---|
-| Page commerciale principale | DONE | Pertinence et conversion | `/fr/creation-entreprise/` | Publier |
+| Page commerciale principale | DONE | Pertinence et conversion | `/fr/creation-entreprise/` | Suivre les résultats |
 | Quatre guides et traductions | DONE | Intentions distinctes et maillage | `src/seo-content.mjs` | Suivre indexation |
-| Canonical et sitemap | DONE | Cohérence d’exploration | `src/site-origin.mjs`, `scripts/build.mjs` | Soumettre sitemap après publication |
-| Schema et breadcrumbs | DONE | Compréhension des pages | `src/seo.mjs` | Test Google sur URL publiée |
+| Canonical et sitemap | DONE | Cohérence d’exploration | `src/site-origin.mjs`, `scripts/build.mjs` | Sitemap accepté, suivre l’indexation |
+| Schema et breadcrumbs | DONE | Compréhension des pages | `src/seo.mjs` | Test Google réussi sur la page création |
 | Images et responsive | DONE | Poids et stabilité | `public/assets/optimized/` | Mesurer CWV terrain |
 | Formulaires | DONE | Conservation des conversions | `tests/`, `src/contact-api.mjs` | Recette publique après déploiement |
 | CWV réels | À VÉRIFIER | Expérience utilisateur | Search Console / PageSpeed | Mesure en production |
 | Assertions fiscales héritées | À VÉRIFIER | Fiabilité éditoriale | `SEO_AUDIT_FELEXIA.md` | Relecture compétente et sources actuelles |
 | Nouvelle page locale Marrakech | NON NÉCESSAIRE | Évite une duplication | `/fr/contact/` | Exploiter la page enrichie |
-| Publication, GSC et GBP | ACTION MANUELLE | Mise en ligne et visibilité | GitHub/Vercel, Google | Appliquer les plans fournis |
-| Analytics et partenariats | ACTION MANUELLE | Mesure et autorité | Plans tracking/backlinks | Choisir un collecteur, mobiliser les relations réelles |
+| Publication et GSC | DONE | Mise en ligne et visibilité | GitHub/Vercel, Google | Suivre l’indexation effective |
+| Google Business Profile | ASSISTANCE EN COURS | Identité locale correcte | Google | Retirer l’association erronée puis finaliser Felexia |
+| Analytics | DONE | Mesure avec consentement | Plan tracking | Qualifier les véritables demandes reçues |
+| Partenariats | ACTION CABINET | Autorité | Plan backlinks | Mobiliser les relations réelles, sans faux liens |
