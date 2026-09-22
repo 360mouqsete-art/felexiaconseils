@@ -6,6 +6,7 @@ import {contactForm, wizard} from './forms.mjs';
 import {adaptReferenceContent} from './reference-content.mjs';
 import {headerTools, languageSwitch, simplifiedLogo} from './header-tools.mjs';
 import {localizeReferenceSite} from './localize-reference.mjs';
+import {optimizeSeo} from './seo.mjs';
 
 // Frozen public pages supplied by the owner. Remote scripts are never executed.
 const read = path => readFileSync(new URL('../'+path, import.meta.url), 'utf8');
@@ -206,5 +207,5 @@ export function renderReferenceSite(existing) {
   const $account=load(render(homeSource,'/espace-client',account));$account('title').text('Mon dossier | Felexia Conseils');$account('meta[property="og:title"]').attr('content','Mon dossier | Felexia Conseils');$account('meta[name="description"],meta[property="og:description"]').attr('content','Contactez Felexia Conseils pour faire le point sur votre dossier et les prochaines étapes de votre accompagnement.');out['fr/espace-client/index.html']=$account.html();
   Object.assign(out,localizeReferenceSite(out,existing,version));
   writeFileSync(new URL('../public/mylegal/site-inline.css',import.meta.url),[...inline].map(([style,cls])=>`.${cls}{${style}}`).join('\n'));
-  return out;
+  return optimizeSeo(out);
 }

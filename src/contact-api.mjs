@@ -1,5 +1,6 @@
 import {randomUUID,createHash} from 'node:crypto';
 import {persistContactToSupabase} from './supabase-contact.mjs';
+import {canonicalOrigin} from './site-origin.mjs';
 const SERVICE_VALUES=['creation-entreprise','conseil-fiscal','conseil-gestion','formalites-administratives','investir-au-maroc','legal-advisory','modify-company','support','other'];
 const PROFILE_VALUES=['resident','mre','foreign','company'];
 const STRUCTURE_VALUES=['undecided','sarl','sarl-au','sa','sas','filiale','succursale','auto-entrepreneur','association'];
@@ -48,8 +49,8 @@ export function createContactHandler({env=process.env,fetcher=fetch}={}){
   if(req.method!=='POST'){res.setHeader('Allow','POST');return json(res,405,{ok:false,code:'method'});}
   if(!String(req.headers['content-type']||'').startsWith('application/json'))return json(res,415,{ok:false,code:'content_type'});
   const localOrigin=`http://${req.headers.host}`;
-  let configuredOrigin;try{configuredOrigin=env.SITE_URL?new URL(env.SITE_URL).origin:null;}catch{return json(res,503,{ok:false,code:'configuration'});}
-  const allowed=configuredOrigin?[configuredOrigin,...(env.NODE_ENV!=='production'?[localOrigin]:[])]:[localOrigin];
+  let configuredOrigin,publicOrigin;try{configuredOrigin=env.SITE_URL?new URL(env.SITE_URL).origin:null;publicOrigin=configuredOrigin?canonicalOrigin(configuredOrigin):null;}catch{return json(res,503,{ok:false,code:'configuration'});}
+  const allowed=configuredOrigin?[configuredOrigin,publicOrigin,...(env.NODE_ENV!=='production'?[localOrigin]:[])]:[localOrigin];
   // Only explicit server configuration or Vercel's trusted system variables
   // can add origins. Never trust a client-supplied Host/forwarded host in prod.
   for(const value of String(env.CONTACT_ALLOWED_ORIGINS||'').split(',').filter(Boolean)){try{const u=new URL(value.trim());if(u.protocol==='https:'&&!u.username&&!u.password)allowed.push(u.origin);}catch{return json(res,503,{ok:false,code:'configuration'});}}

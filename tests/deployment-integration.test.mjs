@@ -9,6 +9,7 @@ const post=(base,data,headers={})=>fetch(base+'/api/contact',{method:'POST',head
 
 test('production accepts only configured site and trusted Vercel origins',async()=>fixture({env:{NODE_ENV:'production',SITE_URL:'https://felexiaconseils.com',VERCEL:'1',VERCEL_URL:'felexia-test-360mouqsete-art.vercel.app',CONTACT_WEBHOOK_URL:'https://crm.example.test/inquiry'},fetcher:async()=>new Response('{}',{status:200})},async base=>{
   assert.equal((await post(base,valid(),{Origin:'https://felexiaconseils.com'})).status,200);
+  assert.equal((await post(base,valid(),{Origin:'https://www.felexiaconseils.com'})).status,200);
   assert.equal((await post(base,valid(),{Origin:'https://felexia-test-360mouqsete-art.vercel.app'})).status,200);
   assert.equal((await post(base,valid(),{Origin:'https://unrelated.vercel.app'})).status,403);
   assert.equal((await post(base,valid(),{Origin:base})).status,403);

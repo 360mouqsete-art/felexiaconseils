@@ -1,6 +1,8 @@
 import {loadEnvFile} from 'node:process';
+import {canonicalOrigin} from './site-origin.mjs';
 try{loadEnvFile();}catch(e){if(e.code!=='ENOENT')throw e;}
-const publicOrigin=new URL(process.env.SITE_URL || 'https://felexiaconseils.com');
+// Verified against the existing Vercel domain redirect on 2026-09-22.
+const publicOrigin=new URL(canonicalOrigin(process.env.SITE_URL));
 if(!['https:','http:'].includes(publicOrigin.protocol))throw new Error('SITE_URL must be an HTTP(S) origin');
 export const company = { name: 'Felexia Conseils', email: 'hadigui.aziz@gmail.com', phone: '+212 661 080 862', tel: '+212661080862', officePhone: '+212 520 825 825', officeTel: '+212520825825', whatsapp: '212661400352', address: 'Résidence Al Ihssane, Immeuble 3, Appartement 4, Mabrouka, Marrakech, Maroc', origin: publicOrigin.origin };
 export const languages = ['fr', 'en', 'ar'];
