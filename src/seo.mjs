@@ -23,6 +23,28 @@ export function optimizeSeo(pages){
     const route=s=>`/${l}/${s?s+'/':''}`;
     const canonicalSlug=canonicalAliases[slug]||slug;
     const canonical=company.origin+route(canonicalSlug);
+    // Keep service pages reachable through ordinary, localised HTML navigation.
+    // Language alternatives alone do not connect a branch to its own homepage.
+    const footer=$('footer').first();
+    const footerServices=[
+      ['services',t('Tous nos services','All our services','جميع خدماتنا')],
+      ['offres',t('Nos offres','Our offers','عروضنا')],
+      ['formalites-administratives',t('Formalités administratives','Administrative procedures','الإجراءات الإدارية')],
+      ['modify-company',t('Modifier ma société','Change my company','تعديل شركتي')],
+      ['support',t('Accompagnement de mon entreprise','Support for my business','مواكبة مقاولتي')]
+    ].filter(([target])=>pages[`${l}/${target}/index.html`]&&!footer.find('a[href]').toArray().some(el=>$(el).attr('href')===route(target)));
+    if(footer.length&&footerServices.length){
+      const legalLink=footer.find('a[href]').filter((_,el)=>['mentions-legales','legal','cgu','terms'].some(target=>$(el).attr('href')===route(target))).first();
+      const quickLinks=legalLink.closest('ul');
+      if(quickLinks.length){
+        const linkClass=quickLinks.find('a').first().attr('class')||'';
+        quickLinks.append(footerServices.map(([target,label])=>`<li><a class="${esc(linkClass)}" href="${route(target)}">${esc(label)}</a></li>`).join(''));
+      }else{
+        const legacyLinks=footer.find('.footer-grid>div').eq(2);
+        if(legacyLinks.length)legacyLinks.append(footerServices.map(([target,label])=>`<a href="${route(target)}">${esc(label)}</a>`).join(''));
+        else footer.append(`<nav class="audience-footer" aria-label="${t('Nos services','Our services','خدماتنا')}"><ul class="flex flex-col gap-2.5 text-sm">${footerServices.map(([target,label])=>`<li><a class="transition-colors hover:text-brand-ocean" href="${route(target)}">${esc(label)}</a></li>`).join('')}</ul></nav>`);
+      }
+    }
     const guide=slug.startsWith('guides/')&&!slug.startsWith('guides/page/');
     const key=['general','online','sarl','foreign'].find(k=>editorial[k].slug===slug);
     const setIntro=value=>{$('main h1').first().nextAll('p').first().text(value);};

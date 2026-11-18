@@ -1,0 +1,236 @@
+{
+  "topics": [
+    {
+      "id": "evergreen-retours-clients-actionnables",
+      "title": "Organiser un registre de retours clients actionnables",
+      "intent": "Transformer les retours clients dispersés en observations contextualisées et actions vérifiables pour une PME marocaine",
+      "intentKey": "actionable-customer-feedback-register",
+      "kind": "new",
+      "category": "Gestion",
+      "risk": "low",
+      "authorized": true,
+      "status": "draft",
+      "createdAt": "2026-10-12T08:54:14.000Z",
+      "verifiedAt": "2026-10-12T08:57:41.451Z",
+      "claims": [],
+      "sourceIds": [
+        "felexia-practice"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-retours-clients-actionnables-c1e084c0ab7b.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-retours-clients-actionnables-c1e084c0ab7b-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:39:54.750Z"
+      },
+      "provenance": {
+        "method": "original-editorial",
+        "reviewedBy": null,
+        "aiAssisted": true,
+        "aiGenerated": false,
+        "qualityControl": "documentary-and-editorial-code-review",
+        "scope": "Practical management recommendations; no legal or tax rules."
+      },
+      "translations": {
+        "fr": {
+          "slug": "registre-retours-clients-actionnables-pme",
+          "title": "Organiser un registre de retours clients actionnables dans votre PME",
+          "excerpt": "Rassemblez les remarques clients avec leur contexte, choisissez une amélioration concrète et gardez une trace de ce qui a été essayé.",
+          "metaTitle": "Registre de retours clients actionnables pour PME | Felexia",
+          "metaDescription": "Organisez les retours clients de votre PME au Maroc : contexte, thèmes utiles, actions attribuées et observation des améliorations dans le travail quotidien.",
+          "primaryKeyword": "registre retours clients PME",
+          "secondaryKeywords": [
+            "suivi remarques clients",
+            "amélioration organisation PME"
+          ],
+          "alt": "Équipe de PME transformant des retours clients en plan d’action — illustration générée par IA",
+          "claimIds": [],
+          "factualValues": {},
+          "body": [
+            {
+              "heading": "Recueillir une observation avec son contexte",
+              "paragraphs": [
+                "Dans une PME marocaine, une remarque client peut arriver au téléphone, pendant une livraison ou dans une conversation avec un commercial. Elle devient difficile à utiliser lorsque chacun la garde dans ses messages. Un registre commun aide à retrouver ce qui a été signalé et la situation concernée. Commencez avec une activité précise, comme l’accueil des demandes, pour que l’équipe puisse réellement tenir le suivi.",
+                "Notez le moment de l’échange, l’étape du service et une reformulation fidèle de la remarque. Séparez les mots du client de l’interprétation du collaborateur. Si une commande était difficile à suivre, indiquez quelle information manquait au lieu de conclure immédiatement que toute la communication est mauvaise. Conservez seulement les détails utiles à l’amélioration, avec un repère de dossier lorsque l’équipe a besoin de retrouver l’échange."
+              ]
+            },
+            {
+              "heading": "Distinguer un besoin, une préférence et une difficulté",
+              "paragraphs": [
+                "Relisez les entrées pour comprendre ce que le client cherchait à accomplir. Une préférence sur la présentation d’un document ne pose pas forcément le même problème qu’une information empêchant de poursuivre une demande. Vous pouvez regrouper les observations par étape de travail : compréhension de l’offre, préparation du dossier ou réception du résultat. Gardez les remarques positives, qui montrent aussi ce que l’équipe souhaite préserver.",
+                "Évitez de transformer un témoignage isolé en conclusion générale. Si plusieurs remarques semblent proches, vérifiez leur contexte avant de les réunir. Un client ne trouvant pas un message et un autre recevant une réponse ambiguë peuvent avoir besoin de changements différents. Lorsque la situation reste incertaine, inscrivez la question à clarifier et demandez une précision avec un ton ouvert, sans proposer une réponse à la place du client."
+              ]
+            },
+            {
+              "heading": "Associer une amélioration précise à un responsable",
+              "paragraphs": [
+                "Choisissez une action que l’équipe peut essayer dans son organisation actuelle. Pour une difficulté à comprendre l’avancement d’une demande, l’action pourrait être de revoir le message de confirmation et d’y expliquer la prochaine étape. Décrivez le changement envisagé, la personne qui le prépare et les collègues qui doivent le relire. Une entrée marquée à traiter ne suffit pas à faire savoir ce qui est attendu.",
+                "Définissez ensuite ce que vous observerez pendant l’essai. Le client comprend-il mieux la suite ? Les collaborateurs savent-ils quand envoyer le message ? Utilisez les réponses et les échanges réels pour apprécier l’utilité du changement, sans annoncer un résultat avant de l’avoir observé. Si l’action ne correspond pas au besoin initial, notez pourquoi elle est adaptée, reportée ou abandonnée. Le registre garde ainsi le lien entre remarque et travail réalisé."
+              ]
+            },
+            {
+              "heading": "Fermer la boucle et conserver un registre lisible",
+              "paragraphs": [
+                "Lorsqu’un changement a été essayé, ajoutez une courte conclusion : ce qui a été fait, ce que l’équipe a observé et ce qui reste à clarifier. Si le contexte s’y prête, informez le client de la suite donnée à son retour, sans promettre que chaque suggestion sera appliquée. Une réponse attentive peut simplement expliquer que sa remarque a été comprise et qu’une piste est examinée.",
+                "Choisissez un emplacement connu, une personne qui garde les entrées compréhensibles et un moment de revue adapté à votre activité. Limitez l’accès aux informations sensibles aux personnes concernées et évitez de recopier inutilement des conversations entières. Le registre doit soutenir une amélioration concrète, pas devenir une collection de reproches. Felexia peut vous aider à définir un format de suivi et à relier les retours clients aux échanges de gestion de votre équipe."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Faut-il appliquer chaque suggestion reçue ?",
+              "answer": "Non. Cherchez le besoin derrière la remarque, puis choisissez une réponse compatible avec votre activité et expliquez la suite lorsque cela est utile."
+            },
+            {
+              "question": "Peut-on commencer avec un simple document partagé ?",
+              "answer": "Oui, si les entrées sont faciles à retrouver, les actions compréhensibles et l’accès adapté aux informations conservées. Choisissez l’outil après avoir défini le suivi."
+            }
+          ],
+          "internalLinks": [
+            {
+              "path": "/fr/conseil-gestion/",
+              "label": "Découvrir le conseil en gestion de Felexia"
+            },
+            {
+              "path": "/fr/contact/",
+              "label": "Structurer le suivi de vos retours clients avec Felexia"
+            }
+          ]
+        },
+        "en": {
+          "slug": "actionable-customer-feedback-register-small-business",
+          "title": "Organise an actionable customer feedback register for your small business",
+          "excerpt": "Keep customer comments in context, choose a practical improvement and record what your team tried and learned from the experience.",
+          "metaTitle": "Actionable customer feedback register for SMEs | Felexia",
+          "metaDescription": "Organise customer feedback in your Moroccan SME with useful context, clear themes, named action owners and a readable record of practical improvements.",
+          "primaryKeyword": "customer feedback register small business",
+          "secondaryKeywords": [
+            "actionable customer comments",
+            "SME service improvement"
+          ],
+          "alt": "Small-business team turning customer feedback into an action plan — AI-generated illustration",
+          "claimIds": [],
+          "factualValues": {},
+          "body": [
+            {
+              "heading": "Record an observation together with its context",
+              "paragraphs": [
+                "In a Moroccan small business, customer feedback may arrive by telephone, during a delivery or in a conversation with a salesperson. It becomes harder to use when each colleague keeps it in separate messages. A shared register helps the team retrieve what was reported and understand the situation. Begin with a specific activity, such as handling enquiries, so maintaining the record remains manageable during everyday work.",
+                "Record when the exchange happened, which service stage was involved and a faithful summary of the comment. Keep the customer's words separate from the colleague's interpretation. If an order was difficult to follow, describe the missing information instead of immediately concluding that all communication is poor. Retain details that help the team improve the process, using a file reference when colleagues need to locate the original exchange."
+              ]
+            },
+            {
+              "heading": "Separate a need, a preference and a working difficulty",
+              "paragraphs": [
+                "Read each entry to understand what the customer was trying to accomplish. A preference about the appearance of a document may differ from missing information that prevents an enquiry from moving forward. You can group observations by work stage: understanding the offer, preparing a file or receiving the result. Keep positive comments as well, since they can help the team identify practices worth preserving while considering changes elsewhere.",
+                "Avoid treating an isolated account as a general conclusion about the business. When comments seem similar, check their context before merging them. A customer who cannot locate a message and another who receives an ambiguous answer may need different improvements. If the situation is unclear, record the question that needs answering. Ask for clarification in an open way rather than suggesting what the customer ought to say."
+              ]
+            },
+            {
+              "heading": "Give a practical improvement a clear owner",
+              "paragraphs": [
+                "Choose a change your team can try within its current organisation. If customers struggle to understand the progress of an enquiry, the action might be to revise the confirmation message and explain the next step. Describe the proposed change, the person preparing it and the colleagues who should review it. Marking an entry for attention does not tell anyone what work is actually expected or who will coordinate it.",
+                "Decide what the team will observe during the trial. Does the customer understand what happens next? Do colleagues know when to send the message? Use real conversations and responses to assess whether the change is useful, without announcing an outcome before observing it. If the action no longer fits the original need, record why it was adapted, postponed or abandoned. This keeps the comment connected to the work undertaken in response."
+              ]
+            },
+            {
+              "heading": "Close the loop and keep the register readable",
+              "paragraphs": [
+                "After trying a change, add a short conclusion describing what was done, what the team observed and what still needs clarification. Where appropriate, tell the customer how their feedback was considered without promising to adopt every suggestion. A thoughtful response can simply explain that the concern was understood and a possible improvement is being examined. Match the response to the conversation rather than turning it into an automatic message.",
+                "Choose a known storage location, someone who can keep entries understandable and a review point suited to your activity. Limit sensitive details to the colleagues who need them and avoid copying whole conversations unnecessarily. The register should support practical improvement rather than accumulate personal criticism. Felexia can help you choose a useful format and connect customer observations to the way your team discusses and follows its operational work."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Should the team adopt every customer suggestion?",
+              "answer": "No. Understand the need behind the comment, then choose a response that suits your activity and explain the next step when useful."
+            },
+            {
+              "question": "Can we start with a shared document?",
+              "answer": "Yes, if entries are easy to find, actions are understandable and access suits the information retained. Define the follow-up process before choosing the tool."
+            }
+          ],
+          "internalLinks": [
+            {
+              "path": "/en/conseil-gestion/",
+              "label": "Explore Felexia management advisory"
+            },
+            {
+              "path": "/en/contact/",
+              "label": "Discuss your customer feedback process with Felexia"
+            }
+          ]
+        },
+        "ar": {
+          "slug": "سجل-ملاحظات-الزبناء-وخطوات-التحسين",
+          "title": "نظّم سجل ملاحظات الزبناء وربطه بخطوات تحسين في مقاولتك",
+          "excerpt": "اجمع ملاحظات الزبناء مع سياقها، واختر تحسيناً عملياً، واحتفظ بما جربه الفريق وما لاحظه بعد التغيير في طريقة العمل.",
+          "metaTitle": "سجل ملاحظات الزبناء وخطوات التحسين | فيليكسيا",
+          "metaDescription": "نظّم ملاحظات الزبناء داخل مقاولتك بالمغرب من خلال توضيح السياق وتجميع المواضيع وتحديد المسؤول عن العمل ومتابعة التحسينات العملية.",
+          "primaryKeyword": "سجل ملاحظات الزبناء",
+          "secondaryKeywords": [
+            "متابعة ملاحظات الزبناء",
+            "تحسين تنظيم المقاولة"
+          ],
+          "alt": "فريق مقاولة يحول ملاحظات الزبناء إلى خطة عمل — صورة توضيحية مولدة بالذكاء الاصطناعي",
+          "claimIds": [],
+          "factualValues": {},
+          "body": [
+            {
+              "heading": "سجّل الملاحظة مع السياق الذي يفسرها",
+              "paragraphs": [
+                "في مقاولة صغيرة بالمغرب، قد تصل ملاحظة الزبون عبر الهاتف أو أثناء التسليم أو خلال حديث مع المسؤول التجاري. يصعب الاستفادة منها عندما يحتفظ كل زميل بها داخل رسائله الخاصة. يساعد سجل مشترك على الرجوع إلى ما قيل وفهم الحالة المعنية. ابدأ بنشاط محدد، مثل استقبال الطلبات، حتى يتمكن الفريق من متابعة السجل ضمن عمله اليومي دون إضافة عبء يصعب الاستمرار فيه.",
+                "اكتب وقت التبادل ومرحلة الخدمة وملخصاً أميناً للملاحظة. افصل كلام الزبون عن تفسير الزميل الذي استقبله. إذا كان تتبع طلب صعباً، وضّح المعلومة التي كانت ناقصة بدل اعتبار التواصل كله غير مناسب. احتفظ بالتفاصيل التي تساعد على تحسين العمل فقط، وأضف مرجع الملف عندما يحتاج الفريق إلى إيجاد المحادثة الأصلية. بهذه الطريقة يبقى السياق مفهوماً دون نسخ معلومات لا تخدم الغرض من السجل."
+              ]
+            },
+            {
+              "heading": "ميّز بين حاجة وتفضيل وصعوبة في العمل",
+              "paragraphs": [
+                "راجع كل مدخل لفهم ما كان الزبون يريد إنجازه. قد يختلف تفضيل شكل وثيقة عن غياب معلومة تمنع الطلب من التقدم. يمكنك تجميع الملاحظات حسب مرحلة العمل، مثل فهم العرض أو تجهيز الملف أو استلام النتيجة. احتفظ أيضاً بالملاحظات الإيجابية، لأنها تساعد الفريق على معرفة الممارسات التي تستحق الاستمرار أثناء دراسة تغيير جوانب أخرى. المقصود هو فهم تجربة الزبون، وليس جمع الانتقادات وحدها في مكان واحد.",
+                "لا تجعل شهادة منفردة حكماً عاماً على المقاولة. إذا بدت ملاحظات متعددة متشابهة، افحص سياقها قبل دمجها في موضوع واحد. الزبون الذي لم يجد رسالة قد يحتاج إلى تحسين مختلف عن زبون تلقى جواباً غير واضح. عندما تبقى الحالة غامضة، سجل السؤال الذي يحتاج إلى توضيح. اطلب التفاصيل بطريقة مفتوحة، دون أن تقترح على الزبون مسبقاً الجواب الذي ينبغي أن يقدمه أو السبب الذي يجب أن يذكره."
+              ]
+            },
+            {
+              "heading": "اربط التحسين المقترح بعمل واضح ومسؤول عنه",
+              "paragraphs": [
+                "اختر تغييراً يستطيع الفريق تجربته ضمن تنظيمه الحالي. إذا وجد الزبناء صعوبة في فهم تقدم الطلب، فقد تكون الخطوة مراجعة رسالة التأكيد وشرح ما سيحدث بعدها. اكتب التغيير المقترح والشخص الذي سيحضره والزملاء الذين ينبغي أن يراجعوه قبل استعماله. وضع علامة للمتابعة لا يكفي لإخبار الأشخاص بما هو منتظر منهم. اجعل العمل المطلوب واضحاً حتى يعرف كل مشارك كيف يساهم في معالجة الملاحظة المسجلة.",
+                "حدد ما ستلاحظونه أثناء التجربة. هل يفهم الزبون الخطوة التالية بشكل أفضل؟ هل يعرف الزملاء متى يرسلون الرسالة؟ استعمل التبادلات والأجوبة الفعلية لتقدير فائدة التغيير، دون إعلان نتيجة قبل ملاحظتها في العمل. إذا لم تعد الخطوة مناسبة للحاجة الأصلية، اشرح سبب تعديلها أو تأجيلها أو تركها. يحافظ هذا التوضيح على العلاقة بين الملاحظة والعمل المنجز، ويمنع ظهور السجل كأنه لائحة مهام لا يعرف أحد أصلها."
+              ]
+            },
+            {
+              "heading": "وضّح نتيجة المتابعة وحافظ على وضوح السجل",
+              "paragraphs": [
+                "بعد تجربة التغيير، أضف خلاصة قصيرة تشرح ما أُنجز وما لاحظه الفريق وما يزال يحتاج إلى فهم. عندما يناسب ذلك سياق الحديث، أخبر الزبون بكيفية التعامل مع ملاحظته دون وعد بتطبيق كل اقتراح يصل إلى المقاولة. يمكن أن يوضح جواب مهتم أن الصعوبة فُهمت وأن فكرة للتحسين قيد الدراسة. اجعل الرد مناسباً للتبادل الذي جرى، بدل استعمال رسالة آلية لا تعكس السؤال أو التجربة التي وصفها الزبون.",
+                "اختر مكاناً معروفاً لحفظ السجل وشخصاً يساعد على إبقاء المداخل مفهومة ووقتاً للمراجعة يلائم نشاطك. احصر التفاصيل الحساسة في الزملاء الذين يحتاجون إليها، وتجنب نسخ المحادثات كاملة دون حاجة. ينبغي أن يدعم السجل تحسيناً عملياً، لا أن يتحول إلى مجموعة أحكام على الأشخاص. يمكن لفيليكسيا مساعدتك على تحديد شكل مناسب للمتابعة وربط ملاحظات الزبناء بالطريقة التي يناقش بها فريقك أعماله ويتابع تنظيم المقاولة."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "هل يجب تطبيق كل اقتراح يقدمه الزبون؟",
+              "answer": "لا. افهم الحاجة وراء الملاحظة، ثم اختر جواباً يلائم نشاطك ووضح الخطوة التالية عندما يكون ذلك مفيداً للتبادل."
+            },
+            {
+              "question": "هل يمكن البدء بوثيقة مشتركة بسيطة؟",
+              "answer": "نعم، إذا كان إيجاد المداخل سهلاً والأعمال واضحة والوصول مناسباً للمعلومات المحفوظة. حدد طريقة المتابعة قبل اختيار الأداة."
+            }
+          ],
+          "internalLinks": [
+            {
+              "path": "/ar/conseil-gestion/",
+              "label": "اكتشف الاستشارة في التدبير لدى فيليكسيا"
+            },
+            {
+              "path": "/ar/contact/",
+              "label": "نظّم متابعة ملاحظات زبنائك مع فيليكسيا"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

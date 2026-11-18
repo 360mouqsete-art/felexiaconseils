@@ -1,0 +1,35 @@
+.intelligence-sources {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid #dfe6f0;
+  border-radius: 1rem;
+  background: #f5f8fd;
+  overflow-wrap: anywhere;
+}
+.intelligence-disclosure {
+  margin-top: 1.5rem;
+  font-size: .9rem;
+  line-height: 1.7;
+  color: #52637a;
+}
+.intelligence-faq details {
+  margin-block: .75rem;
+  padding: .85rem 1rem;
+  border: 1px solid #dfe6f0;
+  border-radius: .75rem;
+}
+.intelligence-faq summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.intelligence-faq details p { margin-bottom: 0; }
+html[dir="rtl"] .intelligence-toc ul {
+  border-left: 0;
+  border-right: 1px solid #dfe6f0;
+}
+.dark .intelligence-sources {
+  background: rgba(255,255,255,.04);
+  border-color: rgba(255,255,255,.18);
+}
+.dark .intelligence-disclosure { color: #c1ccdb; }
+.dark .intelligence-faq details { border-color: rgba(255,255,255,.18); }

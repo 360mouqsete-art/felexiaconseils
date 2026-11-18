@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T08:44:45.520Z",
+  "entries": {
+    "plf-2027-maroc-documents-officiels": {
+      "kind": "ministry",
+      "legacySources": [
+        "/images/intelligence/evergreen-rediger-note-cadrage.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/plf-2027-maroc-documents-officiels-8ef7b5d65eca.webp",
+        "smallSrc": "/images/guides/illustrations/plf-2027-maroc-documents-officiels-8ef7b5d65eca-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-28T15:17:14.272Z"
+      },
+      "alt": {
+        "fr": "Dossier PLF 2027, documents budgétaires et calculatrice dans un bureau à Rabat — illustration générée par IA",
+        "en": "PLF 2027 folder, budget documents and calculator in a Rabat office — AI-generated illustration",
+        "ar": "ملف مشروع قانون المالية 2027 ووثائق ميزانياتية وآلة حاسبة في مكتب بالرباط — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a12f13-27ec-7620-a38e-f963aeb935e9/exec-5dff629f-e0ab-47d4-9037-387da4c30306.png",
+        "sourceSha256": "a229cf9d02ac1547c6b83cdf339818af2ba1757214de8551d2db2004541280ef",
+        "prompt": "Photorealistic editorial Moroccan budget still life: navy folder labelled PLF 2027, budget documents, calculator and pen on an oak desk, Moroccan flag, Rabat office and natural window light; landscape 16:10, central essential subjects; no official seal, signature, fabricated numbers, watermark, diagram or icons."
+      }
+    },
+    "evergreen-document-naming-versions": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-document-naming-versions.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-document-naming-versions-9d2b4353f277.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-document-naming-versions-9d2b4353f277-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:40:41.661Z"
+      },
+      "alt": {
+        "fr": "Une professionnelle compare deux versions d’un rapport et organise les fichiers sur son ordinateur — illustration générée par IA",
+        "en": "A professional compares two report versions and organizes files on her computer — AI-generated illustration",
+        "ar": "موظفة تقارن نسختين من تقرير وتنظم الملفات على حاسوبها — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-b87d-7b63-abaf-70d95ecd633c/exec-071d0283-e7ba-4f98-ac32-e7fd12d09962.png",
+        "sourceSha256": "991f6e7544a21be8f7fb652f6b1ab4705384dcf4a7cfa8f90131e0fbfb80ed0b",
+        "prompt": "Use case: photorealistic-natural. Asset type: landscape editorial cover for a Moroccan SME guide about organizing document names and versions. Over-the-shoulder three-quarter view of a Moroccan office professional arranging a carefully organized digital document archive on a laptop beside two real paper versions of the same report held with distinct simple clips and a row of tidy archive folders. The screen shows an unobtrusive unbranded file list with abstract blurred lines, no readable text. One hand uses the trackpad while the other compares the two paper versions; the focused action of version management is immediately clear. Contemporary small Casablanca office, shelves and subtle Moroccan craft detail softly out of focus. Premium realistic editorial photography, crisp material texture and natural daylight, sage and warm wooden accents, accurate hands. Wide landscape 16:10, central laptop, reports and hands crop-safe for banner. No readable text, no logos, no watermark, no node diagram, no floating icons, no collage, no border. One finished image."
+      }
+    },
+    "evergreen-documenter-parcours-travail": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-documenter-parcours-travail.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-documenter-parcours-travail-9357c129c191.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-documenter-parcours-travail-9357c129c191-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:40:48.046Z"
+      },
+      "alt": {
+        "fr": "Deux collègues d’un atelier de PME se transmettent un dossier de travail entre deux postes — illustration générée par IA",
+        "en": "Two SME workshop colleagues hand over a work dossier between workstations — AI-generated illustration",
+        "ar": "زميلان في ورشة مقاولة صغيرة يتبادلان ملف العمل بين محطتين — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-9366-7bb1-8cf7-82bd9aa7d26b/exec-7e23657c-2b85-44dd-a470-fd23c900e478.png",
+        "sourceSha256": "131244bd3ccb2b3c82ece4f755444aaa0df85689ba20408487b7070d667ce9c5",
+        "prompt": "Use case: photorealistic-natural. Asset type: landscape editorial cover for a Moroccan SME guide about documenting a work process and transmitting information between coworkers. Authentic small light-manufacturing workshop near Casablanca: two Moroccan coworkers in clean navy work clothes beside a practical assembly bench with simple parts trays and tools. An experienced employee passes a real transparent task dossier with paper process sheets to a younger colleague, who follows the same physical part from one workstation to the next. A small real clipboard lies on the workbench. The paper handoff and workstations must make the transfer of working knowledge immediately understandable. Faces anonymous, all print small and out of focus, realistic hands. Premium candid editorial photography, slightly wide 35mm perspective, soft daylight, tactile metal and paper, grounded unglamorous credible working environment. Wide 16:10 composition with main actions in central band for banner crop. No logos, no readable words or numbers, no watermark, no floating icons, no abstract process nodes or digital arrows, no vector art, no collage. One finished image."
+      }
+    },
+    "evergreen-erp-needs-brief": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-erp-needs-brief.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-erp-needs-brief-b066a06f1c2c.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-erp-needs-brief-b066a06f1c2c-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:41:16.216Z"
+      },
+      "alt": {
+        "fr": "Deux responsables de PME définissent leurs besoins de gestion avant de choisir un ERP — illustration générée par IA",
+        "en": "Two SME managers define their business requirements before choosing an ERP system — AI-generated illustration",
+        "ar": "مسؤولان في مقاولة صغيرة يحددان احتياجات التسيير قبل اختيار نظام لتخطيط موارد المؤسسة — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-b87d-7b63-abaf-70d95ecd633c/exec-951bc9d3-96aa-4ded-a8f8-6db2d1d05196.png",
+        "sourceSha256": "b96ef208fe7f896bbe9e711feb91ee3c16bf2c6344997a979ed20fbe21ddd0e9",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME guide about preparing an ERP requirements brief before choosing software. In a real small manufacturing business office overlooking an orderly workshop, a Moroccan manager and an operations colleague map their practical needs together. On a large desk are three tangible groups of materials: customer order folders, a modest box of stocked components and accounting papers, plus an open laptop showing a neutral unbranded blurred software interface. The manager arranges paper cards while the colleague annotates a requirements sheet. The scene must clearly suggest connecting sales, inventory and accounting needs before a software decision, without an infographic. Premium realistic editorial photography, natural warm daylight, tactile paper and component textures, anonymous people and believable hands. Wide 16:10, important objects and collaboration central and banner-crop safe. No readable text, numbers or logos, no floating icons, no node diagrams, no watermark, no collage, no border. One finished image."
+      }
+    },
+    "evergreen-inventory-handoff-checklist": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-inventory-handoff-checklist.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-inventory-handoff-checklist-7ce93404c92d.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-inventory-handoff-checklist-7ce93404c92d-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:41:16.206Z"
+      },
+      "alt": {
+        "fr": "Deux collègues comptent les marchandises et vérifient une fiche lors d’une passation de stocks — illustration générée par IA",
+        "en": "Two colleagues count goods and check a clipboard during an inventory handover — AI-generated illustration",
+        "ar": "زميلان يعدان البضائع ويراجعان ورقة متابعة أثناء تسليم المخزون — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-b87d-7b63-abaf-70d95ecd633c/exec-7c4f8923-694f-46af-b43d-ead8c68e144d.png",
+        "sourceSha256": "f8a332e7221c31160755752b918e8a2c3a8603d3dc84919dde98fdf0d7477f29",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME guide about preparing an inventory handover checklist. Two anonymous Moroccan warehouse colleagues in simple clean work clothes stand together in a bright orderly small-business storeroom. One counts an open carton of real packaged stock on a sturdy workbench, while the colleague checks corresponding rows on a paper clipboard with a pencil. Shelves hold neat unbranded cardboard cartons and a few inventory tags, all text indistinct. The action clearly communicates counting stock together before transfer of responsibility. Premium realistic editorial photography, natural daylight through a warehouse window, tactile cardboard, wood and fabric, believable anatomy and hands, restrained warm palette. Landscape 16:10, workbench, hands, stock and clipboard remain central and visible in a wide banner crop. No legible labels or numbers, no logos, no safety hazards, no watermark, no generic icons or diagrams, no collage, no border. One finished image."
+      }
+    },
+    "evergreen-monthly-operational-review": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-monthly-operational-review.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-monthly-operational-review-09dee1d92e94.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-monthly-operational-review-09dee1d92e94-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:40:41.657Z"
+      },
+      "alt": {
+        "fr": "Une équipe de PME examine ses indicateurs lors d’une revue mensuelle des opérations — illustration générée par IA",
+        "en": "An SME team reviews its indicators during a monthly operations meeting — AI-generated illustration",
+        "ar": "فريق مقاولة صغيرة يراجع مؤشرات النشاط خلال اجتماع شهري للعمليات — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-b87d-7b63-abaf-70d95ecd633c/exec-0d0d583e-b46e-4e43-933d-c0ff2436c300.png",
+        "sourceSha256": "678562a4d8c5d89ca82ae334a605c5c41c46d397727b8864c3b4e99dc0cb556f",
+        "prompt": "Use case: photorealistic-natural. Asset type: landscape editorial cover for a Moroccan SME guide about preparing a monthly operations review. Three Moroccan small-business colleagues sit around a modest meeting table in a sunlit office adjoining a production workshop. A woman manager points with her pen to a real printed monthly operations chart while two colleagues thoughtfully examine the same page; a simple wall board with indistinct bar charts and a few blank paper cards sits behind them. Focus on the concrete review action, organized evidence and collaborative decisions. Premium candid editorial photography, realistic skin and hands, warm natural window light, tactile paper and wood, varied navy and neutral clothing. Wide 16:10 composition, keep the central table and all main subjects safe for a banner crop. No readable text or numbers, no recognizable brand, no watermark, no icons, no abstract diagram, no collage or border. One finished image."
+      }
+    },
+    "evergreen-preparer-rendez-vous-conseil": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-preparer-rendez-vous-conseil.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-preparer-rendez-vous-conseil-ce4c5c8b2073.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-preparer-rendez-vous-conseil-ce4c5c8b2073-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:38:53.964Z"
+      },
+      "alt": {
+        "fr": "Dirigeante de PME préparant ses dossiers et ses questions pour un rendez-vous de conseil — illustration générée par IA",
+        "en": "SME manager preparing documents and questions for a business-advice appointment — AI-generated illustration",
+        "ar": "مديرة مقاولة صغيرة تعد الملفات والأسئلة لموعد استشاري في التدبير — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-9366-7bb1-8cf7-82bd9aa7d26b/exec-5b1af801-83bb-4629-a5a4-ca9911b0f1d8.png",
+        "sourceSha256": "a9a363c5dc1db354050db9f010156952e64582750e6a3735cbcf78368cc07fbd",
+        "prompt": "Use case: photorealistic-natural. Asset type: landscape editorial cover for a Moroccan SME guide about preparing a management-advice appointment. A Moroccan female small-business manager sits alone at a bright real oak desk carefully preparing an organized question dossier before meeting her business adviser; open notebook with nonlegible handwritten notes, three tabbed paper folders, pen, simple laptop with screen softly out of focus, a scheduled desk calendar without readable words. Her hands arrange the key business documents in a clear preparation gesture. Authentic contemporary Casablanca office with a small plant, subtle street architecture blurred outside. Photorealistic professional editorial photography, warm natural window light, tactile paper and wood, thoughtful calm mood. Wide landscape 16:10, principal subject and documents inside the central horizontal band, crop-safe for a wide banner. Distinct concrete subject, no vector art, no generic diagram, no floating icons, no collage, no legible text or numbers, no logos, no watermark, no invented seals or signatures. One finished image."
+      }
+    },
+    "evergreen-receivables-working-list": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-receivables-working-list.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-receivables-working-list-320f2cacf1fe.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-receivables-working-list-320f2cacf1fe-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:40:22.298Z"
+      },
+      "alt": {
+        "fr": "Une comptable rapproche les factures et règlements clients avec une liste de suivi et une calculatrice — illustration générée par IA",
+        "en": "An accountant reconciles customer invoices and payments using a working list and calculator — AI-generated illustration",
+        "ar": "محاسبة تطابق فواتير العملاء ومدفوعاتهم باستخدام قائمة متابعة وآلة حاسبة — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-b87d-7b63-abaf-70d95ecd633c/exec-ff8293b9-976d-4903-a0a6-3523ea406917.png",
+        "sourceSha256": "aef360fbc803849b63afa3eae99e3d1ccb60b8da8dae8bd8424389ce33c485dc",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME business guide about building an accounts receivable working list. In a bright contemporary small-business office in Casablanca, a Moroccan female accountant in her thirties checks a neat spread of real invoices and payment receipts against a printed ledger with a pen and a desk calculator. Three simple paper folders subtly distinguish open and settled invoices without readable labels. Her thoughtful hands and the reconciliation action are the focal point, a laptop softly out of focus. Real paper grain, accurate hands, natural warm window light, premium editorial photography, understated navy and ochre accents. Wide landscape 16:10; keep the meaningful work and main objects within the central band for a wide banner crop. The image must immediately communicate tracking customer payments and reconciling invoices. No legible text or numbers, no brand logos, no watermark, no diagram, no floating icons, no infographic, no collage, no border. One finished image."
+      }
+    },
+    "evergreen-rediger-note-cadrage": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-rediger-note-cadrage.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-rediger-note-cadrage-9876a0d6e5a3.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-rediger-note-cadrage-9876a0d6e5a3-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:39:52.646Z"
+      },
+      "alt": {
+        "fr": "Deux collègues rédigent une note de cadrage et les étapes d’un projet interne de PME — illustration générée par IA",
+        "en": "Two colleagues draft a scoping brief and milestones for an internal SME project — AI-generated illustration",
+        "ar": "زميلان يعدان مذكرة تأطير ومراحل مشروع داخلي لمقاولة صغيرة — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-9366-7bb1-8cf7-82bd9aa7d26b/exec-ba91fb2c-eaa9-4fc1-81af-ac3aed1f3f8b.png",
+        "sourceSha256": "50b657d69c539e63c4e90ffe8fbc6ccd6f5a0aa35fdaba65dc442f1879a43e6c",
+        "prompt": "Use case: photorealistic-natural. Asset type: landscape editorial cover for a Moroccan SME guide about writing a clear project scoping brief. In a small contemporary Rabat office, two anonymous Moroccan project colleagues, a woman and a man in relaxed professional clothes, collaborate over one large paper project brief on a light wooden table. She holds a pen pointing to a simple hand-drawn milestone timeline while he places several real small sticky notes alongside the page; a folder, closed laptop and tape measure suggest a practical internal workspace reorganization. All writing and screen details intentionally indistinct. Make the actual shared paper brief the focal point, with the two thoughtful faces behind it. Camera slightly above desk level at three-quarter angle, tactile paper texture, soft morning sunlight, natural credible anatomy, premium editorial photography. Single wide 16:10 composition with key content centered for wide banner crop. No logos, no watermark, no readable words or numbers, no floating UI or icons, no vector diagram, no generic connected checklist cards, no collage, no artificial glow. One finished image."
+      }
+    },
+    "evergreen-remote-project-coordination": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-remote-project-coordination.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-remote-project-coordination-177e019d2471.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-remote-project-coordination-177e019d2471-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:41:16.212Z"
+      },
+      "alt": {
+        "fr": "Une professionnelle coordonne son projet à distance en visioconférence avec son équipe — illustration générée par IA",
+        "en": "A professional coordinates a remote project in a video meeting with her team — AI-generated illustration",
+        "ar": "موظفة تنسق مشروعها عن بعد عبر اجتماع بالفيديو مع فريقها — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-b87d-7b63-abaf-70d95ecd633c/exec-b2a2722f-017d-4990-bd27-c39b8ff67713.png",
+        "sourceSha256": "ea65666c9b45bf5274ed2ae3ef08e423d2fcaa5fdbaffb6500f184b5eb507808",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME guide about coordinating a project remotely. A Moroccan businesswoman in her thirties works in a comfortable sunlit home office in Rabat, wearing a simple headset and participating in a video call on a laptop. On the laptop screen three anonymous colleagues appear in a believable unbranded video meeting grid. Beside her hand is a practical open notebook with a few colored tabs and a printed project plan containing only indistinct marks. She is listening attentively and indicating a point on the plan; the scene immediately communicates organized remote collaboration. Premium candid editorial photography, natural skin and accurate hands, warm window light, oak desk and a small leafy plant. Landscape 16:10, laptop call screen, notebook and main subject centered for wide banner crop. No legible text or numbers, no recognizable application logos, no watermark, no floating UI elements, no abstract diagrams, no collage, no border. One finished image."
+      }
+    },
+    "evergreen-retours-clients-actionnables": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-journal-decisions-operationnelles.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-retours-clients-actionnables-c1e084c0ab7b.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-retours-clients-actionnables-c1e084c0ab7b-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:39:54.750Z"
+      },
+      "alt": {
+        "fr": "Équipe de PME transformant des retours clients en plan d’action — illustration générée par IA",
+        "en": "Small-business team turning customer feedback into an action plan — AI-generated illustration",
+        "ar": "فريق مقاولة يحول ملاحظات الزبناء إلى خطة عمل — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:\\Users\\XXX\\.codex\\generated_images\\01a12f13-27ec-7620-a38e-f963aeb935e9\\exec-9d068d08-7438-4bec-a7d6-585b44831975.png",
+        "sourceSha256": "76285ad7954466fd2434f9d95685c9792d8822340ff5f09edd3d48bdcb5496c4",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape guide article cover for Felexia Conseils, a Moroccan business advisory website. An anonymous Moroccan small-business team of three at a real wooden worktable, grouping physical customer feedback cards and printed customer emails into a short actionable improvement plan in a notebook. A woman manager points to one concrete improvement with a pen while colleagues listen. A modest contemporary Casablanca SME office. Customer feedback becoming practical action must be immediately apparent. High quality realistic editorial photography, natural light, honest tangible textures, rich but restrained color. Wide landscape 16:10 composition, main subject inside central band, readable when banner-cropped. No illustration diagram, vector nodes, floating icons, collage, split panels, border, watermark, brand logos, official seals, signatures, legible gibberish, invented numbers or text. One finished image."
+      }
+    },
+    "evergreen-supplier-comparison-grid": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-supplier-comparison-grid.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-supplier-comparison-grid-2f18d4e272aa.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-supplier-comparison-grid-2f18d4e272aa-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:41:16.220Z"
+      },
+      "alt": {
+        "fr": "Une responsable achats compare des échantillons et les offres de plusieurs fournisseurs — illustration générée par IA",
+        "en": "A purchasing manager compares material samples and quotations from several suppliers — AI-generated illustration",
+        "ar": "مسؤولة مشتريات تقارن عينات المواد وعروض عدة موردين — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-b87d-7b63-abaf-70d95ecd633c/exec-b52fe62e-ba67-4c3c-a4a3-442e96b75439.png",
+        "sourceSha256": "5db052fe6228d718179a5b3ce81793b18cfd07a265bd13788fa5a3bfe0ff4e39",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME guide about constructing a supplier comparison grid. Close three-quarter view of a Moroccan purchasing manager at an oak table, comparing three distinct but similar real material samples and three supplier quotation sheets laid neatly side by side. A neutral printed comparison table with indistinct rows lies under her pen. She thoughtfully examines one sample while evaluating the documents; an unbranded calculator and closed folder sit nearby. Contemporary small business office, premium natural editorial photography, afternoon window light, beautiful tactile fabric and material surfaces, realistic hand anatomy. This should immediately communicate comparing suppliers against the same criteria. Landscape 16:10, all three sample/document groupings and hands within the central crop-safe band for article banners. No readable words, numbers, brands, watermark, no generic icons or diagram, no collage, no border. One finished image."
+      }
+    },
+    "ministere-economie-finances-plf-2027-presentation-commission-finances-representants": {
+      "kind": "ministry",
+      "legacySources": [
+        "/images/intelligence/evergreen-rediger-note-cadrage.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/ministere-economie-finances-plf-2027-presentation-commission-finances-representants-394ff2b28357.webp",
+        "smallSrc": "/images/guides/illustrations/ministere-economie-finances-plf-2027-presentation-commission-finances-representants-394ff2b28357-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:41:17.305Z"
+      },
+      "alt": {
+        "fr": "Examen de dossiers budgétaires en commission des finances — illustration générée par IA",
+        "en": "Budget documents examined by a finance committee — AI-generated illustration",
+        "ar": "دراسة ملفات الميزانية في لجنة المالية — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:\\Users\\XXX\\.codex\\generated_images\\01a12f13-27ec-7620-a38e-f963aeb935e9\\exec-4bd63d3b-207a-4d31-b21a-d630805b39c8.png",
+        "sourceSha256": "c9e5c65b4920ed361dea1bbe7ad906cad7d1c2fabfae79d765f2282199fc3186",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape guide article cover for Felexia Conseils, a Moroccan business advisory website. An editorial illustration in a realistic photographic style of a small Moroccan parliamentary finance committee room: anonymous adults in business attire around a horseshoe committee table, one speaker briefing budget folders, table microphones, a Moroccan flag, warm wood paneling. Focus on close committee scrutiny of a proposed national budget. No actual named people or reconstruction of a real event. Premium realistic editorial illustration with photographic texture, natural light, restrained rich colors. Landscape 16:10; central essential subjects readable when banner-cropped. No diagram, vector nodes, floating icons, collage, border, watermark, brand logos, official seals, signatures, readable invented text or numbers. One finished image."
+      }
+    },
+    "ministere-economie-finances-plf-2027-presentation-deux-chambres-parlement": {
+      "kind": "ministry",
+      "legacySources": [
+        "/images/intelligence/evergreen-document-naming-versions.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/ministere-economie-finances-plf-2027-presentation-deux-chambres-parlement-0a77cb1a6406.webp",
+        "smallSrc": "/images/guides/illustrations/ministere-economie-finances-plf-2027-presentation-deux-chambres-parlement-0a77cb1a6406-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:42:31.776Z"
+      },
+      "alt": {
+        "fr": "Hémicycle parlementaire et présentation du budget — illustration générée par IA",
+        "en": "Parliamentary chamber and budget presentation — AI-generated illustration",
+        "ar": "قاعة برلمانية وعرض مشروع الميزانية — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:\\Users\\XXX\\.codex\\generated_images\\01a12f13-27ec-7620-a38e-f963aeb935e9\\exec-b80b8084-9eeb-48ed-a71f-3e7ba2f6c23b.png",
+        "sourceSha256": "72f5c9980da9acaa706387aa1201d909366e01e6ac6653095a795e80c4ca072c",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape guide article cover for Felexia Conseils, a Moroccan business advisory website. Editorial illustration in realistic photographic style of a grand Moroccan parliamentary assembly chamber: a broad semicircle of rows of wood seats, distant anonymous seated representatives, a central lectern and Moroccan flag, subtle Moroccan architectural details. Elevated wide architectural view from rear balcony. Convey national budget presentation to both parliamentary chambers symbolically; not an authentic photograph or reconstruction of any dated event. Premium realistic editorial illustration with photographic texture, natural light, restrained rich colors. Landscape 16:10; central essential subjects readable when banner-cropped. No diagram, vector nodes, floating icons, collage, border, watermark, brand logos, official seals, signatures, readable invented text or numbers. One finished image."
+      }
+    },
+    "ministere-economie-finances-plf-2027-publication-documents-rapports-notes": {
+      "kind": "ministry",
+      "legacySources": [
+        "/images/intelligence/evergreen-rediger-note-cadrage.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/ministere-economie-finances-plf-2027-publication-documents-rapports-notes-d1351c731119.webp",
+        "smallSrc": "/images/guides/illustrations/ministere-economie-finances-plf-2027-publication-documents-rapports-notes-d1351c731119-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:41:53.108Z"
+      },
+      "alt": {
+        "fr": "Rapports, notes et bibliothèque de documents budgétaires du PLF — illustration générée par IA",
+        "en": "Budget reports, notes and document library — AI-generated illustration",
+        "ar": "تقارير ومذكرات ومكتبة وثائق مشروع قانون المالية — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:\\Users\\XXX\\.codex\\generated_images\\01a12f13-27ec-7620-a38e-f963aeb935e9\\exec-61bdbfa0-38d3-4fac-a911-b54e145551a2.png",
+        "sourceSha256": "2f3e2e47f27d92241e8a4a07bbfef765fd90ea74431cc40df41902547c9955ce",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape guide article cover for Felexia Conseils, a Moroccan business advisory website. Editorial still life in a modern Rabat office showing a desktop computer with an abstract clean document library, rows of neatly arranged budget reports and annexes, several open printed pages with indistinct charts on a pale desk, one restrained Moroccan flag in background. Make accessible official document publication and research immediately clear. Distinct from a single navy binder cover: use ivory report stacks and a landscape monitor, medium wide view. Premium realistic editorial illustration with photographic texture, natural light, restrained rich colors. Landscape 16:10; central essential subjects readable when banner-cropped. No diagram, vector nodes, floating icons, collage, border, watermark, brand logos, official seals, signatures, readable invented text or numbers. One finished image."
+      }
+    },
+    "evergreen-checklist-accueil-client": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-checklist-accueil-client.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-checklist-accueil-client-0efdec13a84f.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-checklist-accueil-client-0efdec13a84f-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:42:35.941Z"
+      },
+      "alt": {
+        "fr": "Conseillère accueillant un nouveau client avec un dossier d’intégration organisé — illustration générée par IA",
+        "en": "Business adviser welcoming a new client with an organized onboarding portfolio — AI-generated illustration",
+        "ar": "مستشارة تستقبل عميلا جديدا بملف منظم لبدء التعاون — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-9366-7bb1-8cf7-82bd9aa7d26b/exec-006bcf44-4fb4-4097-96e8-acdbefe31628.png",
+        "sourceSha256": "4310ce66354c6afe07ca2f277191b2707ebd701dad984d00758e691e78f23b9c",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME management guide. A welcoming first client meeting in a small Moroccan advisory office: an anonymous Moroccan female business adviser in a light blazer warmly greets a male entrepreneur across a wooden table while guiding him through a real open onboarding portfolio containing organized introductory papers with subtle checkmarks. Folder and pen in the center, small laptop closed to the side, friendly attentive faces and clear welcome gesture. Background glass partition with a plant and diffused Casablanca daylight. This must clearly convey a professional welcoming and onboarding a new client, with tangible materials, not a generic board meeting. Style: premium photorealistic candid editorial photography, credible realistic anatomy and hands, warm natural window light, tactile real materials, quiet professional mood. Wide 16:10 landscape with main subject and action inside central horizontal band to survive wide banner crop. Avoid logos, watermark, legible text, readable invented numbers, official seals, floating UI or icons, abstract connected checklist cards, vectors, collage and artificial glow. One finished image."
+      }
+    },
+    "evergreen-dossiers-informations-fournisseurs": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-dossiers-informations-fournisseurs.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-dossiers-informations-fournisseurs-affce3e2155b.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-dossiers-informations-fournisseurs-affce3e2155b-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:43:24.925Z"
+      },
+      "alt": {
+        "fr": "Gestionnaire classant les dossiers d’informations de fournisseurs dans une armoire de PME — illustration générée par IA",
+        "en": "Administrator filing supplier information dossiers in an SME archive shelf — AI-generated illustration",
+        "ar": "مسؤولة ترتب ملفات معلومات الموردين في خزانة مقاولة صغيرة — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-9366-7bb1-8cf7-82bd9aa7d26b/exec-cd3e990c-ed0e-4d86-a4d0-05c7c8235c60.png",
+        "sourceSha256": "efa5d219816658f4ce72a501779e74804e4d96871313f9f56ba78e52ce750343",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME management guide. A Moroccan small-business purchasing administrator organizes tangible supplier information records in a practical archive corner. An anonymous woman stands beside waist-high wooden shelving full of separate color-tabbed lever-arch folders, holding an open vendor dossier with paper contact sheets and a sample delivery note. She places one folder precisely into its correct shelf position while a real workdesk nearby contains two closed folders, a simple laptop and a supplier product sample. All labels indistinct, no legible words or numbers. Focus on orderly physical supplier files and the action of storing/retrieving them. Rich tactile cardboard and paper, natural everyday office, eye-level slightly wide composition. Style: premium photorealistic candid editorial photography, credible realistic anatomy and hands, warm natural window light, tactile real materials, quiet professional mood. Wide 16:10 landscape with main subject and action inside central horizontal band to survive wide banner crop. Avoid logos, watermark, legible text, readable invented numbers, official seals, floating UI or icons, abstract connected checklist cards, vectors, collage and artificial glow. One finished image."
+      }
+    },
+    "evergreen-journal-decisions-operationnelles": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-journal-decisions-operationnelles.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-journal-decisions-operationnelles-879f64517dcd.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-journal-decisions-operationnelles-879f64517dcd-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:42:01.106Z"
+      },
+      "alt": {
+        "fr": "Responsable de PME consignant une décision opérationnelle dans un carnet pendant une réunion — illustration générée par IA",
+        "en": "SME manager recording an operational decision in a notebook during a meeting — AI-generated illustration",
+        "ar": "مسؤول مقاولة صغيرة يدون قرارا تشغيليا في دفتر أثناء اجتماع — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-9366-7bb1-8cf7-82bd9aa7d26b/exec-97a0327e-b936-4caa-8233-19fe2dc7d436.png",
+        "sourceSha256": "67fac6c216909f9cb017e281869e4f79e64ca844c7b5b9807cd287b669082245",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME management guide. Close oblique view of a Moroccan small-business operations manager in a meeting recording a newly agreed decision in a physical hardcover notebook with a pen. Two colleagues sit slightly blurred across the real conference desk, one points to a small stack of paper reports. The notebook and act of writing are the unmistakable focal point. Natural paper pages with short indistinct handwritten lines, a few subtle colored page tabs, nothing readable. Authentic small contemporary Moroccan office, glass of water and simple agenda folder, no busy decorative props. Distinct intimate camera angle, with hands and notebook central. Style: premium photorealistic candid editorial photography, credible realistic anatomy and hands, warm natural window light, tactile real materials, quiet professional mood. Wide 16:10 landscape with main subject and action inside central horizontal band to survive wide banner crop. Avoid logos, watermark, legible text, readable invented numbers, official seals, floating UI or icons, abstract connected checklist cards, vectors, collage and artificial glow. One finished image."
+      }
+    },
+    "evergreen-passation-organisation-travail": {
+      "kind": "topic",
+      "legacySources": [
+        "/images/intelligence/evergreen-passation-organisation-travail.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/evergreen-passation-organisation-travail-7ea178696c8e.webp",
+        "smallSrc": "/images/guides/illustrations/evergreen-passation-organisation-travail-7ea178696c8e-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:44:27.722Z"
+      },
+      "alt": {
+        "fr": "Deux responsables se transmettent les clés et un dossier de passation opérationnelle de PME — illustration générée par IA",
+        "en": "Two managers hand over keys and an organized SME operations dossier — AI-generated illustration",
+        "ar": "مسؤولان يتبادلان المفاتيح وملف تسليم المهام التشغيلية لمقاولة صغيرة — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:/Users/XXX/.codex/generated_images/01a186ce-9366-7bb1-8cf7-82bd9aa7d26b/exec-781d3808-05ad-4677-9764-e48928b7476a.png",
+        "sourceSha256": "c153654935c874d32cc20c650c4ecfa9f64143c4c9312c9502bad44850f25a53",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape editorial cover for a Moroccan SME guide about preparing an operational management handover. In a practical small Moroccan business office adjoining a workshop visible through a window, an experienced manager in a dark jacket passes a compact ring of actual office keys to an incoming colleague across a real desk. An open handover binder with neatly tabbed pages and a simple activity calendar without legible text lies directly beneath their hands. The incoming colleague attentively holds the binder edge; a few paper dossiers and a closed laptop are to the side. Make the keys being transferred and the organized management handover dossier unmistakable focal elements. Anonymous Moroccan adults, natural realistic hands and expressions. Slightly elevated oblique camera angle, premium authentic editorial photography, warm late-afternoon daylight, tactile paper and wood, credible professional environment. Single wide landscape 16:10, important keys, binder, and hands centrally framed to remain visible in a wide banner crop. No logos, no watermark, no legible text or invented numbers, no official seals or signatures, no vector diagrams, no floating UI or icons, no collage. One finished image."
+      }
+    },
+    "ministere-economie-finances-nomination-fouzi-lekjaa-ministre-economie-finances-2026": {
+      "kind": "ministry",
+      "legacySources": [
+        "/images/intelligence/evergreen-document-naming-versions.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/ministere-economie-finances-nomination-fouzi-lekjaa-ministre-economie-finances-2026-37fec6af4882.webp",
+        "smallSrc": "/images/guides/illustrations/ministere-economie-finances-nomination-fouzi-lekjaa-ministre-economie-finances-2026-37fec6af4882-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:44:14.683Z"
+      },
+      "alt": {
+        "fr": "Bureau institutionnel marocain évoquant une nouvelle nomination — illustration générée par IA",
+        "en": "Moroccan institutional office symbolizing a new appointment — AI-generated illustration",
+        "ar": "مكتب مؤسساتي مغربي يرمز إلى تعيين جديد — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:\\Users\\XXX\\.codex\\generated_images\\01a12f13-27ec-7620-a38e-f963aeb935e9\\exec-ad810eb3-e31d-4931-a144-ec56672e03b9.png",
+        "sourceSha256": "a006de6baad46d867f27841de97b133e58d7ea8409465866a0b679853982a551",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape guide article cover for Felexia Conseils, a Moroccan business advisory website. Symbolic editorial still life for a new appointment to Morocco economic ministry: an elegant empty ministerial office in Rabat, dark wooden desk with closed appointment folder, fountain pen and discreet nameplate without text, a Moroccan flag beside tall windows, shelves of economics reference books, morning natural light. Institutional responsibility and a new beginning. No human portrait, no readable appointment decree, no official seal or signature, not a news photograph. Premium realistic editorial illustration with photographic texture, natural light, restrained rich colors. Landscape 16:10; central essential subjects readable when banner-cropped. No diagram, vector nodes, floating icons, collage, border, watermark, brand logos, official seals, signatures, readable invented text or numbers. One finished image."
+      }
+    },
+    "ministere-economie-finances-passation-fouzi-lekjaa-nadia-fettah-octobre-2026": {
+      "kind": "ministry",
+      "legacySources": [
+        "/images/intelligence/evergreen-passation-organisation-travail.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/ministere-economie-finances-passation-fouzi-lekjaa-nadia-fettah-octobre-2026-f4b2bb934560.webp",
+        "smallSrc": "/images/guides/illustrations/ministere-economie-finances-passation-fouzi-lekjaa-nadia-fettah-octobre-2026-f4b2bb934560-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:43:50.042Z"
+      },
+      "alt": {
+        "fr": "Transmission symbolique d’un dossier lors d’une passation institutionnelle — illustration générée par IA",
+        "en": "Symbolic document handover during an institutional transition — AI-generated illustration",
+        "ar": "تسليم رمزي لملف خلال انتقال مؤسساتي — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:\\Users\\XXX\\.codex\\generated_images\\01a12f13-27ec-7620-a38e-f963aeb935e9\\exec-545b00e0-0ae3-484e-8aec-de0cf4ce7099.png",
+        "sourceSha256": "15113d8992de655e187b2e9f6fedf7e055d6a3e998494d74044a852a12caf983",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape guide article cover for Felexia Conseils, a Moroccan business advisory website. Symbolic Moroccan institutional handover: close view of two anonymous business-dressed people passing a substantial leather document portfolio across a formal ministerial desk, a neat working folder and pen, small Moroccan flag softly out of focus. Frame hands and torso only, no faces. This is a symbolic editorial illustration of a ministerial handover, not Fouzi Lekjaa, not Nadia Fettah and not a depiction of the actual ceremony. Premium realistic editorial illustration with photographic texture, natural light, restrained rich colors. Landscape 16:10; central essential subjects readable when banner-cropped. No diagram, vector nodes, floating icons, collage, border, watermark, brand logos, official seals, signatures, readable invented text or numbers. One finished image."
+      }
+    },
+    "ministere-economie-finances-plf-2027-adoption-conseil-gouvernement": {
+      "kind": "ministry",
+      "legacySources": [
+        "/images/intelligence/evergreen-document-naming-versions.webp"
+      ],
+      "image": {
+        "src": "/images/guides/illustrations/ministere-economie-finances-plf-2027-adoption-conseil-gouvernement-fc01363e913c.webp",
+        "smallSrc": "/images/guides/illustrations/ministere-economie-finances-plf-2027-adoption-conseil-gouvernement-fc01363e913c-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true,
+        "method": "ai-generated-imagegen",
+        "createdAt": "2026-10-29T08:43:22.159Z"
+      },
+      "alt": {
+        "fr": "Réunion de travail gouvernementale autour du projet de budget — illustration générée par IA",
+        "en": "Government working meeting on a proposed budget — AI-generated illustration",
+        "ar": "اجتماع عمل حكومي حول مشروع الميزانية — صورة توضيحية مولدة بالذكاء الاصطناعي"
+      },
+      "generation": {
+        "tool": "built-in-imagegen",
+        "sourceFile": "C:\\Users\\XXX\\.codex\\generated_images\\01a12f13-27ec-7620-a38e-f963aeb935e9\\exec-ecfb871f-1f6c-44c8-a77f-3a1ae49b34c1.png",
+        "sourceSha256": "12b777efc948d3f8b7fc98e5dc6a3607026c5b2dc96161d44902b7bba54deed3",
+        "prompt": "Use case: photorealistic-natural. Asset type: single landscape guide article cover for Felexia Conseils, a Moroccan business advisory website. Editorial illustration in realistic photographic style of a formal Moroccan government meeting room, anonymous unrecognizable officials around a long polished table examining a national budget proposal folder, a Moroccan flag behind the head chair, neutral elegant architecture and soft daylight. Medium-wide side perspective, focus on papers and collaborative governmental decision. No actual ministers or simulation of a real dated event. Premium realistic editorial illustration with photographic texture, natural light, restrained rich colors. Landscape 16:10; central essential subjects readable when banner-cropped. No diagram, vector nodes, floating icons, collage, border, watermark, brand logos, official seals, signatures, readable invented text or numbers. One finished image."
+      }
+    }
+  }
+}
