@@ -1,144 +1,215 @@
 import {createHash} from 'node:crypto';
-import {readFileSync} from 'node:fs';
 
-const css = readFileSync(new URL('../public/home-direction.css', import.meta.url));
-const js = readFileSync(new URL('../public/home-direction.js', import.meta.url));
-const version = createHash('sha256').update(css).update(js).digest('hex').slice(0,12);
-
-const svg = (body) => `<svg viewBox="0 0 24 24" aria-hidden="true">${body}</svg>`;
-const stroke = 'fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"';
-const icons = {
-  file: svg(`<path ${stroke} d="M7 3.5h6.5L19 9v11.5H7z"/><path ${stroke} d="M13.5 3.5V9H19"/>`),
-  pen: svg(`<path ${stroke} d="M4 20l4.2-1.1L19.2 8a2.1 2.1 0 0 0-3-3L5.2 15.9z"/>`),
-  building: svg(`<path ${stroke} d="M4 20.5V9l8-4.5 8 4.5v11.5"/><path ${stroke} d="M9 20.5v-5h6v5"/>`),
-  id: svg(`<rect ${stroke} x="4" y="6" width="16" height="12" rx="2"/><path ${stroke} d="M8 11h6M8 14.5h3.5"/>`),
-  shield: svg(`<path ${stroke} d="M12 3.5l7 2.6v6.2c0 4-2.7 6.8-7 8.4-4.3-1.6-7-4.4-7-8.4V6.1z"/>`),
-  plus: svg(`<path ${stroke} d="M12 6v12M6 12h12"/>`),
-  pin: svg(`<path ${stroke} d="M12 21s6-5.2 6-10a6 6 0 1 0-12 0c0 4.8 6 10 6 10z"/><circle ${stroke} cx="12" cy="11" r="2"/>`),
-  refresh: svg(`<path ${stroke} d="M20 12a8 8 0 1 1-2.3-5.6"/><path ${stroke} d="M20 4.5V9h-4.5"/>`),
-  globe: svg(`<circle ${stroke} cx="12" cy="12" r="8"/><path ${stroke} d="M4 12h16M12 4c2.2 2.4 3.2 5.1 3.2 8s-1 5.6-3.2 8c-2.2-2.4-3.2-5.1-3.2-8s1-5.6 3.2-8z"/>`),
-  quote: svg(`<path ${stroke} d="M6 17.5V8.5A2.5 2.5 0 0 1 8.5 6H15"/><path ${stroke} d="M9 17.5h9.5V10"/>`),
-  chat: svg(`<path ${stroke} d="M5 16.5V7.5A2 2 0 0 1 7 5.5h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9z"/>`)
-};
+const version = createHash('sha1').update('home-d-illustrated-v2').digest('hex').slice(0, 8);
 
 const copy = {
   fr: {
-    kicker: 'Cabinet · Mabrouka, Marrakech',
-    h1a: 'Felexia Conseils', h1b: 'créez et développez', h1c: 'votre entreprise au Maroc.',
-    lead: 'Création de société, domiciliation et modification. Un interlocuteur du cabinet, en français, en anglais ou en arabe.',
-    primary: 'Créer mon entreprise', quiet: 'Écrire au cabinet',
-    board: 'Aperçu illustré', boardNote: 'Les pièces se précisent avec le cabinet. Aucun délai n’est affiché.',
-    rows: [['file','Certificat négatif','À préparer'],['pen','Statuts','À préparer'],['building','Registre de commerce','À préparer'],['id','ICE','À préparer'],['shield','CNSS','À préparer']],
-    services: 'Ce que le cabinet prépare',
-    b1: 'Création', b1d: 'SARL, SARL AU ou une autre forme, examinée avec vous.',
-    b2: 'Domiciliation', b2d: 'Une adresse à Marrakech. Le devis sépare l’adresse, le courrier et les honoraires.',
-    b3: 'Modification', b3d: 'Gérant, siège, capital ou objet, selon vos statuts.',
-    b4: 'Depuis l’étranger', b4d: 'MRE et investisseurs : un premier échange à distance, puis le dossier.',
-    b5: 'Devis avant engagement', b5d: 'Honoraires, frais administratifs et options sont séparés dans la proposition.',
-    b6: 'Trois langues', b6d: 'Français, anglais et arabe.',
+    kicker: 'Marrakech · MRE · investisseurs étrangers',
+    h1a: 'Felexia Conseils',
+    h1b: 'créez et développez',
+    h1c: 'votre entreprise au Maroc.',
+    lead: 'Un cabinet à Marrakech pour la création de société, la domiciliation et les modifications. Un devis précède tout engagement.',
+    primary: 'Créer une société',
+    quiet: 'Demander un devis',
+    services: 'Ce que le cabinet prend en charge',
+    b1: 'Création de société', b1d: 'SARL, SARL AU et les autres formes, selon votre activité.',
+    b2: 'Domiciliation', b2d: 'Une adresse de siège à Marrakech, avec le contrat et l’attestation.',
+    b3: 'Modification', b3d: 'Gérance, siège, dénomination, capital ou activité.',
+    b4: 'MRE et étrangers', b4d: 'Une procuration permet d’avancer lorsque vous n’êtes pas au Maroc.',
+    b5: 'Devis', b5d: 'Le montant est établi selon votre dossier, avant de commencer.',
+    b6: 'Trois langues', b6d: 'Le cabinet vous répond en français, en anglais et en arabe.',
     steps: 'Comment le dossier avance',
-    stepsP: 'Un parcours organisé avec votre interlocuteur. Les délais dépendent du dossier et ne sont pas garantis ici.',
-    t1: 'Vous décrivez le projet', t1d: 'Activité, associés, nom et siège envisagés.',
-    t2: 'Le cabinet cadre la mission', t2d: 'Pièces, signatures et périmètre de l’accompagnement.',
-    t3: 'Vous signez', t3d: 'Les documents et, si besoin, les procurations.',
-    t4: 'Les formalités partent', t4d: 'Le dossier administratif vous est remis.',
-    close: 'Présentez votre projet',
-    closeP: 'Rendez-vous à Mabrouka, ou échange à distance. Résidence Al Ihssane, Immeuble 3, Appartement 4, Marrakech.',
-    book: 'Préparer un rendez-vous',
-    more: 'Aller plus loin',
-    l1: 'Création de société au Maroc', l2: 'Domiciliation à Marrakech', l3: 'Modifier une société', l4: 'Créer une SARL', l5: 'Entreprendre depuis l’étranger', l6: 'Tous les guides'
+    stepsP: 'Les pièces et l’ordre se précisent avec le cabinet.',
+    t1: 'Échange', t1d: 'Votre situation, la forme envisagée et les pièces à réunir.',
+    t2: 'Statuts', t2d: 'Rédaction et signature, y compris par procuration.',
+    t3: 'Dépôt', t3d: 'Registre de commerce, ICE, identifiants fiscaux et CNSS.',
+    t4: 'Suite', t4d: 'Domiciliation, modifications et questions après l’immatriculation.',
+    close: 'Parlons de votre projet.',
+    closeP: 'Écrivez au cabinet ou prenez rendez-vous. Le devis vient avant l’engagement.',
+    book: 'Prendre rendez-vous',
+    rows: ['Certificat négatif', 'Statuts', 'Registre de commerce', 'ICE', 'CNSS'],
+    paperA: 'Statuts', paperB: 'ICE',
+    logos: 'Organismes utiles à vos démarches',
+    more: 'Pour aller plus loin',
+    l1: 'Création de société au Maroc', l2: 'Domiciliation à Marrakech', l3: 'Modifier une société', l4: 'Créer une SARL', l5: 'Créer depuis l’étranger', l6: 'Tous les guides'
   },
   en: {
-    kicker: 'Firm · Mabrouka, Marrakech',
-    h1a: 'Felexia Conseils', h1b: 'start and grow', h1c: 'your business in Morocco.',
-    lead: 'Company formation, domiciliation and company changes. Someone at the firm, in French, English or Arabic.',
-    primary: 'Start my company', quiet: 'Write to the firm',
-    board: 'Illustrated preview', boardNote: 'The papers are confirmed with the firm. No timeline is shown.',
-    rows: [['file','Negative certificate','To prepare'],['pen','Articles','To prepare'],['building','Trade register','To prepare'],['id','ICE','To prepare'],['shield','CNSS','To prepare']],
-    services: 'What the firm prepares',
-    b1: 'Formation', b1d: 'A SARL, single-member SARL or another form, reviewed with you.',
-    b2: 'Domiciliation', b2d: 'An address in Marrakech. The quote separates the address, mail and fees.',
-    b3: 'Changes', b3d: 'Manager, office, capital or purpose, under your articles.',
-    b4: 'From abroad', b4d: 'Moroccans abroad and investors: a remote discussion first, then the file.',
-    b5: 'A quote before you commit', b5d: 'Fees, administrative charges and options are separated in the proposal.',
-    b6: 'Three languages', b6d: 'French, English and Arabic.',
-    steps: 'How the file moves forward',
-    stepsP: 'A path organised with your adviser. Timing depends on the file and is not guaranteed here.',
-    t1: 'You describe the project', t1d: 'Activity, shareholders, proposed name and office.',
-    t2: 'The firm scopes the work', t2d: 'Documents, signatures and the support included.',
-    t3: 'You sign', t3d: 'The papers and, where needed, powers of attorney.',
-    t4: 'Formalities are filed', t4d: 'You receive the administrative file.',
-    close: 'Tell us about your project',
-    closeP: 'An appointment in Mabrouka, or a remote discussion. Résidence Al Ihssane, Building 3, Apartment 4, Marrakech.',
-    book: 'Request an appointment',
-    more: 'Continue reading',
-    l1: 'Company formation in Morocco', l2: 'Domiciliation in Marrakech', l3: 'Change a company', l4: 'Form a SARL', l5: 'Starting from abroad', l6: 'All guides'
+    kicker: 'Marrakech · Moroccans abroad · foreign investors',
+    h1a: 'Felexia Conseils',
+    h1b: 'form and grow',
+    h1c: 'your company in Morocco.',
+    lead: 'A Marrakech firm for company formation, a registered office and later changes. A quote comes before any commitment.',
+    primary: 'Form a company',
+    quiet: 'Request a quote',
+    services: 'What the firm handles',
+    b1: 'Company formation', b1d: 'SARL, single-member SARL and other forms, matched to the activity.',
+    b2: 'Registered office', b2d: 'A Marrakech address, with the contract and the certificate.',
+    b3: 'Amendments', b3d: 'Manager, address, name, capital or business activity.',
+    b4: 'From abroad', b4d: 'A power of attorney lets the filing move forward while you are away.',
+    b5: 'A quote', b5d: 'The fee is set from your file, before work begins.',
+    b6: 'Three languages', b6d: 'The firm replies in French, English and Arabic.',
+    steps: 'How a file moves forward',
+    stepsP: 'The documents and their order are confirmed with the firm.',
+    t1: 'A conversation', t1d: 'Your situation, the form you have in mind and the papers to gather.',
+    t2: 'Bylaws', t2d: 'Drafting and signature, including under a power of attorney.',
+    t3: 'Filing', t3d: 'Trade register, ICE, tax identifiers and CNSS.',
+    t4: 'Afterward', t4d: 'Domiciliation, amendments and questions once the company exists.',
+    close: 'Tell us about the project.',
+    closeP: 'Write to the firm or book a meeting. The quote comes first.',
+    book: 'Book a meeting',
+    rows: ['Negative certificate', 'Bylaws', 'Trade register', 'ICE', 'CNSS'],
+    paperA: 'Bylaws', paperB: 'ICE',
+    logos: 'Authorities involved in these filings',
+    more: 'Read on',
+    l1: 'Form a company in Morocco', l2: 'Domiciliation in Marrakech', l3: 'Amend a company', l4: 'Form an SARL', l5: 'Form a company from abroad', l6: 'All guides'
   },
   ar: {
-    kicker: 'المكتب · مبروكة، مراكش',
-    h1a: 'Felexia Conseils', h1b: 'أسّس وطوّر', h1c: 'مقاولتك في المغرب.',
-    lead: 'تأسيس وتوطين وتعديل. مخاطب من المكتب، بالفرنسية أو الإنجليزية أو العربية.',
-    primary: 'إنشاء مقاولتي', quiet: 'مراسلة المكتب',
-    board: 'معاينة توضيحية', boardNote: 'تُحدَّد الوثائق مع المكتب. لا يُعرض أي أجل.',
-    rows: [['file','الشهادة السلبية','للتحضير'],['pen','النظام الأساسي','للتحضير'],['building','السجل التجاري','للتحضير'],['id','ICE','للتحضير'],['shield','CNSS','للتحضير']],
-    services: 'ما يحضّره المكتب',
-    b1: 'التأسيس', b1d: 'SARL أو SARL AU أو شكل آخر، يُدرس معك.',
-    b2: 'التوطين', b2d: 'عنوان بمراكش. يفصل العرض العنوان والبريد والأتعاب.',
-    b3: 'التعديل', b3d: 'المسيّر أو المقر أو رأس المال أو الغرض، حسب النظام الأساسي.',
-    b4: 'من الخارج', b4d: 'مغاربة العالم والمستثمرون: تبادل عن بُعد أولاً، ثم الملف.',
-    b5: 'عرض قبل الالتزام', b5d: 'تُفصل الأتعاب والمصاريف الإدارية والخيارات في العرض.',
-    b6: 'ثلاث لغات', b6d: 'الفرنسية والإنجليزية والعربية.',
+    kicker: 'مراكش · مغاربة العالم · مستثمرون أجانب',
+    h1a: 'فيليكسيا كونساي',
+    h1b: 'أسّسوا وطوّروا',
+    h1c: 'شركتكم في المغرب.',
+    lead: 'مكتب بمراكش لتأسيس الشركات والتوطين والتعديلات. يسبق كل التزام عرض سعر.',
+    primary: 'تأسيس شركة',
+    quiet: 'طلب عرض سعر',
+    services: 'ما يتولاه المكتب',
+    b1: 'تأسيس شركة', b1d: 'SARL وSARL AU والصيغ الأخرى، حسب النشاط.',
+    b2: 'التوطين', b2d: 'عنوان مقر بمراكش، مع العقد والشهادة.',
+    b3: 'التعديل', b3d: 'التسيير، المقر، التسمية، رأس المال أو النشاط.',
+    b4: 'من الخارج', b4d: 'تتيح الوكالة تقدم الملف وأنتم خارج المغرب.',
+    b5: 'عرض سعر', b5d: 'يُحدد المبلغ حسب الملف، قبل البدء.',
+    b6: 'ثلاث لغات', b6d: 'يجيب المكتب بالفرنسية والإنجليزية والعربية.',
     steps: 'كيف يتقدم الملف',
-    stepsP: 'مسار منظّم مع مخاطبك. الآجال تتوقف على الملف ولا تُضمن هنا.',
-    t1: 'تصف المشروع', t1d: 'النشاط والشركاء والاسم والمقر المرتقب.',
-    t2: 'يحدد المكتب المهمة', t2d: 'الوثائق والتوقيعات ونطاق المواكبة.',
-    t3: 'توقّع', t3d: 'الوثائق والوكالات عند الحاجة.',
-    t4: 'تُودع الإجراءات', t4d: 'تصلك وثائق الملف الإداري.',
-    close: 'اعرض مشروعك',
-    closeP: 'موعد بمبروكة أو تبادل عن بُعد. إقامة الإحسان، العمارة 3، الشقة 4، مراكش.',
-    book: 'تحضير موعد',
+    stepsP: 'تتضح الوثائق وترتيبها مع المكتب.',
+    t1: 'تبادل', t1d: 'وضعكم، والصيغة المتوقعة، والوثائق اللازمة.',
+    t2: 'النظام الأساسي', t2d: 'الصياغة والتوقيع، بما في ذلك عبر وكالة.',
+    t3: 'الإيداع', t3d: 'السجل التجاري، ICE، المعرفات الجبائية وCNSS.',
+    t4: 'المتابعة', t4d: 'التوطين والتعديلات والأسئلة بعد التسجيل.',
+    close: 'لنتحدث عن مشروعكم.',
+    closeP: 'اكتبوا إلى المكتب أو احجزوا موعداً. عرض السعر يسبق الالتزام.',
+    book: 'حجز موعد',
+    rows: ['الشهادة السلبية', 'النظام الأساسي', 'السجل التجاري', 'ICE', 'CNSS'],
+    paperA: 'النظام الأساسي', paperB: 'ICE',
+    logos: 'هيئات تفيد في هذه المساطر',
     more: 'للمتابعة',
     l1: 'تأسيس شركة في المغرب', l2: 'التوطين بمراكش', l3: 'تعديل شركة', l4: 'تأسيس SARL', l5: 'التأسيس من الخارج', l6: 'جميع الأدلة'
   }
 };
 
-function mesh() {
-  return `<svg class="d-mesh" viewBox="0 0 720 640" aria-hidden="true"><defs><linearGradient id="d-g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d7e4ff"/><stop offset=".45" stop-color="#5d86ff"/><stop offset="1" stop-color="#2446d8"/></linearGradient><linearGradient id="d-g2" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9fbff"/><stop offset="1" stop-color="#7eb6ff"/></linearGradient></defs><path fill="url(#d-g1)" d="M40 180c80-120 260-160 420-80 140 70 250 40 250 160 0 150-120 250-280 300-150 48-330-20-360-160-20-90-40-120-30-220z"/><path fill="url(#d-g2)" opacity=".9" d="M180 60c150-20 320 40 360 150 30 80-10 150-80 190 40-70 20-150-60-200-90-56-150-20-220-140z"/></svg>`;
+function heroArt() {
+  return `<svg class="d-scene" viewBox="0 0 640 520" aria-hidden="true">
+    <defs>
+      <linearGradient id="d-sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7f6ff"/><stop offset=".5" stop-color="#9eb6ff"/><stop offset="1" stop-color="#2446d8"/></linearGradient>
+      <linearGradient id="d-face" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9ff"/><stop offset="1" stop-color="#d5e2ff"/></linearGradient>
+      <linearGradient id="d-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6f93ff"/><stop offset="1" stop-color="#2446d8"/></linearGradient>
+      <linearGradient id="d-sea" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#39c3ff"/><stop offset="1" stop-color="#2446d8"/></linearGradient>
+    </defs>
+    <ellipse cx="210" cy="470" rx="150" ry="18" fill="#2446d8" opacity=".08"/>
+    <ellipse cx="470" cy="210" rx="90" ry="16" fill="#2446d8" opacity=".08"/>
+    <g class="d-bob"><g transform="translate(-16,24) scale(1.18)">
+      <polygon points="70,300 250,236 330,278 150,344" fill="#e7f0ff"/>
+      <polygon points="150,344 330,278 330,328 150,394" fill="url(#d-side)"/>
+      <polygon points="70,300 150,344 150,394 70,350" fill="#c5d6ff"/>
+      <path d="M120 322l90-28 36 16M140 338l96-30M168 286l52 18" fill="none" stroke="#2446d8" stroke-width="2.2" opacity=".5"/>
+      <path d="M214 258l16 9-16 26-16-9z" fill="#2446d8"/>
+      <circle cx="230" cy="250" r="9" fill="#39c3ff"/>
+    </g></g>
+    <g class="d-bob d-bob-late"><g transform="translate(-8,8) scale(1.28)">
+      <polygon points="118,78 188,112 118,146 48,112" fill="url(#d-face)"/>
+      <polygon points="48,112 118,146 118,224 48,190" fill="#b7cbff"/>
+      <polygon points="118,146 188,112 188,190 118,224" fill="url(#d-side)"/>
+      <path d="M70 158h26v32H70zM102 158h26v20h-26zM136 158h26v32h-26zM70 196h26v16H70z" fill="#fff" opacity=".9"/>
+      <path d="M102 186h26v34h-26z" fill="#0e1730" opacity=".22"/>
+    </g></g>
+    <g class="d-spin">
+      <circle cx="512" cy="128" r="78" fill="url(#d-sea)"/>
+      <ellipse cx="512" cy="128" rx="32" ry="78" fill="none" stroke="#fff" stroke-width="2.4" opacity=".75"/>
+      <ellipse cx="512" cy="128" rx="78" ry="26" fill="none" stroke="#fff" stroke-width="2.4" opacity=".75"/>
+      <path d="M458 106c22 10 36 10 58-4 14 20 10 38-6 54-26-8-44-4-60 8-10-20-6-40 8-58z" fill="#e7f6ff" opacity=".4"/>
+    </g>
+    <g class="d-stamp">
+      <circle cx="500" cy="392" r="42" fill="#fff"/>
+      <circle cx="500" cy="392" r="33" fill="none" stroke="#2446d8" stroke-width="3.2"/>
+      <circle cx="500" cy="392" r="24" fill="none" stroke="#39c3ff" stroke-width="2.2"/>
+      <path d="M486 392l9 9 18-20" fill="none" stroke="#2446d8" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </svg>`;
+}
+
+function art(kind, id) {
+  const head = `<svg class="d-art d-art-${kind}" viewBox="0 0 160 120" aria-hidden="true"><defs><linearGradient id="a-${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d7e6ff"/><stop offset="1" stop-color="#2446d8"/></linearGradient><linearGradient id="b-${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c9d8ff"/></linearGradient></defs>`;
+  const scenes = {
+    create: `<ellipse cx="80" cy="104" rx="46" ry="8" fill="#2446d8" opacity=".1"/><polygon points="34,34 80,18 126,34 80,50" fill="url(#b-${id})"/><polygon points="34,34 80,50 80,86 34,70" fill="#b9ccff"/><polygon points="80,50 126,34 126,70 80,86" fill="url(#a-${id})"/><polygon points="48,28 86,16 118,28 80,40" fill="#fff" opacity=".9"/><circle cx="112" cy="62" r="14" fill="#fff" stroke="#2446d8" stroke-width="3"/><path d="M106 62l4 4 8-9" fill="none" stroke="#2446d8" stroke-width="2.4" stroke-linecap="round"/>`,
+    home: `<ellipse cx="80" cy="106" rx="42" ry="7" fill="#2446d8" opacity=".1"/><polygon points="80,16 128,40 80,64 32,40" fill="url(#b-${id})"/><polygon points="32,40 80,64 80,96 32,72" fill="#c5d4ff"/><polygon points="80,64 128,40 128,72 80,96" fill="url(#a-${id})"/><rect x="70" y="72" width="16" height="20" rx="2" fill="#fff"/><path class="d-key" d="M46 78h18v6H46zM40 74h10v14H40z" fill="#2446d8"/>`,
+    gears: `<circle class="d-gear" cx="62" cy="58" r="28" fill="none" stroke="url(#a-${id})" stroke-width="10" stroke-dasharray="8 7"/><circle cx="62" cy="58" r="8" fill="#2446d8"/><circle class="d-gear d-gear-b" cx="104" cy="78" r="18" fill="none" stroke="#39c3ff" stroke-width="8" stroke-dasharray="6 6"/><circle cx="104" cy="78" r="5" fill="#0e1730"/>`,
+    globe: `<circle class="d-spin" cx="80" cy="58" r="36" fill="url(#a-${id})"/><ellipse cx="80" cy="58" rx="16" ry="36" fill="none" stroke="#fff" opacity=".75"/><ellipse cx="80" cy="58" rx="36" ry="12" fill="none" stroke="#fff" opacity=".75"/><path d="M58 48c10 4 16 4 26-2 6 10 4 18-4 24-12-4-20-2-28 4-4-10-2-18 6-26z" fill="#e7f6ff" opacity=".4"/>`,
+    quote: `<polygon points="36,28 108,28 120,40 120,96 36,96" fill="url(#b-${id})"/><polygon points="108,28 120,40 108,40" fill="#2446d8"/><path d="M52 52h44M52 66h36M52 80h24" stroke="#2446d8" stroke-width="3" stroke-linecap="round"/>`,
+    chat: `<rect x="28" y="24" width="104" height="64" rx="16" fill="url(#b-${id})"/><path d="M58 88l8-12h18" fill="#d5e2ff"/><circle cx="62" cy="56" r="5" fill="#2446d8"/><circle cx="80" cy="56" r="5" fill="#39c3ff"/><circle cx="98" cy="56" r="5" fill="#2446d8"/>`
+  };
+  return `${head}${scenes[kind]}</svg>`;
+}
+
+function logos() {
+  const items = [
+    ['/mylegal/images/logos/confiance/logo-ompic.png', 'OMPIC'],
+    ['/mylegal/images/logos/confiance/Direction-generale-des-impots-logo.png', 'Direction générale des impôts'],
+    ['/mylegal/images/logos/confiance/logo-mic.png', 'Ministère de l’Industrie et du Commerce'],
+    ['/mylegal/images/logos/confiance/ministere-transfer-num.svg', 'Ministère de la Transition numérique'],
+    ['/mylegal/images/logos/confiance/Tamwilcom.png', 'Tamwilcom'],
+    ['/mylegal/images/logos/partenaires/ADA.png', 'ADA'],
+    ['/mylegal/images/logos/partenaires/ADD.png', 'ADD'],
+    ['/mylegal/images/logos/confiance/direct-info.png', 'Direct Info']
+  ];
+  const group = items.map(([src, alt]) => `<img src="${src}" alt="${alt}" width="120" height="48" loading="lazy" decoding="async">`).join('');
+  return `<div class="d-marquee"><div class="d-track">${group}${group}</div></div>`;
 }
 
 function markup(lang) {
   const c = copy[lang];
   const p = (path) => `/${lang}/${path}`;
-  const rows = c.rows.map(([key, name, state], index) => `<li class="d-i${index}">${icons[key]}<span>${name}</span><em>${state}</em></li>`).join('');
+  const rows = c.rows.map((name, index) => `<li class="d-i${index}"><span class="d-mark"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.2l3 3 6-6.4"/></svg></span><span>${name}</span></li>`).join('');
+  const tiles = [
+    ['create', 'creation-entreprise/', c.b1, c.b1d],
+    ['home', 'domiciliation/', c.b2, c.b2d],
+    ['gears', 'modify-company/', c.b3, c.b3d],
+    ['globe', 'guides/mre-etranger/', c.b4, c.b4d],
+    ['quote', 'tarif/creation/', c.b5, c.b5d],
+    ['chat', 'contact/', c.b6, c.b6d]
+  ];
+  const grid = tiles.map(([kind, href, title, text], index) => `<a class="d-tile d-s${index}" href="${p(href)}">${art(kind, `t${index}`)}<h3>${title}</h3><p>${text}</p></a>`).join('');
+  const steps = [
+    ['quote', c.t1, c.t1d],
+    ['create', c.t2, c.t2d],
+    ['home', c.t3, c.t3d],
+    ['gears', c.t4, c.t4d]
+  ].map(([kind, title, text], index) => `<li class="d-s${index}">${art(kind, `s${index}`)}<span>0${index + 1}</span><h3>${title}</h3><p>${text}</p></li>`).join('');
   return `<div class="d">
   <section class="d-hero">
     <div class="d-copy">
       <p class="d-kicker">${c.kicker}</p>
-      <h1><span class="d-line">${c.h1a}</span><span class="d-grad">${c.h1b}</span><span class="d-line">${c.h1c}</span></h1>
+      <h1><span class="d-brand">${c.h1a}</span><span class="d-rest"><span class="d-grad">${c.h1b}</span> ${c.h1c}</span></h1>
       <p class="d-lead">${c.lead}</p>
       <p class="d-actions"><a class="d-primary" href="${p('create/')}">${c.primary}</a><a class="d-quiet" href="${p('contact/')}">${c.quiet}</a></p>
     </div>
-    <div class="d-stage">${mesh()}<div class="d-board"><header><span class="d-dots" aria-hidden="true"></span><strong>${c.board}</strong></header><ol>${rows}</ol><p>${c.boardNote}</p></div></div>
+    <div class="d-stage">
+      <div class="d-back"><div class="d-y">${heroArt()}</div></div>
+      <div class="d-front"><div class="d-y">
+        <article class="d-sheet d-sheet-a"><strong>${c.paperA}</strong><span></span><span></span><span></span></article>
+        <article class="d-sheet d-sheet-b"><strong>${c.paperB}</strong><span></span><span></span></article>
+        <div class="d-board"><div class="d-bar" aria-hidden="true"><span></span></div><ol>${rows}</ol></div>
+      </div></div>
+    </div>
   </section>
   <section class="d-bento" aria-labelledby="d-services" data-reveal>
     <h2 id="d-services">${c.services}</h2>
-    <div class="d-grid">
-      <a class="d-tile" href="${p('creation-entreprise/')}">${icons.plus}<h3>${c.b1}</h3><p>${c.b1d}</p></a>
-      <a class="d-tile" href="${p('domiciliation/')}">${icons.pin}<h3>${c.b2}</h3><p>${c.b2d}</p></a>
-      <a class="d-tile" href="${p('modify-company/')}">${icons.refresh}<h3>${c.b3}</h3><p>${c.b3d}</p></a>
-      <a class="d-tile" href="${p('guides/mre-etranger/')}">${icons.globe}<h3>${c.b4}</h3><p>${c.b4d}</p></a>
-      <a class="d-tile" href="${p('tarif/creation/')}">${icons.quote}<h3>${c.b5}</h3><p>${c.b5d}</p></a>
-      <a class="d-tile" href="${p('contact/')}">${icons.chat}<h3>${c.b6}</h3><p>${c.b6d}</p></a>
-    </div>
+    <div class="d-grid">${grid}</div>
+  </section>
+  <section class="d-logos" aria-label="${c.logos}" data-reveal>
+    <h2>${c.logos}</h2>
+    ${logos()}
   </section>
   <section class="d-steps" aria-labelledby="d-steps" data-reveal>
     <div class="d-steps-head"><h2 id="d-steps">${c.steps}</h2><p>${c.stepsP}</p></div>
-    <ol>
-      <li><span>01</span><h3>${c.t1}</h3><p>${c.t1d}</p></li>
-      <li><span>02</span><h3>${c.t2}</h3><p>${c.t2d}</p></li>
-      <li><span>03</span><h3>${c.t3}</h3><p>${c.t3d}</p></li>
-      <li><span>04</span><h3>${c.t4}</h3><p>${c.t4d}</p></li>
-    </ol>
+    <ol>${steps}</ol>
   </section>
   <section class="d-close" data-reveal>
     <div><h2>${c.close}</h2><p>${c.closeP}</p></div>
@@ -158,5 +229,6 @@ function markup(lang) {
 export function applyHomepage($, lang) {
   $('body').addClass('fx-home fx-home-d');
   $('main').html(markup(lang));
+  $('footer .felexia-languages').attr('hidden', '');
   $('head').append(`<link rel="stylesheet" href="/home-direction.css?v=${version}"><link rel="preload" href="/assets/fonts/font-14.woff2" as="font" type="font/woff2" crossorigin="anonymous"><script src="/home-direction.js?v=${version}" defer></script>`);
 }
