@@ -1,4 +1,5 @@
 import {timingSafeEqual,randomUUID,createHash,createHmac} from 'node:crypto';
+import {brotliCompressSync,gzipSync,constants} from 'node:zlib';
 import {readFile} from 'node:fs/promises';
 import {load} from 'cheerio';
 import {runtimeEngine,runtimeStore,readStatic} from './runtime.mjs';
@@ -17,7 +18,13 @@ function send(req,res,status,body,type='application/json; charset=utf-8') {
     const hashes=[...String(body).matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match=>`'sha256-${createHash('sha256').update(match[1]).digest('base64')}'`);
     res.setHeader('Content-Security-Policy',`default-src 'self'; script-src 'self' ${hashes.join(' ')}; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'`);
   }
-  res.end(req.method==='HEAD'?undefined:type.startsWith('application/json')?JSON.stringify(body):body);
+  let payload=type.startsWith('application/json')?JSON.stringify(body):body;
+  if(req.method!=='HEAD'&&type.startsWith('text/html')&&typeof payload==='string'){
+    const accepts=String(req.headers?.['accept-encoding']||'');
+    if(accepts.includes('br')){payload=brotliCompressSync(payload,{params:{[constants.BROTLI_PARAM_QUALITY]:4}});res.setHeader('Content-Encoding','br');res.setHeader('Vary','Accept-Encoding');}
+    else if(accepts.includes('gzip')){payload=gzipSync(payload);res.setHeader('Content-Encoding','gzip');res.setHeader('Vary','Accept-Encoding');}
+  }
+  res.end(req.method==='HEAD'?undefined:payload);
 }
 async function parseBody(req) {
   let body;

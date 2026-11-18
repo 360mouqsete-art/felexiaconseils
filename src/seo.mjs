@@ -5,6 +5,7 @@ import {company} from './content.mjs';
 import {addAnalytics} from './analytics.mjs';
 import {editorial,editorialDate,creationSections,guideBody,contentHelpers,pick} from './seo-content.mjs';
 import {applyHomepage} from './homepage-direction.mjs';
+import {applyDirection} from './direction-pages.mjs';
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const canonicalAliases={legal:'mentions-legales',privacy:'politique-confidentialite',terms:'cgu'};
@@ -158,6 +159,7 @@ export function optimizeSeo(pages){
     if(!slug)$('main img').removeAttr('fetchpriority').attr('loading','lazy');
     $('img').each((_,e)=>{const original=$(e).attr('src');if(optimizedImages[original])$(e).attr('src',optimizedImages[original]);const size=imageDimensions[$(e).attr('src')];if(size)$(e).attr({width:String(size[0]),height:String(size[1])});});
     addAnalytics($,l,slug);
+    applyDirection($, l, file);
     if(/^(fr|en|ar)\/index\.html$/.test(file)) applyHomepage($, l);
     pages[file]=$.html();
   }
