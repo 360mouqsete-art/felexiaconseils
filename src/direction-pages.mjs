@@ -1,4 +1,4 @@
-const version = 'd-pages-2';
+const version = 'd-pages-3';
 
 function motif(slug) {
   if (/domicil/.test(slug)) return 'home';
