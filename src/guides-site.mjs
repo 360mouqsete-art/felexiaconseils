@@ -17,6 +17,11 @@ const route = (slug, lang = 'fr') => `/${lang}/guides/${slug ? `${slug}/` : ''}`
 const articleFile = (slug, lang = 'fr') => `${lang}/guides/${slug}/index.html`;
 const isGuideFile = file => /^(fr|en|ar)\/guides\/(?!page\/)[^/]+\/index\.html$/.test(file);
 const words = value => textOf(value).split(/\s+/).filter(Boolean).length;
+const designVersion = createHash('sha256').update(readFileSync(new URL('../public/design-premium.css', import.meta.url))).digest('hex').slice(0,12);
+function attachDesign($) {
+  $('link[href^="/design-premium.css"]').remove();
+  $('head').append(`<link rel="stylesheet" href="/design-premium.css?v=${designVersion}">`);
+}
 const labels = {
   fr: {search:'Rechercher un guide…', searchLabel:'Rechercher dans les guides', category:'Catégorie', all:'Toutes les catégories', count:'guides', empty:'Aucun guide ne correspond à votre recherche.', practical:'Guide pratique', toc:'Sommaire', related:'À lire aussi', authors:'Texte d’origine', reading:'min de lecture', supplement:'Pour approfondir ce sujet', date:'Publié le', imageIllustration:'Illustration générée par IA.'},
   en: {search:'Search guides…', searchLabel:'Search the guides', category:'Category', all:'All categories', count:'guides', empty:'No guides match your search.', practical:'Practical guide', toc:'Contents', related:'Read next', authors:'Original text', reading:'min read', supplement:'Explore this topic further', date:'Published on', imageIllustration:'AI-generated illustration.'},
@@ -212,6 +217,7 @@ function enrichArticle(pages, guide, lang, template, knownPaths, version) {
   prose.find('img').attr({loading:'lazy',decoding:'async'}).removeAttr('fetchpriority');
   if (!$('link[href^="/guides.css"]').length) $('head').append(`<link rel="stylesheet" href="/guides.css?v=${version}">`);
   updateMetadata($, guide, lang, pages, knownPaths, {imported:isNew});
+  attachDesign($);
   pages[file] = $.html();
 }
 
@@ -241,6 +247,7 @@ function renderCatalogue(pages, catalogue, lang, version) {
   const themeNav = `<nav class="guide-themes" aria-label="${esc(t.category)}">${guideThemes.map(theme => `<a href="/${lang}/guides/theme/${theme.id}/">${esc(themeLabel(theme.id, lang))}</a>`).join('')}</nav>`;
   grid.before(themeNav);
   $('head').append(`<link rel="stylesheet" href="/guides.css?v=${version}"><script src="/guides.js?v=${version}" defer></script>`);
+  attachDesign($);
   pages[file] = $.html();
   delete pages[`${lang}/guides/page/2/index.html`];
 }

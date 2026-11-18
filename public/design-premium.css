@@ -1,0 +1,280 @@
+/* Felexia Conseils — cabinet premium. Brand ocean and midnight, paper surfaces.
+   Loaded last so it sits above the reference utilities. */
+
+:root {
+  --fx-ink: #0b1340;
+  --fx-ocean: #2446d8;
+  --fx-paper: #f4f1ea;
+  --fx-card: #fffcf8;
+  --fx-line: rgba(11, 19, 64, .1);
+  --fx-muted: #536074;
+}
+
+html { scroll-padding-top: 7.5rem; }
+body {
+  background: var(--fx-paper);
+  text-rendering: optimizeLegibility;
+}
+
+html[data-theme="dark"] body {
+  background: #09152b;
+  color: #f1f5ff;
+}
+
+/* Sticky header: frosted paper, brand line, clearer primary action. */
+body > header.sticky { box-shadow: inset 0 3px 0 var(--fx-ocean); }
+body > header.sticky > div:first-child {
+  background: rgba(255, 252, 247, .92);
+  backdrop-filter: saturate(1.2) blur(18px);
+  border-bottom: 1px solid var(--fx-line);
+}
+body > header.sticky > div.rounded-2xl {
+  border: 1px solid var(--fx-line);
+  box-shadow: 0 16px 40px rgba(11, 19, 64, .12);
+}
+html[data-theme="dark"] body > header.sticky > div:first-child {
+  background: rgba(9, 21, 43, .9);
+  border-bottom-color: #344865;
+}
+html[data-theme="dark"] body > header.sticky > div.rounded-2xl {
+  border-color: #344865;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .35);
+}
+body > header a.bg-brand-ocean {
+  border-radius: 999px;
+  min-height: 44px;
+  padding-inline: 1.05rem;
+}
+body > header a.border-brand-ocean { border-radius: 999px; min-height: 44px; }
+.felexia-header-tools { padding-block: 4px 6px; }
+
+html[dir="ltr"] main :is(h1, h2) {
+  font-family: Sora, Inter, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: -.03em;
+}
+
+/* Marketing heroes (home, formation, domiciliation, quotes): one promise, two actions. */
+main > section.from-brand-cloud {
+  background-color: var(--fx-ink);
+  background-image: radial-gradient(880px 420px at 50% -10%, rgba(36, 70, 216, .5), transparent 64%);
+  color: #f4f6fb;
+}
+main > section.from-brand-cloud > [aria-hidden="true"] { display: none; }
+main > section.from-brand-cloud :is(h1, h2) { color: #fff; }
+main > section.from-brand-cloud h1 {
+  font-size: clamp(2.05rem, 5.4vw, 4.15rem);
+  max-width: 16em;
+  margin-inline: auto;
+}
+html[dir="ltr"] main > section.from-brand-cloud h1 { line-height: 1.06; }
+html[dir="rtl"] main > section.from-brand-cloud h1 { line-height: 1.45; letter-spacing: 0; }
+main > section.from-brand-cloud p { color: #e7ecf8; }
+main > section.from-brand-cloud span.w-px { display: none; }
+main > section.from-brand-cloud > .relative.mx-auto { padding-top: 5.75rem; }
+main > section.from-brand-cloud a.bg-brand-ocean {
+  background: #fff;
+  color: var(--fx-ink);
+  border-radius: 999px;
+  min-height: 48px;
+  padding-inline: 1.35rem;
+  box-shadow: none;
+}
+main > section.from-brand-cloud a.bg-brand-ocean:hover { background: #e7ebff; color: var(--fx-ink); }
+main > section.from-brand-cloud a:not(.bg-brand-ocean) {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, .42);
+  border-radius: 999px;
+  min-height: 48px;
+  padding: .7rem 1.15rem;
+  text-decoration: none;
+}
+main > section.from-brand-cloud a:not(.bg-brand-ocean):hover { background: rgba(255, 255, 255, .08); }
+main > section.from-brand-cloud :focus-visible { outline-color: #fff; }
+
+@media (min-width: 1024px) {
+  main > section.from-brand-cloud > .relative.mx-auto { padding-top: 7.25rem; }
+}
+@media (max-width: 640px) {
+  main > section.from-brand-cloud .mt-9 {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  main > section.from-brand-cloud .mt-9 > a { justify-content: center; width: 100%; }
+}
+
+/* Facts already published by the cabinet. No figures. */
+.fx-trust {
+  background: var(--fx-card);
+  border-block: 1px solid var(--fx-line);
+  color: var(--fx-ink);
+}
+.fx-trust ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
+}
+.fx-trust li {
+  display: flex;
+  flex-direction: column;
+  gap: .15rem;
+  padding: 1rem 1.25rem 1.05rem;
+}
+.fx-trust li + li { border-top: 1px solid var(--fx-line); }
+.fx-trust strong { font-size: .98rem; font-weight: 650; letter-spacing: -.01em; }
+.fx-trust span { font-size: .84rem; line-height: 1.45; color: var(--fx-muted); }
+html[data-theme="dark"] .fx-trust { background: #13223d; color: #f1f5ff; border-color: #344865; }
+html[data-theme="dark"] .fx-trust span { color: #bcc9e0; }
+html[data-theme="dark"] .fx-trust li + li { border-color: #344865; }
+@media (min-width: 800px) {
+  .fx-trust ul { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .fx-trust li + li { border-top: 0; border-inline-start: 1px solid var(--fx-line); }
+  html[data-theme="dark"] .fx-trust li + li { border-color: #344865; }
+}
+
+html:not([data-theme="dark"]) main > section.bg-white,
+html:not([data-theme="dark"]) main > section.bg-brand-fog\/40,
+html:not([data-theme="dark"]) main article.bg-white { background-color: transparent; }
+
+main > section > .mx-auto.max-w-7xl { padding-block: 3.5rem; }
+main > section > .mx-auto.max-w-6xl { padding-block: 3.5rem; }
+@media (min-width: 1024px) {
+  main > section > .mx-auto.max-w-7xl,
+  main > section > .mx-auto.max-w-6xl { padding-block: 6rem; }
+}
+
+html:not([data-theme="dark"]) main :is(li.rounded-2xl, a[data-guide-card]) {
+  background: var(--fx-card);
+  box-shadow: 0 1px 2px rgba(11, 19, 64, .04), 0 12px 32px rgba(11, 19, 64, .05);
+}
+a[data-guide-card], main article.rounded-3xl { border-radius: 1.25rem; }
+main article.rounded-3xl { box-shadow: 0 16px 40px rgba(11, 19, 64, .06); }
+main article.bg-brand-midnight.rounded-3xl { box-shadow: 0 22px 48px rgba(11, 19, 64, .2); }
+main a.bg-brand-ocean, main button.bg-brand-ocean {
+  border-radius: 999px;
+  min-height: 48px;
+}
+
+html[dir="ltr"] main > section.bg-brand-fog\/40 h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+/* Guides: a readable column, calmer cards, pill filters. */
+main article > header { background: transparent; border-bottom: 0; }
+main .prose { font-size: 1.0625rem; line-height: 1.75; }
+html:not([data-theme="dark"]) main .prose { color: #243044; }
+html[data-theme="dark"] main .prose { color: #e7eefb; }
+main .prose h2 { margin-top: 2.6rem; }
+main .prose > section + section h2 {
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--fx-line);
+}
+html[data-theme="dark"] main .prose h2 { border-top-color: #344865; }
+main article [class*="aspect-"] { box-shadow: 0 18px 40px rgba(11, 19, 64, .08); }
+.guide-themes a, .guide-pagination a, .guide-filters input, .guide-filters select {
+  border-radius: 999px;
+  border-color: #e4dfd4;
+  background: #fff;
+}
+.guide-pagination a[aria-current="page"] { background: var(--fx-ink); border-color: var(--fx-ink); color: #fff; }
+html[data-theme="dark"] :is(.guide-themes a, .guide-pagination a, .guide-filters input, .guide-filters select) {
+  background: #192c4c;
+  color: #f1f5ff;
+  border-color: #344865;
+}
+html[data-theme="dark"] .guide-pagination a[aria-current="page"] { background: #2446d8; border-color: #2446d8; color: #fff; }
+
+.seo-content {
+  background: transparent;
+}
+html:not([data-theme="dark"]) .seo-breadcrumb { color: var(--fx-muted); }
+main > .seo-breadcrumb:has(+ section.from-brand-cloud) {
+  max-width: none;
+  width: 100%;
+  background: var(--fx-ink);
+  color: #c9d2ea;
+  margin: 0;
+  padding: 1.15rem max(1.5rem, calc((100% - 80rem) / 2 + 2.5rem)) .15rem;
+}
+main > .seo-breadcrumb:has(+ section.from-brand-cloud) a { color: #fff; }
+main > .seo-breadcrumb:has(+ section.from-brand-cloud) + section.from-brand-cloud > .relative.mx-auto { padding-top: 1.35rem; }
+@media (min-width: 1024px) {
+  main > .seo-breadcrumb:has(+ section.from-brand-cloud) + section.from-brand-cloud > .relative.mx-auto { padding-top: 2rem; }
+}
+
+/* Footer closes on midnight, the same ink as the hero. */
+html:not([data-theme="dark"]) body > footer {
+  background: var(--fx-ink);
+  color: #d7e0f2;
+}
+html:not([data-theme="dark"]) body > footer :is(a, p, li, h2, h3, span) { color: #d7e0f2; }
+html:not([data-theme="dark"]) body > footer a:hover { color: #fff; }
+html:not([data-theme="dark"]) body > footer .felexia-logo-wordmark,
+html:not([data-theme="dark"]) body > footer .felexia-logo-wordmark strong { color: #fff; }
+html:not([data-theme="dark"]) body > footer .felexia-logo-wordmark > span { color: #7eddd6; }
+
+/* Desktop WhatsApp stays in the corner, with its name visible. */
+@media (min-width: 768px) {
+  a[href^="https://wa.me/"][class*="size-14"] {
+    direction: ltr;
+    width: auto;
+    height: 3.25rem;
+    padding-inline: 1rem;
+    border-radius: 999px;
+    gap: .5rem;
+  }
+  a[href^="https://wa.me/"][class*="size-14"]::after {
+    content: "WhatsApp";
+    font: 650 .95rem/1 Inter, Arial, sans-serif;
+  }
+}
+
+/* Mobile: one reachable bar for the three real actions. */
+.fx-dock { display: none; }
+.fx-dock a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  border-radius: 999px;
+  font-weight: 650;
+  font-size: .95rem;
+  text-decoration: none;
+  padding-inline: .6rem;
+}
+.fx-dock a:first-child { background: var(--fx-ocean); color: #fff; }
+.fx-dock a:nth-child(2) { background: #fff; color: var(--fx-ink); box-shadow: inset 0 0 0 1px rgba(11, 19, 64, .16); }
+.fx-dock a.fx-dock-wa { background: #067647; color: #fff; }
+html[data-theme="dark"] .fx-dock a:nth-child(2) { background: #192c4c; color: #f1f5ff; box-shadow: inset 0 0 0 1px #344865; }
+
+@media (max-width: 767px) {
+  a[href^="https://wa.me/"][class*="size-14"] { display: none; }
+  .fx-dock {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.15fr;
+    gap: 8px;
+    position: fixed;
+    z-index: 45;
+    inset-inline: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+    background: rgba(255, 252, 247, .96);
+    border-top: 1px solid var(--fx-line);
+    backdrop-filter: blur(16px);
+  }
+  html[data-theme="dark"] .fx-dock { background: rgba(19, 34, 61, .96); border-top-color: #344865; }
+  body { padding-bottom: calc(4.75rem + env(safe-area-inset-bottom)); }
+  .audience-consent { bottom: calc(5.1rem + env(safe-area-inset-bottom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a[data-guide-card], main article.rounded-3xl, main li.rounded-2xl { transition: none; }
+}
+@media print {
+  .fx-dock, a[href^="https://wa.me/"][class*="size-14"] { display: none; }
+  body { padding-bottom: 0; }
+}

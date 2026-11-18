@@ -12,6 +12,7 @@ export const revisedSlugs=new Set(['','creation-entreprise','tarif/creation','co
 const copyCatalog=Object.assign({},...[1,2,3].map(n=>JSON.parse(readFileSync(new URL(`./translations/part-${n}.json`,import.meta.url),'utf8'))));
 const translated=(s,l)=>l==='fr'?s:copyCatalog[createHash('sha1').update(s).digest('hex').slice(0,12)]?.[l];
 const version=createHash('sha256').update(readFileSync(new URL('../public/seo.css',import.meta.url))).digest('hex').slice(0,12);
+const designVersion=createHash('sha256').update(readFileSync(new URL('../public/design-premium.css',import.meta.url))).digest('hex').slice(0,12);
 const imageDimensions=JSON.parse(readFileSync(new URL('./image-dimensions.json',import.meta.url),'utf8'));
 const optimizedImages=JSON.parse(readFileSync(new URL('./image-optimized.json',import.meta.url),'utf8'));
 
@@ -93,6 +94,11 @@ export function optimizeSeo(pages){
     if(slug===''){
       $('main h1').text(t('Felexia Conseils : créez et développez votre entreprise au Maroc','Felexia Conseils: start and grow your business in Morocco','Felexia Conseils: أسّس مقاولتك وطوّرها في المغرب'));
       $('main').append(`<div class="seo-content">${section('reperes-creation',['Votre projet de création, de la réflexion au dossier','Your formation project, from decisions to documents','مشروع تأسيسك، من الفكرة إلى الملف'],p('Entrepreneur au Maroc, MRE ou investisseur : préparez vos choix avec un cabinet et avancez avec des repères clairs. Retrouvez notre accompagnement et les guides utiles selon votre situation.','Entrepreneur in Morocco, Moroccan abroad or investor: prepare your decisions with an advisory firm and clear guidance. Explore our support and the guides relevant to your situation.','مقاول في المغرب أو مغربي بالخارج أو مستثمر: حضّر قراراتك مع مكتب استشاري ومعلومات واضحة. اكتشف مواكبتنا والأدلة المناسبة لوضعيتك.')+`<p>${a('creation-entreprise','Création d’entreprise au Maroc','Company formation in Morocco','تأسيس شركة في المغرب')} · ${a('tarif/creation','Tarifs sur devis','Tailored quotes','تسعيرة حسب المشروع')} · ${a('guides','Tous les guides','All guides','جميع الأدلة')} · ${a('guides/creer-une-sarl-maroc','Créer une SARL','Forming a SARL','تأسيس SARL')} · ${a('guides/mre-etranger','Entreprendre depuis l’étranger','Starting from abroad','التأسيس من الخارج')}</p>`)}</div>`);
+      // Only facts already stated on the site: address, languages, quote, appointment.
+      if(!$('[data-trust-strip]').length){
+        const trust=`<section class="fx-trust" data-trust-strip aria-label="${esc(t('Repères du cabinet','About this firm','معطيات المكتب'))}"><ul><li><strong>${esc(t('Marrakech','Marrakech','مراكش'))}</strong><span>${esc(t('Cabinet à Mabrouka','Firm in Mabrouka','مكتب بمبروكة'))}</span></li><li><strong>${esc(t('Trois langues','Three languages','ثلاث لغات'))}</strong><span>${esc(t('Français, anglais et arabe','French, English and Arabic','الفرنسية والإنجليزية والعربية'))}</span></li><li><strong>${esc(t('Sur devis','Quoted first','حسب عرض'))}</strong><span>${esc(t('Honoraires indiqués avant engagement','Fees set out before you commit','الأتعاب قبل أي التزام'))}</span></li><li><strong>${esc(t('Présence ou distance','In person or remote','حضورياً أو عن بُعد'))}</strong><span>${esc(t('Rendez-vous à Marrakech, ou échange à distance','An appointment in Marrakech, or a remote discussion','موعد بمراكش أو تبادل عن بُعد'))}</span></li></ul></section>`;
+        $('main > section').first().after(trust);
+      }
     }
     if(slug==='contact'){
       metadata(t('Création d’entreprise à Marrakech : contact | Felexia Conseils','Company formation in Marrakech: contact | Felexia Conseils','تأسيس شركة بمراكش: تواصل معنا | Felexia Conseils'),t('Rencontrez Felexia Conseils à Mabrouka, Marrakech, sur rendez-vous. Création de société au Maroc, devis et échanges par téléphone, WhatsApp ou formulaire.','Meet Felexia Conseils in Mabrouka, Marrakech, by appointment. Company formation in Morocco, tailored quotes, phone, WhatsApp and online enquiries.','قابل Felexia Conseils بمبروكة، مراكش، بموعد مسبق. تأسيس الشركات بالمغرب وعروض أسعار وتواصل بالهاتف وواتساب أو النموذج.'));
@@ -156,6 +162,9 @@ export function optimizeSeo(pages){
     if(!slug)$('main img').removeAttr('fetchpriority').attr('loading','lazy');
     $('img').each((_,e)=>{const original=$(e).attr('src');if(optimizedImages[original])$(e).attr('src',optimizedImages[original]);const size=imageDimensions[$(e).attr('src')];if(size)$(e).attr({width:String(size[0]),height:String(size[1])});});
     addAnalytics($,l,slug);
+    if(!$('.fx-dock').length)$('body').append(`<nav class="fx-dock" aria-label="${esc(t('Actions rapides','Quick actions','إجراءات سريعة'))}"><a href="${route('create')}">${esc(t('Créer','Start','تأسيس'))}</a><a href="${route('contact')}">${esc(t('Contact','Contact','تواصل'))}</a><a class="fx-dock-wa" href="https://wa.me/${company.whatsapp}" target="_blank" rel="noopener noreferrer">WhatsApp</a></nav>`);
+    $('link[href^="/design-premium.css"]').remove();
+    $('head').append(`<link rel="stylesheet" href="/design-premium.css?v=${designVersion}">`);
     pages[file]=$.html();
   }
   return pages;
