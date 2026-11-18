@@ -3,7 +3,8 @@ import {readFile} from 'node:fs/promises';
 import {load} from 'cheerio';
 import {runtimeEngine,runtimeStore,readStatic} from './runtime.mjs';
 import {addEvent,enqueue} from './engine.mjs';
-import {findPublishedTopic,renderIntelligenceGuide,mergeGuideCatalogue,mergeIntelligenceSitemap,mergeHistoricalAlternates} from './render.mjs';
+import {findPublishedTopic,renderIntelligenceGuide,mergeIntelligenceSitemap,mergeHistoricalAlternates,presentCatalogue} from './render.mjs';
+import {guideThemes} from '../guide-themes.mjs';
 
 function permitted(req,secret) {
   if(!secret||secret.length<24)return false;
@@ -119,18 +120,30 @@ export function createPublicGuidesHandler({env=process.env,store,staticReader=re
     if(!['GET','HEAD'].includes(req.method))return send(req,res,405,{ok:false,code:'method_not_allowed'});
     const url=new URL(req.url,'http://localhost');let pathname;
     try{pathname=decodeURIComponent(url.pathname);}catch{return send(req,res,404,'Page introuvable','text/plain; charset=utf-8');}
+    const pathPage=/^\/(fr|en|ar)\/guides\/page\/(\d+)\/$/.exec(pathname);
+    const pathTheme=/^\/(fr|en|ar)\/guides\/theme\/([a-z]+)(?:\/page\/(\d+))?\/$/.exec(pathname);
     const pathMatch=/^\/(fr|en|ar)\/guides\/(?:([^/]+)\/)?$/.exec(pathname);
-    const lang=pathMatch?.[1]||url.searchParams.get('lang'),slug=pathMatch?.[2]||url.searchParams.get('slug')||'';
-    if(!['fr','en','ar'].includes(lang)||slug&&!/^[\p{L}\p{N}]+(?:-[\p{L}\p{N}]+)*$/u.test(slug))return send(req,res,404,'Page introuvable','text/plain; charset=utf-8');
-    if(!slug&&url.searchParams.has('page')){
-      res.setHeader('Location',`/${lang}/guides/`);
+    const api=pathname==='/api/intelligence-public';
+    const lang=pathPage?.[1]||pathTheme?.[1]||pathMatch?.[1]||url.searchParams.get('lang');
+    const slug=pathMatch?.[2]||url.searchParams.get('slug')||'';
+    const theme=pathTheme?.[2]||(api?url.searchParams.get('theme')||'':'');
+    const rawPage=pathPage?.[2]||pathTheme?.[3]||(api?url.searchParams.get('page'):'');
+    const pageNumber=Number(rawPage||0);
+    if(!['fr','en','ar'].includes(lang)||slug&&!/^[\p{L}\p{N}]+(?:-[\p{L}\p{N}]+)*$/u.test(slug)||theme&&!guideThemes.some(item=>item.id===theme))return send(req,res,404,'Page introuvable','text/plain; charset=utf-8');
+    if(!api&&!pathPage&&!pathTheme&&url.searchParams.has('page')){
+      const requested=url.searchParams.get('page');
+      res.setHeader('Location',/^[2-9]\d*$/.test(requested)?`/${lang}/guides/page/${Number(requested)}/`:`/${lang}/guides/`);
       return send(req,res,308,'','text/plain; charset=utf-8');
     }
-    const relative=`${lang}/guides/${slug?slug+'/':''}index.html`;
+    if(api&&url.searchParams.has('page')&&!/^[1-9]\d*$/.test(url.searchParams.get('page')||'')){res.setHeader('Location',`/${lang}/guides/`);return send(req,res,308,'','text/plain; charset=utf-8');}
+    if(pageNumber===1){res.setHeader('Location',theme?`/${lang}/guides/theme/${theme}/`:`/${lang}/guides/`);return send(req,res,308,'','text/plain; charset=utf-8');}
+    const catalogueRequest=!slug||Boolean(pathPage)||Boolean(pathTheme);
+    const relative=`${lang}/guides/${!catalogueRequest&&slug?slug+'/':''}index.html`;
     let base;try{base=await staticReader(relative);}catch{}
     let state;
     try{state=await(store||runtimeStore(env)).read();}catch{
       res.setHeader('X-Felexia-Intelligence','degraded');
+      if(catalogueRequest&&base){try{const presented=presentCatalogue(base,[],lang,{origin:env.SITE_URL||'https://www.felexiaconseils.com',page:pageNumber||1,theme});if(!presented.missing)return send(req,res,200,presented.html,'text/html; charset=utf-8');}catch{}}
       return base?send(req,res,200,base,'text/html; charset=utf-8'):send(req,res,503,'Service temporairement indisponible','text/plain; charset=utf-8');
     }
     const topics=state.topics.filter(t=>t.status==='published');
@@ -138,7 +151,7 @@ export function createPublicGuidesHandler({env=process.env,store,staticReader=re
     let knownPaths=new Set();try{knownPaths=new Set(JSON.parse(await staticReader('route-manifest.json')));}catch{}
     try{
       let html;
-      if(!slug&&base)html=mergeGuideCatalogue(base,topics,lang,{origin});
+      if(catalogueRequest&&base){const presented=presentCatalogue(base,topics,lang,{origin,page:pageNumber||1,theme});if(presented.missing)return send(req,res,404,'Page introuvable','text/plain; charset=utf-8');html=presented.html;}
       else if(base)html=mergeHistoricalAlternates(base,topics,lang,{origin,path:`/${lang}/guides/${slug}/`,knownPaths});
       else {const topic=findPublishedTopic(state,lang,slug);if(topic){const template=await staticReader(`${lang}/guides/creation-entreprise-rabat/index.html`);html=renderIntelligenceGuide(topic,lang,{baseHtml:template,origin,knownPaths});}}
       if(!html)return send(req,res,404,'Page introuvable','text/plain; charset=utf-8');

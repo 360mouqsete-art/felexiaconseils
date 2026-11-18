@@ -3,6 +3,8 @@ import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {company} from './content.mjs';
 import {headerTools, languageSwitch} from './header-tools.mjs';
+import {auditGuidesFor} from './audit-guides.mjs';
+import {guideThemes, themeOfCategory, themeLabel} from './guide-themes.mjs';
 
 // Extend the existing, already localised Guides templates at build time. Only
 // catalogue summaries reach the browser; article bodies remain static HTML.
@@ -236,9 +238,40 @@ function renderCatalogue(pages, catalogue, lang, version) {
   const t = labels[lang];
   const categories = [...new Set(catalogue.map(guide => guide.category))].sort((a,b) => a.localeCompare(b,lang));
   grid.before(`<div class="guide-filters" data-guide-filters><div class="guide-search"><label class="sr-only" for="guide-search">${t.searchLabel}</label><input id="guide-search" type="search" placeholder="${t.search}" autocomplete="off" data-guide-search></div><div class="guide-category"><label class="sr-only" for="guide-category">${t.category}</label><select id="guide-category" data-guide-category><option value="">${t.all}</option>${categories.map(category => `<option value="${esc(category)}">${esc(category)}</option>`).join('')}</select></div><p class="guide-result-count" role="status" aria-live="polite" data-guide-count data-count-label="${t.count}">${catalogue.length} ${t.count}</p></div><p class="guide-no-results" data-guide-empty hidden>${t.empty}</p>`);
+  const themeNav = `<nav class="guide-themes" aria-label="${esc(t.category)}">${guideThemes.map(theme => `<a href="/${lang}/guides/theme/${theme.id}/">${esc(themeLabel(theme.id, lang))}</a>`).join('')}</nav>`;
+  grid.before(themeNav);
   $('head').append(`<link rel="stylesheet" href="/guides.css?v=${version}"><script src="/guides.js?v=${version}" defer></script>`);
   pages[file] = $.html();
   delete pages[`${lang}/guides/page/2/index.html`];
+}
+
+function renderThemePages(pages) {
+  const known = new Set(Object.keys(pages).map(file => '/' + file.replace(/index\.html$/, '')));
+  for (const theme of guideThemes) for (const lang of ['fr','en','ar']) known.add(`/${lang}/guides/theme/${theme.id}/`);
+  for (const lang of ['fr','en','ar']) {
+    const source = pages[`${lang}/guides/index.html`];
+    for (const theme of guideThemes) {
+      const themePage = load(source);
+      const themeGrid = themePage('[data-guide-grid]');
+      const matching = themeGrid.children('[data-guide-card]').toArray().filter(element => themeOfCategory(themePage(element).attr('data-category')) === theme.id);
+      themeGrid.empty().append(matching);
+      const themePath = `/${lang}/guides/theme/${theme.id}/`;
+      const themeTitle = `${themeLabel(theme.id, lang)} | Felexia Conseils`;
+      const description = themePage('meta[name="description"]').attr('content') || themeTitle;
+      themePage('title').text(themeTitle);
+      themePage('meta[name="description"],meta[property="og:description"],meta[name="twitter:description"]').attr('content', description);
+      themePage('meta[property="og:title"],meta[name="twitter:title"]').attr('content', themeTitle);
+      themePage('link[rel="canonical"],meta[property="og:url"]').attr('href', company.origin + themePath).attr('content', company.origin + themePath);
+      themePage('link[rel="alternate"][hreflang]').remove();
+      for (const language of ['fr','en','ar']) themePage('head').append(`<link rel="alternate" hreflang="${language}" href="${company.origin}/${language}/guides/theme/${theme.id}/">`);
+      themePage('head').append(`<link rel="alternate" hreflang="x-default" href="${company.origin}/fr/guides/theme/${theme.id}/">`);
+      themePage('[data-guide-count]').text(`${matching.length} ${labels[lang].count}`);
+      if (themePage('main h1').length) themePage('main h1').first().text(themeLabel(theme.id, lang));
+      themePage('.felexia-header-tools').replaceWith(headerTools(lang, `guides/theme/${theme.id}`, known));
+      themePage('footer .felexia-languages').html(languageSwitch(lang, `guides/theme/${theme.id}`, known));
+      pages[`${lang}/guides/theme/${theme.id}/index.html`] = themePage.html();
+    }
+  }
 }
 
 export function renderGuidesSite(pages) {
@@ -283,6 +316,14 @@ export function renderGuidesSite(pages) {
       pages[file] = ministryTemplates[lang];
     }
   }
+  for (const lang of ['fr','en','ar']) {
+    for (const item of auditGuidesFor(lang)) {
+      const file = articleFile(item.slug, lang);
+      if (pages[file]) throw new TypeError(`Audit guide route is already used: ${file}`);
+      catalogues[lang].push(item);
+      pages[file] = ministryTemplates[lang];
+    }
+  }
   const knownPaths = new Set(Object.keys(pages).map(file => '/' + file.replace(/index\.html$/, '')));
   for (const lang of ['fr','en','ar']) {
     // Keep the three genuinely undated legacy guides visible without inventing
@@ -293,9 +334,10 @@ export function renderGuidesSite(pages) {
       if (a.publicationDate && !b.publicationDate) return 1;
       return (b.publicationDate || '').localeCompare(a.publicationDate || '') || a.title.localeCompare(b.title,lang);
     });
-    for (const guide of catalogue) enrichArticle(pages,guide,lang,guide.ministry ? ministryTemplates[lang] : template,knownPaths,version);
+    for (const guide of catalogue) enrichArticle(pages,guide,lang,guide.ministry || guide.audit ? ministryTemplates[lang] : template,knownPaths,version);
     relatedGuides(pages,catalogue,lang);
     renderCatalogue(pages,catalogue,lang,version);
   }
+  renderThemePages(pages);
   return pages;
 }

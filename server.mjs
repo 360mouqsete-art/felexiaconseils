@@ -17,12 +17,10 @@ export function createServer(options={}){const contact=createContactHandler(opti
   if(pathname==='/api/intelligence-cron')return await cron(req,res);
   if(pathname==='/api/intelligence-media')return await media(req,res);
   if(pathname==='/sitemap.xml')return await sitemap(req,res);
-  if(/^\/(fr|en|ar)\/guides\/(?:[^/]+\/)?$/.test(pathname)&&!/^\/(fr|en|ar)\/guides\/page\//.test(pathname))return await guides(req,res);
+  if(/^\/(fr|en|ar)\/guides\/(?:[^/]+\/)?$/.test(pathname)||/^\/(fr|en|ar)\/guides\/page\/\d+\/$/.test(pathname)||/^\/(fr|en|ar)\/guides\/theme\/[a-z]+(?:\/page\/\d+)?\/$/.test(pathname))return await guides(req,res);
   if(pathname==='/health'){res.writeHead(200,{'Content-Type':'application/json'});return res.end(JSON.stringify({status:'ok'}));}
   if(pathname==='/'){res.writeHead(308,{Location:'/fr/'+url.search});return res.end();}
   if(/^\/(creation-entreprise|domiciliation|contact|rejoignez-nous|mentions-legales|politique-confidentialite|cgu|guides(?:\/[a-z0-9-]+)*|tarif\/(creation|domiciliation))\/?$/.test(pathname)){res.writeHead(308,{Location:'/fr'+pathname.replace(/\/$/,'')+'/'+url.search});return res.end();}
-  const oldGuidesPage=/^\/(fr|en|ar)\/guides\/page\/\d+\/?$/.exec(pathname);
-  if(oldGuidesPage){res.writeHead(308,{Location:`/${oldGuidesPage[1]}/guides/`});return res.end();}
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);return res.end('Method not allowed');}
   let file=resolve(root,'.'+pathname);if(file!==root&&!file.startsWith(root+sep)){res.writeHead(403);return res.end();}
   let info;try{info=await stat(file);}catch{}

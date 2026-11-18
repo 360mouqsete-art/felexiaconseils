@@ -1,5 +1,6 @@
 import {load} from 'cheerio';
 import {company} from '../content.mjs';
+import {guidePageSize, guideThemes, themeOfCategory, themeLabel} from '../guide-themes.mjs';
 import {headerTools} from '../header-tools.mjs';
 import {resolveCuratedCover} from './curated-covers.mjs';
 
@@ -192,6 +193,41 @@ export function mergeGuideCatalogue(baseHtml, topics, language, {origin:originIn
   const count = $('[data-guide-count]');
   count.text(`${cards.length} ${count.attr('data-count-label') || copy[language].guides}`);
   return $.html();
+}
+
+/** Serve one page of the merged catalogue. The unpaged merge stays complete. */
+export function presentCatalogue(baseHtml, topics, language, {origin:originInput, page = 1, theme = '', pageSize = guidePageSize} = {}) {
+  const origin = siteOrigin(originInput);
+  const merged = mergeGuideCatalogue(baseHtml, topics, language, {origin});
+  const $ = load(merged);
+  const grid = $('[data-guide-grid]').first();
+  let cards = grid.children('[data-guide-card]').toArray();
+  if (theme) cards = cards.filter(card => themeOfCategory($(card).attr('data-category')) === theme);
+  const size = Math.max(1, pageSize);
+  const pageCount = Math.max(1, Math.ceil(cards.length / size) || 1);
+  const requested = Number(page) || 1;
+  if (requested > pageCount) return {html:'', pageCount, current:0, total:cards.length, missing:true};
+  const current = requested;
+  grid.empty().append(cards.slice((current - 1) * size, current * size));
+  const label = theme ? themeLabel(theme, language) : (language === 'ar' ? 'الأدلة' : 'Guides');
+  const basePath = theme ? `/${language}/guides/theme/${theme}/` : `/${language}/guides/`;
+  const hrefFor = index => index <= 1 ? basePath : `${basePath}page/${index}/`;
+  const links = Array.from({length:pageCount}, (_, index) => `<a href="${hrefFor(index + 1)}"${index + 1 === current ? ' aria-current="page"' : ''}>${index + 1}</a>`).join('');
+  $('[data-guide-pagination]').remove();
+  grid.after(`<nav class="guide-pagination" data-guide-pagination aria-label="${language === 'ar' ? 'صفحات الأدلة' : language === 'en' ? 'Guide pages' : 'Pages des guides'}">${links}</nav>`);
+  if (!$('[data-guide-themes]').length) {
+    const themes = guideThemes.map(item => `<a href="/${language}/guides/theme/${item.id}/">${item[language]}</a>`).join('');
+    $('[data-guide-filters]').first().before(`<nav class="guide-themes" data-guide-themes aria-label="${language === 'ar' ? 'محاور' : language === 'en' ? 'Topics' : 'Rubriques'}">${themes}</nav>`);
+  }
+  const count = $('[data-guide-count]');
+  count.text(`${cards.length} ${count.attr('data-count-label') || copy[language].guides}`);
+  if ($('main h1').length && theme) $('main h1').first().text(label);
+  const canonical = origin + hrefFor(current);
+  $('link[rel="canonical"]').attr('href', canonical);
+  $('meta[property="og:url"]').attr('content', canonical);
+  $('title').text(`${label}${current > 1 ? ` — ${current}` : ''} | Felexia Conseils`);
+  $('meta[property="og:title"],meta[name="twitter:title"]').attr('content', $('title').text());
+  return {html:$.html(), pageCount, current, total:cards.length, missing:false};
 }
 
 /** Merge explicit translated slugs into the static sitemap and update reciprocal links. */

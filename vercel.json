@@ -29,26 +29,6 @@
   },
   "redirects": [
     {
-      "source": "/:locale(fr|en|ar)/guides/page/:page",
-      "destination": "/:locale/guides/",
-      "statusCode": 308
-    },
-    {
-      "source": "/:locale(fr|en|ar)/guides/page/:page/",
-      "destination": "/:locale/guides/",
-      "statusCode": 308
-    },
-    {
-      "source": "/guides/page/:page",
-      "destination": "/fr/guides/",
-      "statusCode": 308
-    },
-    {
-      "source": "/guides/page/:page/",
-      "destination": "/fr/guides/",
-      "statusCode": 308
-    },
-    {
       "source": "/",
       "destination": "/fr/",
       "statusCode": 308
@@ -98,6 +78,18 @@
     {
       "source": "/api/contact/",
       "destination": "/api/contact"
+    },
+    {
+      "source": "/:locale(fr|en|ar)/guides/page/:page/",
+      "destination": "/api/intelligence-public?lang=:locale&page=:page"
+    },
+    {
+      "source": "/:locale(fr|en|ar)/guides/theme/:theme/page/:page/",
+      "destination": "/api/intelligence-public?lang=:locale&theme=:theme&page=:page"
+    },
+    {
+      "source": "/:locale(fr|en|ar)/guides/theme/:theme/",
+      "destination": "/api/intelligence-public?lang=:locale&theme=:theme"
     },
     {
       "source": "/:locale(fr|en|ar)/guides/",

@@ -56,10 +56,10 @@ test('real server publishes one group, serves three SEO pages and retains histor
     assert.equal($('main .prose-lg a[href="/'+language+'/contact/"]').length,1);
     for(const alternate of ['fr','en','ar'])assert.equal($(`head link[hreflang="${alternate}"]`).attr('href'),`${app.origin}/${alternate}/guides/http-publication-${alternate}/`);
     const head=await app.request(path,{method:'HEAD'});assert.equal(head.status,200);assert.equal(await head.text(),'');
-    const base=load(await readStatic(`${language}/guides/index.html`));
     const catalogue=load(await(await app.request(`/${language}/guides/`)).text());
-    assert.equal(catalogue('[data-guide-card]').length,base('[data-guide-card]').length+1);
-    for(const href of base('[data-guide-card]').map((_,element)=>base(element).attr('href')).get())assert.equal(catalogue(`[data-guide-card][href="${href}"]`).length,1);
+    assert.equal(catalogue('[data-guide-card]').length,24);
+    assert.ok(catalogue('[data-guide-pagination] a').length>1);
+    assert.equal((await app.request(`/${language}/guides/creation-entreprise-rabat/`)).status,200);
   }
   const historical=load(await(await app.request('/fr/guides/creation-entreprise-rabat/')).text());
   assert.equal(historical('main .prose-lg').html(),beforeHistorical('main .prose-lg').html());
@@ -144,10 +144,10 @@ test('legacy catalogue pagination redirects GET and HEAD before any static or da
   const unexpectedRead=async()=>{reads++;throw new Error('Pagination must redirect before reading content');};
   const handler=createPublicGuidesHandler({store:{read:unexpectedRead},staticReader:unexpectedRead});
   for(const language of ['fr','en','ar'])for(const method of ['GET','HEAD']){
-    for(const url of [`/${language}/guides/?page=2`,`/api/intelligence-public?lang=${language}&page=2`,`/api/intelligence-public?lang=${language}&page=&utm_source=old-link`]){
+    for(const [url,location] of [[`/${language}/guides/?page=2`,`/${language}/guides/page/2/`],[`/api/intelligence-public?lang=${language}&page=`,`/${language}/guides/`],[`/api/intelligence-public?lang=${language}&page=&utm_source=old-link`,`/${language}/guides/`]]){
       const response={headers:{},setHeader(name,value){this.headers[name]=value;},end(body){this.body=body;}};
       await handler({method,url},response);
-      assert.equal(response.statusCode,308);assert.equal(response.headers.Location,`/${language}/guides/`);
+      assert.equal(response.statusCode,308);assert.equal(response.headers.Location,location);
       assert.equal(response.body,method==='HEAD'?undefined:'');
     }
   }

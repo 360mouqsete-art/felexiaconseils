@@ -35,7 +35,8 @@ const lastmod=route=>{
   const modified=ministryDates.get(route)||(revisedSlugs.has(route.replace(/^\/(fr|en|ar)\//,'').replace(/\/$/,''))?editorialDate:null);
   return modified?`<lastmod>${modified}</lastmod>`:'';
 };
-const sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+routes.map(route=>`<url><loc>${xmlEscape(company.origin+route)}</loc>${lastmod(route)}${languages.filter(l=>routes.includes(route.replace(/^\/(fr|en|ar)\//,'/'+l+'/'))).map(l=>`<xhtml:link rel="alternate" hreflang="${l}" href="${xmlEscape(company.origin+route.replace(/^\/(fr|en|ar)\//,'/'+l+'/'))}"/>`).join('')}</url>`).join('')+'</urlset>';
+const alternates=route=>{const present=languages.filter(l=>routes.includes(route.replace(/^\/(fr|en|ar)\//,'/'+l+'/')));const french=route.replace(/^\/(fr|en|ar)\//,'/fr/');const fallback=routes.includes(french)?french:route;return present.map(l=>`<xhtml:link rel="alternate" hreflang="${l}" href="${xmlEscape(company.origin+route.replace(/^\/(fr|en|ar)\//,'/'+l+'/'))}"/>`).join('')+`<xhtml:link rel="alternate" hreflang="x-default" href="${xmlEscape(company.origin+fallback)}"/>`;};
+const sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+routes.map(route=>`<url><loc>${xmlEscape(company.origin+route)}</loc>${lastmod(route)}${alternates(route)}</url>`).join('')+'</urlset>';
 await writeFile('dist/sitemap.xml',sitemap);
 await writeFile('dist/robots.txt',`User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /intelligence/\nDisallow: /*/404/\nSitemap: ${company.origin}/sitemap.xml\n`);
 await writeFile('dist/_redirects','/ /fr/ 308\n');
