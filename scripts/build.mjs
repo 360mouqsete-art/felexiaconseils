@@ -5,8 +5,7 @@ import {promisify} from 'node:util';
 import { renderSite } from '../src/templates.mjs';
 import {company,languages} from '../src/content.mjs';
 import {load} from 'cheerio';
-import {revisedSlugs} from '../src/seo.mjs';
-import {editorialDate} from '../src/seo-content.mjs';
+import {sitemapLastmod} from '../src/seo.mjs';
 await mkdir('dist', {recursive:true});
 const pages=renderSite();
 await writeFile('public/mylegal/legacy.css','@scope (.felexia-legacy) {\n'+await readFile('public/styles.css','utf8')+'\n}\n');
@@ -19,10 +18,11 @@ const routes=Object.entries(pages).filter(([p,html])=>{
   return !/noindex/.test($('meta[name="robots"]').attr('content')||'')&&$('link[rel="canonical"]').attr('href')===company.origin+'/'+p.replace(/index\.html$/,'');
 }).map(([p])=>'/'+p.replace(/index\.html$/,''));
 const xmlEscape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
-const lastmod=route=>revisedSlugs.has(route.replace(/^\/(fr|en|ar)\//,'').replace(/\/$/,''))?`<lastmod>${editorialDate}</lastmod>`:'';
-const sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+routes.map(route=>`<url><loc>${xmlEscape(company.origin+route)}</loc>${lastmod(route)}${languages.filter(l=>routes.includes(route.replace(/^\/(fr|en|ar)\//,'/'+l+'/'))).map(l=>`<xhtml:link rel="alternate" hreflang="${l}" href="${xmlEscape(company.origin+route.replace(/^\/(fr|en|ar)\//,'/'+l+'/'))}"/>`).join('')}</url>`).join('')+'</urlset>';
+const lastmod=route=>{const date=sitemapLastmod(route);return date?`<lastmod>${date}</lastmod>`:'';};
+const alternates=route=>{const present=languages.filter(l=>routes.includes(route.replace(/^\/(fr|en|ar)\//,'/'+l+'/')));const french=route.replace(/^\/(fr|en|ar)\//,'/fr/');const fallback=routes.includes(french)?french:route;return present.map(l=>`<xhtml:link rel="alternate" hreflang="${l}" href="${xmlEscape(company.origin+route.replace(/^\/(fr|en|ar)\//,'/'+l+'/'))}"/>`).join('')+`<xhtml:link rel="alternate" hreflang="x-default" href="${xmlEscape(company.origin+fallback)}"/>`;};
+const sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+routes.map(route=>`<url><loc>${xmlEscape(company.origin+route)}</loc>${lastmod(route)}${alternates(route)}</url>`).join('')+'</urlset>';
 await writeFile('dist/sitemap.xml',sitemap);
-await writeFile('dist/robots.txt',`User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /*/404/\nSitemap: ${company.origin}/sitemap.xml\n`);
+await writeFile('dist/robots.txt',`User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /intelligence/\nDisallow: /*/404/\nSitemap: ${company.origin}/sitemap.xml\n`);
 await writeFile('dist/_redirects','/ /fr/ 302\n');
 await writeFile('dist/404.html',pages['fr/404/index.html']);
 async function compressDirectory(dir){for(const item of await readdir(dir,{withFileTypes:true})){const path=dir+'/'+item.name;if(item.isDirectory()){await compressDirectory(path);continue;}if(!/\.(html|css|js|svg|xml|txt)$/.test(path))continue;const bytes=await readFile(path);const [br,gz]=await Promise.all([promisify(brotliCompress)(bytes,{params:{[constants.BROTLI_PARAM_QUALITY]:6}}),promisify(gzip)(bytes,{level:9})]);await Promise.all([writeFile(path+'.br',br),writeFile(path+'.gz',gz)]);}}

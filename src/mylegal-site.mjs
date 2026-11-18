@@ -94,7 +94,9 @@ export function renderReferenceSite(existing) {
       }
       const office=/2026-02-Artboar(?:d-1-coxpy-6|xd-1(?:-copy-5)?)-scaled/.test(local)||/\/(?:10f7722574f2|3d66811e79df)\.webp/.test(local);
       const exterior=local.includes('photo-bureau-ext')||local.includes('fe7006bc400d');
-      $(el).attr('src',office?'/mylegal/images/brand/felexia-office.webp':exterior?'/mylegal/images/brand/felexia-exterior-sans-enseigne.webp':local);
+      const ministry=/ministere-transfer-num\.svg/.test(local);
+      $(el).attr('src',office?'/mylegal/images/brand/felexia-office.webp':exterior?'/mylegal/images/brand/felexia-exterior-sans-enseigne.webp':ministry?'/mylegal/images/logos/confiance/ministere-transfer-num.webp':local);
+      if(ministry)$(el).attr({width:'627',height:'200'});
       if(office||exterior){$(el).attr({width:'1280',height:'853',alt:office?'Bureaux avec le logo original Felexia Conseils — visuel d’illustration':'Bâtiment professionnel de style marocain sans enseigne — visuel d’illustration'});}
       else if(/Felexia Conseils|Résidence Al Ihssane/.test($(el).attr('alt')||''))$(el).attr('alt','Accompagnement et espaces professionnels — photographie d’illustration');
       if(exterior)$(el).after('<span class="felexia-photo-caption">Visuel d’illustration</span>');
@@ -103,6 +105,16 @@ export function renderReferenceSite(existing) {
       if(!$(el).attr('loading'))$(el).attr('loading','lazy');
     });
     $('iframe').replaceWith(`<a class="felexia-map-link" href="${esc(mapHref)}" target="_blank" rel="noopener noreferrer">Voir l’adresse du cabinet sur la carte ↗</a>`);
+    if(route==='/'){
+      $('[class*="marquee"]').each((_,element)=>{
+        const seen=new Set();
+        $(element).find('img').each((__,image)=>{
+          const key=($(image).attr('src')||'').split('?')[0];
+          if(seen.has(key))$(image).parent().remove();
+          else seen.add(key);
+        });
+      });
+    }
     $('footer ul').first().replaceWith(contactBlock());
     $('main').attr('id','main');
     const adapted=adaptReferenceContent($,route);
@@ -185,7 +197,7 @@ export function renderReferenceSite(existing) {
     const css=[...baseCss,'/mylegal/site-inline.css','/mylegal/identity.css','/mylegal/behavior.css','/mylegal/forms.css','/mylegal/legacy.css','/mylegal/site.css','/header-tools.css','/theme.css','/mylegal/locale.css'];
     const scripts=['/mylegal/interaction-copy.js','/mylegal/home.js','/mylegal/pages.js','/app.js'];
     $('html').attr({lang:'fr',dir:'ltr'});$('body').attr('data-lang','fr');
-    $('head').html(`<meta charset="utf-8"><script src="/theme.js?v=${version}"></script><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#2446D8"><link rel="canonical" href="${canonical}">${alternates.map(x=>`<link rel="alternate" hreflang="${x.l}" href="${company.origin+x.path}">`).join('')}<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:type" content="website"><meta property="og:image" content="${company.origin}/assets/logo-original.png"><link rel="icon" href="/assets/logo-simple-mark.svg" type="image/svg+xml">${css.map(x=>`<link rel="stylesheet" href="${x}?v=${version}">`).join('')}${scripts.map(x=>`<script src="${x}?v=${version}" defer></script>`).join('')}<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'ProfessionalService',name:company.name,url:company.origin,logo:company.origin+'/assets/logo-original.png',email:company.email,telephone:company.officeTel,areaServed:'MA',address:{'@type':'PostalAddress',streetAddress:company.address,addressCountry:'MA'}}).replace(/</g,'\\u003c')}</script>`);
+    $('head').html(`<meta charset="utf-8"><script src="/theme.js?v=${version}"></script><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#2446D8"><link rel="canonical" href="${canonical}">${alternates.map(x=>`<link rel="alternate" hreflang="${x.l}" href="${company.origin+x.path}">`).join('')}<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:type" content="website"><meta property="og:image" content="${company.origin}/assets/logo-original.png"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/logo-simple-mark.svg" type="image/svg+xml">${css.map(x=>`<link rel="stylesheet" href="${x}?v=${version}">`).join('')}${scripts.map(x=>`<script src="${x}?v=${version}" defer></script>`).join('')}<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'ProfessionalService',name:company.name,url:company.origin,logo:company.origin+'/assets/logo-original.png',email:company.email,telephone:company.officeTel,areaServed:'MA',address:{'@type':'PostalAddress',streetAddress:company.address,addressCountry:'MA'}}).replace(/</g,'\\u003c')}</script>`);
     $('body').prepend('<a class="felexia-skip" href="#main">Aller au contenu</a>');
     return $.html();
   }
