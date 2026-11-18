@@ -5,17 +5,22 @@ import {fileURLToPath} from 'node:url';
 import {loadEnvFile} from 'node:process';
 import {createHash} from 'node:crypto';
 import {createContactHandler} from './src/contact-api.mjs';
+import {createIntelligenceHandler,createCronHandler,createPublicGuidesHandler,createSitemapHandler,createMediaHandler} from './src/intelligence/http.mjs';
 try{loadEnvFile();}catch(e){if(e.code!=='ENOENT')throw e;}
 const root=resolve(fileURLToPath(new URL('.',import.meta.url)),'dist');
-export function createServer(options={}){const contact=createContactHandler(options);return http.createServer(async(req,res)=>{
+export function createServer(options={}){const contact=createContactHandler(options);const intelligence=createIntelligenceHandler(options),cron=createCronHandler(options),guides=createPublicGuidesHandler(options),sitemap=createSitemapHandler(options),media=createMediaHandler(options);return http.createServer(async(req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','strict-origin-when-cross-origin');res.setHeader('X-Frame-Options','DENY');
   res.setHeader('Permissions-Policy','camera=(), microphone=(), geolocation=()');
   try{const url=new URL(req.url,'http://localhost');let pathname=decodeURIComponent(url.pathname);
   if(pathname==='/api/contact')return await contact(req,res);
+  if(pathname==='/api/intelligence')return await intelligence(req,res);
+  if(pathname==='/api/intelligence-cron')return await cron(req,res);
+  if(pathname==='/api/intelligence-media')return await media(req,res);
+  if(pathname==='/sitemap.xml')return await sitemap(req,res);
+  if(/^\/(fr|en|ar)\/guides\/(?:[^/]+\/)?$/.test(pathname)||/^\/(fr|en|ar)\/guides\/page\/\d+\/$/.test(pathname)||/^\/(fr|en|ar)\/guides\/theme\/[a-z]+(?:\/page\/\d+)?\/$/.test(pathname))return await guides(req,res);
   if(pathname==='/health'){res.writeHead(200,{'Content-Type':'application/json'});return res.end(JSON.stringify({status:'ok'}));}
-  if(pathname==='/'){res.writeHead(302,{Location:'/fr/'});return res.end();}
+  if(pathname==='/'){res.writeHead(308,{Location:'/fr/'+url.search});return res.end();}
   if(/^\/(creation-entreprise|domiciliation|contact|rejoignez-nous|mentions-legales|politique-confidentialite|cgu|guides(?:\/[a-z0-9-]+)*|tarif\/(creation|domiciliation))\/?$/.test(pathname)){res.writeHead(308,{Location:'/fr'+pathname.replace(/\/$/,'')+'/'+url.search});return res.end();}
-  if(pathname==='/fr/guides/'&&url.searchParams.get('page')==='2'){res.writeHead(308,{Location:'/fr/guides/page/2/'});return res.end();}
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);return res.end('Method not allowed');}
   let file=resolve(root,'.'+pathname);if(file!==root&&!file.startsWith(root+sep)){res.writeHead(403);return res.end();}
   let info;try{info=await stat(file);}catch{}

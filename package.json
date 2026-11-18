@@ -7,13 +7,19 @@
     "node": ">=22"
   },
   "scripts": {
+    "lint": "node scripts/check-syntax.mjs",
+    "typecheck": "node scripts/check-guides-data.mjs",
     "build": "node scripts/build.mjs",
     "dev": "node scripts/build.mjs && node --watch server.mjs",
     "start": "node server.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "node scripts/check.mjs && node scripts/check-http.mjs"
+    "check": "node scripts/check.mjs && node scripts/check-http.mjs",
+    "intelligence:worker": "node scripts/intelligence-worker.mjs",
+    "intelligence:seed": "node scripts/intelligence-seed.mjs"
   },
-  "devDependencies": {
-    "cheerio": "^1.2.0"
+  "dependencies": {
+    "ai": "7.0.137",
+    "cheerio": "1.2.0",
+    "sharp": "0.35.5"
   }
 }

@@ -84,7 +84,7 @@ test('every language displays the simplified Felexia header and footer logo', ()
   }
 });
 
-test('header language controls retain the exact page in every language', () => {
+test('language controls link to real translations or clearly identified available sections', () => {
   for(const {relative,$} of documents.values()) {
     if(!/^(fr|en|ar)\//.test(relative))continue;
     const language=$('html').attr('lang');
@@ -98,14 +98,16 @@ test('header language controls retain the exact page in every language', () => {
       assert.ok(target,`${relative}: real target ${path}`);
       assert.equal(target.$('html').attr('lang'),$(anchor).attr('lang'));
       if($(anchor).attr('lang')==='ar')assert.equal(target.$('html').attr('dir'),'rtl');
-      assert.equal($(anchor).attr('data-language-target'),'equivalent',`${relative}: all pages have a translated equivalent`);
-      if($(anchor).attr('data-language-target')==='equivalent')assert.equal(path.slice(4),`/${relative}`.slice(4).replace(/index\.html$/,''),`${relative}: equivalent page retained`);
+      const equivalent = documents.has('/'+relative.replace(/^(fr|en|ar)\//,$(anchor).attr('lang')+'/'));
+      assert.equal($(anchor).attr('data-language-target'),equivalent?'equivalent':'section',`${relative}: accurately identifies available translations`);
+      if(equivalent)assert.equal(path.slice(4),`/${relative}`.slice(4).replace(/index\.html$/,''),`${relative}: equivalent page retained`);
+      else {assert.match(relative,/^fr\/guides\/[^/]+\/index\.html$/);assert.equal(path,`/${$(anchor).attr('lang')}/guides/`);}
     });
     assert.equal($('header [data-theme-toggle]').length,1,`${relative}: theme toggle`);
     assert.ok($('script[src^="/theme.js"]:not([defer])').length,`${relative}: theme restored before rendering`);
   }
-  const guide=documents.get('/fr/guides/page/2/index.html');
-  assert.equal(guide.$('header a[lang="en"]').attr('href'),'/en/guides/page/2/');
+  const guide=documents.get('/fr/guides/index.html');
+  assert.equal(guide.$('header a[lang="en"]').attr('href'),'/en/guides/');
   assert.equal(guide.$('header a[lang="en"]').attr('data-language-target'),'equivalent');
 });
 
@@ -128,14 +130,20 @@ test('domiciliation has real English and Arabic content and keeps the selected p
   }
 });
 
-test('all French pages share their template, photographs and navigation with EN and AR', () => {
+test('translated pages preserve shared layout and images; French-only imports do not claim translations', () => {
   for(const source of french) {
     for(const language of ['en','ar']) {
       const target=documents.get('/'+source.relative.replace(/^fr\//,language+'/'));
-      assert.ok(target,`${source.relative}: ${language} equivalent`);
+      if(!target){
+        assert.match(source.relative,/^fr\/guides\/[^/]+\/index\.html$/);
+        assert.ok(source.$('[data-imported-editorial]').length,`${source.relative}: documented French import`);
+        assert.equal(source.$(`head link[hreflang="${language}"]`).length,0,`${source.relative}: no nonexistent translation`);
+        continue;
+      }
       assert.deepEqual(target.$('header a[href]').map((_,e)=>target.$(e).attr('href').replace(/^\/(fr|en|ar)\//,'/locale/')).get(),source.$('header a[href]').map((_,e)=>source.$(e).attr('href').replace(/^\/(fr|en|ar)\//,'/locale/')).get(),`${source.relative}: identical header navigation`);
-      assert.deepEqual(target.$('main img[src]').map((_,e)=>target.$(e).attr('src')).get(),source.$('main img[src]').map((_,e)=>source.$(e).attr('src')).get(),`${source.relative}: identical photographs`);
-      const mainStructure=document=>document.$('main').find('section,article,aside,h1,h2,h3,details,form').map((_,e)=>e.tagName+':'+(document.$(e).attr('class')||'')).get();
+      const sharedImages=document=>document.$('main img[src]').filter((_,e)=>!document.$(e).closest('[data-guide-grid],.guide-related,.guide-source-supplement').length).map((_,e)=>document.$(e).attr('src')).get();
+      assert.deepEqual(sharedImages(target),sharedImages(source),`${source.relative}: identical photographs outside language-specific catalogue and supplements`);
+      const mainStructure=document=>document.$('main').find('section,article,aside,h1,h2,h3,details,form').filter((_,e)=>!document.$(e).closest('[data-guide-grid],.guide-related,.guide-source-supplement').length).map((_,e)=>e.tagName+':'+(document.$(e).attr('class')||'')).get();
       assert.deepEqual(mainStructure(target),mainStructure(source),`${source.relative}: identical page sections and components`);
       assert.ok(target.$('[data-primary-navigation]').length,`${source.relative}: uses the current French navigation system`);
       assert.equal(target.$('header.header').length,0,`${source.relative}: no old navigation shell`);
@@ -191,19 +199,28 @@ test('internal section links resolve to real targets, including guide FAQ entrie
   assert.deepEqual(failures, []);
 });
 
-test('guide pagination opens a distinct second page with a working return link', () => {
-  const first = documents.get('/fr/guides/index.html');
-  const second = documents.get('/fr/guides/page/2/index.html');
-  assert.ok(first && second);
-  const guideLinks = ({ $ }) => new Set($('main a[href]').map((_, element) => $(element).attr('href')).get()
-    .filter(href => /^\/fr\/guides\/(?!page\/)[^/?#]+\/$/.test(href)));
-  const firstLinks = guideLinks(first), secondLinks = guideLinks(second);
-  assert.ok(firstLinks.size > 0 && secondLinks.size > 0, 'Both pages contain guide cards');
-  assert.equal([...firstLinks].some(href => secondLinks.has(href)), false, 'Second page must contain different guides');
-  assert.ok(first.$('main a[href="/fr/guides/page/2/"]').length > 0);
-  assert.ok(second.$('main a[href="/fr/guides/"]').length > 0);
-  assert.notEqual(first.$('link[rel="canonical"]').attr('href'), second.$('link[rel="canonical"]').attr('href'));
-  for (const document of [first, second]) assert.equal(document.$('main a[href*="?page="]').length, 0);
+test('each catalogue contains every available guide in one static grid without pagination', () => {
+  for(const lang of ['fr','en','ar']){
+    const catalogue=documents.get(`/${lang}/guides/index.html`);
+    assert.ok(catalogue);
+    const {$}=catalogue;
+    const cards=$('[data-guide-grid] > a[data-guide-card]');
+    const routes=[...documents.keys()].filter(path=>new RegExp(`^/${lang}/guides/(?!page/)[^/]+/index.html$`).test(path)).map(path=>path.replace(/index.html$/,''));
+    assert.equal(cards.length,routes.length,`${lang}: every article is present before JavaScript runs`);
+    assert.deepEqual(new Set(cards.map((_,e)=>$(e).attr('href')).get()),new Set(routes));
+    assert.equal($('main a[href*="?page="],main a[href*="/guides/page/"]').length,0);
+    assert.equal($('nav').filter((_,e)=>/pagination/i.test($(e).attr('aria-label')||'')).length,0);
+    assert.ok($('[data-guide-grid]').hasClass('lg:grid-cols-3'));
+    assert.equal(cards.filter((_,e)=>$(e).find('img[loading="lazy"]').length).length,cards.length-1);
+    const undated=cards.filter((_,e)=>!$(e).attr('data-published'));
+    const undatedSlugs=undated.map((_,e)=>$(e).attr('href').split('/').filter(Boolean).at(-1)).get();
+    assert.deepEqual(new Set(undatedSlugs),new Set(['investir-depuis-etranger','organiser-gestion-entreprise','preparer-creation-entreprise']));
+    assert.ok(undated.toArray().every((e,i)=>cards.toArray()[i]===e),'Legacy undated guides are explicitly grouped before dated articles');
+    const dates=cards.map((_,e)=>$(e).attr('data-published')).get().filter(Boolean).map(value=>Date.parse(value));
+    assert.deepEqual(dates,[...dates].sort((a,b)=>b-a));
+    assert.equal(Date.parse(cards.last().attr('data-published')),Math.min(...dates),'Oldest dated guide is last');
+    assert.equal(documents.has(`/${lang}/guides/page/2/index.html`),false);
+  }
 });
 
 test('contact, creation, meeting and recruitment forms use the implemented local endpoint', () => {

@@ -95,9 +95,9 @@ test('Vercel malformed JSON getter and empty body return validation errors', asy
 test('Vercel preserves original routes and leaves contact POST URLs unredirected', async () => {
   const config = JSON.parse(await readFile(new URL('../vercel.json', import.meta.url), 'utf8'));
   assert.equal(config.framework, null);
-  assert.equal(config.outputDirectory, 'dist');
+  assert.equal(config.outputDirectory, 'dist-site');
   assert.equal(config.buildCommand, 'npm run build');
-  assert.deepEqual(config.redirects.find(rule=>rule.source==='/'), { source: '/', destination: '/fr/', statusCode: 302 });
+  assert.deepEqual(config.redirects.find(rule=>rule.source==='/'), { source: '/', destination: '/fr/', statusCode: 308 });
   assert.equal(config.trailingSlash, undefined);
   // Regex portions mirror Vercel's documented strict source matching. The root
   // and locale rules preserve the current 33 historical paths in every locale.

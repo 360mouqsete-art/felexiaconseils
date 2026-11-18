@@ -1,0 +1,1517 @@
+{
+  "topics": [
+    {
+      "id": "evergreen-preparer-rendez-vous-conseil",
+      "title": "Préparer un rendez-vous de conseil en gestion",
+      "intent": "Préparer un premier rendez-vous avec un conseiller pour une difficulté opérationnelle précise",
+      "intentKey": "prepare-management-advisor-meeting",
+      "translations": {
+        "fr": {
+          "slug": "preparer-rendez-vous-conseil-gestion-pme",
+          "title": "Préparer un rendez-vous de conseil en gestion pour votre PME",
+          "excerpt": "Transformez une difficulté opérationnelle en échange utile : objectif, documents, questions et prochaines étapes pour rencontrer votre conseiller.",
+          "metaTitle": "Préparer un rendez-vous de conseil en gestion | Felexia",
+          "metaDescription": "Préparez votre rendez-vous de conseil en gestion : précisez le problème, rassemblez les documents utiles et construisez des questions adaptées à votre PME.",
+          "primaryKeyword": "préparer rendez-vous conseil en gestion",
+          "alt": "Documents de travail et carnet pour préparer un rendez-vous de conseil",
+          "body": [
+            {
+              "heading": "Décrire la situation que vous voulez améliorer",
+              "paragraphs": [
+                "Un rendez-vous devient plus utile lorsque vous arrivez avec une situation concrète, même si vous ne connaissez pas encore sa cause. Dans une petite entreprise au Maroc, le dirigeant peut être sollicité simultanément par les clients, les fournisseurs et son équipe. Au lieu de demander simplement comment mieux gérer, décrivez le moment où le travail se bloque : une commande reste sans réponse, un document manque ou une décision attend votre disponibilité.",
+                "Notez ce que vous observez, ce que cette situation empêche et ce que vous aimeriez obtenir. Distinguez les faits de vos impressions. Vous pouvez expliquer que les demandes arrivent par plusieurs canaux sans conclure immédiatement que votre collaborateur manque de rigueur. Cette distinction donne au conseiller une base de discussion plus ouverte."
+              ]
+            },
+            {
+              "heading": "Sélectionner des documents qui éclairent le problème",
+              "paragraphs": [
+                "Préparez un petit dossier de travail avec des exemples représentatifs. Selon la difficulté, il peut contenir une commande anonymisée, un modèle de suivi, un échange fournisseur ou le schéma actuel de traitement des demandes. Choisissez les éléments qui permettent de comprendre le parcours, plutôt que de transmettre toutes les archives de votre entreprise. Expliquez brièvement pourquoi chaque document est utile.",
+                "Retirez les informations personnelles ou commerciales dont la discussion ne nécessite pas la présence. Demandez au cabinet comment partager les pièces avant de les envoyer. Une première rencontre peut commencer avec une description et des exemples simplifiés. Signalez aussi les informations que vous ne possédez pas encore ; le conseiller pourra vous aider à identifier ce qui manque réellement."
+              ]
+            },
+            {
+              "heading": "Préparer des questions orientées vers une décision",
+              "paragraphs": [
+                "Vos questions doivent aider à choisir une prochaine action. Demandez ce qu’il faudrait observer pour comprendre le blocage, quelles personnes devraient participer et quel changement serait raisonnable à essayer. Si plusieurs difficultés existent, indiquez celle qui vous gêne le plus actuellement. Vous donnez ainsi une priorité à l’échange sans prétendre avoir déjà établi un diagnostic.",
+                "Pour une entreprise qui perd le fil de ses demandes clients, une question utile serait : comment rendre visible la personne chargée de chaque demande ? Une autre porterait sur le document à utiliser pour suivre son avancement. Gardez les discussions sur les outils pour le moment où les besoins de travail sont compris."
+              ]
+            },
+            {
+              "heading": "Conclure avec des prochaines étapes compréhensibles",
+              "paragraphs": [
+                "À la fin du rendez-vous, reformulez ce que vous avez compris. Faites préciser le sujet retenu, les informations encore attendues et la personne chargée de les réunir. Si un accompagnement est envisagé, demandez une description de son périmètre, des livrables et des modalités d’échange. Un compte rendu court permet de vérifier que chacun parle du même travail.",
+                "Après la rencontre, partagez les décisions utiles avec les personnes concernées et rangez les documents dans un dossier identifié. Évitez de lancer plusieurs changements simplement parce que la discussion a été riche. Choisissez une prochaine étape réalisable, puis observez son effet. Felexia peut vous aider à clarifier cette préparation et à examiner un accompagnement adapté à votre organisation."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Faut-il avoir déjà identifié la cause du problème ?",
+              "answer": "Non. Préparez surtout des observations et des exemples ; la discussion sert aussi à examiner les causes possibles."
+            },
+            {
+              "question": "Que faire si certains documents manquent ?",
+              "answer": "Indiquez clairement ce qui est disponible et ce qui manque, puis demandez quelles informations seraient les plus utiles."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/fr/conseil-gestion/",
+              "label": "Découvrir le conseil en gestion de Felexia"
+            },
+            {
+              "path": "/fr/contact/",
+              "label": "Discuter de votre organisation avec Felexia"
+            }
+          ]
+        },
+        "en": {
+          "slug": "prepare-management-advisory-meeting-sme",
+          "title": "Prepare a management advisory meeting for your small business",
+          "excerpt": "Turn an operational difficulty into a useful conversation by preparing a clear objective, relevant examples and practical questions.",
+          "metaTitle": "Prepare a management advisory meeting | Felexia",
+          "metaDescription": "Prepare a useful management advisory meeting for your Moroccan SME with a clear problem statement, selected documents and questions about practical next steps.",
+          "primaryKeyword": "prepare management advisory meeting",
+          "alt": "Working documents and notebook prepared for a management advisory meeting",
+          "body": [
+            {
+              "heading": "Explain the situation you want to improve",
+              "paragraphs": [
+                "A meeting is easier to use when you bring a specific situation, even if its cause remains unclear. In a small Moroccan business, the owner may be dealing with clients, suppliers and team questions at the same time. Rather than asking only how to manage better, describe where work gets stuck: an enquiry receives no reply, a document cannot be found or a decision waits for your availability.",
+                "Write down what you observe, what the difficulty prevents and what you would like to achieve. Keep observations separate from assumptions. For example, explain that enquiries arrive through several channels without immediately concluding that an employee is careless. This gives the adviser a more useful starting point and leaves room to consider different explanations."
+              ]
+            },
+            {
+              "heading": "Choose documents that make the difficulty visible",
+              "paragraphs": [
+                "Prepare a working folder containing representative examples. Depending on the issue, these might include an anonymised order, a tracking sheet, a supplier exchange or a simple diagram showing how enquiries are handled. Choose material that explains the process rather than sending every company archive. Add a short note explaining what each document illustrates and which part of the situation it helps clarify.",
+                "Remove personal or commercially sensitive details that are unnecessary for the conversation. Ask the firm how to share documents before sending them. An initial discussion can begin with a description and simplified examples. Also identify information you do not yet have. The adviser can help you distinguish a useful missing detail from material that would only make preparation harder."
+              ]
+            },
+            {
+              "heading": "Ask questions that support a practical choice",
+              "paragraphs": [
+                "Prepare questions that help you decide what to do next. Ask what should be observed to understand the blockage, who should participate and which change would be reasonable to try. If several difficulties compete for attention, explain which one currently disrupts your work most. This gives the conversation a priority without presenting your initial impression as an established diagnosis.",
+                "For a business that loses track of customer enquiries, a useful question is how to make the person responsible for each enquiry visible. Another concerns the information needed to follow its progress. Discuss software once the working requirements are understood. A new tool becomes easier to assess when you can explain the process it should support."
+              ]
+            },
+            {
+              "heading": "Leave with next steps that everyone understands",
+              "paragraphs": [
+                "Before the meeting ends, describe your understanding of the discussion. Confirm the chosen issue, any information still needed and who will gather it. If ongoing support is being considered, ask for a description of its scope, expected deliverables and communication arrangements. A brief written record helps everyone check that they are discussing the same work and the same intended result.",
+                "Afterwards, share relevant decisions with the people involved and store the documents in an identifiable folder. Avoid starting several changes simply because the meeting produced many ideas. Choose a manageable next step and observe what happens. Felexia can help you clarify this preparation and consider an engagement suited to your business, while the initial conversation establishes what your organisation actually needs."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do I need to know the cause before meeting an adviser?",
+              "answer": "No. Bring observations and representative examples; exploring possible causes can be part of the conversation."
+            },
+            {
+              "question": "What if some documents are unavailable?",
+              "answer": "Explain what you have and what is missing, then ask which information would be most useful to obtain."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/en/conseil-gestion/",
+              "label": "Explore Felexia management advisory"
+            },
+            {
+              "path": "/en/contact/",
+              "label": "Discuss your business organisation with Felexia"
+            }
+          ]
+        },
+        "ar": {
+          "slug": "التحضير-للقاء-استشارة-تدبير-المقاولة",
+          "title": "كيف تحضّر لقاء استشارة في تدبير مقاولتك؟",
+          "excerpt": "حوّل صعوبة في العمل إلى نقاش مفيد من خلال تحديد الهدف واختيار الوثائق المناسبة وإعداد أسئلة تساعدك على اتخاذ الخطوة التالية.",
+          "metaTitle": "التحضير للقاء استشارة في التدبير | فيليكسيا",
+          "metaDescription": "حضّر لقاء الاستشارة في تدبير مقاولتك بالمغرب بتحديد المشكلة واختيار أمثلة ووثائق مفيدة وإعداد أسئلة عملية حول الخطوات التالية.",
+          "primaryKeyword": "التحضير للقاء استشارة في التدبير",
+          "alt": "وثائق عمل ودفتر ملاحظات للتحضير للقاء استشارة في التدبير",
+          "body": [
+            {
+              "heading": "صف الوضع الذي ترغب في تحسينه",
+              "paragraphs": [
+                "يصبح لقاء الاستشارة أكثر فائدة عندما تحضر حالة واضحة من عمل مقاولتك، حتى إن كنت لا تعرف سببها بعد. قد يتعامل صاحب مقاولة صغيرة بالمغرب مع طلبات الزبناء وأسئلة الفريق واتصالات الموردين في الوقت نفسه. بدل الاكتفاء بالقول إن التدبير يحتاج إلى تحسين، وضّح الموضع الذي يتعطل فيه العمل. ربما يبقى طلب دون جواب، أو تضيع وثيقة، أو ينتظر الفريق قراراً إلى حين تفرغك.",
+                "اكتب ما تلاحظه، وما تمنعه هذه الصعوبة، والنتيجة التي تريد الوصول إليها. ميّز بين الوقائع والانطباعات الشخصية. يمكنك مثلاً شرح أن الطلبات تصل عبر قنوات مختلفة، دون أن تعتبر ذلك دليلاً على إهمال أحد الزملاء. يساعد هذا التمييز المستشار على فهم الوضع ويفتح النقاش أمام تفسيرات متعددة قبل اقتراح أي تغيير في طريقة العمل."
+              ]
+            },
+            {
+              "heading": "اختر وثائق تساعد على فهم الصعوبة",
+              "paragraphs": [
+                "حضّر ملفاً صغيراً يتضمن أمثلة تمثل الوضع الذي تريد مناقشته. قد تحتاج إلى طلب بعد إخفاء بيانات الزبون، أو نموذج متابعة، أو مراسلة مع مورد، أو رسم بسيط يوضح مسار استقبال الطلبات. اختر الوثائق التي تشرح طريقة العمل، بدل إرسال كامل أرشيف المقاولة. أضف ملاحظة قصيرة عن كل وثيقة توضح ما تعرضه ولماذا تعتقد أنها مفيدة للنقاش المرتقب.",
+                "احذف المعلومات الشخصية أو التجارية التي لا يحتاجها اللقاء. اسأل المكتب عن وسيلة مشاركة الملفات قبل إرسالها. يمكن أن يبدأ النقاش الأول بوصف الوضع وأمثلة مبسطة، ثم تُحدد الوثائق الإضافية عند الحاجة. وضّح كذلك المعلومات التي لم تتمكن من جمعها، وسبب غيابها إن كان معروفاً. يساعدك ذلك على ترتيب التحضير دون استهلاك وقت الفريق في البحث عن تفاصيل لا تخدم الهدف."
+              ]
+            },
+            {
+              "heading": "حضّر أسئلة تساعد على اختيار خطوة عملية",
+              "paragraphs": [
+                "اجعل أسئلتك مرتبطة بما ينبغي فعله بعد اللقاء. اسأل عما يجب ملاحظته لفهم التعطل، وعن الأشخاص الذين يمكن إشراكهم، وعن التغيير المناسب للتجربة في ظروف مقاولتك الحالية. إذا كانت لديك صعوبات متعددة، بيّن أيها يؤثر أكثر على العمل الآن. بهذه الطريقة تحدد أولوية للنقاش، دون تقديم رأيك الأول باعتباره تشخيصاً نهائياً أو حلاً جاهزاً ينبغي تنفيذه.",
+                "إذا كانت المقاولة تفقد متابعة طلبات الزبناء، فقد يكون السؤال المفيد هو كيفية إظهار الشخص المكلف بكل طلب. ويمكن أن تسأل عن المعلومات التي يحتاجها الفريق لمعرفة حالة الطلب والخطوة المنتظرة. أجّل مقارنة البرامج إلى حين فهم حاجات العمل. يصبح تقييم الأداة أسهل عندما تستطيع شرح المسار الذي ستدعمه، ومن سيستخدمها، وما المشكلة التي تريد معالجتها من خلالها."
+              ]
+            },
+            {
+              "heading": "اختتم اللقاء بخطوات يفهمها المعنيون",
+              "paragraphs": [
+                "قبل نهاية اللقاء، أعد صياغة ما فهمته بكلماتك. اطلب توضيح الموضوع الذي سيجري العمل عليه، والمعلومات التي ما تزال منتظرة، والشخص الذي سيجمعها. إذا كنتم تدرسون مواكبة مستمرة، اطلب وصف نطاق المهمة والنتائج المنتظرة وكيفية التواصل. يساعد ملخص مكتوب على التأكد من أن الجميع يتحدث عن العمل نفسه، ويترك مرجعاً مفيداً عند العودة إلى المناقشة لاحقاً.",
+                "بعد اللقاء، شارك القرارات المناسبة مع الأشخاص المعنيين واحفظ الوثائق في ملف واضح الاسم. لا تبدأ تغييرات عديدة لمجرد أن النقاش أنتج أفكاراً كثيرة. اختر خطوة يمكن تنفيذها، ثم راقب أثرها على الوضع الذي وصفته في البداية. يمكنك التواصل مع فيليكسيا لتوضيح التحضير ودراسة مواكبة ملائمة لتنظيم مقاولتك، مع إبقاء الهدف العملي واضحاً لكل شخص يشارك في العمل."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "هل يجب معرفة سبب المشكلة قبل اللقاء؟",
+              "answer": "لا. يكفي تحضير ملاحظات وأمثلة واضحة، ويمكن أن يشمل النقاش دراسة الأسباب المحتملة."
+            },
+            {
+              "question": "ماذا أفعل إذا كانت بعض الوثائق غير متاحة؟",
+              "answer": "وضّح ما يتوفر لديك وما ينقصك، ثم اطلب تحديد المعلومات التي سيكون جمعها مفيداً فعلاً."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/ar/conseil-gestion/",
+              "label": "اكتشف الاستشارة في التدبير لدى فيليكسيا"
+            },
+            {
+              "path": "/ar/contact/",
+              "label": "ناقش تنظيم مقاولتك مع فيليكسيا"
+            }
+          ]
+        }
+      },
+      "kind": "new",
+      "category": "Gestion",
+      "risk": "low",
+      "authorized": true,
+      "status": "draft",
+      "verifiedAt": "2026-10-12T08:00:00.000Z",
+      "claims": [],
+      "sourceIds": [
+        "felexia-practice"
+      ],
+      "image": {
+        "src": "/images/intelligence/operations.webp",
+        "smallSrc": "/images/intelligence/operations-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true
+      },
+      "provenance": {
+        "method": "original-editorial",
+        "reviewedBy": null
+      }
+    },
+    {
+      "id": "evergreen-rediger-note-cadrage",
+      "title": "Rédiger une note de cadrage pour une amélioration interne",
+      "intent": "Écrire une note de cadrage courte avant un projet interne de gestion",
+      "intentKey": "write-operational-scoping-brief",
+      "translations": {
+        "fr": {
+          "slug": "rediger-note-cadrage-projet-interne-pme",
+          "title": "Rédiger une note de cadrage pour un projet interne de PME",
+          "excerpt": "Définissez le problème, le résultat attendu et les limites de votre projet avant de demander un outil, un devis ou l’intervention d’un conseiller.",
+          "metaTitle": "Note de cadrage pour un projet interne de PME | Felexia",
+          "metaDescription": "Rédigez une note de cadrage utile pour votre PME : contexte, résultat attendu, limites du projet, personnes concernées et critères de réussite observables.",
+          "primaryKeyword": "note de cadrage projet interne PME",
+          "alt": "Note de cadrage et schéma de travail pour un projet interne de petite entreprise",
+          "body": [
+            {
+              "heading": "Partir du problème de travail, plutôt que de la solution",
+              "paragraphs": [
+                "Une note de cadrage sert à expliquer le travail à préparer. Elle peut rester courte tout en évitant des malentendus coûteux en temps. Pour une PME marocaine qui veut améliorer son organisation, commencez par décrire une difficulté observable : des demandes restent dispersées, des documents sont difficiles à retrouver ou une tâche dépend uniquement de la mémoire du dirigeant.",
+                "Présentez le contexte avec les personnes concernées et un exemple récent. Évitez de commencer par le nom d’un logiciel ou par une solution déjà arrêtée. Si vous demandez un tableau de suivi, expliquez d’abord ce que ce tableau doit rendre visible. Votre note laisse ainsi la possibilité d’examiner plusieurs façons de répondre au besoin."
+              ]
+            },
+            {
+              "heading": "Formuler le résultat attendu de manière observable",
+              "paragraphs": [
+                "Décrivez ce qui devrait changer dans le travail quotidien. Un résultat utile pourrait être que chaque demande client possède un responsable identifié et une prochaine action visible. Une formulation comme améliorer la communication reste trop large pour guider les échanges. Précisez plutôt ce que les personnes devraient pouvoir trouver, comprendre ou faire plus facilement une fois le projet réalisé.",
+                "Ajoutez un exemple du fonctionnement souhaité. Lorsqu’un client appelle, le collaborateur devrait pouvoir retrouver l’état de son dossier sans interroger plusieurs collègues. Cette description aide à discuter du résultat, même avant le choix de l’outil. Vérifiez avec l’équipe que le changement envisagé répond bien à sa difficulté et ne déplace pas simplement le problème."
+              ]
+            },
+            {
+              "heading": "Écrire les limites et les points encore ouverts",
+              "paragraphs": [
+                "Indiquez ce que le projet couvre et ce qui reste en dehors. Une réorganisation du classement des documents ne signifie pas nécessairement une refonte de tous les processus de l’entreprise. Nommez les activités concernées, les équipes qui participeront et les éléments que vous voulez conserver. Les limites protègent la discussion contre l’ajout progressif de demandes sans lien avec le besoin initial.",
+                "Distinguez les décisions prises des questions à examiner. Vous pouvez avoir décidé de conserver vos outils actuels tout en laissant ouvert le choix d’une convention de nommage. Mentionnez les contraintes pratiques : disponibilité de l’équipe, fichiers difficiles à déplacer ou interlocuteur absent. Une incertitude clairement écrite devient un point de travail ; une incertitude cachée apparaît souvent trop tard."
+              ]
+            },
+            {
+              "heading": "Utiliser la note comme support d’un accord de travail",
+              "paragraphs": [
+                "Relisez la note avec les personnes qui exécuteront les tâches concernées. Demandez ce qui leur paraît imprécis et ce qui manquerait pour démarrer. Faites apparaître les contributions attendues : qui apporte les exemples, qui teste le fonctionnement et qui peut valider le résultat opérationnel. Il s’agit d’organiser la collaboration, sans transformer une page de cadrage en dossier interminable.",
+                "Conservez une version datée et indiquez les changements décidés pendant les échanges. Lorsque le périmètre évolue, vérifiez son effet sur le résultat attendu avant de modifier la note. Elle pourra ensuite servir à discuter d’un accompagnement avec Felexia et à comparer les propositions sur une base compréhensible. Votre besoin reste le point de départ, même si la solution choisie se précise progressivement."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "La note doit-elle être très détaillée ?",
+              "answer": "Elle doit surtout rendre compréhensibles le problème, le résultat attendu et les limites. Les détails techniques peuvent venir ensuite."
+            },
+            {
+              "question": "Peut-on modifier le cadrage pendant le projet ?",
+              "answer": "Oui. Identifiez la modification et discutez de son effet sur le besoin initial avant de valider la nouvelle version."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/fr/conseil-gestion/",
+              "label": "Découvrir le conseil en gestion de Felexia"
+            },
+            {
+              "path": "/fr/contact/",
+              "label": "Discuter de votre organisation avec Felexia"
+            }
+          ]
+        },
+        "en": {
+          "slug": "write-scoping-brief-internal-business-project",
+          "title": "Write a scoping brief for an internal business project",
+          "excerpt": "Explain the problem, intended result and project boundaries before requesting software, a proposal or support from an adviser.",
+          "metaTitle": "Scoping brief for an internal business project | Felexia",
+          "metaDescription": "Write a practical scoping brief for your Moroccan SME covering the working problem, expected result, boundaries, participants and observable success criteria.",
+          "primaryKeyword": "internal business project scoping brief",
+          "alt": "Scoping brief and workflow sketch prepared for an internal business project",
+          "body": [
+            {
+              "heading": "Start with the working problem rather than a chosen solution",
+              "paragraphs": [
+                "A scoping brief explains the work you are preparing. It can remain concise while preventing misunderstandings that consume the team’s attention. For a Moroccan SME improving its organisation, begin with an observable difficulty: enquiries are scattered, documents are hard to retrieve or a routine task depends entirely on the owner remembering what should happen. Describe the current situation before discussing a tool.",
+                "Explain who is involved and include a recent example. Avoid opening with the name of a software product or a solution already treated as final. If you want a tracking sheet, first explain what it should make visible. The brief should leave room to consider different ways of meeting the need rather than requiring everyone to defend an early guess."
+              ]
+            },
+            {
+              "heading": "Describe a result that can be recognised in daily work",
+              "paragraphs": [
+                "Explain what should change in the way people work. A useful result might be that every customer enquiry has an identifiable owner and a visible next action. A broad phrase such as improve communication provides little guidance. Describe what colleagues should be able to find, understand or do more easily when the project has achieved its intended result.",
+                "Add an example of the desired experience. When a customer calls, a team member should be able to find the status of the request without asking several colleagues. This makes the outcome discussable before software is selected. Check with the team that the proposed change addresses the difficulty they experience and does not simply move the same problem into another part of the business."
+              ]
+            },
+            {
+              "heading": "Record boundaries and questions that remain open",
+              "paragraphs": [
+                "State what the project includes and what sits outside it. Improving document organisation does not necessarily involve redesigning every company process. Identify the activities and teams concerned, as well as arrangements you want to retain. Clear boundaries help prevent unrelated requests from gradually becoming part of the project merely because people are already discussing how work could improve.",
+                "Separate settled decisions from questions that need investigation. You might have chosen to retain existing tools while leaving the naming convention open. Mention practical constraints such as team availability, folders that are difficult to move or an unavailable contact. An uncertainty that is written down becomes something to investigate. An uncertainty left unspoken can interrupt work after people have already made incompatible assumptions."
+              ]
+            },
+            {
+              "heading": "Use the brief to establish a shared working agreement",
+              "paragraphs": [
+                "Read the brief with the people who perform the affected tasks. Ask what remains unclear and what they would need before starting. Identify expected contributions: who supplies examples, who tests the proposed approach and who can confirm that the operational result is useful. The purpose is to organise collaboration rather than create a document so extensive that nobody refers to it.",
+                "Keep a dated version and record changes agreed during discussions. When the scope changes, consider its effect on the intended outcome before editing the brief. You can then use it to discuss support with Felexia and compare proposals against an understandable need. As the chosen approach becomes more precise, the original working problem should remain the reference for judging whether the project is helping."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Does a scoping brief need extensive technical detail?",
+              "answer": "Start with a clear problem, outcome and boundaries. Technical detail can be developed when the working need is understood."
+            },
+            {
+              "question": "Can the scope change during the project?",
+              "answer": "Yes. Record the proposed change and discuss its effect on the original need before agreeing a revised version."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/en/conseil-gestion/",
+              "label": "Explore Felexia management advisory"
+            },
+            {
+              "path": "/en/contact/",
+              "label": "Discuss your business organisation with Felexia"
+            }
+          ]
+        },
+        "ar": {
+          "slug": "كتابة-مذكرة-تأطير-مشروع-داخلي",
+          "title": "كتابة مذكرة تأطير لمشروع داخلي في مقاولتك",
+          "excerpt": "حدّد المشكلة والنتيجة المنتظرة وحدود المشروع قبل طلب برنامج أو عرض مواكبة، حتى يتحدث الفريق والمستشار عن الحاجة نفسها.",
+          "metaTitle": "مذكرة تأطير مشروع داخلي للمقاولة | فيليكسيا",
+          "metaDescription": "اكتب مذكرة تأطير عملية لمشروع داخلي في مقاولتك بالمغرب، تشمل المشكلة والنتيجة المنتظرة وحدود العمل والأشخاص المعنيين ومعايير التقييم.",
+          "primaryKeyword": "مذكرة تأطير مشروع داخلي",
+          "alt": "مذكرة تأطير ورسم لمسار العمل في مشروع داخلي للمقاولة",
+          "body": [
+            {
+              "heading": "ابدأ بمشكلة العمل قبل اختيار الحل",
+              "paragraphs": [
+                "تشرح مذكرة التأطير العمل الذي تستعد المقاولة لإنجازه. يمكن أن تكون موجزة وواضحة، مع مساعدة الفريق على تجنب اختلاف الفهم أثناء التنفيذ. إذا كنت تريد تحسين تنظيم مقاولة صغيرة بالمغرب، ابدأ بصعوبة يمكن ملاحظتها. قد تكون الطلبات موزعة بين قنوات مختلفة، أو الوثائق صعبة الاسترجاع، أو مهمة يومية تعتمد على ذاكرة المسير وحده. صف الوضع الحالي قبل الحديث عن البرنامج أو الوسيلة التي ترغب في اقتنائها.",
+                "اذكر الأشخاص المعنيين وأضف مثالاً حديثاً يوضح الصعوبة. لا تبدأ باسم برنامج معين أو بحل تعتبره نهائياً قبل النقاش. إذا كنت تريد جدول متابعة، فاشرح أولاً المعلومات التي ينبغي أن يُظهرها. تسمح هذه الطريقة بدراسة وسائل مختلفة لتلبية الحاجة، وتساعد الزملاء على مناقشة المشكلة نفسها بدل الدفاع عن اختيارات لم تُفحص بعد."
+              ]
+            },
+            {
+              "heading": "صف نتيجة يمكن ملاحظتها في العمل اليومي",
+              "paragraphs": [
+                "وضّح ما الذي يفترض أن يتغير في طريقة العمل. قد تكون النتيجة المناسبة أن يظهر لكل طلب زبون شخص مكلف وخطوة تالية واضحة. أما عبارة تحسين التواصل فتبقى واسعة، ولا تساعد كثيراً على الاختيار بين الاقتراحات. اشرح ما الذي ينبغي أن يستطيع الفريق إيجاده أو فهمه أو إنجازه بسهولة أكبر عندما يحقق المشروع الهدف الذي أُعد من أجله.",
+                "أضف مثالاً على الوضع المنشود. عندما يتصل زبون، يفترض أن يتمكن أحد الزملاء من معرفة حالة طلبه دون الرجوع إلى أشخاص متعددين. يجعل المثال النتيجة قابلة للنقاش قبل اختيار الأداة. راجع مع الفريق ما إذا كان التغيير المقترح يعالج صعوبته فعلاً. انتبه إلى ألا ينقل المشروع المشكلة إلى قسم آخر أو يضيف مهمة جديدة دون تبسيط ما يعرقل العمل."
+              ]
+            },
+            {
+              "heading": "اكتب حدود العمل والأسئلة التي ما تزال مفتوحة",
+              "paragraphs": [
+                "حدّد ما يشمله المشروع وما يبقى خارجه. لا يعني تحسين ترتيب الوثائق بالضرورة إعادة تنظيم جميع مسارات المقاولة. اذكر الأنشطة المعنية والأشخاص الذين سيشاركون والترتيبات التي ترغب في الاحتفاظ بها. تساعد الحدود المكتوبة على منع دخول طلبات جديدة لا ترتبط بالحاجة الأصلية، لمجرد أن الفريق يناقش حالياً كيفية تطوير التنظيم أو تجربة طريقة جديدة للعمل.",
+                "ميّز بين القرارات المتخذة والنقاط التي تحتاج إلى دراسة. قد تكون اخترت الاحتفاظ بالأدوات الحالية، بينما ما تزال طريقة تسمية الملفات مفتوحة للنقاش. اذكر القيود العملية مثل توفر الفريق أو صعوبة نقل بعض المجلدات أو غياب مخاطب يعرف التفاصيل. عندما تكتب نقطة غير محسومة تصبح موضوعاً للفحص. أما تركها ضمنية فقد يؤدي إلى انقطاع العمل بعدما بنى كل شخص تصوره الخاص."
+              ]
+            },
+            {
+              "heading": "استعمل المذكرة للوصول إلى فهم مشترك",
+              "paragraphs": [
+                "اقرأ المذكرة مع الأشخاص الذين ينجزون المهام المعنية. اسألهم عن المواضع غير الواضحة وما الذي يحتاجونه قبل البدء. حدّد المساهمات المنتظرة: من سيقدم الأمثلة، ومن سيجرب الطريقة، ومن يمكنه التأكد من أن النتيجة مفيدة للعمل. الهدف هو تنظيم التعاون، لا تحويل المذكرة إلى ملف طويل يصعب تحديثه أو لا يعود إليه أحد عند ظهور اختلاف في الفهم.",
+                "احتفظ بنسخة مؤرخة وسجل التغييرات المتفق عليها خلال النقاش. عندما تتطور حدود المشروع، افحص أثر ذلك على النتيجة المنتظرة قبل تعديل النص. يمكنك استخدام المذكرة لمناقشة مواكبة مع فيليكسيا ومقارنة المقترحات انطلاقاً من حاجة واضحة. وكلما أصبحت طريقة التنفيذ أدق، ارجع إلى المشكلة التي انطلق منها المشروع للتأكد من أن العمل يتقدم نحو تحسينها في ظروف مقاولتك الحالية."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "هل تحتاج المذكرة إلى تفاصيل تقنية كثيرة؟",
+              "answer": "ابدأ بالمشكلة والنتيجة وحدود العمل، ثم أضف التفاصيل التقنية عندما تصبح الحاجة التشغيلية واضحة."
+            },
+            {
+              "question": "هل يمكن تغيير نطاق المشروع أثناء التنفيذ؟",
+              "answer": "نعم. سجل التغيير وناقش أثره على الحاجة الأصلية قبل الاتفاق على نسخة جديدة من المذكرة."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/ar/conseil-gestion/",
+              "label": "اكتشف الاستشارة في التدبير لدى فيليكسيا"
+            },
+            {
+              "path": "/ar/contact/",
+              "label": "ناقش تنظيم مقاولتك مع فيليكسيا"
+            }
+          ]
+        }
+      },
+      "kind": "new",
+      "category": "Gestion",
+      "risk": "low",
+      "authorized": true,
+      "status": "draft",
+      "verifiedAt": "2026-10-12T08:00:00.000Z",
+      "claims": [],
+      "sourceIds": [
+        "felexia-practice"
+      ],
+      "image": {
+        "src": "/images/intelligence/operations.webp",
+        "smallSrc": "/images/intelligence/operations-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true
+      },
+      "provenance": {
+        "method": "original-editorial",
+        "reviewedBy": null
+      }
+    },
+    {
+      "id": "evergreen-documenter-parcours-travail",
+      "title": "Documenter un parcours de travail dans une PME",
+      "intent": "Décrire un parcours de travail réel avec ses transmissions et exceptions pour le partager à une équipe",
+      "intentKey": "document-business-workflow-handoffs",
+      "translations": {
+        "fr": {
+          "slug": "documenter-parcours-travail-transmissions-pme",
+          "title": "Documenter un parcours de travail et ses transmissions dans une PME",
+          "excerpt": "Rendez une activité compréhensible pour votre équipe en décrivant son point de départ, les échanges, les documents utilisés et les situations particulières.",
+          "metaTitle": "Documenter un parcours de travail dans une PME | Felexia",
+          "metaDescription": "Documentez un parcours de travail réel dans votre PME : déclencheur, étapes, transmissions, documents et exceptions, avec une méthode simple et utile à l’équipe.",
+          "primaryKeyword": "documenter parcours de travail PME",
+          "alt": "Schéma de parcours de travail reliant tâches et échanges entre collègues",
+          "body": [
+            {
+              "heading": "Choisir une activité assez précise pour être observée",
+              "paragraphs": [
+                "Un parcours de travail décrit comment une activité avance, depuis son déclenchement jusqu’au résultat attendu. Pour commencer dans une PME marocaine, choisissez une activité familière : traiter une demande de devis, préparer une livraison ou répondre à une réclamation. Une activité bien délimitée se décrit plus facilement que le fonctionnement de toute l’entreprise.",
+                "Demandez à la personne qui réalise le travail de vous raconter un cas récent. Observez les documents qu’elle consulte et les échanges qu’elle effectue. Cherchez le fonctionnement réel, y compris les messages informels et les informations gardées en mémoire. Une description qui reprend seulement la procédure idéale peut masquer précisément les points qui rendent le travail difficile."
+              ]
+            },
+            {
+              "heading": "Décrire le passage du travail entre les personnes",
+              "paragraphs": [
+                "Pour chaque étape, notez ce qui arrive, qui intervient et ce qui permet de passer à la suite. Dans le traitement d’un devis, la demande du client peut être reçue par un collaborateur, clarifiée avec un responsable, puis transmise pour préparation. Le document doit permettre de comprendre ces passages sans connaître les habitudes personnelles de l’équipe.",
+                "Précisez les informations nécessaires à chaque transmission. Indiquer simplement que le dossier passe au commercial laisse des questions ouvertes : où se trouve-t-il, comment sait-on qu’il est prêt et que manque-t-il pour avancer ? Décrivez aussi le signal qui confirme que la personne suivante a pris le relais. Cette précision est souvent plus utile qu’un schéma très élégant mais silencieux sur les échanges."
+              ]
+            },
+            {
+              "heading": "Faire apparaître les attentes et les cas particuliers",
+              "paragraphs": [
+                "Le travail ne suit pas toujours un trajet continu. Il peut attendre une réponse du client, une information du fournisseur ou une décision interne. Faites apparaître ces attentes dans votre description, avec la personne qui peut les suivre. Vous rendez ainsi visible la différence entre un dossier en cours de traitement et un dossier bloqué par un élément manquant.",
+                "Ajoutez les exceptions fréquentes, sans chercher à prévoir chaque situation imaginable. Une demande incomplète, un changement demandé après validation ou l’absence d’un interlocuteur peuvent modifier le parcours. Expliquez comment l’équipe choisit alors la suite. Lorsque personne ne connaît la réponse, signalez cette question au lieu d’inventer une règle. Elle devient un sujet à clarifier avec les personnes concernées."
+              ]
+            },
+            {
+              "heading": "Tester le document avec une personne qui n’a pas participé",
+              "paragraphs": [
+                "Présentez la description à un collègue qui connaît peu cette activité. Demandez-lui de suivre un exemple et de dire ce qu’il ferait à chaque passage. Ses questions montrent les informations restées implicites. Remplacez le jargon interne par des termes compréhensibles et ajoutez un exemple lorsque le rôle d’un document reste difficile à expliquer.",
+                "Conservez la description là où les personnes peuvent la retrouver, puis désignez un interlocuteur pour proposer les corrections. Lorsque la pratique change, actualisez les passages concernés. Le document n’a pas besoin d’être parfait pour devenir utile : il doit refléter un parcours reconnu par l’équipe. Felexia peut vous accompagner pour examiner les transmissions et structurer une description adaptée à votre fonctionnement."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Faut-il un logiciel spécialisé pour décrire un parcours ?",
+              "answer": "Un document ou un schéma lisible peut suffire au départ. Choisissez le support que votre équipe pourra consulter et maintenir."
+            },
+            {
+              "question": "Qui doit expliquer le fonctionnement réel ?",
+              "answer": "Commencez avec les personnes qui exécutent l’activité, puis confrontez la description aux collègues qui reçoivent leur travail."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/fr/conseil-gestion/",
+              "label": "Découvrir le conseil en gestion de Felexia"
+            },
+            {
+              "path": "/fr/contact/",
+              "label": "Discuter de votre organisation avec Felexia"
+            }
+          ]
+        },
+        "en": {
+          "slug": "document-business-workflow-team-handoffs",
+          "title": "Document a business workflow and its team handoffs",
+          "excerpt": "Make an activity understandable by describing how it starts, how work moves between colleagues and what happens when information is missing.",
+          "metaTitle": "Document business workflows and handoffs | Felexia",
+          "metaDescription": "Document a real workflow in your Moroccan SME, including its trigger, steps, team handoffs, working documents and common exceptions, without unnecessary complexity.",
+          "primaryKeyword": "document business workflow handoffs",
+          "alt": "Workflow diagram showing tasks and handoffs between members of a small business",
+          "body": [
+            {
+              "heading": "Choose an activity that you can observe closely",
+              "paragraphs": [
+                "A workflow describes how an activity progresses from its trigger to the intended result. In a Moroccan SME, begin with something familiar, such as handling a quotation request, preparing a delivery or responding to a customer complaint. A clearly bounded activity is easier to explain than the whole business. Specify where your description begins and what marks completion.",
+                "Ask someone who performs the work to walk you through a recent case. Observe the documents they consult and the exchanges they make. Look for what actually happens, including informal messages and details remembered rather than written down. A description based only on the ideal procedure may conceal the very points that make the activity confusing or difficult to hand over."
+              ]
+            },
+            {
+              "heading": "Explain how work passes from one person to another",
+              "paragraphs": [
+                "For each stage, record what arrives, who acts and what makes the next stage possible. A quotation enquiry might be received by a team member, clarified with a manager and passed on for preparation. Someone reading the document should understand those transitions without already knowing the team’s personal habits or asking the person who drew the diagram to interpret it.",
+                "Specify the information needed at each handoff. Writing that the file goes to sales leaves practical questions unanswered: where can it be found, how does the recipient know it is ready and what might still be missing? Describe the signal that confirms the next person has taken responsibility. This can be more useful than an attractive diagram that says little about the actual exchange."
+              ]
+            },
+            {
+              "heading": "Show waiting points and common exceptions",
+              "paragraphs": [
+                "Work does not always move forward continuously. It may wait for a customer answer, supplier information or an internal decision. Include those waiting points in the description and identify who can follow them up. This makes it easier to distinguish a request being processed from one that cannot proceed because a necessary detail has not arrived.",
+                "Record common exceptions without trying to anticipate every imaginable event. An incomplete enquiry, a change requested after agreement or an absent contact may alter the usual route. Explain how the team chooses what happens next. When nobody knows the answer, record the open question instead of inventing a rule. It can then be discussed with the people whose work is affected."
+              ]
+            },
+            {
+              "heading": "Test the description with someone outside the activity",
+              "paragraphs": [
+                "Show the draft to a colleague who is less familiar with this work. Ask them to follow a representative case and explain what they would do at each transition. Their questions reveal information that remained implicit. Replace internal shorthand with clear terms and include an example where the purpose of a document or message remains difficult to understand.",
+                "Store the description where colleagues can retrieve it and identify a contact for suggested corrections. When working practices change, update the relevant transitions. The document can be useful before it is polished: what matters is that the team recognises the workflow it describes. Felexia can help you examine handoffs and shape a practical account of the activity that fits how your business operates."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do I need specialist software to document a workflow?",
+              "answer": "A readable document or diagram can be sufficient to begin. Choose a format the team can access and maintain."
+            },
+            {
+              "question": "Who should describe how the activity actually works?",
+              "answer": "Start with the people performing it, then check the description with colleagues who receive their work."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/en/conseil-gestion/",
+              "label": "Explore Felexia management advisory"
+            },
+            {
+              "path": "/en/contact/",
+              "label": "Discuss your business organisation with Felexia"
+            }
+          ]
+        },
+        "ar": {
+          "slug": "توثيق-مسار-العمل-بين-أفراد-الفريق",
+          "title": "توثيق مسار العمل وتسليم المهام بين أفراد الفريق",
+          "excerpt": "اجعل النشاط مفهوماً للفريق عبر وصف بداية العمل وانتقاله بين الزملاء والوثائق المستخدمة وما يحدث عند نقص المعلومات.",
+          "metaTitle": "توثيق مسار العمل وتسليم المهام | فيليكسيا",
+          "metaDescription": "وثّق مسار عمل حقيقياً في مقاولتك بالمغرب، مع نقطة البداية والمهام وتبادل المعلومات والوثائق وحالات الانتظار والاستثناءات المعتادة.",
+          "primaryKeyword": "توثيق مسار العمل وتسليم المهام",
+          "alt": "رسم لمسار العمل يوضح المهام وانتقال المعلومات بين الزملاء",
+          "body": [
+            {
+              "heading": "اختر نشاطاً واضحاً يمكن ملاحظته",
+              "paragraphs": [
+                "يصف مسار العمل كيف يتقدم نشاط معين من الحدث الذي يبدأه إلى النتيجة المنتظرة. للانطلاق في مقاولة صغيرة بالمغرب، اختر نشاطاً مألوفاً مثل معالجة طلب عرض سعر أو تحضير تسليم أو الرد على ملاحظة زبون. يسهل وصف نشاط له بداية ونهاية واضحتان أكثر من محاولة شرح عمل المقاولة كله في وثيقة واحدة. حدّد كذلك ما الذي يعتبر علامة على اكتمال النشاط في ممارستكم الحالية.",
+                "اطلب من الشخص الذي ينجز العمل أن يشرح لك حالة حديثة. لاحظ الوثائق التي يراجعها والمراسلات التي يقوم بها والمعلومات التي يحتاج إليها. ابحث عن الممارسة الفعلية، بما فيها الرسائل غير الرسمية والتفاصيل التي يحتفظ بها الأشخاص في ذاكرتهم. قد تخفي الطريقة المثالية المكتوبة نقاطاً مهمة إذا لم تكن تعكس ما يفعله الفريق عند معالجة الطلبات في ظروف العمل اليومية."
+              ]
+            },
+            {
+              "heading": "اشرح كيف ينتقل العمل من شخص إلى آخر",
+              "paragraphs": [
+                "في كل مرحلة، سجل ما يصل إلى الشخص المكلف، وما الذي ينجزه، وما الذي يسمح بالانتقال إلى المرحلة التالية. قد يتلقى أحد الزملاء طلب عرض سعر، ثم يوضح تفاصيله مع مسؤول، قبل إرساله للتحضير. ينبغي أن يفهم القارئ هذه الانتقالات دون أن يعرف مسبقاً عادات الفريق أو يحتاج إلى تفسير من الشخص الذي رسم المسار.",
+                "وضّح المعلومات اللازمة عند التسليم. عبارة ينتقل الملف إلى المكلف بالزبناء لا تجيب عن أسئلة عملية: أين يوجد الملف، وكيف يعرف الزميل أنه جاهز، وما الذي ما يزال ناقصاً؟ اذكر كذلك الإشارة التي تؤكد أن الشخص التالي بدأ متابعة العمل. تساعد هذه التفاصيل على فهم التعاون بين الأشخاص أكثر من رسم جميل لا يشرح ما يجري أثناء تبادل المعلومات والوثائق."
+              ]
+            },
+            {
+              "heading": "أظهر فترات الانتظار والحالات غير المعتادة",
+              "paragraphs": [
+                "لا يتحرك العمل دائماً بشكل متواصل. قد ينتظر جواب الزبون أو معلومة من المورد أو قراراً داخلياً. أظهر فترات الانتظار في الوصف، واذكر الشخص الذي يستطيع متابعتها. يساعد ذلك الفريق على التمييز بين طلب يعالجه أحد الزملاء وطلب لا يمكن استكماله بسبب عنصر غير متوفر. وضّح ما الذي يحتاجه المكلف بالمتابعة لمعرفة أن سبب الانتظار قد انتهى.",
+                "أضف الاستثناءات المتكررة دون محاولة توقع كل موقف ممكن. قد يتغير المسار بسبب طلب غير مكتمل أو تعديل بعد الاتفاق أو غياب مخاطب يعرف التفاصيل. اشرح كيف يختار الفريق الخطوة التالية في هذه الحالات. إذا لم يكن الجواب معروفاً، سجل السؤال بدل اختراع قاعدة. يمكن بعد ذلك مناقشته مع الأشخاص المعنيين والتأكد من أن الحل المقترح يناسب قدرتهم على العمل."
+              ]
+            },
+            {
+              "heading": "جرّب الوصف مع شخص لا ينجز النشاط عادة",
+              "paragraphs": [
+                "اعرض المسودة على زميل أقل معرفة بهذا النشاط، واطلب منه تتبع مثال وشرح ما سيفعله في كل مرحلة. تُظهر أسئلته المعلومات التي بقيت ضمنية بالنسبة إليك. استبدل الاختصارات الداخلية بكلمات مفهومة، وأضف مثالاً عندما يصعب تفسير دور وثيقة أو رسالة. إذا توقف الزميل عند انتقال معين، فراجع الوصف مع الشخص الذي يسلم العمل ومع من يستلمه حتى يتضح ما يحتاجه الطرفان.",
+                "احفظ الوصف في مكان يستطيع الفريق الرجوع إليه، وحدد مخاطباً لاستقبال اقتراحات التصحيح. عندما تتغير الممارسة، عدّل المراحل المعنية. لا يلزم أن يكون المستند مثالياً منذ البداية كي يصبح مفيداً، بل ينبغي أن يتعرف الفريق على العمل الذي يصفه. يمكن لفيليكسيا مساعدتك على دراسة انتقال المهام وتنظيم وصف عملي يلائم مسارات مقاولتك ويجعل التعاون بين الزملاء أكثر وضوحاً."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "هل أحتاج إلى برنامج خاص لتوثيق المسار؟",
+              "answer": "يمكن البدء بوثيقة أو رسم واضح. اختر وسيلة يستطيع الفريق الاطلاع عليها وتحديثها."
+            },
+            {
+              "question": "من يشرح طريقة العمل الفعلية؟",
+              "answer": "ابدأ بالأشخاص الذين ينجزون النشاط، ثم راجع الوصف مع الزملاء الذين يستلمون نتائج عملهم."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/ar/conseil-gestion/",
+              "label": "اكتشف الاستشارة في التدبير لدى فيليكسيا"
+            },
+            {
+              "path": "/ar/contact/",
+              "label": "ناقش تنظيم مقاولتك مع فيليكسيا"
+            }
+          ]
+        }
+      },
+      "kind": "new",
+      "category": "Gestion",
+      "risk": "low",
+      "authorized": true,
+      "status": "draft",
+      "verifiedAt": "2026-10-12T08:00:00.000Z",
+      "claims": [],
+      "sourceIds": [
+        "felexia-practice"
+      ],
+      "image": {
+        "src": "/images/intelligence/operations.webp",
+        "smallSrc": "/images/intelligence/operations-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true
+      },
+      "provenance": {
+        "method": "original-editorial",
+        "reviewedBy": null
+      }
+    },
+    {
+      "id": "evergreen-journal-decisions-operationnelles",
+      "title": "Tenir un journal des décisions opérationnelles",
+      "intent": "Garder une trace compréhensible des décisions opérationnelles sans confondre décision et discussion",
+      "intentKey": "operational-decision-log",
+      "translations": {
+        "fr": {
+          "slug": "tenir-journal-decisions-operationnelles-pme",
+          "title": "Tenir un journal des décisions opérationnelles dans votre PME",
+          "excerpt": "Retrouvez les choix faits par votre équipe, leurs raisons et les actions attendues grâce à un journal de décisions simple à consulter.",
+          "metaTitle": "Journal des décisions opérationnelles d’une PME | Felexia",
+          "metaDescription": "Créez un journal de décisions opérationnelles pour votre PME : choix retenu, contexte, actions attendues, personnes concernées et suivi des changements.",
+          "primaryKeyword": "journal décisions opérationnelles PME",
+          "alt": "Carnet de décisions et documents de suivi pour une équipe de petite entreprise",
+          "body": [
+            {
+              "heading": "Reconnaître ce qui mérite d’être enregistré",
+              "paragraphs": [
+                "Un journal de décisions conserve les choix qui orientent le travail. Il peut aider une PME marocaine lorsque les mêmes questions reviennent, que plusieurs personnes retiennent des versions différentes d’un échange ou qu’un nouveau collègue cherche à comprendre une pratique. Le journal complète la discussion ; il ne doit pas devenir une transcription de toutes les conversations.",
+                "Enregistrez les décisions qui modifient une façon de travailler, engagent une action partagée ou nécessitent un suivi. Par exemple, l’équipe choisit de centraliser les demandes clients dans un dossier commun. Une idée évoquée mais non retenue ne devient pas une décision. Indiquez clairement lorsqu’un choix reste à examiner, afin qu’une proposition ne soit pas appliquée comme un accord."
+              ]
+            },
+            {
+              "heading": "Écrire le choix avec son contexte utile",
+              "paragraphs": [
+                "Formulez la décision dans une phrase compréhensible. Ajoutez la date de l’échange, le sujet traité et les personnes ayant participé au choix. Décrivez ensuite la raison opérationnelle qui l’explique : demandes difficiles à retrouver, informations contradictoires ou besoin de continuité pendant une absence. Le contexte permet de comprendre le choix sans devoir retrouver la conversation originale.",
+                "Ne transformez pas cette raison en jugement sur une personne. Écrire que les demandes étaient dispersées est plus utile que désigner un collègue comme responsable du désordre. Si des options ont été examinées, résumez ce qui a guidé la préférence. Conservez seulement les éléments nécessaires à la compréhension ; le journal doit pouvoir être relu pendant le travail."
+              ]
+            },
+            {
+              "heading": "Relier la décision à une action et à un responsable",
+              "paragraphs": [
+                "Un choix collectif reste abstrait tant que personne ne sait comment il prend effet. Mentionnez la prochaine action, la personne qui la coordonne et les autres participants utiles. Pour centraliser les demandes, il faudra peut-être préparer le dossier, expliquer son usage et vérifier que les collaborateurs disposent du bon accès. Rendez ces contributions visibles dans la même entrée.",
+                "Précisez également comment l’équipe reconnaîtra que l’action est réalisée. Cela peut être une démonstration du dossier ou un essai avec une demande réelle. Évitez d’indiquer simplement fait lorsqu’une partie du travail reste en attente. Si un obstacle apparaît, notez-le avec la question à résoudre. Le journal garde ainsi une relation claire entre l’accord initial et sa mise en pratique."
+              ]
+            },
+            {
+              "heading": "Actualiser sans effacer les raisons des anciens choix",
+              "paragraphs": [
+                "Relisez les entrées lorsque la situation évolue ou qu’un choix ne produit pas l’effet attendu. Vous pouvez conserver la décision initiale et ajouter une note expliquant son remplacement. Cette continuité aide l’équipe à comprendre pourquoi une pratique a changé. Elle évite aussi de revenir à une solution abandonnée sans se souvenir de ses limites.",
+                "Choisissez un emplacement connu et une personne chargée de maintenir le journal lisible. Partagez les entrées avec les collègues concernés, en limitant les informations sensibles aux personnes qui en ont besoin. Commencez avec les décisions liées à une activité précise. Si vous souhaitez structurer ce suivi avec votre équipe, Felexia peut vous aider à définir un format utile et une manière de l’intégrer à vos échanges."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Le journal doit-il contenir toutes les discussions ?",
+              "answer": "Non. Conservez les choix retenus et le contexte nécessaire pour les comprendre, en séparant clairement les questions ouvertes."
+            },
+            {
+              "question": "Peut-on changer une décision enregistrée ?",
+              "answer": "Oui. Ajoutez la nouvelle décision et sa raison, puis indiquez comment elle remplace ou adapte le choix précédent."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/fr/conseil-gestion/",
+              "label": "Découvrir le conseil en gestion de Felexia"
+            },
+            {
+              "path": "/fr/contact/",
+              "label": "Discuter de votre organisation avec Felexia"
+            }
+          ]
+        },
+        "en": {
+          "slug": "keep-operational-decision-log-small-business",
+          "title": "Keep an operational decision log for your small business",
+          "excerpt": "Make team choices easier to retrieve by recording what was agreed, why it was chosen and how it will become a working action.",
+          "metaTitle": "Operational decision log for a small business | Felexia",
+          "metaDescription": "Keep an operational decision log for your Moroccan SME with clear choices, useful context, action owners and a readable record of changes over time.",
+          "primaryKeyword": "operational decision log small business",
+          "alt": "Decision notebook and working records used by a small business team",
+          "body": [
+            {
+              "heading": "Identify decisions worth recording",
+              "paragraphs": [
+                "A decision log preserves choices that shape everyday work. It can help a Moroccan SME when the same questions repeatedly return, colleagues remember different versions of a conversation or a new team member needs to understand a working practice. The log supports communication rather than replacing discussion or becoming a transcript of everything people say to each other.",
+                "Record decisions that change how work is done, create a shared action or need follow-up. For example, the team may agree to bring customer enquiries together in a common folder. An idea mentioned but not adopted is not a decision. Make it clear when a choice is still being considered so a tentative suggestion is not treated as an agreement."
+              ]
+            },
+            {
+              "heading": "Describe the choice and the context that explains it",
+              "paragraphs": [
+                "Write the decision in a sentence colleagues can understand. Add the date of the discussion, its subject and the people involved in making the choice. Then describe the working reason: enquiries were hard to retrieve, information conflicted or the team needed continuity during an absence. Useful context lets a reader understand the decision without searching for the original conversation.",
+                "Keep that explanation separate from personal blame. Recording that enquiries were scattered is more useful than labelling a colleague as the source of disorder. If alternatives were considered, briefly explain what guided the preference. Include only what readers need to understand the choice. A log that can be consulted during work is more useful than a lengthy account nobody has time to read."
+              ]
+            },
+            {
+              "heading": "Connect the decision to an action and its coordinator",
+              "paragraphs": [
+                "A team choice remains abstract if nobody understands how it will take effect. Record the next action, the person coordinating it and other people whose contribution is needed. Centralising enquiries might involve preparing the folder, explaining its use and checking that colleagues have suitable access. Make those contributions visible alongside the decision rather than leaving them in separate conversations.",
+                "Describe how the team will recognise completion. This might involve demonstrating the folder or testing it with a real enquiry. Avoid marking an action complete while part of the work is still waiting. If an obstacle appears, record it with the question that needs resolving. The entry then maintains a clear connection between the original agreement and what is happening in practice."
+              ]
+            },
+            {
+              "heading": "Update the record without losing earlier reasoning",
+              "paragraphs": [
+                "Review entries when circumstances change or a decision does not produce the expected effect. Retain the earlier choice and add a note explaining its replacement. This continuity helps colleagues understand why a practice changed and reduces the chance of returning to an abandoned approach without remembering the difficulties that led the team to move away from it.",
+                "Choose a known storage location and a person who can keep the log readable. Share relevant entries with colleagues while limiting sensitive information to those who need it. Begin with decisions connected to a specific activity rather than trying to capture the whole business at once. Felexia can help you choose a practical format and establish how the log fits the way your team discusses and follows operational work."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Should the log include every conversation?",
+              "answer": "No. Record agreed choices and the context needed to understand them, while clearly separating questions that remain open."
+            },
+            {
+              "question": "Can a recorded decision change?",
+              "answer": "Yes. Add the new choice and its reason, then explain how it replaces or adapts the earlier decision."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/en/conseil-gestion/",
+              "label": "Explore Felexia management advisory"
+            },
+            {
+              "path": "/en/contact/",
+              "label": "Discuss your business organisation with Felexia"
+            }
+          ]
+        },
+        "ar": {
+          "slug": "سجل-القرارات-التشغيلية-للمقاولة",
+          "title": "تنظيم سجل للقرارات التشغيلية داخل مقاولتك",
+          "excerpt": "احتفظ بالاختيارات التي اتفق عليها الفريق وأسبابها والخطوات المنتظرة، حتى يسهل فهمها ومتابعتها عندما تتغير ظروف العمل.",
+          "metaTitle": "سجل القرارات التشغيلية للمقاولة | فيليكسيا",
+          "metaDescription": "أنشئ سجلاً واضحاً للقرارات التشغيلية في مقاولتك بالمغرب، يتضمن الاختيار والسياق والأعمال المنتظرة والأشخاص المعنيين وأسباب التعديل.",
+          "primaryKeyword": "سجل القرارات التشغيلية",
+          "alt": "دفتر قرارات ووثائق متابعة يستخدمها فريق مقاولة صغيرة",
+          "body": [
+            {
+              "heading": "حدّد القرارات التي تستحق التسجيل",
+              "paragraphs": [
+                "يحفظ سجل القرارات الاختيارات التي تؤثر في طريقة العمل اليومي. قد يفيد مقاولة صغيرة بالمغرب عندما تتكرر الأسئلة نفسها، أو يتذكر الزملاء نسخاً مختلفة من نقاش سابق، أو يحتاج موظف جديد إلى فهم سبب ممارسة معينة. يكمل السجل التواصل بين الأشخاص، لكنه لا يعوض النقاش ولا ينبغي أن يتحول إلى نقل مفصل لكل حديث يجري داخل الفريق.",
+                "سجل القرارات التي تغير طريقة إنجاز نشاط أو تستدعي عملاً مشتركاً أو تحتاج إلى متابعة لاحقة. قد يقرر الفريق مثلاً جمع طلبات الزبناء في مجلد مشترك. الفكرة التي طُرحت ولم تُعتمد لا تصبح قراراً لمجرد ظهورها في النقاش. وضّح عندما يكون الاختيار ما يزال قيد الدراسة، حتى لا يطبق أحد اقتراحاً أولياً باعتباره اتفاقاً نهائياً بين الأشخاص المعنيين."
+              ]
+            },
+            {
+              "heading": "اكتب الاختيار والسياق الذي يفسره",
+              "paragraphs": [
+                "صغ القرار في جملة يستطيع الزملاء فهمها. أضف تاريخ النقاش وموضوعه والأشخاص الذين شاركوا في الاختيار. ثم اشرح السبب العملي الذي أدى إليه، مثل صعوبة إيجاد الطلبات أو اختلاف المعلومات المتداولة أو الحاجة إلى استمرار العمل أثناء غياب أحد الزملاء. يسمح السياق للقارئ بفهم القرار دون البحث عن المحادثة الأصلية أو الاعتماد على ذاكرة من كان حاضراً.",
+                "اجعل هذا التفسير منفصلاً عن الحكم على الأشخاص. القول إن الطلبات كانت موزعة بين أماكن متعددة أكثر فائدة من اتهام زميل بأنه سبب الارتباك. إذا دُرست بدائل، لخّص ما رجّح الاختيار المعتمد. احتفظ فقط بالمعلومات اللازمة للفهم. ينبغي أن يبقى السجل قابلاً للاستعمال أثناء العمل، لا وثيقة طويلة يصعب الرجوع إليها عند الحاجة إلى جواب أو توضيح سريع."
+              ]
+            },
+            {
+              "heading": "اربط القرار بعمل واضح وشخص ينسقه",
+              "paragraphs": [
+                "يبقى الاختيار الجماعي غير واضح إذا لم يعرف الأشخاص كيف سيصبح واقعاً في العمل. اذكر الخطوة التالية والشخص الذي سينسقها ومن يحتاج إلى المساهمة فيها. قد يتطلب جمع الطلبات إعداد المجلد وشرح طريقة استعماله والتأكد من أن الزملاء يستطيعون الوصول إليه. أظهر هذه المساهمات في المدخل نفسه، بدل تركها ضمن رسائل متفرقة لا يطلع عليها كل من يحتاج إلى معرفتها.",
+                "وضح كذلك كيف يعرف الفريق أن الخطوة قد أُنجزت. يمكن أن يكون ذلك عبر عرض طريقة استخدام المجلد أو تجربة طلب حقيقي. لا تكتب أن العمل اكتمل إذا كانت أجزاء منه ما تزال منتظرة. عندما يظهر عائق، سجله مع السؤال الذي يحتاج إلى حل. بهذه الطريقة يحتفظ السجل بعلاقة واضحة بين الاتفاق الأصلي وما يجري تنفيذه فعلاً في ظروف المقاولة الحالية."
+              ]
+            },
+            {
+              "heading": "حدّث السجل دون إخفاء أسباب الاختيارات السابقة",
+              "paragraphs": [
+                "راجع المداخل عندما تتغير الظروف أو لا يعطي القرار النتيجة التي كان الفريق ينتظرها. يمكنك الإبقاء على الاختيار الأول وإضافة ملاحظة تشرح استبداله أو تعديله. تساعد هذه الاستمرارية على فهم سبب تغير الممارسة، وتقلل احتمال العودة إلى طريقة سابقة دون تذكر الصعوبات التي دفعت الفريق إلى تركها. يصبح الماضي مرجعاً للفهم بدل أن تختفي آثاره عند كل تحديث.",
+                "اختر مكاناً معروفاً للحفظ وشخصاً يساعد على إبقاء السجل واضحاً. شارك القرارات مع المعنيين، مع حصر المعلومات الحساسة في الأشخاص الذين يحتاجون إليها. ابدأ بالقرارات المرتبطة بنشاط محدد قبل توسيع الاستعمال إلى باقي الأعمال. يمكن لفيليكسيا مساعدتك على اختيار شكل عملي للسجل وتحديد كيفية استعماله في النقاشات والمتابعة، بما يلائم تنظيم مقاولتك وطريقة تعاون فريقها دون إضافة تعقيد غير مفيد."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "هل أسجل جميع النقاشات في هذا السجل؟",
+              "answer": "لا. سجل الاختيارات المعتمدة وسياقها المفيد، وافصلها بوضوح عن الأسئلة التي ما تزال مفتوحة."
+            },
+            {
+              "question": "هل يمكن تغيير قرار سبق تسجيله؟",
+              "answer": "نعم. أضف القرار الجديد وسببه، ووضح كيف يعدل الاختيار السابق أو يحل محله."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/ar/conseil-gestion/",
+              "label": "اكتشف الاستشارة في التدبير لدى فيليكسيا"
+            },
+            {
+              "path": "/ar/contact/",
+              "label": "ناقش تنظيم مقاولتك مع فيليكسيا"
+            }
+          ]
+        }
+      },
+      "kind": "new",
+      "category": "Gestion",
+      "risk": "low",
+      "authorized": true,
+      "status": "draft",
+      "verifiedAt": "2026-10-12T08:00:00.000Z",
+      "claims": [],
+      "sourceIds": [
+        "felexia-practice"
+      ],
+      "image": {
+        "src": "/images/intelligence/operations.webp",
+        "smallSrc": "/images/intelligence/operations-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true
+      },
+      "provenance": {
+        "method": "original-editorial",
+        "reviewedBy": null
+      }
+    },
+    {
+      "id": "evergreen-checklist-accueil-client",
+      "title": "Construire une checklist d’accueil pour un nouveau client",
+      "intent": "Préparer le démarrage opérationnel d’une nouvelle relation client avec une checklist utile",
+      "intentKey": "new-client-operational-onboarding-checklist",
+      "translations": {
+        "fr": {
+          "slug": "checklist-accueil-nouveau-client-pme",
+          "title": "Construire une checklist d’accueil pour un nouveau client",
+          "excerpt": "Préparez le démarrage de la relation client avec des informations pertinentes, un interlocuteur identifié et une manière claire de suivre les échanges.",
+          "metaTitle": "Checklist d’accueil d’un nouveau client | Felexia",
+          "metaDescription": "Construisez une checklist d’accueil client pour votre PME : comprendre la demande, organiser les échanges, préparer les informations et confirmer les prochaines actions.",
+          "primaryKeyword": "checklist accueil nouveau client PME",
+          "alt": "Checklist d’accueil client et dossier de travail préparés par une équipe",
+          "body": [
+            {
+              "heading": "Commencer par ce que le client veut obtenir",
+              "paragraphs": [
+                "L’accueil d’un nouveau client prépare la manière dont vous allez travailler ensemble. Une checklist aide une PME marocaine à éviter les oublis entre le premier accord et le démarrage effectif. Elle doit rester liée au service ou au produit demandé. Commencez par reformuler le besoin du client, son contexte et le résultat qu’il souhaite recevoir.",
+                "Vérifiez les termes qui peuvent avoir plusieurs sens. Un client demandant un suivi régulier attend-il un échange lorsqu’une action avance, un document récapitulatif ou un interlocuteur disponible pour ses questions ? Posez la question au lieu de supposer que votre pratique habituelle convient. Inscrivez ensuite dans la checklist les points confirmés et ceux qui demandent encore un échange."
+              ]
+            },
+            {
+              "heading": "Définir les interlocuteurs et les canaux de travail",
+              "paragraphs": [
+                "Identifiez la personne qui suit le dossier dans votre entreprise et le contact principal côté client. Faites préciser qui transmet les informations pratiques et qui peut confirmer les choix relatifs au travail attendu. Il ne s’agit pas de demander un organigramme complet, mais de savoir à qui adresser une question pour que le dossier puisse avancer.",
+                "Choisissez avec le client les canaux adaptés aux échanges et à l’envoi des documents. Une information importante reçue par messagerie peut ensuite être reportée dans le dossier de suivi pour rester retrouvable. Expliquez à votre équipe où conserver ces échanges. Si plusieurs personnes interviennent, indiquez comment elles savent qu’une réponse a déjà été donnée ou qu’une question attend encore."
+              ]
+            },
+            {
+              "heading": "Demander seulement les informations utiles au démarrage",
+              "paragraphs": [
+                "Votre checklist doit distinguer les informations nécessaires pour commencer des détails pouvant être précisés plus tard. Pour une prestation de service, vous pourriez demander une description du besoin, un exemple du résultat souhaité et les documents de travail déjà disponibles. Expliquez l’usage de chaque élément demandé. Le client comprend ainsi pourquoi vous le sollicitez et peut signaler ce qu’il ne possède pas.",
+                "Évitez de rassembler par habitude des données personnelles ou des documents sensibles qui ne servent pas au travail prévu. Lorsqu’une pièce particulière paraît nécessaire, vérifiez avec le responsable du dossier comment la demander et la partager. La checklist peut contenir une question à clarifier plutôt qu’une demande automatique. Elle organise le démarrage sans élargir silencieusement la collecte d’informations."
+              ]
+            },
+            {
+              "heading": "Confirmer le démarrage et améliorer la checklist",
+              "paragraphs": [
+                "Avant de commencer, partagez un récapitulatif compréhensible : demande retenue, interlocuteurs, éléments reçus, questions ouvertes et prochaine action. Invitez le client à signaler une incompréhension. Cette confirmation donne un repère commun à votre équipe et au client. Elle évite qu’un document reçu soit interprété comme une validation alors que son auteur attendait encore votre retour.",
+                "Après les premiers échanges, demandez à l’équipe ce qui lui a manqué pour travailler correctement. Ajoutez un point à la checklist seulement s’il répond à un oubli réel ou rend le parcours plus clair. Conservez des formulations accueillantes plutôt qu’une succession d’instructions impersonnelles. Felexia peut vous aider à structurer cette entrée en relation et à l’adapter aux activités et aux habitudes de votre PME."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "La même checklist convient-elle à tous les clients ?",
+              "answer": "Gardez une base commune, puis adaptez les informations et échanges au travail demandé et aux interlocuteurs concernés."
+            },
+            {
+              "question": "Quand le dossier peut-il être considéré comme prêt à démarrer ?",
+              "answer": "Lorsque votre équipe comprend le besoin, dispose des éléments utiles et sait quelles questions restent à traiter avec le client."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/fr/conseil-gestion/",
+              "label": "Découvrir le conseil en gestion de Felexia"
+            },
+            {
+              "path": "/fr/contact/",
+              "label": "Discuter de votre organisation avec Felexia"
+            }
+          ]
+        },
+        "en": {
+          "slug": "new-client-onboarding-checklist-small-business",
+          "title": "Build a practical onboarding checklist for a new client",
+          "excerpt": "Prepare the start of a client relationship with relevant information, clear contacts and an organised way of following conversations.",
+          "metaTitle": "New client onboarding checklist | Felexia",
+          "metaDescription": "Build a practical client onboarding checklist for your Moroccan SME, covering the request, working contacts, relevant documents and agreed next actions.",
+          "primaryKeyword": "new client onboarding checklist small business",
+          "alt": "Client onboarding checklist and working folder prepared by a small business team",
+          "body": [
+            {
+              "heading": "Begin with the result your client wants",
+              "paragraphs": [
+                "Client onboarding prepares how you will work together. A checklist helps a Moroccan SME avoid gaps between an initial agreement and the actual start of delivery. Keep it connected to the service or product requested rather than treating every client as the same administrative file. Begin by restating the client’s need, its context and the result they expect to receive.",
+                "Check expressions that may mean different things to different people. When a client asks for regular follow-up, do they expect a message when work progresses, a summary document or a contact for questions? Ask rather than assuming your usual practice fits. Record confirmed points and questions still needing discussion separately, so the team does not treat an unanswered question as an agreed arrangement."
+              ]
+            },
+            {
+              "heading": "Identify working contacts and communication channels",
+              "paragraphs": [
+                "Name the person following the assignment in your business and the main client contact. Clarify who provides practical information and who can confirm choices concerning the requested work. You do not need a complete organisation chart. You need to know where a question should go so the work can move forward without a chain of messages to people who cannot answer it.",
+                "Agree suitable channels for conversations and document sharing with the client. An important detail received through messaging can also be recorded in the working folder so it remains retrievable. Explain where your team should preserve these exchanges. If several colleagues participate, decide how they can see that an answer has already been given or that a question is still waiting for attention."
+              ]
+            },
+            {
+              "heading": "Request information that is useful for starting work",
+              "paragraphs": [
+                "Separate information needed at the start from details that can be clarified later. For a service assignment, useful material might include a description of the need, an example of the desired result and working documents already available. Explain why each requested item matters. This helps the client respond appropriately and tell you when something does not exist or cannot yet be supplied.",
+                "Avoid gathering personal information or sensitive documents merely because another onboarding checklist asks for them. If a particular item appears necessary, check with the person coordinating the assignment how to request and share it appropriately. A checklist can contain a question to resolve instead of an automatic request. Its purpose is to prepare the work without quietly expanding the information collected from the client."
+              ]
+            },
+            {
+              "heading": "Confirm the start and improve the checklist through experience",
+              "paragraphs": [
+                "Before starting, send a readable summary of the agreed request, working contacts, material received, open questions and next action. Invite the client to correct misunderstandings. This provides a common reference for both sides. It also avoids treating a received document as approval when its author was still expecting a response or wanted you to consider it as an example.",
+                "After the opening exchanges, ask colleagues what was missing when they began the work. Add a checklist item when it addresses an actual omission or makes the experience clearer. Use welcoming language instead of a sequence of impersonal instructions. Felexia can help you structure this beginning of the relationship and adapt the checklist to the activities, communication habits and practical needs of your small business."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can the same checklist be used for every client?",
+              "answer": "Keep a common starting point, then adapt the information and exchanges to the requested work and the people involved."
+            },
+            {
+              "question": "How do we know the assignment is ready to start?",
+              "answer": "The team should understand the request, have useful starting information and know which questions still need attention."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/en/conseil-gestion/",
+              "label": "Explore Felexia management advisory"
+            },
+            {
+              "path": "/en/contact/",
+              "label": "Discuss your business organisation with Felexia"
+            }
+          ]
+        },
+        "ar": {
+          "slug": "قائمة-استقبال-زبون-جديد-للمقاولة",
+          "title": "إعداد قائمة عملية لاستقبال زبون جديد في مقاولتك",
+          "excerpt": "حضّر بداية العلاقة مع الزبون بمعلومات مناسبة ومخاطبين واضحين وطريقة منظمة لمتابعة النقاش والوثائق والأعمال المنتظرة.",
+          "metaTitle": "قائمة استقبال زبون جديد للمقاولة | فيليكسيا",
+          "metaDescription": "أعد قائمة استقبال زبون جديد في مقاولتك بالمغرب، لفهم الطلب وتحديد المخاطبين وتنظيم الوثائق المفيدة وتأكيد الخطوات العملية قبل الانطلاق.",
+          "primaryKeyword": "قائمة استقبال زبون جديد",
+          "alt": "قائمة استقبال زبون وملف عمل يعدهما فريق مقاولة صغيرة",
+          "body": [
+            {
+              "heading": "ابدأ بالنتيجة التي يريدها الزبون",
+              "paragraphs": [
+                "يهيئ استقبال الزبون الطريقة التي ستعملون بها معاً. تساعد قائمة واضحة مقاولة صغيرة بالمغرب على تجنب الفراغ بين الاتفاق الأول وبداية إنجاز العمل. اربط القائمة بالخدمة أو المنتج المطلوب، بدل التعامل مع جميع الزبناء باعتبارهم ملفات متشابهة. ابدأ بإعادة صياغة حاجة الزبون والسياق الذي يحيط بها والنتيجة التي ينتظر الحصول عليها عندما يبدأ التعاون مع فريقك.",
+                "تحقق من الكلمات التي قد تحمل معاني مختلفة. عندما يطلب الزبون متابعة مستمرة، هل يقصد رسالة عند تقدم العمل، أم وثيقة تلخص الوضع، أم مخاطباً يمكنه الرجوع إليه عند ظهور سؤال؟ اسأل بدل افتراض أن طريقتك المعتادة تناسب توقعه. سجل النقاط المؤكدة والأسئلة التي تحتاج إلى نقاش إضافي بشكل منفصل، حتى لا يعتبر الفريق أمراً غير محسوم اتفاقاً نهائياً مع الزبون."
+              ]
+            },
+            {
+              "heading": "حدّد المخاطبين وقنوات التواصل أثناء العمل",
+              "paragraphs": [
+                "اذكر الشخص الذي يتابع الملف داخل المقاولة والمخاطب الرئيسي لدى الزبون. وضّح من يقدم المعلومات العملية ومن يستطيع تأكيد الاختيارات المرتبطة بالعمل المنتظر. لا تحتاج بالضرورة إلى معرفة التنظيم الكامل لدى الزبون، بل إلى تحديد الشخص الذي يمكن أن يجيب عن السؤال المناسب. يساعد ذلك على تقدم الملف دون إرسال رسائل متكررة إلى أشخاص لا يملكون التفاصيل المطلوبة.",
+                "اتفق مع الزبون على قنوات مناسبة للنقاش ومشاركة الوثائق. يمكن نقل معلومة مهمة وصلت عبر المراسلة إلى ملف المتابعة حتى تبقى سهلة الاسترجاع. اشرح للفريق المكان الذي ينبغي أن يحفظ فيه هذه التبادلات. عندما يشارك زملاء متعددون، حدّد كيف يعرفون أن جواباً قد أُرسل بالفعل أو أن سؤالاً ما يزال منتظراً، حتى لا يتلقى الزبون ردوداً مختلفة عن النقطة نفسها."
+              ]
+            },
+            {
+              "heading": "اطلب المعلومات المفيدة لبداية المهمة فقط",
+              "paragraphs": [
+                "ميّز في القائمة بين المعلومات اللازمة للانطلاق والتفاصيل التي يمكن توضيحها لاحقاً. قد تحتاج في مهمة خدمية إلى وصف الحاجة ومثال على النتيجة المنشودة والوثائق المتاحة بالفعل. اشرح فائدة كل عنصر تطلبه، حتى يفهم الزبون سبب الطلب ويستطيع إخبارك بما لا يملكه أو بما يصعب توفيره في هذه المرحلة. اجعل النقاش مرتبطاً بالعمل الذي اتفقتم على تحضيره.",
+                "لا تجمع معلومات شخصية أو ملفات حساسة لمجرد أنها تظهر في قائمة استخدمتها سابقاً مع زبون آخر. إذا بدت وثيقة معينة ضرورية، راجع مع المكلف بالملف كيفية طلبها ومشاركتها بما يناسب الحاجة. يمكن أن تتضمن القائمة سؤالاً يحتاج إلى توضيح بدل طلب تلقائي. هدفها تنظيم البداية، دون توسيع جمع المعلومات بصمت أو إشعار الزبون بأن جميع الوثائق المحتملة مطلوبة قبل أي تبادل."
+              ]
+            },
+            {
+              "heading": "أكد بداية العمل وحسّن القائمة من التجربة",
+              "paragraphs": [
+                "قبل الانطلاق، شارك ملخصاً واضحاً يضم الطلب المتفق عليه والمخاطبين والعناصر المستلمة والأسئلة المفتوحة والخطوة التالية. ادع الزبون إلى تصحيح أي سوء فهم. يمنح هذا التأكيد مرجعاً مشتركاً له وللفريق، ويمنع تفسير وصول وثيقة باعتباره موافقة بينما كان صاحبها ينتظر تعليقك أو أرسلها كمثال للمناقشة. تصبح البداية أوضح عندما يعرف كل طرف ما جرى الاتفاق عليه وما بقي منتظراً.",
+                "بعد التبادلات الأولى، اسأل الفريق عما كان ينقصه لإنجاز العمل بصورة مناسبة. أضف نقطة إلى القائمة عندما تعالج نسياناً فعلياً أو تجعل المسار مفهوماً أكثر. استخدم لغة ترحيبية بدل تعليمات جافة ومتتالية. يمكن لفيليكسيا مساعدتك على تنظيم هذه البداية وتكييف القائمة مع أنشطة مقاولتك وعادات التواصل لدى فريقها وزبنائها، حتى تصبح وسيلة عمل مفيدة وليست إجراءً يكرر نفسه دون النظر إلى الحالة."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "هل تصلح القائمة نفسها لجميع الزبناء؟",
+              "answer": "احتفظ بقاعدة مشتركة، ثم عدّل المعلومات والتبادلات حسب العمل المطلوب والأشخاص المعنيين."
+            },
+            {
+              "question": "كيف أعرف أن الملف جاهز للانطلاق؟",
+              "answer": "عندما يفهم الفريق الحاجة ويتوفر على عناصر البداية المفيدة ويعرف الأسئلة التي ما تزال تحتاج إلى جواب."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/ar/conseil-gestion/",
+              "label": "اكتشف الاستشارة في التدبير لدى فيليكسيا"
+            },
+            {
+              "path": "/ar/contact/",
+              "label": "ناقش تنظيم مقاولتك مع فيليكسيا"
+            }
+          ]
+        }
+      },
+      "kind": "new",
+      "category": "Gestion",
+      "risk": "low",
+      "authorized": true,
+      "status": "draft",
+      "verifiedAt": "2026-10-12T08:00:00.000Z",
+      "claims": [],
+      "sourceIds": [
+        "felexia-practice"
+      ],
+      "image": {
+        "src": "/images/intelligence/operations.webp",
+        "smallSrc": "/images/intelligence/operations-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true
+      },
+      "provenance": {
+        "method": "original-editorial",
+        "reviewedBy": null
+      }
+    },
+    {
+      "id": "evergreen-dossiers-informations-fournisseurs",
+      "title": "Organiser les dossiers d’informations de vos fournisseurs",
+      "intent": "Construire un dossier fournisseur opérationnel qui distingue contacts, informations courantes et archives",
+      "intentKey": "organise-supplier-working-information-folders",
+      "translations": {
+        "fr": {
+          "slug": "organiser-dossiers-informations-fournisseurs-pme",
+          "title": "Organiser les dossiers d’informations de vos fournisseurs",
+          "excerpt": "Retrouvez les bons contacts et documents fournisseurs sans confondre les informations courantes, les versions anciennes et les échanges encore à clarifier.",
+          "metaTitle": "Organiser les dossiers fournisseurs d’une PME | Felexia",
+          "metaDescription": "Organisez les informations fournisseurs de votre PME : contacts de travail, documents utiles, versions courantes, échanges à clarifier et accès adaptés à l’équipe.",
+          "primaryKeyword": "organiser dossiers fournisseurs PME",
+          "alt": "Dossiers fournisseurs et fiche de contact rangés dans un espace de travail",
+          "body": [
+            {
+              "heading": "Définir ce que le dossier doit aider à retrouver",
+              "paragraphs": [
+                "Un dossier fournisseur devient utile lorsqu’il répond à des questions concrètes. Dans une PME marocaine, votre équipe peut vouloir retrouver le contact chargé d’une commande, une description de produit ou le dernier échange sur une livraison. Commencez par demander aux personnes qui travaillent avec les fournisseurs quelles informations leur manquent le plus souvent.",
+                "Construisez ensuite une organisation liée à ces usages. Vous pouvez distinguer les contacts de travail, les documents de référence, les commandes en cours et les points à clarifier. Évitez de copier une arborescence très détaillée sans savoir qui la remplira. Un dossier simple, compris par ses utilisateurs, vaut mieux qu’un classement complet dont personne ne retrouve les rubriques."
+              ]
+            },
+            {
+              "heading": "Identifier les contacts et préserver l’origine des documents",
+              "paragraphs": [
+                "Préparez une fiche de repères avec le nom du fournisseur, les interlocuteurs utiles et le rôle de chacun. Un contact commercial ne répond pas nécessairement aux mêmes questions qu’une personne chargée des livraisons. Notez comment votre équipe peut les joindre et dans quelles situations les solliciter. Conservez la provenance des renseignements pour pouvoir demander une clarification au bon interlocuteur.",
+                "Lorsqu’un fournisseur transmet un document, rangez-le avec un nom compréhensible et une indication de sa date. Gardez l’original lorsqu’il sert de référence, puis distinguez les annotations internes de ce document. Une modification préparée par votre équipe ne doit pas être confondue avec une version envoyée par le fournisseur. Cette séparation aide à expliquer sur quel support repose un échange."
+              ]
+            },
+            {
+              "heading": "Séparer les informations courantes des versions anciennes",
+              "paragraphs": [
+                "Identifiez les documents que l’équipe utilise actuellement et placez les anciennes versions dans un espace clairement nommé. Il peut s’agir d’une description de produit remplacée, d’un contact qui a changé ou d’une instruction de livraison devenue différente. L’objectif est d’éviter que la recherche d’un fichier conduise quelqu’un à reprendre une information qui ne correspond plus au fonctionnement actuel.",
+                "Lorsqu’un changement vous est annoncé, faites-le confirmer par un interlocuteur déjà connu avant de remplacer les repères utilisés par l’équipe. Notez le point vérifié et le document concerné. Si une information reste incertaine, marquez-la comme à confirmer plutôt que de la présenter comme actuelle. Le dossier peut garder la trace de cette question avec la personne chargée de la suivre."
+              ]
+            },
+            {
+              "heading": "Faire vivre le dossier avec les personnes qui l’utilisent",
+              "paragraphs": [
+                "Précisez qui ajoute les nouveaux échanges, qui propose une correction et qui peut consulter chaque partie du dossier. Certaines informations commerciales demandent un accès plus limité que les coordonnées de travail. Choisissez les accès en fonction des usages réels, puis expliquez la structure aux collaborateurs. Une courte démonstration avec un cas récent permet de repérer les rubriques ambiguës.",
+                "Après une commande ou un échange important, demandez si les informations utiles ont été retrouvées facilement. Corrigez le classement lorsque la pratique révèle une difficulté répétée. N’ajoutez pas de dossiers vides pour donner une impression d’ordre. Felexia peut vous aider à structurer ces repères fournisseurs et à les intégrer au suivi opérationnel de votre entreprise, avec un format que votre équipe pourra maintenir."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Que faire lorsqu’une information fournisseur semble dépassée ?",
+              "answer": "Identifiez-la comme à confirmer et contactez un interlocuteur connu avant de modifier le document utilisé par votre équipe."
+            },
+            {
+              "question": "Faut-il permettre à tous les collaborateurs de consulter le dossier entier ?",
+              "answer": "Définissez les accès selon le travail de chacun et la sensibilité des informations contenues dans les différentes rubriques."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/fr/conseil-gestion/",
+              "label": "Découvrir le conseil en gestion de Felexia"
+            },
+            {
+              "path": "/fr/contact/",
+              "label": "Discuter de votre organisation avec Felexia"
+            }
+          ]
+        },
+        "en": {
+          "slug": "organise-supplier-information-folders-sme",
+          "title": "Organise your suppliers’ working information folders",
+          "excerpt": "Make supplier contacts and documents easier to retrieve while separating current information, older versions and questions that still need clarification.",
+          "metaTitle": "Organise supplier information folders | Felexia",
+          "metaDescription": "Organise supplier information in your Moroccan SME with useful working contacts, clear document versions, open questions and access suited to each team member.",
+          "primaryKeyword": "organise supplier information folders SME",
+          "alt": "Supplier folders and a working contact sheet arranged on a business desk",
+          "body": [
+            {
+              "heading": "Define what the folder should help people find",
+              "paragraphs": [
+                "A supplier folder is useful when it answers practical questions. In a Moroccan SME, colleagues might need the contact following an order, a product description or the latest exchange about a delivery. Start by asking the people who work with suppliers which information they repeatedly struggle to retrieve. Their experience should guide the structure rather than a desire to create an impressive archive.",
+                "Build the folder around those uses. You might separate working contacts, reference documents, current orders and questions awaiting clarification. Avoid copying an elaborate folder structure without knowing who will maintain it. A simple arrangement understood by its users is more valuable than a comprehensive filing system in which nobody knows where a document belongs or how to find it again."
+              ]
+            },
+            {
+              "heading": "Identify contacts and retain the origin of documents",
+              "paragraphs": [
+                "Create a reference sheet with the supplier’s name, useful contacts and their roles. A sales contact may not answer the same questions as someone coordinating deliveries. Record how colleagues can reach each person and when that contact is appropriate. Retain the origin of the information so the team can request clarification from someone familiar with the subject.",
+                "When a supplier sends a document, give it an understandable file name and an indication of its date. Preserve the original where it acts as a reference and distinguish internal notes from the supplier’s material. A modification prepared by your team should not look like a version issued by the supplier. This separation makes it easier to explain which document a conversation or working decision relies on."
+              ]
+            },
+            {
+              "heading": "Keep current information separate from older versions",
+              "paragraphs": [
+                "Identify the documents currently used by the team and place earlier versions in a clearly named area. This might concern a replaced product description, a changed contact or different delivery instructions. The purpose is to avoid someone retrieving a document and unknowingly applying information that no longer reflects the way the supplier and your business are working together.",
+                "When a change is announced, confirm it through an established contact before replacing the team’s working reference. Note what was checked and which document is affected. If information remains uncertain, mark it as awaiting confirmation rather than presenting it as current. Keep the open question alongside the person following it, so uncertainty remains visible instead of disappearing inside an apparently finished folder."
+              ]
+            },
+            {
+              "heading": "Maintain the folder through the people using it",
+              "paragraphs": [
+                "Explain who adds new exchanges, who suggests corrections and who can consult each part of the folder. Some commercial material may need more limited access than ordinary working contact details. Choose access based on actual use and explain the structure to colleagues. A short demonstration using a recent case can reveal headings that seem clear to their creator but confuse other readers.",
+                "After an order or important exchange, ask whether the relevant information was easy to find. Adjust the structure when practice reveals a recurring difficulty. Avoid adding empty folders simply to create the appearance of order. Felexia can help you shape supplier reference information and connect it to everyday operational follow-up, using an arrangement your team understands and can keep useful as its working relationships develop."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "What should we do when supplier information appears outdated?",
+              "answer": "Mark it as awaiting confirmation and check through an established contact before changing the reference used by the team."
+            },
+            {
+              "question": "Should everyone see the whole supplier folder?",
+              "answer": "Set access according to each person’s work and the sensitivity of the information held in different sections."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/en/conseil-gestion/",
+              "label": "Explore Felexia management advisory"
+            },
+            {
+              "path": "/en/contact/",
+              "label": "Discuss your business organisation with Felexia"
+            }
+          ]
+        },
+        "ar": {
+          "slug": "تنظيم-ملفات-معلومات-الموردين",
+          "title": "تنظيم ملفات المعلومات العملية الخاصة بالموردين",
+          "excerpt": "سهّل الوصول إلى المخاطبين والوثائق المناسبة، مع الفصل بين المعلومات الحالية والنسخ السابقة والأسئلة التي تنتظر التوضيح.",
+          "metaTitle": "تنظيم ملفات معلومات الموردين | فيليكسيا",
+          "metaDescription": "نظّم معلومات الموردين في مقاولتك بالمغرب عبر ملفات واضحة للمخاطبين والوثائق الحالية والنسخ السابقة والأسئلة المفتوحة وصلاحيات الاطلاع.",
+          "primaryKeyword": "تنظيم ملفات معلومات الموردين",
+          "alt": "ملفات موردين وورقة مخاطبين مرتبة في مساحة عمل للمقاولة",
+          "body": [
+            {
+              "heading": "حدّد المعلومات التي ينبغي أن يسهل الملف إيجادها",
+              "paragraphs": [
+                "يصبح ملف المورد مفيداً عندما يجيب عن أسئلة عملية. في مقاولة صغيرة بالمغرب، قد يحتاج الفريق إلى المخاطب الذي يتابع طلباً أو وصف منتج أو آخر مراسلة عن التسليم. ابدأ بسؤال الأشخاص الذين يعملون مع الموردين عن المعلومات التي يصعب عليهم إيجادها بشكل متكرر. ينبغي أن توجه تجربتهم تنظيم الملف، بدل الرغبة في إنشاء أرشيف واسع لا يرتبط بالاستخدام اليومي.",
+                "رتب الملف بحسب هذه الحاجات. يمكن الفصل بين مخاطبي العمل والوثائق المرجعية والطلبات الجارية والأسئلة التي تحتاج إلى توضيح. تجنب اعتماد مجلدات كثيرة دون معرفة من سيملؤها ومن سيستعملها. تنظيم بسيط يفهمه الفريق أفضل من تصنيف مفصل لا يعرف أحد أين يضع فيه الوثيقة الجديدة. جرّب الأسماء المقترحة مع المستخدمين قبل نقل معلوماتهم إلى الترتيب الذي اخترته."
+              ]
+            },
+            {
+              "heading": "عرّف المخاطبين واحتفظ بمصدر الوثائق",
+              "paragraphs": [
+                "حضّر ورقة مرجعية تحمل اسم المورد والمخاطبين المفيدين ودور كل شخص. قد لا يجيب المكلف بالعلاقة التجارية عن الأسئلة نفسها التي يتابعها مسؤول التسليم. اذكر كيف يمكن التواصل مع كل مخاطب وفي أي حالات يرجع الفريق إليه. احتفظ كذلك بمصدر المعلومة، حتى تستطيع طلب توضيح من شخص يعرف الموضوع عندما يظهر اختلاف أو تصبح بعض التفاصيل غير مفهومة.",
+                "عندما يرسل المورد وثيقة، احفظها باسم واضح مع بيان تاريخها. احتفظ بالأصل إذا كان يُستعمل كمرجع، وافصل الملاحظات التي تضيفها مقاولتك عن النص الذي وصل من المورد. لا ينبغي أن تبدو نسخة عدّلها فريقك كأنها صادرة عن الطرف الآخر. يساعد هذا الفصل على شرح الوثيقة التي يستند إليها النقاش، وتجنب الخلط بين وصف المورد وتعليقاتكم الداخلية أثناء العمل."
+              ]
+            },
+            {
+              "heading": "افصل المعلومات الحالية عن النسخ السابقة",
+              "paragraphs": [
+                "حدد الوثائق التي يستعملها الفريق الآن، وضع النسخ القديمة في مساحة واضحة الاسم. قد يتعلق الأمر بوصف منتج استُبدل أو مخاطب تغير أو طريقة تسليم أصبحت مختلفة. الهدف أن لا يؤدي البحث عن ملف إلى اعتماد معلومة لم تعد تعكس طريقة التعاون الحالية. عندما توجد نسخ متشابهة، اشرح أيها يمثل المرجع المستخدم وأين يمكن إيجاد ما سبقه دون إرباك المستخدم.",
+                "إذا أُبلغت بتغيير، اطلب تأكيده عبر مخاطب معروف قبل استبدال المعلومات التي يرجع إليها الفريق. سجل النقطة التي جرى التحقق منها والوثيقة المعنية. إذا بقيت المعلومة غير مؤكدة، أظهر ذلك بوضوح بدل تقديمها كمعلومة حالية. احتفظ بالسؤال المفتوح واسم الشخص الذي يتابعه، حتى لا يختفي الشك داخل ملف يبدو مكتملاً بينما يحتاج أحد عناصره إلى مراجعة أو جواب من المورد."
+              ]
+            },
+            {
+              "heading": "اجعل صيانة الملف جزءاً من استعماله",
+              "paragraphs": [
+                "وضّح من يضيف المراسلات الجديدة ومن يقترح التصحيح ومن يستطيع الاطلاع على كل جزء من الملف. قد تحتاج معلومات تجارية معينة إلى وصول أضيق من بيانات التواصل العملية. اختر الصلاحيات بحسب استعمال الأشخاص واشرح طريقة التصنيف للزملاء. تساعد تجربة قصيرة باستعمال حالة حديثة على اكتشاف أسماء المجلدات التي تبدو مفهومة لمن أنشأها لكنها تربك بقية الفريق عند البحث.",
+                "بعد طلب أو تبادل مهم، اسأل عما إذا كانت المعلومات المناسبة سهلة الاسترجاع. صحح الترتيب عندما تظهر صعوبة متكررة، وتجنب إضافة مجلدات فارغة لمجرد إعطاء انطباع بالنظام. يمكن لفيليكسيا مساعدتك على هيكلة هذه المراجع وربطها بالمتابعة التشغيلية للمقاولة، بطريقة يفهمها الفريق ويستطيع الحفاظ عليها. يبقى معيار الفائدة هو سهولة الوصول إلى المعلومة المناسبة، لا عدد الملفات أو شكل الأرشيف."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "ماذا أفعل إذا بدت معلومة المورد قديمة؟",
+              "answer": "أظهر أنها تحتاج إلى تأكيد، وراجع مخاطباً معروفاً قبل تغيير المرجع الذي يستخدمه الفريق."
+            },
+            {
+              "question": "هل يطلع جميع الزملاء على الملف كاملاً؟",
+              "answer": "حدّد الوصول بحسب عمل كل شخص وحساسية المعلومات الموجودة في أقسام الملف المختلفة."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/ar/conseil-gestion/",
+              "label": "اكتشف الاستشارة في التدبير لدى فيليكسيا"
+            },
+            {
+              "path": "/ar/contact/",
+              "label": "ناقش تنظيم مقاولتك مع فيليكسيا"
+            }
+          ]
+        }
+      },
+      "kind": "new",
+      "category": "Gestion",
+      "risk": "low",
+      "authorized": true,
+      "status": "draft",
+      "verifiedAt": "2026-10-12T08:00:00.000Z",
+      "claims": [],
+      "sourceIds": [
+        "felexia-practice"
+      ],
+      "image": {
+        "src": "/images/intelligence/operations.webp",
+        "smallSrc": "/images/intelligence/operations-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true
+      },
+      "provenance": {
+        "method": "original-editorial",
+        "reviewedBy": null
+      }
+    },
+    {
+      "id": "evergreen-passation-organisation-travail",
+      "title": "Préparer une passation opérationnelle de gestion",
+      "intent": "Organiser le transfert des activités de gestion courantes lors d’une absence ou d’un changement de responsable",
+      "intentKey": "orderly-operational-management-handover",
+      "translations": {
+        "fr": {
+          "slug": "preparer-passation-operationnelle-gestion-pme",
+          "title": "Préparer une passation opérationnelle de gestion dans une PME",
+          "excerpt": "Transmettez les activités en cours, les repères utiles et les questions ouvertes pour qu’un collègue puisse reprendre le travail avec une vision claire.",
+          "metaTitle": "Préparer une passation opérationnelle en PME | Felexia",
+          "metaDescription": "Préparez une passation opérationnelle dans votre PME : activités en cours, interlocuteurs, décisions attendues, documents et prise en main par le relais.",
+          "primaryKeyword": "passation opérationnelle gestion PME",
+          "alt": "Dossier de passation et carte des activités pour transmettre le travail à un collègue",
+          "body": [
+            {
+              "heading": "Délimiter les activités qui vont être reprises",
+              "paragraphs": [
+                "Une passation opérationnelle prépare la continuité du travail lorsqu’un responsable s’absente ou qu’un collègue reprend ses activités. Dans une PME marocaine, les informations peuvent être réparties entre des fichiers, des messages et les habitudes du dirigeant. Commencez par décrire les activités réellement concernées : suivi des demandes clients, coordination des fournisseurs ou organisation du travail de l’équipe.",
+                "Pour chaque activité, expliquez ce que la personne qui prend le relais doit pouvoir faire. Évitez une liste générale comme gérer les clients, qui ne décrit ni le périmètre ni les situations rencontrées. Indiquez ce qui est transmis et ce qui restera suivi par une autre personne. Le relais comprend ainsi les limites pratiques de son intervention."
+              ]
+            },
+            {
+              "heading": "Présenter le travail en cours et les questions ouvertes",
+              "paragraphs": [
+                "Préparez un état des lieux lisible des dossiers actifs. Mentionnez leur situation, le dernier échange utile, la prochaine action attendue et l’interlocuteur concerné. Si une demande dépend d’une réponse extérieure, précisez ce qui est attendu et qui peut être recontacté. Le document doit permettre de reprendre un dossier sans reconstruire son histoire depuis le début.",
+                "Distinguez les tâches courantes des sujets qui demandent un arbitrage. Une commande prête à être suivie ne se traite pas comme une demande dont le périmètre reste discuté. Pour les décisions ouvertes, résumez les options déjà examinées et les informations manquantes. Signalez les difficultés connues avec des faits observables, sans transformer la passation en commentaire personnel sur vos collègues ou vos partenaires."
+              ]
+            },
+            {
+              "heading": "Montrer les documents, les contacts et les gestes utiles",
+              "paragraphs": [
+                "Une liste de fichiers ne suffit pas toujours à transmettre une activité. Montrez où se trouve le document de référence, comment l’utiliser et comment reconnaître la version actuelle. Présentez les contacts qui aident à faire avancer le travail, avec le sujet pour lequel chacun peut être sollicité. Vérifiez que le collègue dispose des accès adaptés à ses tâches.",
+                "Parcourez ensemble un cas représentatif. Laissez la personne qui prend le relais effectuer les recherches et expliquer son choix de prochaine action. Ses hésitations indiquent les points à préciser. Vous pouvez compléter le dossier avec une courte description du parcours ou un exemple commenté. L’objectif est de transmettre une capacité à agir, plutôt qu’une collection de documents difficile à interpréter."
+              ]
+            },
+            {
+              "heading": "Accompagner la prise en main et ajuster les repères",
+              "paragraphs": [
+                "Prévoyez un moment de retour après la prise en main pour examiner les questions apparues dans le travail réel. Identifiez la personne qui peut répondre lorsqu’un cas sort du cadre décrit. Si une activité reste partagée, expliquez comment le relais et l’ancien responsable évitent de répondre séparément au même client ou de modifier chacun le même document.",
+                "Actualisez les repères à partir des questions utiles et conservez le dossier dans un emplacement connu. La personne qui reprend le travail pourra ensuite l’améliorer avec sa propre expérience. Une passation réussie se reconnaît à la compréhension des activités et à la capacité de trouver une réponse, plutôt qu’au volume de fichiers transmis. Felexia peut vous aider à structurer cette préparation et à clarifier les passages de responsabilité opérationnelle."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Faut-il tout transmettre en même temps ?",
+              "answer": "Commencez par les activités concernées et les dossiers actifs, puis ajoutez les références nécessaires pour les comprendre et les poursuivre."
+            },
+            {
+              "question": "Comment vérifier que la passation est compréhensible ?",
+              "answer": "Faites suivre un cas réel par la personne qui reprend le travail et complétez le dossier à partir de ses questions."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/fr/conseil-gestion/",
+              "label": "Découvrir le conseil en gestion de Felexia"
+            },
+            {
+              "path": "/fr/contact/",
+              "label": "Discuter de votre organisation avec Felexia"
+            }
+          ]
+        },
+        "en": {
+          "slug": "prepare-operational-management-handover-sme",
+          "title": "Prepare an orderly operational handover in your small business",
+          "excerpt": "Pass on active work, useful reference information and open questions so a colleague can continue with a clear understanding of the activity.",
+          "metaTitle": "Prepare an operational business handover | Felexia",
+          "metaDescription": "Prepare an operational handover in your Moroccan SME with active cases, working contacts, pending decisions, useful documents and practical familiarisation.",
+          "primaryKeyword": "operational management handover SME",
+          "alt": "Handover folder and activity map used to pass everyday work to a colleague",
+          "body": [
+            {
+              "heading": "Define the activities being handed over",
+              "paragraphs": [
+                "An operational handover supports continuity when a manager is away or a colleague takes over everyday activities. In a Moroccan SME, working information may be spread between files, messages and the owner’s habits. Begin by describing the activities actually concerned, such as customer enquiries, supplier coordination or organising the team’s work. Explain why the handover is being prepared and what it should help the colleague continue.",
+                "For each activity, describe what the person taking over should be able to do. A broad heading such as manage customers does not explain the boundaries or situations involved. Identify what is being transferred and what another person will continue to handle. This gives the colleague a practical understanding of the role without leaving them to guess which decisions or conversations belong elsewhere."
+              ]
+            },
+            {
+              "heading": "Present current work and unresolved questions",
+              "paragraphs": [
+                "Prepare a readable overview of active cases. Include the current situation, the latest useful exchange, the next expected action and the relevant contact. If a request depends on an outside response, explain what is being awaited and who can be contacted again. The record should allow someone to continue a case without reconstructing its entire history from scattered messages.",
+                "Distinguish routine tasks from matters requiring a choice. An order ready for follow-up is different from a request whose scope is still being discussed. For open decisions, summarise options already considered and information still missing. Describe known difficulties through observable facts. The handover should help someone work, rather than become a personal commentary on colleagues, customers or suppliers that does not explain what to do next."
+              ]
+            },
+            {
+              "heading": "Demonstrate useful documents, contacts and working actions",
+              "paragraphs": [
+                "A file list does not always transfer an activity successfully. Show where the reference document sits, how it is used and how to recognise the current version. Introduce contacts who help move work forward and explain the subject each can discuss. Check that the colleague has access suited to the tasks they are taking over, rather than assuming a folder link is sufficient.",
+                "Walk through a representative case together. Let the person taking over find the information and explain their proposed next action. Hesitation reveals details that need clarification. Add a short workflow description or an annotated example where useful. The purpose is to transfer the ability to act, not simply deliver a collection of documents whose meaning depends on the person leaving the activity."
+              ]
+            },
+            {
+              "heading": "Support familiarisation and improve the reference information",
+              "paragraphs": [
+                "Arrange a follow-up conversation after the colleague has begun using the handover material. Review questions raised by actual work and identify who can help when a case falls outside the described situations. If an activity remains shared, explain how the people involved avoid replying separately to the same customer or making conflicting changes to the same document.",
+                "Update reference information from useful questions and keep the handover folder in a known location. The colleague can then improve it through their own experience. A workable handover is recognised through understanding the activities and knowing how to find an answer, rather than the volume of files transferred. Felexia can help you structure the preparation and clarify how everyday operational work passes between members of your team."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Does everything need to be transferred at once?",
+              "answer": "Begin with the activities concerned and active cases, then add the reference material needed to understand and continue them."
+            },
+            {
+              "question": "How can we check whether the handover is understandable?",
+              "answer": "Ask the colleague to follow a real case and improve the material using the questions that arise."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/en/conseil-gestion/",
+              "label": "Explore Felexia management advisory"
+            },
+            {
+              "path": "/en/contact/",
+              "label": "Discuss your business organisation with Felexia"
+            }
+          ]
+        },
+        "ar": {
+          "slug": "تحضير-تسليم-المهام-التشغيلية-للمقاولة",
+          "title": "تحضير تسليم منظم للمهام التشغيلية في مقاولتك",
+          "excerpt": "انقل الأعمال الجارية والمراجع المفيدة والأسئلة المفتوحة حتى يتمكن زميلك من متابعة النشاط مع فهم واضح لما ينبغي القيام به.",
+          "metaTitle": "تحضير تسليم المهام التشغيلية للمقاولة | فيليكسيا",
+          "metaDescription": "حضّر تسليم المهام التشغيلية في مقاولتك بالمغرب عبر عرض الملفات الجارية والمخاطبين والقرارات المنتظرة والوثائق وتجربة عملية لاستلام العمل.",
+          "primaryKeyword": "تسليم المهام التشغيلية للمقاولة",
+          "alt": "ملف تسليم وخريطة أنشطة لنقل العمل اليومي إلى زميل",
+          "body": [
+            {
+              "heading": "حدّد الأنشطة التي سيستلمها الزميل",
+              "paragraphs": [
+                "يساعد التسليم التشغيلي على استمرار العمل عندما يغيب مسؤول أو يتولى زميل متابعة أنشطته اليومية. قد تكون المعلومات في مقاولة صغيرة بالمغرب موزعة بين الملفات والرسائل والعادات التي يعرفها المسير. ابدأ بوصف الأنشطة المعنية فعلاً، مثل متابعة طلبات الزبناء أو التنسيق مع الموردين أو تنظيم أعمال الفريق. وضّح سبب التحضير والنتيجة التي تريد أن يحققها انتقال العمل إلى الشخص الذي سيأخذ مكانك.",
+                "في كل نشاط، اشرح ما الذي ينبغي أن يستطيع الزميل القيام به. عنوان عام مثل تدبير الزبناء لا يوضح الحدود ولا الحالات التي سيواجهها. بيّن ما سينتقل إليه وما ستواصل متابعته جهة أخرى. يساعد ذلك على فهم الدور بصورة عملية، دون ترك الشخص يخمن القرارات التي يستطيع اتخاذها أو النقاشات التي يحتاج إلى إحالتها إلى مخاطب آخر داخل المقاولة."
+              ]
+            },
+            {
+              "heading": "اعرض الأعمال الجارية والأسئلة غير المحسومة",
+              "paragraphs": [
+                "حضّر وصفاً واضحاً للملفات النشطة. اذكر حالتها وآخر تبادل مفيد والخطوة المنتظرة والمخاطب المرتبط بها. إذا كان الطلب ينتظر جواباً من طرف خارجي، اشرح المعلومة المطلوبة والشخص الذي يمكن إعادة الاتصال به. ينبغي أن تسمح الوثيقة بمتابعة الملف دون إعادة بناء تاريخه من البداية أو البحث في مراسلات متفرقة لفهم سبب توقفه أو ما الذي اتفق عليه سابقاً.",
+                "ميّز المهام المعتادة عن المواضيع التي تحتاج إلى اختيار. الطلب الجاهز للمتابعة يختلف عن طلب ما يزال نطاقه محل نقاش. في القرارات المفتوحة، لخّص البدائل التي دُرست والمعلومات الناقصة. صف الصعوبات المعروفة بوقائع يمكن ملاحظتها، وتجنب تحويل التسليم إلى تعليقات شخصية عن الزملاء أو الشركاء. المطلوب أن يعرف الزميل الوضع الذي سيعمل فيه، والخطوة التي يمكنه اتخاذها أو السؤال المناسب الذي يحتاج إلى طرحه."
+              ]
+            },
+            {
+              "heading": "اشرح استعمال الوثائق والمخاطبين وخطوات العمل",
+              "paragraphs": [
+                "لا تكفي قائمة الملفات دائماً لنقل النشاط بصورة مفيدة. اعرض مكان الوثيقة المرجعية وكيف تُستعمل وكيف يعرف الزميل أنها النسخة الحالية. عرّفه بالمخاطبين الذين يساعدون على تقدم العمل والموضوع الذي يمكن مناقشته مع كل شخص. تحقق من توفر الوصول المناسب للمهام التي سيستلمها، بدل افتراض أن إرسال رابط المجلد يجعل جميع العناصر مفهومة ومتاحة له في أثناء العمل.",
+                "مرّا معاً على حالة تمثل النشاط. اترك للزميل البحث عن المعلومات وشرح اختياره للخطوة التالية. تُظهر تردّداته التفاصيل التي تحتاج إلى توضيح. يمكنك استكمال الملف بوصف موجز للمسار أو مثال يحمل ملاحظات تشرح طريقة القراءة والاستعمال. الهدف هو نقل القدرة على العمل، لا مجرد تسليم مجموعة وثائق يبقى فهمها معتمداً على الشخص الذي كان يتولى النشاط قبل هذا التغيير."
+              ]
+            },
+            {
+              "heading": "واكب بداية الاستلام وعدّل المراجع عند الحاجة",
+              "paragraphs": [
+                "حدد فرصة للعودة إلى النقاش بعد بدء استعمال وثائق التسليم. راجع الأسئلة التي ظهرت في الممارسة واذكر الشخص الذي يمكن الرجوع إليه عندما تخرج حالة عن الوصف المعد. إذا بقي النشاط مشتركاً، وضّح كيف يتجنب الزميل والمسؤول السابق إرسال أجوبة منفصلة للزبون نفسه أو تعديل الوثيقة نفسها بطريقة متعارضة. يسمح ذلك باستمرار التعاون مع بقاء مسار المتابعة واضحاً للجميع.",
+                "حدّث المراجع انطلاقاً من الأسئلة المفيدة واحفظ ملف التسليم في مكان معروف. يستطيع الشخص الذي استلم النشاط تحسينه لاحقاً من خلال تجربته. تُعرف فائدة التسليم بمدى فهم الأنشطة والقدرة على إيجاد جواب، لا بكمية الملفات المنقولة. يمكن لفيليكسيا مساعدتك على تنظيم التحضير وتوضيح انتقال العمل التشغيلي بين أفراد الفريق، مع التركيز على ما يحتاجه الزميل لمتابعة الأنشطة في ظروف مقاولتك اليومية."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "هل يجب نقل جميع المعلومات دفعة واحدة؟",
+              "answer": "ابدأ بالأنشطة المعنية والملفات الجارية، ثم أضف المراجع التي تساعد على فهمها ومتابعتها."
+            },
+            {
+              "question": "كيف أتأكد من وضوح التسليم؟",
+              "answer": "اطلب من الزميل تتبع حالة حقيقية، ثم استكمل الملف انطلاقاً من الأسئلة التي تظهر أثناء التجربة."
+            }
+          ],
+          "secondaryKeywords": [],
+          "claimIds": [],
+          "factualValues": {},
+          "internalLinks": [
+            {
+              "path": "/ar/conseil-gestion/",
+              "label": "اكتشف الاستشارة في التدبير لدى فيليكسيا"
+            },
+            {
+              "path": "/ar/contact/",
+              "label": "ناقش تنظيم مقاولتك مع فيليكسيا"
+            }
+          ]
+        }
+      },
+      "kind": "new",
+      "category": "Gestion",
+      "risk": "low",
+      "authorized": true,
+      "status": "draft",
+      "verifiedAt": "2026-10-12T08:00:00.000Z",
+      "claims": [],
+      "sourceIds": [
+        "felexia-practice"
+      ],
+      "image": {
+        "src": "/images/intelligence/operations.webp",
+        "smallSrc": "/images/intelligence/operations-640.webp",
+        "width": 1280,
+        "height": 800,
+        "rights": "owned",
+        "verified": true
+      },
+      "provenance": {
+        "method": "original-editorial",
+        "reviewedBy": null
+      }
+    }
+  ]
+}
+

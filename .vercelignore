@@ -1,7 +1,12 @@
 .git/
 .env*
 node_modules/
+dist/
+dist-site/
+migration/
+migration-source.json
 .sites-runtime/
+seo/
 test-results/
 reference/mylegal/original-assets/
 reference/mylegal/analysis/

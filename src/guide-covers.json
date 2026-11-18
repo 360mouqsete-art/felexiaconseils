@@ -1,0 +1,2193 @@
+{
+  "auto-entrepreneur-vs-sarlau": {
+    "src": "/images/guides/auto-entrepreneur-vs-sarlau.webp",
+    "smallSrc": "/images/guides/auto-entrepreneur-vs-sarlau-640.webp",
+    "alt": "Entrepreneur et conseiller comparant des dossiers de création d’entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "cabinet-comptable-casablanca": {
+    "src": "/images/guides/cabinet-comptable-casablanca.webp",
+    "smallSrc": "/images/guides/cabinet-comptable-casablanca-640.webp",
+    "alt": "Conseiller comptable examinant les comptes d’une entreprise à Casablanca",
+    "width": 1280,
+    "height": 800
+  },
+  "certificat-negatif-maroc": {
+    "src": "/images/guides/certificat-negatif-maroc.webp",
+    "smallSrc": "/images/guides/certificat-negatif-maroc-640.webp",
+    "alt": "Professionnelle vérifiant un dossier de réservation du nom d’une société",
+    "width": 1280,
+    "height": 800
+  },
+  "creation-entreprise": {
+    "src": "/images/guides/creation-entreprise.webp",
+    "smallSrc": "/images/guides/creation-entreprise-640.webp",
+    "alt": "Entrepreneur préparant les documents de constitution avec son conseiller",
+    "width": 1280,
+    "height": 800
+  },
+  "creation-entreprise-en-ligne": {
+    "src": "/images/guides/creation-entreprise-en-ligne.webp",
+    "smallSrc": "/images/guides/creation-entreprise-en-ligne-640.webp",
+    "alt": "Préparation d’un dossier de création d’entreprise sur ordinateur",
+    "width": 1280,
+    "height": 800
+  },
+  "creation-entreprise-rabat": {
+    "src": "/images/guides/creation-entreprise-rabat.webp",
+    "smallSrc": "/images/guides/creation-entreprise-rabat-640.webp",
+    "alt": "Préparation d’une immatriculation dans un bureau avec vue sur Rabat",
+    "width": 1280,
+    "height": 800
+  },
+  "creation-societe-casablanca": {
+    "src": "/images/guides/creation-societe-casablanca.webp",
+    "smallSrc": "/images/guides/creation-societe-casablanca-640.webp",
+    "alt": "Fondateur et conseiller réunis pour créer une société à Casablanca",
+    "width": 1280,
+    "height": 800
+  },
+  "creer-une-sarl-maroc": {
+    "src": "/images/guides/creer-une-sarl-maroc.webp",
+    "smallSrc": "/images/guides/creer-une-sarl-maroc-640.webp",
+    "alt": "Associés examinant les documents nécessaires à la constitution d’une SARL",
+    "width": 1280,
+    "height": 800
+  },
+  "facturation-electronique-maroc": {
+    "src": "/images/guides/facturation-electronique-maroc.webp",
+    "smallSrc": "/images/guides/facturation-electronique-maroc-640.webp",
+    "alt": "Factures et ordinateur sur le poste de travail d’un comptable",
+    "width": 1280,
+    "height": 800
+  },
+  "fiduciaire-maroc": {
+    "src": "/images/guides/fiduciaire-maroc.webp",
+    "smallSrc": "/images/guides/fiduciaire-maroc-640.webp",
+    "alt": "Examen de pièces comptables dans un cabinet fiduciaire marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "filiale-ou-succursale-maroc": {
+    "src": "/images/guides/filiale-ou-succursale-maroc.webp",
+    "smallSrc": "/images/guides/filiale-ou-succursale-maroc-640.webp",
+    "alt": "Dirigeants étudiant les documents d’implantation d’une société au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "ice-identifiant-commun-entreprise-maroc": {
+    "src": "/images/guides/ice-identifiant-commun-entreprise-maroc.webp",
+    "smallSrc": "/images/guides/ice-identifiant-commun-entreprise-maroc-640.webp",
+    "alt": "Vérification des identifiants d’entreprise dans un dossier administratif",
+    "width": 1280,
+    "height": 800
+  },
+  "investir-depuis-etranger": {
+    "src": "/images/guides/investir-depuis-etranger.webp",
+    "smallSrc": "/images/guides/investir-depuis-etranger-640.webp",
+    "alt": "Investisseur examinant son projet au Maroc avec un conseiller",
+    "width": 1280,
+    "height": 800
+  },
+  "mre-etranger": {
+    "src": "/images/guides/mre-etranger.webp",
+    "smallSrc": "/images/guides/mre-etranger-640.webp",
+    "alt": "Entrepreneur installé à l’étranger préparant son projet de société au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "nom-commercial-enseigne-et-marque": {
+    "src": "/images/guides/nom-commercial-enseigne-et-marque.webp",
+    "smallSrc": "/images/guides/nom-commercial-enseigne-et-marque-640.webp",
+    "alt": "Entrepreneurs comparant un dossier de marque et des éléments d’identité commerciale",
+    "width": 1280,
+    "height": 800
+  },
+  "organiser-gestion-entreprise": {
+    "src": "/images/guides/organiser-gestion-entreprise.webp",
+    "smallSrc": "/images/guides/organiser-gestion-entreprise-640.webp",
+    "alt": "Dirigeants organisant les dossiers de gestion de leur entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "preparer-creation-entreprise": {
+    "src": "/images/guides/preparer-creation-entreprise.webp",
+    "smallSrc": "/images/guides/preparer-creation-entreprise-640.webp",
+    "alt": "Préparation des documents et des décisions avant la création d’une entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "registre-de-commerce-maroc": {
+    "src": "/images/guides/registre-de-commerce-maroc.webp",
+    "smallSrc": "/images/guides/registre-de-commerce-maroc-640.webp",
+    "alt": "Conseillers vérifiant les pièces d’inscription au registre de commerce",
+    "width": 1280,
+    "height": 800
+  },
+  "sarl-sarl-au": {
+    "src": "/images/guides/sarl-sarl-au.webp",
+    "smallSrc": "/images/guides/sarl-sarl-au-640.webp",
+    "alt": "Entrepreneur et conseiller étudiant le choix d’une SARL ou d’une SARL AU",
+    "width": 1280,
+    "height": 800
+  },
+  "introduction-en-bourse-maroc-avantages-fiscaux": {
+    "src": "/images/guides/introduction-en-bourse-maroc-avantages-fiscaux.webp",
+    "smallSrc": "/images/guides/introduction-en-bourse-maroc-avantages-fiscaux-640.webp",
+    "alt": "Analyste financier examinant un dossier d’introduction en bourse à Casablanca",
+    "width": 1280,
+    "height": 800
+  },
+  "convention-fiscale-maroc-eau": {
+    "src": "/images/guides/convention-fiscale-maroc-eau.webp",
+    "smallSrc": "/images/guides/convention-fiscale-maroc-eau-640.webp",
+    "alt": "Réunion d’affaires entre le Maroc et les Émirats autour d’un dossier fiscal",
+    "width": 1280,
+    "height": 800
+  },
+  "plus-values-internationales": {
+    "src": "/images/guides/plus-values-internationales.webp",
+    "smallSrc": "/images/guides/plus-values-internationales-640.webp",
+    "alt": "Conseiller financier examinant un dossier de cession internationale",
+    "width": 1280,
+    "height": 800
+  },
+  "convention-fiscale-maroc-espagne-double-imposition": {
+    "src": "/images/guides/convention-fiscale-maroc-espagne-double-imposition.webp",
+    "smallSrc": "/images/guides/convention-fiscale-maroc-espagne-double-imposition-640.webp",
+    "alt": "Professionnels marocain et espagnol étudiant un dossier fiscal bilatéral",
+    "width": 1280,
+    "height": 800
+  },
+  "igoc-statuts-change": {
+    "src": "/images/guides/igoc-statuts-change.webp",
+    "smallSrc": "/images/guides/igoc-statuts-change-640.webp",
+    "alt": "Examen des documents de résidence d’un entrepreneur dans une banque",
+    "width": 1280,
+    "height": 800
+  },
+  "igoc-transfert-dividendes": {
+    "src": "/images/guides/igoc-transfert-dividendes.webp",
+    "smallSrc": "/images/guides/igoc-transfert-dividendes-640.webp",
+    "alt": "Directeur financier préparant un transfert de dividendes avec son banquier",
+    "width": 1280,
+    "height": 800
+  },
+  "fiscalite-interets-international": {
+    "src": "/images/guides/fiscalite-interets-international.webp",
+    "smallSrc": "/images/guides/fiscalite-interets-international-640.webp",
+    "alt": "Banquier et dirigeant examinant un dossier de prêt international",
+    "width": 1280,
+    "height": 800
+  },
+  "fiscalite-redevances-international": {
+    "src": "/images/guides/fiscalite-redevances-international.webp",
+    "smallSrc": "/images/guides/fiscalite-redevances-international-640.webp",
+    "alt": "Entrepreneur et conseiller étudiant un contrat de licence près d’un prototype",
+    "width": 1280,
+    "height": 800
+  },
+  "fiscalite-salaires-expatries": {
+    "src": "/images/guides/fiscalite-salaires-expatries.webp",
+    "smallSrc": "/images/guides/fiscalite-salaires-expatries-640.webp",
+    "alt": "Professionnel expatrié examinant son dossier de paie avec une responsable RH",
+    "width": 1280,
+    "height": 800
+  },
+  "calendrier-fiscal-maroc-2026": {
+    "src": "/images/guides/calendrier-fiscal-maroc-2026.webp",
+    "smallSrc": "/images/guides/calendrier-fiscal-maroc-2026-640.webp",
+    "alt": "Calendrier de travail, dossiers mensuels et calculatrice sur un bureau fiscal",
+    "width": 1280,
+    "height": 800
+  },
+  "cloture-comptable-annuelle-maroc": {
+    "src": "/images/guides/cloture-comptable-annuelle-maroc.webp",
+    "smallSrc": "/images/guides/cloture-comptable-annuelle-maroc-640.webp",
+    "alt": "Comptable rapprochant les pièces nécessaires à la clôture annuelle",
+    "width": 1280,
+    "height": 800
+  },
+  "comptabilite-immobilisations-maroc": {
+    "src": "/images/guides/comptabilite-immobilisations-maroc.webp",
+    "smallSrc": "/images/guides/comptabilite-immobilisations-maroc-640.webp",
+    "alt": "Comptable vérifiant le registre des machines dans un atelier industriel",
+    "width": 1280,
+    "height": 800
+  },
+  "consolidation-comptes-maroc": {
+    "src": "/images/guides/consolidation-comptes-maroc.webp",
+    "smallSrc": "/images/guides/consolidation-comptes-maroc-640.webp",
+    "alt": "Dossiers de plusieurs filiales réunis pour préparer les comptes du groupe",
+    "width": 1280,
+    "height": 800
+  },
+  "droits-enregistrement-maroc-2026": {
+    "src": "/images/guides/droits-enregistrement-maroc-2026.webp",
+    "smallSrc": "/images/guides/droits-enregistrement-maroc-2026-640.webp",
+    "alt": "Acte, tampon et pièces justificatives sur le bureau d’un professionnel du droit",
+    "width": 1280,
+    "height": 800
+  },
+  "ecritures-regularisation-fin-exercice-maroc": {
+    "src": "/images/guides/ecritures-regularisation-fin-exercice-maroc.webp",
+    "smallSrc": "/images/guides/ecritures-regularisation-fin-exercice-maroc-640.webp",
+    "alt": "Comptable rapprochant un grand livre et des documents de fin d’exercice",
+    "width": 1280,
+    "height": 800
+  },
+  "choisir-expert-comptable-maroc": {
+    "src": "/images/guides/choisir-expert-comptable-maroc.webp",
+    "smallSrc": "/images/guides/choisir-expert-comptable-maroc-640.webp",
+    "alt": "Dirigeant échangeant avec un expert-comptable autour d’une lettre de mission",
+    "width": 1280,
+    "height": 800
+  },
+  "reformes-fiscales-maroc-2020-2026-chronologie": {
+    "src": "/images/guides/reformes-fiscales-maroc-2020-2026-chronologie.webp",
+    "smallSrc": "/images/guides/reformes-fiscales-maroc-2020-2026-chronologie-640.webp",
+    "alt": "Professionnelle consultant des ouvrages fiscaux classés dans une bibliothèque",
+    "width": 1280,
+    "height": 800
+  },
+  "ifrs-vs-cgnc-maroc": {
+    "src": "/images/guides/ifrs-vs-cgnc-maroc.webp",
+    "smallSrc": "/images/guides/ifrs-vs-cgnc-maroc-640.webp",
+    "alt": "Contrôleur financier comparant deux référentiels comptables et leurs dossiers",
+    "width": 1280,
+    "height": 800
+  },
+  "commissariat-apports-fusion-maroc": {
+    "src": "/images/guides/commissariat-apports-fusion-maroc.webp",
+    "smallSrc": "/images/guides/commissariat-apports-fusion-maroc-640.webp",
+    "alt": "Auditeurs évaluant une machine et son dossier d’apport dans une usine",
+    "width": 1280,
+    "height": 800
+  },
+  "erreurs-comptables-reserves-cac": {
+    "src": "/images/guides/erreurs-comptables-reserves-cac.webp",
+    "smallSrc": "/images/guides/erreurs-comptables-reserves-cac-640.webp",
+    "alt": "Auditeur vérifiant des factures et des rapprochements comptables annotés",
+    "width": 1280,
+    "height": 800
+  },
+  "financements-exterieurs-change-maroc": {
+    "src": "/images/guides/financements-exterieurs-change-maroc.webp",
+    "smallSrc": "/images/guides/financements-exterieurs-change-maroc-640.webp",
+    "alt": "Dirigeant et banquier étudiant un financement près d’un terminal portuaire",
+    "width": 1280,
+    "height": 800
+  },
+  "investissements-marocains-etranger-change-maroc": {
+    "src": "/images/guides/investissements-marocains-etranger-change-maroc.webp",
+    "smallSrc": "/images/guides/investissements-marocains-etranger-change-maroc-640.webp",
+    "alt": "Entrepreneurs examinant les documents d’un investissement à l’étranger",
+    "width": 1280,
+    "height": 800
+  },
+  "rapport-cac-reserves-consequences": {
+    "src": "/images/guides/rapport-cac-reserves-consequences.webp",
+    "smallSrc": "/images/guides/rapport-cac-reserves-consequences-640.webp",
+    "alt": "Commissaire aux comptes expliquant un rapport avec réserves au dirigeant",
+    "width": 1280,
+    "height": 800
+  },
+  "investissements-etrangers-change-maroc": {
+    "src": "/images/guides/investissements-etrangers-change-maroc.webp",
+    "smallSrc": "/images/guides/investissements-etrangers-change-maroc-640.webp",
+    "alt": "Investisseur étranger visitant un parc d’activités marocain avec un conseiller",
+    "width": 1280,
+    "height": 800
+  },
+  "transferts-courants-change-maroc": {
+    "src": "/images/guides/transferts-courants-change-maroc.webp",
+    "smallSrc": "/images/guides/transferts-courants-change-maroc-640.webp",
+    "alt": "Client et conseiller bancaire examinant un dossier de transfert de revenus",
+    "width": 1280,
+    "height": 800
+  },
+  "commerce-electronique-change-maroc": {
+    "src": "/images/guides/commerce-electronique-change-maroc.webp",
+    "smallSrc": "/images/guides/commerce-electronique-change-maroc-640.webp",
+    "alt": "Entrepreneuse préparant des commandes et leurs documents dans un espace de vente en ligne",
+    "width": 1280,
+    "height": 800
+  },
+  "export-biens-services-change-maroc": {
+    "src": "/images/guides/export-biens-services-change-maroc.webp",
+    "smallSrc": "/images/guides/export-biens-services-change-maroc-640.webp",
+    "alt": "Responsables vérifiant des documents d’exportation près de caisses au port",
+    "width": 1280,
+    "height": 800
+  },
+  "importation-de-biens-change-maroc": {
+    "src": "/images/guides/importation-de-biens-change-maroc.webp",
+    "smallSrc": "/images/guides/importation-de-biens-change-maroc-640.webp",
+    "alt": "Responsable logistique et conseillère contrôlant des marchandises importées",
+    "width": 1280,
+    "height": 800
+  },
+  "voyages-etranger-dotations-change-maroc": {
+    "src": "/images/guides/voyages-etranger-dotations-change-maroc.webp",
+    "smallSrc": "/images/guides/voyages-etranger-dotations-change-maroc-640.webp",
+    "alt": "Voyageuse préparant ses documents et son passeport dans un salon d’aéroport",
+    "width": 1280,
+    "height": 800
+  },
+  "reglementation-changes-maroc": {
+    "src": "/images/guides/reglementation-changes-maroc.webp",
+    "smallSrc": "/images/guides/reglementation-changes-maroc-640.webp",
+    "alt": "Responsable conformité consultant un dossier de réglementation des changes",
+    "width": 1280,
+    "height": 800
+  },
+  "difficultes-entreprise-sauvegarde-redressement-maroc": {
+    "src": "/images/guides/difficultes-entreprise-sauvegarde-redressement-maroc.webp",
+    "smallSrc": "/images/guides/difficultes-entreprise-sauvegarde-redressement-maroc-640.webp",
+    "alt": "Dirigeant et conseillère examinant un plan de redressement de l’entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "pacte-associes-maroc": {
+    "src": "/images/guides/pacte-associes-maroc.webp",
+    "smallSrc": "/images/guides/pacte-associes-maroc-640.webp",
+    "alt": "Associés réunis avec leur conseillère pour signer un pacte",
+    "width": 1280,
+    "height": 800
+  },
+  "fiscalite-dividendes-international": {
+    "src": "/images/guides/fiscalite-dividendes-international.webp",
+    "smallSrc": "/images/guides/fiscalite-dividendes-international-640.webp",
+    "alt": "Équipe financière examinant les dossiers de distribution de dividendes d’un groupe",
+    "width": 1280,
+    "height": 800
+  },
+  "reduction-capital-maroc": {
+    "src": "/images/guides/reduction-capital-maroc.webp",
+    "smallSrc": "/images/guides/reduction-capital-maroc-640.webp",
+    "alt": "Actionnaires et conseiller étudiant une opération de réduction du capital",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-promoteurs-immobiliers-lotisseurs-maroc": {
+    "src": "/images/guides/tva-promoteurs-immobiliers-lotisseurs-maroc.webp",
+    "smallSrc": "/images/guides/tva-promoteurs-immobiliers-lotisseurs-maroc-640.webp",
+    "alt": "Promoteur et comptable examinant des factures près d’une maquette immobilière",
+    "width": 1280,
+    "height": 800
+  },
+  "assemblee-generale-sarl-maroc": {
+    "src": "/images/guides/assemblee-generale-sarl-maroc.webp",
+    "smallSrc": "/images/guides/assemblee-generale-sarl-maroc-640.webp",
+    "alt": "Associés d’une SARL réunis pour examiner les comptes et rédiger le procès-verbal",
+    "width": 1280,
+    "height": 800
+  },
+  "bail-commercial-maroc": {
+    "src": "/images/guides/bail-commercial-maroc.webp",
+    "smallSrc": "/images/guides/bail-commercial-maroc-640.webp",
+    "alt": "Propriétaire et conseillère étudiant un bail dans un local commercial",
+    "width": 1280,
+    "height": 800
+  },
+  "sasu-maroc": {
+    "src": "/images/guides/sasu-maroc.webp",
+    "smallSrc": "/images/guides/sasu-maroc-640.webp",
+    "alt": "Entrepreneuse signant les documents de constitution de sa société",
+    "width": 1280,
+    "height": 800
+  },
+  "amortissements-comptables-maroc": {
+    "src": "/images/guides/amortissements-comptables-maroc.webp",
+    "smallSrc": "/images/guides/amortissements-comptables-maroc-640.webp",
+    "alt": "Comptable et responsable d’atelier vérifiant le registre d’amortissement des machines",
+    "width": 1280,
+    "height": 800
+  },
+  "revenus-capitaux-mobiliers-maroc": {
+    "src": "/images/guides/revenus-capitaux-mobiliers-maroc.webp",
+    "smallSrc": "/images/guides/revenus-capitaux-mobiliers-maroc-640.webp",
+    "alt": "Investisseur et conseillère examinant ses revenus de placements dans une banque",
+    "width": 1280,
+    "height": 800
+  },
+  "profit-cession-valeurs-mobilieres-maroc": {
+    "src": "/images/guides/profit-cession-valeurs-mobilieres-maroc.webp",
+    "smallSrc": "/images/guides/profit-cession-valeurs-mobilieres-maroc-640.webp",
+    "alt": "Professionnels de la finance vérifiant un dossier de cession de titres",
+    "width": 1280,
+    "height": 800
+  },
+  "cheque-maroc": {
+    "src": "/images/guides/cheque-maroc.webp",
+    "smallSrc": "/images/guides/cheque-maroc-640.webp",
+    "alt": "Client et conseillère bancaire vérifiant un chéquier avant sa signature",
+    "width": 1280,
+    "height": 800
+  },
+  "effets-commerce-maroc": {
+    "src": "/images/guides/effets-commerce-maroc.webp",
+    "smallSrc": "/images/guides/effets-commerce-maroc-640.webp",
+    "alt": "Professionnels comparant une lettre de change et un billet à ordre",
+    "width": 1280,
+    "height": 800
+  },
+  "gerance-libre-location-gerance-maroc": {
+    "src": "/images/guides/gerance-libre-location-gerance-maroc.webp",
+    "smallSrc": "/images/guides/gerance-libre-location-gerance-maroc-640.webp",
+    "alt": "Restaurateur remettant les clés et le dossier de gestion à son locataire-gérant",
+    "width": 1280,
+    "height": 800
+  },
+  "professions-liberales-ir-is-maroc": {
+    "src": "/images/guides/professions-liberales-ir-is-maroc.webp",
+    "smallSrc": "/images/guides/professions-liberales-ir-is-maroc-640.webp",
+    "alt": "Architecte et conseiller fiscal examinant des comptes dans un atelier de conception",
+    "width": 1280,
+    "height": 800
+  },
+  "credit-impot-double-imposition": {
+    "src": "/images/guides/credit-impot-double-imposition.webp",
+    "smallSrc": "/images/guides/credit-impot-double-imposition-640.webp",
+    "alt": "Comparaison de justificatifs fiscaux étrangers et d’un dossier déclaratif marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "nantissement-fonds-commerce-maroc": {
+    "src": "/images/guides/nantissement-fonds-commerce-maroc.webp",
+    "smallSrc": "/images/guides/nantissement-fonds-commerce-maroc-640.webp",
+    "alt": "Commerçant et banquier étudiant une garantie sur le fonds de commerce",
+    "width": 1280,
+    "height": 800
+  },
+  "obligations-declaratives-tva-maroc": {
+    "src": "/images/guides/obligations-declaratives-tva-maroc.webp",
+    "smallSrc": "/images/guides/obligations-declaratives-tva-maroc-640.webp",
+    "alt": "Comptable préparant une déclaration de TVA avec les factures et le calendrier",
+    "width": 1280,
+    "height": 800
+  },
+  "fonds-commerce-maroc": {
+    "src": "/images/guides/fonds-commerce-maroc.webp",
+    "smallSrc": "/images/guides/fonds-commerce-maroc-640.webp",
+    "alt": "Entrepreneurs et conseillère évaluant les éléments d’un commerce",
+    "width": 1280,
+    "height": 800
+  },
+  "statut-commercant-maroc": {
+    "src": "/images/guides/statut-commercant-maroc.webp",
+    "smallSrc": "/images/guides/statut-commercant-maroc-640.webp",
+    "alt": "Commerçant vérifiant ses documents administratifs dans un magasin de tissus",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-finance-participative-maroc": {
+    "src": "/images/guides/tva-finance-participative-maroc.webp",
+    "smallSrc": "/images/guides/tva-finance-participative-maroc-640.webp",
+    "alt": "Client et conseillère étudiant un financement participatif près d’une maquette de maison",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-export-services-maroc": {
+    "src": "/images/guides/tva-export-services-maroc.webp",
+    "smallSrc": "/images/guides/tva-export-services-maroc-640.webp",
+    "alt": "Équipe de services échangeant avec un client étranger pendant la vérification des factures",
+    "width": 1280,
+    "height": 800
+  },
+  "comptes-devises-maroc": {
+    "src": "/images/guides/comptes-devises-maroc.webp",
+    "smallSrc": "/images/guides/comptes-devises-maroc-640.webp",
+    "alt": "Conseillère bancaire expliquant les documents d’un compte en devises",
+    "width": 1280,
+    "height": 800
+  },
+  "assemblee-generale-ordinaire-annuelle-sa": {
+    "src": "/images/guides/assemblee-generale-ordinaire-annuelle-sa.webp",
+    "smallSrc": "/images/guides/assemblee-generale-ordinaire-annuelle-sa-640.webp",
+    "alt": "Actionnaires votant l’approbation des comptes lors d’une assemblée annuelle",
+    "width": 1280,
+    "height": 800
+  },
+  "revenus-fonciers-ir-maroc": {
+    "src": "/images/guides/revenus-fonciers-ir-maroc.webp",
+    "smallSrc": "/images/guides/revenus-fonciers-ir-maroc-640.webp",
+    "alt": "Propriétaire et comptable examinant les loyers dans un appartement",
+    "width": 1280,
+    "height": 800
+  },
+  "profit-foncier-cession-immobiliere-maroc": {
+    "src": "/images/guides/profit-foncier-cession-immobiliere-maroc.webp",
+    "smallSrc": "/images/guides/profit-foncier-cession-immobiliere-maroc-640.webp",
+    "alt": "Couple signant un acte de vente immobilière avec une professionnelle du droit",
+    "width": 1280,
+    "height": 800
+  },
+  "ir-professionnel-maroc": {
+    "src": "/images/guides/ir-professionnel-maroc.webp",
+    "smallSrc": "/images/guides/ir-professionnel-maroc-640.webp",
+    "alt": "Professionnelle indépendante préparant ses comptes annuels et ses justificatifs",
+    "width": 1280,
+    "height": 800
+  },
+  "regime-fiscal-startups-pme-maroc": {
+    "src": "/images/guides/regime-fiscal-startups-pme-maroc.webp",
+    "smallSrc": "/images/guides/regime-fiscal-startups-pme-maroc-640.webp",
+    "alt": "Créateurs de startup examinant un dossier fiscal près de leur prototype",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-agriculture-maroc": {
+    "src": "/images/guides/tva-agriculture-maroc.webp",
+    "smallSrc": "/images/guides/tva-agriculture-maroc-640.webp",
+    "alt": "Exploitant agricole et comptable vérifiant des factures près d’un tracteur",
+    "width": 1280,
+    "height": 800
+  },
+  "etats-synthese-maroc": {
+    "src": "/images/guides/etats-synthese-maroc.webp",
+    "smallSrc": "/images/guides/etats-synthese-maroc-640.webp",
+    "alt": "Cinq états financiers disposés sur un bureau pour leur examen comptable",
+    "width": 1280,
+    "height": 800
+  },
+  "declaration-is-maroc": {
+    "src": "/images/guides/declaration-is-maroc.webp",
+    "smallSrc": "/images/guides/declaration-is-maroc-640.webp",
+    "alt": "Comptable préparant une liasse fiscale avec ses pièces et ses annexes",
+    "width": 1280,
+    "height": 800
+  },
+  "plus-values-cession-is-maroc": {
+    "src": "/images/guides/plus-values-cession-is-maroc.webp",
+    "smallSrc": "/images/guides/plus-values-cession-is-maroc-640.webp",
+    "alt": "Dirigeant et conseillers examinant une machine destinée à la cession",
+    "width": 1280,
+    "height": 800
+  },
+  "is-societes-etrangeres-maroc": {
+    "src": "/images/guides/is-societes-etrangeres-maroc.webp",
+    "smallSrc": "/images/guides/is-societes-etrangeres-maroc-640.webp",
+    "alt": "Délégation internationale étudiant l’installation d’une succursale au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "deductions-tva-maroc": {
+    "src": "/images/guides/deductions-tva-maroc.webp",
+    "smallSrc": "/images/guides/deductions-tva-maroc-640.webp",
+    "alt": "Vérification d’une facture d’achat et de son reçu pour la déduction de TVA",
+    "width": 1280,
+    "height": 800
+  },
+  "sanctions-penalites-tva-maroc": {
+    "src": "/images/guides/sanctions-penalites-tva-maroc.webp",
+    "smallSrc": "/images/guides/sanctions-penalites-tva-maroc-640.webp",
+    "alt": "Dirigeante et conseiller examinant un avis fiscal et les échéances de TVA",
+    "width": 1280,
+    "height": 800
+  },
+  "autoliquidation-tva-maroc": {
+    "src": "/images/guides/autoliquidation-tva-maroc.webp",
+    "smallSrc": "/images/guides/autoliquidation-tva-maroc-640.webp",
+    "alt": "Responsable fiscal examinant une facture de services étrangers pendant un échange en visioconférence",
+    "width": 1280,
+    "height": 800
+  },
+  "retenue-source-tva-maroc": {
+    "src": "/images/guides/retenue-source-tva-maroc.webp",
+    "smallSrc": "/images/guides/retenue-source-tva-maroc-640.webp",
+    "alt": "Comptable séparant le dossier de paiement du fournisseur et les documents de retenue de TVA",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-auto-entrepreneur-maroc": {
+    "src": "/images/guides/tva-auto-entrepreneur-maroc.webp",
+    "smallSrc": "/images/guides/tva-auto-entrepreneur-maroc-640.webp",
+    "alt": "Céramiste indépendante classant ses factures dans son atelier au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "provisions-deductibles-is-maroc": {
+    "src": "/images/guides/provisions-deductibles-is-maroc.webp",
+    "smallSrc": "/images/guides/provisions-deductibles-is-maroc-640.webp",
+    "alt": "Responsables financiers examinant les dossiers de créances douteuses d’une entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "base-imposable-tva-maroc": {
+    "src": "/images/guides/base-imposable-tva-maroc.webp",
+    "smallSrc": "/images/guides/base-imposable-tva-maroc-640.webp",
+    "alt": "Comptable d’un grossiste calculant la TVA à partir des factures et frais de livraison",
+    "width": 1280,
+    "height": 800
+  },
+  "comparatif-logiciels-paie-maroc": {
+    "src": "/images/guides/comparatif-logiciels-paie-maroc.webp",
+    "smallSrc": "/images/guides/comparatif-logiciels-paie-maroc-640.webp",
+    "alt": "Spécialiste et responsable RH comparant deux logiciels de paie sur ordinateur",
+    "width": 1280,
+    "height": 800
+  },
+  "charges-non-deductibles-is-maroc": {
+    "src": "/images/guides/charges-non-deductibles-is-maroc.webp",
+    "smallSrc": "/images/guides/charges-non-deductibles-is-maroc-640.webp",
+    "alt": "Comptable triant les justificatifs de dépenses selon leur traitement fiscal",
+    "width": 1280,
+    "height": 800
+  },
+  "regime-suspensif-tva-maroc": {
+    "src": "/images/guides/regime-suspensif-tva-maroc.webp",
+    "smallSrc": "/images/guides/regime-suspensif-tva-maroc-640.webp",
+    "alt": "Responsables d’une entreprise textile exportatrice examinant un dossier de suspension de TVA",
+    "width": 1280,
+    "height": 800
+  },
+  "stock-options-actions-gratuites-maroc": {
+    "src": "/images/guides/stock-options-actions-gratuites-maroc.webp",
+    "smallSrc": "/images/guides/stock-options-actions-gratuites-maroc-640.webp",
+    "alt": "Salarié et directeur financier examinant un accord de participation au capital",
+    "width": 1280,
+    "height": 800
+  },
+  "amortissements-fiscaux-maroc": {
+    "src": "/images/guides/amortissements-fiscaux-maroc.webp",
+    "smallSrc": "/images/guides/amortissements-fiscaux-maroc-640.webp",
+    "alt": "Comptable et ingénieur vérifiant le registre des immobilisations près d’une machine industrielle",
+    "width": 1280,
+    "height": 800
+  },
+  "option-assujettissement-tva-article-90": {
+    "src": "/images/guides/option-assujettissement-tva-article-90.webp",
+    "smallSrc": "/images/guides/option-assujettissement-tva-article-90-640.webp",
+    "alt": "Entrepreneur du textile et conseiller examinant les conséquences d’une option pour la TVA",
+    "width": 1280,
+    "height": 800
+  },
+  "ir-indemnite-depart-maroc": {
+    "src": "/images/guides/ir-indemnite-depart-maroc.webp",
+    "smallSrc": "/images/guides/ir-indemnite-depart-maroc-640.webp",
+    "alt": "Professionnel en fin de carrière examinant son dossier de départ avec une responsable RH",
+    "width": 1280,
+    "height": 800
+  },
+  "representants-personnel-maroc": {
+    "src": "/images/guides/representants-personnel-maroc.webp",
+    "smallSrc": "/images/guides/representants-personnel-maroc-640.webp",
+    "alt": "Salarié déposant son bulletin lors de l’élection des représentants du personnel",
+    "width": 1280,
+    "height": 800
+  },
+  "conventions-collectives-maroc": {
+    "src": "/images/guides/conventions-collectives-maroc.webp",
+    "smallSrc": "/images/guides/conventions-collectives-maroc-640.webp",
+    "alt": "Représentants des salariés et de la direction examinant une convention collective",
+    "width": 1280,
+    "height": 800
+  },
+  "auto-entrepreneur-ir-regime-fiscal-maroc": {
+    "src": "/images/guides/auto-entrepreneur-ir-regime-fiscal-maroc.webp",
+    "smallSrc": "/images/guides/auto-entrepreneur-ir-regime-fiscal-maroc-640.webp",
+    "alt": "Créatrice indépendante préparant ses justificatifs fiscaux dans son atelier de céramique",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-services-numeriques-maroc": {
+    "src": "/images/guides/tva-services-numeriques-maroc.webp",
+    "smallSrc": "/images/guides/tva-services-numeriques-maroc-640.webp",
+    "alt": "Responsable financier vérifiant les factures d’abonnements à des services numériques",
+    "width": 1280,
+    "height": 800
+  },
+  "ir-mre-maroc": {
+    "src": "/images/guides/ir-mre-maroc.webp",
+    "smallSrc": "/images/guides/ir-mre-maroc-640.webp",
+    "alt": "Entrepreneur marocain résidant à l’étranger examinant ses revenus avec un conseiller fiscal",
+    "width": 1280,
+    "height": 800
+  },
+  "audit-paie-checklist-cnss": {
+    "src": "/images/guides/audit-paie-checklist-cnss.webp",
+    "smallSrc": "/images/guides/audit-paie-checklist-cnss-640.webp",
+    "alt": "Auditeur comparant les dossiers de paie et les pièces justificatives des salariés",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-produits-pharmaceutiques-maroc": {
+    "src": "/images/guides/tva-produits-pharmaceutiques-maroc.webp",
+    "smallSrc": "/images/guides/tva-produits-pharmaceutiques-maroc-640.webp",
+    "alt": "Pharmacien et conseiller examinant les factures d’achat de produits pharmaceutiques",
+    "width": 1280,
+    "height": 800
+  },
+  "fait-generateur-exigibilite-tva-maroc": {
+    "src": "/images/guides/fait-generateur-exigibilite-tva-maroc.webp",
+    "smallSrc": "/images/guides/fait-generateur-exigibilite-tva-maroc-640.webp",
+    "alt": "Commerçant et comptable rapprochant une facture de son justificatif de paiement",
+    "width": 1280,
+    "height": 800
+  },
+  "reglement-interieur-entreprise-maroc": {
+    "src": "/images/guides/reglement-interieur-entreprise-maroc.webp",
+    "smallSrc": "/images/guides/reglement-interieur-entreprise-maroc-640.webp",
+    "alt": "Responsable RH présentant le règlement intérieur à une nouvelle recrue",
+    "width": 1280,
+    "height": 800
+  },
+  "deductions-ir-maroc": {
+    "src": "/images/guides/deductions-ir-maroc.webp",
+    "smallSrc": "/images/guides/deductions-ir-maroc-640.webp",
+    "alt": "Conseil sur les déductions fiscales personnelles avec dossier de logement et clés sur le bureau",
+    "width": 1280,
+    "height": 800
+  },
+  "embaucher-premier-salarie-maroc": {
+    "src": "/images/guides/embaucher-premier-salarie-maroc.webp",
+    "smallSrc": "/images/guides/embaucher-premier-salarie-maroc-640.webp",
+    "alt": "Accompagnement d’un premier salarié lors de la préparation de son contrat de travail",
+    "width": 1280,
+    "height": 800
+  },
+  "declaration-annuelle-ir-maroc": {
+    "src": "/images/guides/declaration-annuelle-ir-maroc.webp",
+    "smallSrc": "/images/guides/declaration-annuelle-ir-maroc-640.webp",
+    "alt": "Préparation de la déclaration annuelle de revenus avec dossiers comptables et calculatrice",
+    "width": 1280,
+    "height": 800
+  },
+  "indemnites-exonerees-ir-maroc": {
+    "src": "/images/guides/indemnites-exonerees-ir-maroc.webp",
+    "smallSrc": "/images/guides/indemnites-exonerees-ir-maroc-640.webp",
+    "alt": "Vérification de justificatifs de frais professionnels, avec une valise de déplacement",
+    "width": 1280,
+    "height": 800
+  },
+  "exonerations-tva-avec-droit-deduction-article-92": {
+    "src": "/images/guides/exonerations-tva-avec-droit-deduction-article-92.webp",
+    "smallSrc": "/images/guides/exonerations-tva-avec-droit-deduction-article-92-640.webp",
+    "alt": "Examen de factures d’exportation dans un bureau donnant sur un entrepôt",
+    "width": 1280,
+    "height": 800
+  },
+  "exonerations-is-maroc": {
+    "src": "/images/guides/exonerations-is-maroc.webp",
+    "smallSrc": "/images/guides/exonerations-is-maroc-640.webp",
+    "alt": "Étude d’un dossier fiscal dans un établissement hôtelier marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "charges-sociales-patronales-maroc": {
+    "src": "/images/guides/charges-sociales-patronales-maroc.webp",
+    "smallSrc": "/images/guides/charges-sociales-patronales-maroc-640.webp",
+    "alt": "Gestionnaire de paie examinant les dossiers de cotisations patronales d’une équipe",
+    "width": 1280,
+    "height": 800
+  },
+  "sanctions-penalites-cnss-maroc": {
+    "src": "/images/guides/sanctions-penalites-cnss-maroc.webp",
+    "smallSrc": "/images/guides/sanctions-penalites-cnss-maroc-640.webp",
+    "alt": "Deux professionnels vérifiant un dossier de régularisation des déclarations sociales",
+    "width": 1280,
+    "height": 800
+  },
+  "operateur-categorise-office-changes-maroc": {
+    "src": "/images/guides/operateur-categorise-office-changes-maroc.webp",
+    "smallSrc": "/images/guides/operateur-categorise-office-changes-maroc-640.webp",
+    "alt": "Responsable export et spécialiste conformité examinant un dossier devant un terminal portuaire",
+    "width": 1280,
+    "height": 800
+  },
+  "taxe-habitation-maroc": {
+    "src": "/images/guides/taxe-habitation-maroc.webp",
+    "smallSrc": "/images/guides/taxe-habitation-maroc-640.webp",
+    "alt": "Dossier de résidence, clés et calculatrice devant une cour d’immeuble marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "loi-09-08-entreprises-etrangeres-maroc": {
+    "src": "/images/guides/loi-09-08-entreprises-etrangeres-maroc.webp",
+    "smallSrc": "/images/guides/loi-09-08-entreprises-etrangeres-maroc-640.webp",
+    "alt": "Examen des obligations de protection des données d’une entreprise internationale",
+    "width": 1280,
+    "height": 800
+  },
+  "devenir-expert-comptable-maroc": {
+    "src": "/images/guides/devenir-expert-comptable-maroc.webp",
+    "smallSrc": "/images/guides/devenir-expert-comptable-maroc-640.webp",
+    "alt": "Étudiant en expertise comptable et mentor consultant des ouvrages dans une bibliothèque",
+    "width": 1280,
+    "height": 800
+  },
+  "controleur-gestion-maroc": {
+    "src": "/images/guides/controleur-gestion-maroc.webp",
+    "smallSrc": "/images/guides/controleur-gestion-maroc-640.webp",
+    "alt": "Contrôleur de gestion comparant des budgets dans un bureau donnant sur une usine",
+    "width": 1280,
+    "height": 800
+  },
+  "sanctions-cndp-risques-penaux-amendes": {
+    "src": "/images/guides/sanctions-cndp-risques-penaux-amendes.webp",
+    "smallSrc": "/images/guides/sanctions-cndp-risques-penaux-amendes-640.webp",
+    "alt": "Juriste examinant un dossier d’incident de confidentialité près d’une armoire sécurisée",
+    "width": 1280,
+    "height": 800
+  },
+  "cotisations-cnss-2026-taux-assiettes": {
+    "src": "/images/guides/cotisations-cnss-2026-taux-assiettes.webp",
+    "smallSrc": "/images/guides/cotisations-cnss-2026-taux-assiettes-640.webp",
+    "alt": "Documents de cotisations salariales et patronales disposés avec un registre de paie",
+    "width": 1280,
+    "height": 800
+  },
+  "juriste-affaires-maroc": {
+    "src": "/images/guides/juriste-affaires-maroc.webp",
+    "smallSrc": "/images/guides/juriste-affaires-maroc-640.webp",
+    "alt": "Juriste d’affaires et entrepreneure étudiant des documents de société",
+    "width": 1280,
+    "height": 800
+  },
+  "consultant-fiscal-junior-maroc": {
+    "src": "/images/guides/consultant-fiscal-junior-maroc.webp",
+    "smallSrc": "/images/guides/consultant-fiscal-junior-maroc-640.webp",
+    "alt": "Consultant fiscal débutant accompagné par une spécialiste dans l’examen de dossiers",
+    "width": 1280,
+    "height": 800
+  },
+  "conges-annuels-maroc": {
+    "src": "/images/guides/conges-annuels-maroc.webp",
+    "smallSrc": "/images/guides/conges-annuels-maroc-640.webp",
+    "alt": "Entretien entre un salarié et les ressources humaines pour organiser les congés",
+    "width": 1280,
+    "height": 800
+  },
+  "preavis-rupture-contrat-maroc": {
+    "src": "/images/guides/preavis-rupture-contrat-maroc.webp",
+    "smallSrc": "/images/guides/preavis-rupture-contrat-maroc-640.webp",
+    "alt": "Salarié remettant une lettre de préavis à la responsable des ressources humaines",
+    "width": 1280,
+    "height": 800
+  },
+  "dotations-office-des-changes-maroc-2026": {
+    "src": "/images/guides/dotations-office-des-changes-maroc-2026.webp",
+    "smallSrc": "/images/guides/dotations-office-des-changes-maroc-2026-640.webp",
+    "alt": "Conseiller bancaire et client examinant des dossiers de dépenses à l’étranger",
+    "width": 1280,
+    "height": 800
+  },
+  "formule-2-office-des-changes-maroc": {
+    "src": "/images/guides/formule-2-office-des-changes-maroc.webp",
+    "smallSrc": "/images/guides/formule-2-office-des-changes-maroc-640.webp",
+    "alt": "Vérification bancaire d’un certificat de transfert lié à un investissement étranger",
+    "width": 1280,
+    "height": 800
+  },
+  "auditeur-junior-maroc": {
+    "src": "/images/guides/auditeur-junior-maroc.webp",
+    "smallSrc": "/images/guides/auditeur-junior-maroc-640.webp",
+    "alt": "Auditeur débutant et responsable contrôlant les stocks dans un entrepôt",
+    "width": 1280,
+    "height": 800
+  },
+  "conge-maternite-maroc": {
+    "src": "/images/guides/conge-maternite-maroc.webp",
+    "smallSrc": "/images/guides/conge-maternite-maroc-640.webp",
+    "alt": "Salariée enceinte préparant son congé de maternité avec les ressources humaines",
+    "width": 1280,
+    "height": 800
+  },
+  "declaration-cnss-maroc": {
+    "src": "/images/guides/declaration-cnss-maroc.webp",
+    "smallSrc": "/images/guides/declaration-cnss-maroc-640.webp",
+    "alt": "Gestionnaire de paie préparant une déclaration sociale devant son ordinateur",
+    "width": 1280,
+    "height": 800
+  },
+  "comptable-junior-maroc": {
+    "src": "/images/guides/comptable-junior-maroc.webp",
+    "smallSrc": "/images/guides/comptable-junior-maroc-640.webp",
+    "alt": "Comptable débutant rapprochant des justificatifs et un registre avec un collègue",
+    "width": 1280,
+    "height": 800
+  },
+  "ir-salarial-bareme-2026-maroc": {
+    "src": "/images/guides/ir-salarial-bareme-2026-maroc.webp",
+    "smallSrc": "/images/guides/ir-salarial-bareme-2026-maroc-640.webp",
+    "alt": "Calcul de l’impôt sur les salaires à partir de bulletins et d’un ouvrage fiscal",
+    "width": 1280,
+    "height": 800
+  },
+  "bulletin-paie-maroc-mentions-obligatoires": {
+    "src": "/images/guides/bulletin-paie-maroc-mentions-obligatoires.webp",
+    "smallSrc": "/images/guides/bulletin-paie-maroc-mentions-obligatoires-640.webp",
+    "alt": "Vérification d’un bulletin de paie avec dossier du personnel et loupe",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-maroc-arbre-decision-cas-pratiques": {
+    "src": "/images/guides/tva-maroc-arbre-decision-cas-pratiques.webp",
+    "smallSrc": "/images/guides/tva-maroc-arbre-decision-cas-pratiques-640.webp",
+    "alt": "Conseillers comparant plusieurs dossiers de facturation pour analyser leur TVA",
+    "width": 1280,
+    "height": 800
+  },
+  "guide-damancom-cnss-maroc": {
+    "src": "/images/guides/guide-damancom-cnss-maroc.webp",
+    "smallSrc": "/images/guides/guide-damancom-cnss-maroc-640.webp",
+    "alt": "Gestionnaire utilisant un téléphone et un ordinateur pour une déclaration sociale",
+    "width": 1280,
+    "height": 800
+  },
+  "transfert-international-donnees-personnelles-maroc": {
+    "src": "/images/guides/transfert-international-donnees-personnelles-maroc.webp",
+    "smallSrc": "/images/guides/transfert-international-donnees-personnelles-maroc-640.webp",
+    "alt": "Responsables juridique et informatique examinant un accord de transfert de données",
+    "width": 1280,
+    "height": 800
+  },
+  "exonerations-tva-sans-droit-deduction-article-91": {
+    "src": "/images/guides/exonerations-tva-sans-droit-deduction-article-91.webp",
+    "smallSrc": "/images/guides/exonerations-tva-sans-droit-deduction-article-91-640.webp",
+    "alt": "Comptable et gestionnaire de clinique examinant des factures de soins",
+    "width": 1280,
+    "height": 800
+  },
+  "indemnite-de-licenciement-au-maroc": {
+    "src": "/images/guides/indemnite-de-licenciement-au-maroc.webp",
+    "smallSrc": "/images/guides/indemnite-de-licenciement-au-maroc-640.webp",
+    "alt": "Entretien consacré au calcul d’un solde de départ entre salarié et responsable RH",
+    "width": 1280,
+    "height": 800
+  },
+  "declarations-autorisations-cndp-guide-pratique": {
+    "src": "/images/guides/declarations-autorisations-cndp-guide-pratique.webp",
+    "smallSrc": "/images/guides/declarations-autorisations-cndp-guide-pratique-640.webp",
+    "alt": "Responsable conformité préparant un dossier près d’un scanner et d’archives sécurisées",
+    "width": 1280,
+    "height": 800
+  },
+  "heures-supplementaires-maroc": {
+    "src": "/images/guides/heures-supplementaires-maroc.webp",
+    "smallSrc": "/images/guides/heures-supplementaires-maroc-640.webp",
+    "alt": "Responsable d’atelier vérifiant des relevés horaires en fin de journée",
+    "width": 1280,
+    "height": 800
+  },
+  "periode-essai-maroc": {
+    "src": "/images/guides/periode-essai-maroc.webp",
+    "smallSrc": "/images/guides/periode-essai-maroc-640.webp",
+    "alt": "Nouveau salarié et responsable échangeant sur sa période d’essai",
+    "width": 1280,
+    "height": 800
+  },
+  "contrat-de-travail-au-maroc": {
+    "src": "/images/guides/contrat-de-travail-au-maroc.webp",
+    "smallSrc": "/images/guides/contrat-de-travail-au-maroc-640.webp",
+    "alt": "Employeur et nouvelle salariée examinant deux exemplaires d’un contrat de travail",
+    "width": 1280,
+    "height": 800
+  },
+  "reforme-tva-maroc-2024-2026": {
+    "src": "/images/guides/reforme-tva-maroc-2024-2026.webp",
+    "smallSrc": "/images/guides/reforme-tva-maroc-2024-2026-640.webp",
+    "alt": "Comptable d’un commerce vérifiant la facturation à proximité de la caisse",
+    "width": 1280,
+    "height": 800
+  },
+  "cndp-loi-09-08-protection-donnees-personnelles-maroc": {
+    "src": "/images/guides/cndp-loi-09-08-protection-donnees-personnelles-maroc.webp",
+    "smallSrc": "/images/guides/cndp-loi-09-08-protection-donnees-personnelles-maroc-640.webp",
+    "alt": "Gestionnaire de données examinant un registre et des formulaires de consentement",
+    "width": 1280,
+    "height": 800
+  },
+  "plan-comptable-maroc-pdf": {
+    "src": "/images/guides/plan-comptable-maroc-pdf.webp",
+    "smallSrc": "/images/guides/plan-comptable-maroc-pdf-640.webp",
+    "alt": "Consultation d’un classeur de comptes à onglets dans un bureau comptable",
+    "width": 1280,
+    "height": 800
+  },
+  "resultat-comptable-resultat-fiscal-is-maroc": {
+    "src": "/images/guides/resultat-comptable-resultat-fiscal-is-maroc.webp",
+    "smallSrc": "/images/guides/resultat-comptable-resultat-fiscal-is-maroc-640.webp",
+    "alt": "Comptable rapprochant deux dossiers pour passer du résultat comptable au résultat fiscal",
+    "width": 1280,
+    "height": 800
+  },
+  "calcul-de-limpot-sur-les-societes": {
+    "src": "/images/guides/calcul-de-limpot-sur-les-societes.webp",
+    "smallSrc": "/images/guides/calcul-de-limpot-sur-les-societes-640.webp",
+    "alt": "Expert examinant les comptes annuels avec une calculatrice dans un bureau marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "retenue-a-la-source-maroc-services-2026": {
+    "src": "/images/guides/retenue-a-la-source-maroc-services-2026.webp",
+    "smallSrc": "/images/guides/retenue-a-la-source-maroc-services-2026-640.webp",
+    "alt": "Gestionnaire vérifiant des factures de services avec un interlocuteur à distance",
+    "width": 1280,
+    "height": 800
+  },
+  "auto-entrepreneur-vers-sarl": {
+    "src": "/images/guides/auto-entrepreneur-vers-sarl.webp",
+    "smallSrc": "/images/guides/auto-entrepreneur-vers-sarl-640.webp",
+    "alt": "Entrepreneure et conseiller étudiant le passage d’une activité indépendante en société",
+    "width": 1280,
+    "height": 800
+  },
+  "charte-investissement-maroc-2023": {
+    "src": "/images/guides/charte-investissement-maroc-2023.webp",
+    "smallSrc": "/images/guides/charte-investissement-maroc-2023-640.webp",
+    "alt": "Responsables examinant les plans et la maquette d’un projet industriel au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "controle-fiscal-maroc-checklist-preparation": {
+    "src": "/images/guides/controle-fiscal-maroc-checklist-preparation.webp",
+    "smallSrc": "/images/guides/controle-fiscal-maroc-checklist-preparation-640.webp",
+    "alt": "Contrôleur préparant un dossier fiscal à onglets avec ses pièces justificatives",
+    "width": 1280,
+    "height": 800
+  },
+  "conventions-fiscales-maroc-afrique": {
+    "src": "/images/guides/conventions-fiscales-maroc-afrique.webp",
+    "smallSrc": "/images/guides/conventions-fiscales-maroc-afrique-640.webp",
+    "alt": "Professionnels marocain et sénégalais étudiant un accord devant une carte de l’Afrique",
+    "width": 1280,
+    "height": 800
+  },
+  "cotisations-cnss-maroc-2026": {
+    "src": "/images/guides/cotisations-cnss-maroc-2026.webp",
+    "smallSrc": "/images/guides/cotisations-cnss-maroc-2026-640.webp",
+    "alt": "Gestionnaire calculant les cotisations de paie dans les bureaux d’une usine",
+    "width": 1280,
+    "height": 800
+  },
+  "cout-creation-sarl-maroc-2026": {
+    "src": "/images/guides/cout-creation-sarl-maroc-2026.webp",
+    "smallSrc": "/images/guides/cout-creation-sarl-maroc-2026-640.webp",
+    "alt": "Deux créateurs d’entreprise et leur conseiller examinant les frais de constitution",
+    "width": 1280,
+    "height": 800
+  },
+  "holding-maroc-fiscalite-complete": {
+    "src": "/images/guides/holding-maroc-fiscalite-complete.webp",
+    "smallSrc": "/images/guides/holding-maroc-fiscalite-complete-640.webp",
+    "alt": "Directrice financière et responsables étudiant les dossiers de plusieurs filiales",
+    "width": 1280,
+    "height": 800
+  },
+  "mre-impots-double-imposition": {
+    "src": "/images/guides/mre-impots-double-imposition.webp",
+    "smallSrc": "/images/guides/mre-impots-double-imposition-640.webp",
+    "alt": "Couple de résidents à l’étranger consultant un conseiller fiscal au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "teletravail-au-maroc": {
+    "src": "/images/guides/teletravail-au-maroc.webp",
+    "smallSrc": "/images/guides/teletravail-au-maroc-640.webp",
+    "alt": "Professionnel en télétravail dans un bureau à domicile ouvert sur une terrasse",
+    "width": 1280,
+    "height": 800
+  },
+  "calcul-impot-societes-bareme-progressif": {
+    "src": "/images/guides/calcul-impot-societes-bareme-progressif.webp",
+    "smallSrc": "/images/guides/calcul-impot-societes-bareme-progressif-640.webp",
+    "alt": "Vérification de tableaux fiscaux et de comptes annuels avec une calculatrice",
+    "width": 1280,
+    "height": 800
+  },
+  "contribution-sociale-de-solidarite-2021": {
+    "src": "/images/guides/contribution-sociale-de-solidarite-2021.webp",
+    "smallSrc": "/images/guides/contribution-sociale-de-solidarite-2021-640.webp",
+    "alt": "Directrice financière et comptable examinant un dossier de contribution sociale",
+    "width": 1280,
+    "height": 800
+  },
+  "conventions-fiscales-maroc": {
+    "src": "/images/guides/conventions-fiscales-maroc.webp",
+    "smallSrc": "/images/guides/conventions-fiscales-maroc-640.webp",
+    "alt": "Conseillère marocaine et partenaire international examinant deux contrats",
+    "width": 1280,
+    "height": 800
+  },
+  "delais-de-paiement-au-maroc": {
+    "src": "/images/guides/delais-de-paiement-au-maroc.webp",
+    "smallSrc": "/images/guides/delais-de-paiement-au-maroc-640.webp",
+    "alt": "Fournisseur et gestionnaire discutant de factures en attente dans un entrepôt",
+    "width": 1280,
+    "height": 800
+  },
+  "fiscaliste-dentreprise": {
+    "src": "/images/guides/fiscaliste-dentreprise.webp",
+    "smallSrc": "/images/guides/fiscaliste-dentreprise-640.webp",
+    "alt": "Dirigeante échangeant avec un fiscaliste expérimenté dans son cabinet",
+    "width": 1280,
+    "height": 800
+  },
+  "jours-feries-au-maroc-les-dates": {
+    "src": "/images/guides/jours-feries-au-maroc-les-dates.webp",
+    "smallSrc": "/images/guides/jours-feries-au-maroc-les-dates-640.webp",
+    "alt": "Planification des jours de congé avec des repères colorés sur un calendrier",
+    "width": 1280,
+    "height": 800
+  },
+  "linventaire-physique-des-immobilisations": {
+    "src": "/images/guides/linventaire-physique-des-immobilisations.webp",
+    "smallSrc": "/images/guides/linventaire-physique-des-immobilisations-640.webp",
+    "alt": "Auditeurs contrôlant des équipements informatiques avec scanner et fiche d’inventaire",
+    "width": 1280,
+    "height": 800
+  },
+  "quelle-fiscalite-des-hotels": {
+    "src": "/images/guides/quelle-fiscalite-des-hotels.webp",
+    "smallSrc": "/images/guides/quelle-fiscalite-des-hotels-640.webp",
+    "alt": "Gestionnaire d’hôtel et comptable étudiant des dossiers dans un patio marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "retenue-a-la-source-sur-prestation-de-service-etrangers-au-maroc": {
+    "src": "/images/guides/retenue-a-la-source-sur-prestation-de-service-etrangers-au-maroc.webp",
+    "smallSrc": "/images/guides/retenue-a-la-source-sur-prestation-de-service-etrangers-au-maroc-640.webp",
+    "alt": "Vérification d’une facture internationale et d’un paiement lors d’un échange à distance",
+    "width": 1280,
+    "height": 800
+  },
+  "audit-contractuel": {
+    "src": "/images/guides/audit-contractuel.webp",
+    "smallSrc": "/images/guides/audit-contractuel-640.webp",
+    "alt": "Auditeur et responsable financier examinant une lettre de mission et les comptes",
+    "width": 1280,
+    "height": 800
+  },
+  "franchise-au-maroc": {
+    "src": "/images/guides/franchise-au-maroc.webp",
+    "smallSrc": "/images/guides/franchise-au-maroc-640.webp",
+    "alt": "Entrepreneurs étudiant un contrat de franchise dans un café avant son ouverture",
+    "width": 1280,
+    "height": 800
+  },
+  "loi-de-finances-2026-au-maroc": {
+    "src": "/images/guides/loi-de-finances-2026-au-maroc.webp",
+    "smallSrc": "/images/guides/loi-de-finances-2026-au-maroc-640.webp",
+    "alt": "Juriste fiscaliste consultant un ouvrage législatif et des notes à onglets",
+    "width": 1280,
+    "height": 800
+  },
+  "cotisation-minimale-is-2026": {
+    "src": "/images/guides/cotisation-minimale-is-2026.webp",
+    "smallSrc": "/images/guides/cotisation-minimale-is-2026-640.webp",
+    "alt": "Comptable comparant un registre de recettes et un calcul fiscal",
+    "width": 1280,
+    "height": 800
+  },
+  "cgnc-code-general-de-normalisation-comptable": {
+    "src": "/images/guides/cgnc-code-general-de-normalisation-comptable.webp",
+    "smallSrc": "/images/guides/cgnc-code-general-de-normalisation-comptable-640.webp",
+    "alt": "Consultation d’un référentiel comptable accompagné de cinq dossiers financiers",
+    "width": 1280,
+    "height": 800
+  },
+  "conventions-interdites": {
+    "src": "/images/guides/conventions-interdites.webp",
+    "smallSrc": "/images/guides/conventions-interdites-640.webp",
+    "alt": "Juriste suspendant la signature d’un accord lors d’une réunion de dirigeants",
+    "width": 1280,
+    "height": 800
+  },
+  "loi-de-finances-2025-au-maroc": {
+    "src": "/images/guides/loi-de-finances-2025-au-maroc.webp",
+    "smallSrc": "/images/guides/loi-de-finances-2025-au-maroc-640.webp",
+    "alt": "Conseillers comparant des dossiers fiscaux annuels conservés en archives",
+    "width": 1280,
+    "height": 800
+  },
+  "holding-au-maroc": {
+    "src": "/images/guides/holding-au-maroc.webp",
+    "smallSrc": "/images/guides/holding-au-maroc-640.webp",
+    "alt": "Entrepreneure et conseiller examinant les implantations de plusieurs filiales",
+    "width": 1280,
+    "height": 800
+  },
+  "investissement-au-maroc": {
+    "src": "/images/guides/investissement-au-maroc.webp",
+    "smallSrc": "/images/guides/investissement-au-maroc-640.webp",
+    "alt": "Jeune investisseur et conseillère discutant de dossiers de placements au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "reporting-financier-au-maroc": {
+    "src": "/images/guides/reporting-financier-au-maroc.webp",
+    "smallSrc": "/images/guides/reporting-financier-au-maroc-640.webp",
+    "alt": "Directrice financière présentant des états comptables à une équipe de direction",
+    "width": 1280,
+    "height": 800
+  },
+  "creation-entreprise-maroc": {
+    "src": "/images/guides/creation-entreprise-maroc.webp",
+    "smallSrc": "/images/guides/creation-entreprise-maroc-640.webp",
+    "alt": "Deux entrepreneurs vérifiant leur dossier de création avec un conseiller",
+    "width": 1280,
+    "height": 800
+  },
+  "manuel-de-procedures-comptables": {
+    "src": "/images/guides/manuel-de-procedures-comptables.webp",
+    "smallSrc": "/images/guides/manuel-de-procedures-comptables-640.webp",
+    "alt": "Mise à jour d’un manuel de procédures comptables dans un classeur à onglets",
+    "width": 1280,
+    "height": 800
+  },
+  "modele-j-au-maroc": {
+    "src": "/images/guides/modele-j-au-maroc.webp",
+    "smallSrc": "/images/guides/modele-j-au-maroc-640.webp",
+    "alt": "Entrepreneur consultant un extrait d’immatriculation à un guichet administratif",
+    "width": 1280,
+    "height": 800
+  },
+  "loi-de-finance-2024": {
+    "src": "/images/guides/loi-de-finance-2024.webp",
+    "smallSrc": "/images/guides/loi-de-finance-2024-640.webp",
+    "alt": "Fiscaliste consultant un ouvrage législatif archivé et des notes de comparaison",
+    "width": 1280,
+    "height": 800
+  },
+  "nearshoring-strategies-externalisation": {
+    "src": "/images/guides/nearshoring-strategies-externalisation.webp",
+    "smallSrc": "/images/guides/nearshoring-strategies-externalisation-640.webp",
+    "alt": "Équipe au Maroc collaborant en visioconférence avec un partenaire étranger",
+    "width": 1280,
+    "height": 800
+  },
+  "elaborer-1-budget-au-maroc": {
+    "src": "/images/guides/elaborer-1-budget-au-maroc.webp",
+    "smallSrc": "/images/guides/elaborer-1-budget-au-maroc-640.webp",
+    "alt": "Entrepreneur et comptable préparant le budget d’une entreprise près de son atelier",
+    "width": 1280,
+    "height": 800
+  },
+  "creation-societe-temara": {
+    "src": "/images/guides/creation-societe-temara.webp",
+    "smallSrc": "/images/guides/creation-societe-temara-640.webp",
+    "alt": "Entrepreneur arrivant dans un immeuble professionnel à Témara pour son projet de société",
+    "width": 1280,
+    "height": 800
+  },
+  "fusion-et-acquisition-maroc": {
+    "src": "/images/guides/fusion-et-acquisition-maroc.webp",
+    "smallSrc": "/images/guides/fusion-et-acquisition-maroc-640.webp",
+    "alt": "Dirigeants et conseiller examinant les dossiers financiers d’une acquisition d’entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "examen-de-situation-densemble-du-contribuable": {
+    "src": "/images/guides/examen-de-situation-densemble-du-contribuable.webp",
+    "smallSrc": "/images/guides/examen-de-situation-densemble-du-contribuable-640.webp",
+    "alt": "Contribuable et conseiller rapprochant les justificatifs de revenus et de patrimoine",
+    "width": 1280,
+    "height": 800
+  },
+  "avoirs-etrangers-comprendre-les-dispositions-de-ligoc": {
+    "src": "/images/guides/avoirs-etrangers-comprendre-les-dispositions-de-ligoc.webp",
+    "smallSrc": "/images/guides/avoirs-etrangers-comprendre-les-dispositions-de-ligoc-640.webp",
+    "alt": "Résident marocain examinant ses documents bancaires et patrimoniaux étrangers avec un conseiller",
+    "width": 1280,
+    "height": 800
+  },
+  "dotations-dexploitation": {
+    "src": "/images/guides/dotations-dexploitation.webp",
+    "smallSrc": "/images/guides/dotations-dexploitation-640.webp",
+    "alt": "Comptable vérifiant les dotations liées aux équipements d’une entreprise industrielle",
+    "width": 1280,
+    "height": 800
+  },
+  "calcul-de-lis": {
+    "src": "/images/guides/calcul-de-lis.webp",
+    "smallSrc": "/images/guides/calcul-de-lis-640.webp",
+    "alt": "Professionnel calculant l’impôt sur les sociétés à partir des comptes annuels",
+    "width": 1280,
+    "height": 800
+  },
+  "livre-journal-maroc": {
+    "src": "/images/guides/livre-journal-maroc.webp",
+    "smallSrc": "/images/guides/livre-journal-maroc-640.webp",
+    "alt": "Comptable enregistrant une opération dans un livre-journal ouvert sur son bureau",
+    "width": 1280,
+    "height": 800
+  },
+  "grand-livre": {
+    "src": "/images/guides/grand-livre.webp",
+    "smallSrc": "/images/guides/grand-livre-640.webp",
+    "alt": "Examen des comptes d’un grand-livre dans un cabinet comptable marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "regles-comptables-en-vigueur-au-maroc": {
+    "src": "/images/guides/regles-comptables-en-vigueur-au-maroc.webp",
+    "smallSrc": "/images/guides/regles-comptables-en-vigueur-au-maroc-640.webp",
+    "alt": "Professionnel comparant un manuel de normes comptables et les comptes d’une entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "convention-fiscale-maroc-france": {
+    "src": "/images/guides/convention-fiscale-maroc-france.webp",
+    "smallSrc": "/images/guides/convention-fiscale-maroc-france-640.webp",
+    "alt": "Consultation fiscale internationale avec les drapeaux du Maroc et de la France",
+    "width": 1280,
+    "height": 800
+  },
+  "directeur-financier": {
+    "src": "/images/guides/directeur-financier.webp",
+    "smallSrc": "/images/guides/directeur-financier-640.webp",
+    "alt": "Directeur financier échangeant sur le budget de l’entreprise dans un bureau à Casablanca",
+    "width": 1280,
+    "height": 800
+  },
+  "licenciement-disciplinaire-au-maroc": {
+    "src": "/images/guides/licenciement-disciplinaire-au-maroc.webp",
+    "smallSrc": "/images/guides/licenciement-disciplinaire-au-maroc-640.webp",
+    "alt": "Réunion confidentielle consacrée à un dossier disciplinaire entre salarié et responsables",
+    "width": 1280,
+    "height": 800
+  },
+  "societe-par-actions-simplifiee-s-a-s": {
+    "src": "/images/guides/societe-par-actions-simplifiee-s-a-s.webp",
+    "smallSrc": "/images/guides/societe-par-actions-simplifiee-s-a-s-640.webp",
+    "alt": "Associés examinant les statuts et la gouvernance d’une société par actions simplifiée",
+    "width": 1280,
+    "height": 800
+  },
+  "tahfiz": {
+    "src": "/images/guides/tahfiz.webp",
+    "smallSrc": "/images/guides/tahfiz-640.webp",
+    "alt": "Responsable du recrutement accueillant une jeune diplômée dans une entreprise marocaine",
+    "width": 1280,
+    "height": 800
+  },
+  "comment-determiner-valeur-entreprise": {
+    "src": "/images/guides/comment-determiner-valeur-entreprise.webp",
+    "smallSrc": "/images/guides/comment-determiner-valeur-entreprise-640.webp",
+    "alt": "Conseiller et dirigeant évaluant une entreprise à partir de ses comptes et de ses équipements",
+    "width": 1280,
+    "height": 800
+  },
+  "taux-de-retenue-a-la-source-sur-dividendes": {
+    "src": "/images/guides/taux-de-retenue-a-la-source-sur-dividendes.webp",
+    "smallSrc": "/images/guides/taux-de-retenue-a-la-source-sur-dividendes-640.webp",
+    "alt": "Responsable financier préparant les documents de distribution de dividendes",
+    "width": 1280,
+    "height": 800
+  },
+  "plf-2023": {
+    "src": "/images/guides/plf-2023.webp",
+    "smallSrc": "/images/guides/plf-2023-640.webp",
+    "alt": "Conseiller fiscal étudiant les mesures du projet de loi de finances",
+    "width": 1280,
+    "height": 800
+  },
+  "controle-fiscal-au-maroc-ce-quil-faut-savoir": {
+    "src": "/images/guides/controle-fiscal-au-maroc-ce-quil-faut-savoir.webp",
+    "smallSrc": "/images/guides/controle-fiscal-au-maroc-ce-quil-faut-savoir-640.webp",
+    "alt": "Responsable financier présentant les pièces comptables lors d’un contrôle fiscal",
+    "width": 1280,
+    "height": 800
+  },
+  "offshoring-de-services-au-maroc": {
+    "src": "/images/guides/offshoring-de-services-au-maroc.webp",
+    "smallSrc": "/images/guides/offshoring-de-services-au-maroc-640.webp",
+    "alt": "Équipe de services externalisés travaillant dans des bureaux modernes au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "smig-smag-salaire-minimum-au-maroc": {
+    "src": "/images/guides/smig-smag-salaire-minimum-au-maroc.webp",
+    "smallSrc": "/images/guides/smig-smag-salaire-minimum-au-maroc-640.webp",
+    "alt": "Gestionnaire de paie expliquant un bulletin de salaire à un employé",
+    "width": 1280,
+    "height": 800
+  },
+  "commissariat-aux-comptes-au-maroc": {
+    "src": "/images/guides/commissariat-aux-comptes-au-maroc.webp",
+    "smallSrc": "/images/guides/commissariat-aux-comptes-au-maroc-640.webp",
+    "alt": "Commissaire aux comptes examinant le rapport financier annuel avec un responsable de société",
+    "width": 1280,
+    "height": 800
+  },
+  "information-comptable-au-maroc": {
+    "src": "/images/guides/information-comptable-au-maroc.webp",
+    "smallSrc": "/images/guides/information-comptable-au-maroc-640.webp",
+    "alt": "Préparation des états financiers et des dossiers de publication des comptes",
+    "width": 1280,
+    "height": 800
+  },
+  "operations-en-monnaies-etrangeres": {
+    "src": "/images/guides/operations-en-monnaies-etrangeres.webp",
+    "smallSrc": "/images/guides/operations-en-monnaies-etrangeres-640.webp",
+    "alt": "Comptable rapprochant les factures en devises et les documents de paiement international",
+    "width": 1280,
+    "height": 800
+  },
+  "7-principes-comptables-au-maroc": {
+    "src": "/images/guides/7-principes-comptables-au-maroc.webp",
+    "smallSrc": "/images/guides/7-principes-comptables-au-maroc-640.webp",
+    "alt": "Comptable expérimenté expliquant les principes comptables à un collègue",
+    "width": 1280,
+    "height": 800
+  },
+  "comptabilite-quest-ce-que-cest": {
+    "src": "/images/guides/comptabilite-quest-ce-que-cest.webp",
+    "smallSrc": "/images/guides/comptabilite-quest-ce-que-cest-640.webp",
+    "alt": "Professionnelle classant les factures et justificatifs comptables d’un commerce",
+    "width": 1280,
+    "height": 800
+  },
+  "audit-financier": {
+    "src": "/images/guides/audit-financier.webp",
+    "smallSrc": "/images/guides/audit-financier-640.webp",
+    "alt": "Auditeurs examinant les comptes et les pièces justificatives d’une entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "declaration-9421": {
+    "src": "/images/guides/declaration-9421.webp",
+    "smallSrc": "/images/guides/declaration-9421-640.webp",
+    "alt": "Responsable de paie préparant les dossiers de déclaration annuelle des salaires",
+    "width": 1280,
+    "height": 800
+  },
+  "creer-une-societe-a-mohammedia": {
+    "src": "/images/guides/creer-une-societe-a-mohammedia.webp",
+    "smallSrc": "/images/guides/creer-une-societe-a-mohammedia-640.webp",
+    "alt": "Entrepreneurs visitant des locaux professionnels à Mohammedia",
+    "width": 1280,
+    "height": 800
+  },
+  "creer-une-societe-a-tanger": {
+    "src": "/images/guides/creer-une-societe-a-tanger.webp",
+    "smallSrc": "/images/guides/creer-une-societe-a-tanger-640.webp",
+    "alt": "Entrepreneurs étudiant leur projet de société dans un bureau donnant sur le port de Tanger",
+    "width": 1280,
+    "height": 800
+  },
+  "creer-une-societe-a-marrakech": {
+    "src": "/images/guides/creer-une-societe-a-marrakech.webp",
+    "smallSrc": "/images/guides/creer-une-societe-a-marrakech-640.webp",
+    "alt": "Entrepreneurs préparant leur implantation à Marrakech devant un panorama de la ville",
+    "width": 1280,
+    "height": 800
+  },
+  "audit-social": {
+    "src": "/images/guides/audit-social.webp",
+    "smallSrc": "/images/guides/audit-social-640.webp",
+    "alt": "Auditeurs examinant des dossiers du personnel et les pratiques sociales d’une entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "rapprochement-bancaire-au-maroc-erb": {
+    "src": "/images/guides/rapprochement-bancaire-au-maroc-erb.webp",
+    "smallSrc": "/images/guides/rapprochement-bancaire-au-maroc-erb-640.webp",
+    "alt": "Comptable rapprochant les relevés bancaires et les écritures à l’aide d’une calculatrice",
+    "width": 1280,
+    "height": 800
+  },
+  "audit-de-fraude-au-maroc": {
+    "src": "/images/guides/audit-de-fraude-au-maroc.webp",
+    "smallSrc": "/images/guides/audit-de-fraude-au-maroc-640.webp",
+    "alt": "Professionnels contrôlant les pièces comptables dans le cadre d’un audit de fraude",
+    "width": 1280,
+    "height": 800
+  },
+  "automatisation-vba": {
+    "src": "/images/guides/automatisation-vba.webp",
+    "smallSrc": "/images/guides/automatisation-vba-640.webp",
+    "alt": "Analyste financier travaillant sur des tableaux de calcul et leur automatisation",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-sur-les-prestations-de-service": {
+    "src": "/images/guides/tva-sur-les-prestations-de-service.webp",
+    "smallSrc": "/images/guides/tva-sur-les-prestations-de-service-640.webp",
+    "alt": "Comptable vérifiant des factures de prestations de service et leur traitement de TVA",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-sur-les-operations-de-banque-et-de-credit": {
+    "src": "/images/guides/tva-sur-les-operations-de-banque-et-de-credit.webp",
+    "smallSrc": "/images/guides/tva-sur-les-operations-de-banque-et-de-credit-640.webp",
+    "alt": "Conseiller financier examinant des documents bancaires et les calculs de TVA",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-sur-les-operations-immobilieres-au-maroc": {
+    "src": "/images/guides/tva-sur-les-operations-immobilieres-au-maroc.webp",
+    "smallSrc": "/images/guides/tva-sur-les-operations-immobilieres-au-maroc-640.webp",
+    "alt": "Conseiller étudiant les plans et le dossier fiscal d’une opération immobilière",
+    "width": 1280,
+    "height": 800
+  },
+  "expertise-judiciaire-au-maroc": {
+    "src": "/images/guides/expertise-judiciaire-au-maroc.webp",
+    "smallSrc": "/images/guides/expertise-judiciaire-au-maroc-640.webp",
+    "alt": "Experte examinant des plans et des pièces techniques pour une expertise judiciaire",
+    "width": 1280,
+    "height": 800
+  },
+  "livraison-a-soi-meme-tva": {
+    "src": "/images/guides/livraison-a-soi-meme-tva.webp",
+    "smallSrc": "/images/guides/livraison-a-soi-meme-tva-640.webp",
+    "alt": "Comptable vérifiant les écritures et les justificatifs d’une livraison à soi-même",
+    "width": 1280,
+    "height": 800
+  },
+  "operations-de-lotissement-de-terrain-tva": {
+    "src": "/images/guides/operations-de-lotissement-de-terrain-tva.webp",
+    "smallSrc": "/images/guides/operations-de-lotissement-de-terrain-tva-640.webp",
+    "alt": "Professionnels examinant un plan de lotissement devant un ensemble résidentiel",
+    "width": 1280,
+    "height": 800
+  },
+  "licenciement-pour-faute-grave": {
+    "src": "/images/guides/licenciement-pour-faute-grave.webp",
+    "smallSrc": "/images/guides/licenciement-pour-faute-grave-640.webp",
+    "alt": "Entretien confidentiel autour d’un dossier de ressources humaines et de licenciement",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-au-maroc": {
+    "src": "/images/guides/tva-au-maroc.webp",
+    "smallSrc": "/images/guides/tva-au-maroc-640.webp",
+    "alt": "Comptable examinant des factures et calculant la TVA dans un bureau marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "comptabilite-au-maroc": {
+    "src": "/images/guides/comptabilite-au-maroc.webp",
+    "smallSrc": "/images/guides/comptabilite-au-maroc-640.webp",
+    "alt": "Professionnelle tenant les livres et dossiers comptables d’une entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "formalites-juridiques-au-maroc": {
+    "src": "/images/guides/formalites-juridiques-au-maroc.webp",
+    "smallSrc": "/images/guides/formalites-juridiques-au-maroc-640.webp",
+    "alt": "Juriste vérifiant des documents de société à son bureau",
+    "width": 1280,
+    "height": 800
+  },
+  "impot-au-maroc": {
+    "src": "/images/guides/impot-au-maroc.webp",
+    "smallSrc": "/images/guides/impot-au-maroc-640.webp",
+    "alt": "Conseillère fiscale examinant un dossier d’imposition et ses justificatifs",
+    "width": 1280,
+    "height": 800
+  },
+  "identifiant-fiscal-au-maroc": {
+    "src": "/images/guides/identifiant-fiscal-au-maroc.webp",
+    "smallSrc": "/images/guides/identifiant-fiscal-au-maroc-640.webp",
+    "alt": "Professionnels préparant les documents administratifs d’identification d’une entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "acomptes-provisionnels-dis-au-maroc": {
+    "src": "/images/guides/acomptes-provisionnels-dis-au-maroc.webp",
+    "smallSrc": "/images/guides/acomptes-provisionnels-dis-au-maroc-640.webp",
+    "alt": "Comptable préparant le calcul des acomptes d’impôt sur les sociétés",
+    "width": 1280,
+    "height": 800
+  },
+  "reserve-legale": {
+    "src": "/images/guides/reserve-legale.webp",
+    "smallSrc": "/images/guides/reserve-legale-640.webp",
+    "alt": "Dirigeant et conseillère étudiant les comptes et l’affectation du bénéfice",
+    "width": 1280,
+    "height": 800
+  },
+  "gerant-dune-sarl-au-maroc": {
+    "src": "/images/guides/gerant-dune-sarl-au-maroc.webp",
+    "smallSrc": "/images/guides/gerant-dune-sarl-au-maroc-640.webp",
+    "alt": "Gérant présidant une réunion de travail autour des documents de sa société",
+    "width": 1280,
+    "height": 800
+  },
+  "comptabilite-analytique-mise-en-place": {
+    "src": "/images/guides/comptabilite-analytique-mise-en-place.webp",
+    "smallSrc": "/images/guides/comptabilite-analytique-mise-en-place-640.webp",
+    "alt": "Comptable analysant les coûts à partir des documents financiers de l’entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "documentation-des-prix-de-transfert": {
+    "src": "/images/guides/documentation-des-prix-de-transfert.webp",
+    "smallSrc": "/images/guides/documentation-des-prix-de-transfert-640.webp",
+    "alt": "Analyste examinant un dossier de transactions internationales et de prix de transfert",
+    "width": 1280,
+    "height": 800
+  },
+  "charges-dexploitation": {
+    "src": "/images/guides/charges-dexploitation.webp",
+    "smallSrc": "/images/guides/charges-dexploitation-640.webp",
+    "alt": "Professionnels vérifiant les factures et les charges d’exploitation d’une entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "pieces-justificatives-des-achats-article-146-du-cgi": {
+    "src": "/images/guides/pieces-justificatives-des-achats-article-146-du-cgi.webp",
+    "smallSrc": "/images/guides/pieces-justificatives-des-achats-article-146-du-cgi-640.webp",
+    "alt": "Comptable contrôlant les justificatifs d’achat avant leur enregistrement",
+    "width": 1280,
+    "height": 800
+  },
+  "rejet-de-la-comptabilite": {
+    "src": "/images/guides/rejet-de-la-comptabilite.webp",
+    "smallSrc": "/images/guides/rejet-de-la-comptabilite-640.webp",
+    "alt": "Professionnel vérifiant les livres et pièces d’une comptabilité soumise à contrôle",
+    "width": 1280,
+    "height": 800
+  },
+  "audit-fiscal-au-maroc": {
+    "src": "/images/guides/audit-fiscal-au-maroc.webp",
+    "smallSrc": "/images/guides/audit-fiscal-au-maroc-640.webp",
+    "alt": "Auditeurs comparant les déclarations et les justificatifs fiscaux",
+    "width": 1280,
+    "height": 800
+  },
+  "consultant-fiscal": {
+    "src": "/images/guides/consultant-fiscal.webp",
+    "smallSrc": "/images/guides/consultant-fiscal-640.webp",
+    "alt": "Consultant fiscal étudiant un dossier d’entreprise et ses calculs d’impôt",
+    "width": 1280,
+    "height": 800
+  },
+  "quitus-fiscal-pour-depart-definitif-procedure": {
+    "src": "/images/guides/quitus-fiscal-pour-depart-definitif-procedure.webp",
+    "smallSrc": "/images/guides/quitus-fiscal-pour-depart-definitif-procedure-640.webp",
+    "alt": "Voyageur préparant son dossier fiscal avant un départ à l’aéroport",
+    "width": 1280,
+    "height": 800
+  },
+  "periode-dessai": {
+    "src": "/images/guides/periode-dessai.webp",
+    "smallSrc": "/images/guides/periode-dessai-640.webp",
+    "alt": "Responsable des ressources humaines expliquant les documents d’une période d’essai",
+    "width": 1280,
+    "height": 800
+  },
+  "cessation-temporaire-dactivite-cadre-legal": {
+    "src": "/images/guides/cessation-temporaire-dactivite-cadre-legal.webp",
+    "smallSrc": "/images/guides/cessation-temporaire-dactivite-cadre-legal-640.webp",
+    "alt": "Dirigeante examinant les documents d’une cessation temporaire d’activité",
+    "width": 1280,
+    "height": 800
+  },
+  "recruter-un-salarie-etranger": {
+    "src": "/images/guides/recruter-un-salarie-etranger.webp",
+    "smallSrc": "/images/guides/recruter-un-salarie-etranger-640.webp",
+    "alt": "Responsable examinant les formalités de recrutement d’un salarié étranger",
+    "width": 1280,
+    "height": 800
+  },
+  "audit-des-comptes-au-maroc": {
+    "src": "/images/guides/audit-des-comptes-au-maroc.webp",
+    "smallSrc": "/images/guides/audit-des-comptes-au-maroc-640.webp",
+    "alt": "Auditeurs vérifiant les comptes annuels à partir des dossiers de travail",
+    "width": 1280,
+    "height": 800
+  },
+  "cartographie-des-risques": {
+    "src": "/images/guides/cartographie-des-risques.webp",
+    "smallSrc": "/images/guides/cartographie-des-risques-640.webp",
+    "alt": "Dossiers classés par priorité autour d’une matrice d’évaluation des risques",
+    "width": 1280,
+    "height": 800
+  },
+  "simpl-is-ir-tva": {
+    "src": "/images/guides/simpl-is-ir-tva.webp",
+    "smallSrc": "/images/guides/simpl-is-ir-tva-640.webp",
+    "alt": "Comptable remplissant une déclaration fiscale en ligne avec ses justificatifs",
+    "width": 1280,
+    "height": 800
+  },
+  "auto-entrepreneur": {
+    "src": "/images/guides/auto-entrepreneur.webp",
+    "smallSrc": "/images/guides/auto-entrepreneur-640.webp",
+    "alt": "Entrepreneuse emballant une céramique dans son atelier, près de son ordinateur",
+    "width": 1280,
+    "height": 800
+  },
+  "fiscalite-au-maroc": {
+    "src": "/images/guides/fiscalite-au-maroc.webp",
+    "smallSrc": "/images/guides/fiscalite-au-maroc-640.webp",
+    "alt": "Documents fiscaux, ouvrage de référence et calculatrice sur le bureau d’un conseiller",
+    "width": 1280,
+    "height": 800
+  },
+  "location-immobiliere-regime-de-tva": {
+    "src": "/images/guides/location-immobiliere-regime-de-tva.webp",
+    "smallSrc": "/images/guides/location-immobiliere-regime-de-tva-640.webp",
+    "alt": "Conseiller et cliente visitant des bureaux disponibles à la location",
+    "width": 1280,
+    "height": 800
+  },
+  "debours-et-frais-en-fiscalite-marocaine": {
+    "src": "/images/guides/debours-et-frais-en-fiscalite-marocaine.webp",
+    "smallSrc": "/images/guides/debours-et-frais-en-fiscalite-marocaine-640.webp",
+    "alt": "Comptable comparant des reçus aux frais avancés pour le compte d’un client",
+    "width": 1280,
+    "height": 800
+  },
+  "reevaluation-libre": {
+    "src": "/images/guides/reevaluation-libre.webp",
+    "smallSrc": "/images/guides/reevaluation-libre-640.webp",
+    "alt": "Professionnels inspectant une ligne de production pour réévaluer les actifs industriels",
+    "width": 1280,
+    "height": 800
+  },
+  "commissaire-aux-comptes-au-maroc": {
+    "src": "/images/guides/commissaire-aux-comptes-au-maroc.webp",
+    "smallSrc": "/images/guides/commissaire-aux-comptes-au-maroc-640.webp",
+    "alt": "Commissaire aux comptes expérimenté examinant un dossier avec la responsable financière",
+    "width": 1280,
+    "height": 800
+  },
+  "plan-comptable-marocain-pcge": {
+    "src": "/images/guides/plan-comptable-marocain-pcge.webp",
+    "smallSrc": "/images/guides/plan-comptable-marocain-pcge-640.webp",
+    "alt": "Deux comptables consultant un classeur organisé et des ouvrages de référence",
+    "width": 1280,
+    "height": 800
+  },
+  "comptabilite-au-maroc-1-guide": {
+    "src": "/images/guides/comptabilite-au-maroc-1-guide.webp",
+    "smallSrc": "/images/guides/comptabilite-au-maroc-1-guide-640.webp",
+    "alt": "Comptables classant les factures et enregistrant les écritures sur ordinateur",
+    "width": 1280,
+    "height": 800
+  },
+  "tenue-de-comptabilite": {
+    "src": "/images/guides/tenue-de-comptabilite.webp",
+    "smallSrc": "/images/guides/tenue-de-comptabilite-640.webp",
+    "alt": "Comptable vérifiant des dossiers clients près d’un scanner de documents",
+    "width": 1280,
+    "height": 800
+  },
+  "territorialite-de-la-tva-ce-quil-faut-retenir": {
+    "src": "/images/guides/territorialite-de-la-tva-ce-quil-faut-retenir.webp",
+    "smallSrc": "/images/guides/territorialite-de-la-tva-ce-quil-faut-retenir-640.webp",
+    "alt": "Conseillers examinant des documents commerciaux devant un port de marchandises",
+    "width": 1280,
+    "height": 800
+  },
+  "prorata-de-deduction-de-la-tva": {
+    "src": "/images/guides/prorata-de-deduction-de-la-tva.webp",
+    "smallSrc": "/images/guides/prorata-de-deduction-de-la-tva-640.webp",
+    "alt": "Comptable répartissant les factures entre deux dossiers pour analyser le droit à déduction",
+    "width": 1280,
+    "height": 800
+  },
+  "tva-au-maroc-champ-dapplication": {
+    "src": "/images/guides/tva-au-maroc-champ-dapplication.webp",
+    "smallSrc": "/images/guides/tva-au-maroc-champ-dapplication-640.webp",
+    "alt": "Commerçant et conseillère vérifiant les factures dans une épicerie",
+    "width": 1280,
+    "height": 800
+  },
+  "taxe-sur-la-valeur-ajoutee-tva-au-maroc": {
+    "src": "/images/guides/taxe-sur-la-valeur-ajoutee-tva-au-maroc.webp",
+    "smallSrc": "/images/guides/taxe-sur-la-valeur-ajoutee-tva-au-maroc-640.webp",
+    "alt": "Professionnels comparant les factures d’achat et de vente dans un entrepôt",
+    "width": 1280,
+    "height": 800
+  },
+  "regime-fiscal-des-cooperatives": {
+    "src": "/images/guides/regime-fiscal-des-cooperatives.webp",
+    "smallSrc": "/images/guides/regime-fiscal-des-cooperatives-640.webp",
+    "alt": "Responsables d’une coopérative d’argan examinant leurs comptes avec un conseiller",
+    "width": 1280,
+    "height": 800
+  },
+  "territorialite-de-l-is": {
+    "src": "/images/guides/territorialite-de-l-is.webp",
+    "smallSrc": "/images/guides/territorialite-de-l-is-640.webp",
+    "alt": "Dirigeants étudiant les dossiers d’une implantation internationale dans un bureau marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "retenue-a-la-source-quels-sont-les-produits-soumis": {
+    "src": "/images/guides/retenue-a-la-source-quels-sont-les-produits-soumis.webp",
+    "smallSrc": "/images/guides/retenue-a-la-source-quels-sont-les-produits-soumis-640.webp",
+    "alt": "Comptable calculant la retenue fiscale à partir d’un dossier de paiement",
+    "width": 1280,
+    "height": 800
+  },
+  "gie-au-maroc-groupements-dinterets-economiques": {
+    "src": "/images/guides/gie-au-maroc-groupements-dinterets-economiques.webp",
+    "smallSrc": "/images/guides/gie-au-maroc-groupements-dinterets-economiques-640.webp",
+    "alt": "Entrepreneurs réunis autour de plans et de matériaux pour un projet commun",
+    "width": 1280,
+    "height": 800
+  },
+  "societes-transparentes-immobilieres": {
+    "src": "/images/guides/societes-transparentes-immobilieres.webp",
+    "smallSrc": "/images/guides/societes-transparentes-immobilieres-640.webp",
+    "alt": "Conseiller présentant les plans et les clés d’un immeuble à ses copropriétaires",
+    "width": 1280,
+    "height": 800
+  },
+  "separation-des-exercices": {
+    "src": "/images/guides/separation-des-exercices.webp",
+    "smallSrc": "/images/guides/separation-des-exercices-640.webp",
+    "alt": "Comptables séparant les archives de l’exercice précédent du nouveau livre comptable",
+    "width": 1280,
+    "height": 800
+  },
+  "continuite-dexploitation": {
+    "src": "/images/guides/continuite-dexploitation.webp",
+    "smallSrc": "/images/guides/continuite-dexploitation-640.webp",
+    "alt": "Responsables examinant les comptes au sein d’un atelier de fabrication de mobilier",
+    "width": 1280,
+    "height": 800
+  },
+  "detaxe-taxe-free-au-maroc": {
+    "src": "/images/guides/detaxe-taxe-free-au-maroc.webp",
+    "smallSrc": "/images/guides/detaxe-taxe-free-au-maroc-640.webp",
+    "alt": "Voyageur présentant ses reçus à un comptoir de détaxe dans un aéroport",
+    "width": 1280,
+    "height": 800
+  },
+  "succursale-dune-societe-etrangere": {
+    "src": "/images/guides/succursale-dune-societe-etrangere.webp",
+    "smallSrc": "/images/guides/succursale-dune-societe-etrangere-640.webp",
+    "alt": "Dirigeants entrant dans les nouveaux bureaux d’une succursale à Casablanca",
+    "width": 1280,
+    "height": 800
+  },
+  "societes-civiles-au-maroc": {
+    "src": "/images/guides/societes-civiles-au-maroc.webp",
+    "smallSrc": "/images/guides/societes-civiles-au-maroc-640.webp",
+    "alt": "Architectes préparant les documents de leur société civile avec un conseiller",
+    "width": 1280,
+    "height": 800
+  },
+  "brevet-dinvention-propriete-intellectuelle": {
+    "src": "/images/guides/brevet-dinvention-propriete-intellectuelle.webp",
+    "smallSrc": "/images/guides/brevet-dinvention-propriete-intellectuelle-640.webp",
+    "alt": "Inventrice présentant un prototype de filtration d’eau à un conseiller en brevets",
+    "width": 1280,
+    "height": 800
+  },
+  "ompic-au-maroc": {
+    "src": "/images/guides/ompic-au-maroc.webp",
+    "smallSrc": "/images/guides/ompic-au-maroc-640.webp",
+    "alt": "Entrepreneurs préparant un dossier de marque à côté de leurs emballages de produits",
+    "width": 1280,
+    "height": 800
+  },
+  "associations-fiscalite-is": {
+    "src": "/images/guides/associations-fiscalite-is.webp",
+    "smallSrc": "/images/guides/associations-fiscalite-is-640.webp",
+    "alt": "Bénévoles d’une association examinant les comptes près de fournitures scolaires",
+    "width": 1280,
+    "height": 800
+  },
+  "export-au-maroc": {
+    "src": "/images/guides/export-au-maroc.webp",
+    "smallSrc": "/images/guides/export-au-maroc-640.webp",
+    "alt": "Responsables vérifiant les documents d’exportation près de marchandises prêtes à charger",
+    "width": 1280,
+    "height": 800
+  },
+  "etat-explicatif-de-lorigine-du-deficit": {
+    "src": "/images/guides/etat-explicatif-de-lorigine-du-deficit.webp",
+    "smallSrc": "/images/guides/etat-explicatif-de-lorigine-du-deficit-640.webp",
+    "alt": "Conseiller expliquant les postes de charges à l’origine d’un déficit",
+    "width": 1280,
+    "height": 800
+  },
+  "etablissements-stables-au-maroc": {
+    "src": "/images/guides/etablissements-stables-au-maroc.webp",
+    "smallSrc": "/images/guides/etablissements-stables-au-maroc-640.webp",
+    "alt": "Responsables étudiant un dossier fiscal dans les bureaux d’un chantier international",
+    "width": 1280,
+    "height": 800
+  },
+  "declarations-fiscales-de-fin-d-annee": {
+    "src": "/images/guides/declarations-fiscales-de-fin-d-annee.webp",
+    "smallSrc": "/images/guides/declarations-fiscales-de-fin-d-annee-640.webp",
+    "alt": "Comptable préparant la liasse fiscale annuelle avec ses classeurs et son ordinateur",
+    "width": 1280,
+    "height": 800
+  },
+  "fiscalite-de-lindemnite-de-licenciement-au-maroc": {
+    "src": "/images/guides/fiscalite-de-lindemnite-de-licenciement-au-maroc.webp",
+    "smallSrc": "/images/guides/fiscalite-de-lindemnite-de-licenciement-au-maroc-640.webp",
+    "alt": "Conseillère en paie expliquant le calcul d’une indemnité de licenciement",
+    "width": 1280,
+    "height": 800
+  },
+  "programme-intilaka": {
+    "src": "/images/guides/programme-intilaka.webp",
+    "smallSrc": "/images/guides/programme-intilaka-640.webp",
+    "alt": "Jeune boulanger étudiant le financement de son commerce avec une conseillère",
+    "width": 1280,
+    "height": 800
+  },
+  "droit-preferentiel-de-souscription-dps-maroc": {
+    "src": "/images/guides/droit-preferentiel-de-souscription-dps-maroc.webp",
+    "smallSrc": "/images/guides/droit-preferentiel-de-souscription-dps-maroc-640.webp",
+    "alt": "Actionnaires examinant des dossiers de souscription lors d’une réunion de société",
+    "width": 1280,
+    "height": 800
+  },
+  "retenue-a-la-source-sur-dividendes-au-maroc": {
+    "src": "/images/guides/retenue-a-la-source-sur-dividendes-au-maroc.webp",
+    "smallSrc": "/images/guides/retenue-a-la-source-sur-dividendes-au-maroc-640.webp",
+    "alt": "Professionnels vérifiant les documents de distribution des dividendes",
+    "width": 1280,
+    "height": 800
+  },
+  "simulateur-salaire-net-et-brut": {
+    "src": "/images/guides/simulateur-salaire-net-et-brut.webp",
+    "smallSrc": "/images/guides/simulateur-salaire-net-et-brut-640.webp",
+    "alt": "Conseillère comparant deux bulletins de paie avec un salarié à l’aide d’une calculatrice",
+    "width": 1280,
+    "height": 800
+  },
+  "is-deficits-reportables": {
+    "src": "/images/guides/is-deficits-reportables.webp",
+    "smallSrc": "/images/guides/is-deficits-reportables-640.webp",
+    "alt": "Comptable comparant des archives fiscales aux documents de l’exercice en cours",
+    "width": 1280,
+    "height": 800
+  },
+  "retenue-a-la-source-sur-interets-au-maroc": {
+    "src": "/images/guides/retenue-a-la-source-sur-interets-au-maroc.webp",
+    "smallSrc": "/images/guides/retenue-a-la-source-sur-interets-au-maroc-640.webp",
+    "alt": "Conseillers examinant les revenus de placements et les intérêts bancaires",
+    "width": 1280,
+    "height": 800
+  },
+  "prix-de-transfert-au-maroc": {
+    "src": "/images/guides/prix-de-transfert-au-maroc.webp",
+    "smallSrc": "/images/guides/prix-de-transfert-au-maroc-640.webp",
+    "alt": "Responsables financiers vérifiant des factures internationales devant un port marocain",
+    "width": 1280,
+    "height": 800
+  },
+  "notes-de-frais": {
+    "src": "/images/guides/notes-de-frais.webp",
+    "smallSrc": "/images/guides/notes-de-frais-640.webp",
+    "alt": "Salariée et comptable rapprochant les reçus d’un déplacement d’une note de frais",
+    "width": 1280,
+    "height": 800
+  },
+  "charges-deductibles-i-s-au-maroc": {
+    "src": "/images/guides/charges-deductibles-i-s-au-maroc.webp",
+    "smallSrc": "/images/guides/charges-deductibles-i-s-au-maroc-640.webp",
+    "alt": "Comptable vérifiant les justificatifs de charges déductibles de l’entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "casablanca-finance-city-cfc": {
+    "src": "/images/guides/casablanca-finance-city-cfc.webp",
+    "smallSrc": "/images/guides/casablanca-finance-city-cfc-640.webp",
+    "alt": "Professionnels dans le quartier d’affaires de Casablanca Finance City",
+    "width": 1280,
+    "height": 800
+  },
+  "succursale-au-maroc": {
+    "src": "/images/guides/succursale-au-maroc.webp",
+    "smallSrc": "/images/guides/succursale-au-maroc-640.webp",
+    "alt": "Dirigeant international et conseillère visitant les bureaux d’une implantation au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "responsabilite-penale-des-dirigeants-maroc": {
+    "src": "/images/guides/responsabilite-penale-des-dirigeants-maroc.webp",
+    "smallSrc": "/images/guides/responsabilite-penale-des-dirigeants-maroc-640.webp",
+    "alt": "Dirigeant échangeant avec une juriste sur les responsabilités liées à son mandat",
+    "width": 1280,
+    "height": 800
+  },
+  "commissariat-a-la-transformation": {
+    "src": "/images/guides/commissariat-a-la-transformation.webp",
+    "smallSrc": "/images/guides/commissariat-a-la-transformation-640.webp",
+    "alt": "Commissaire et dirigeante examinant le dossier de transformation d’une société",
+    "width": 1280,
+    "height": 800
+  },
+  "transformation-sarl-en-sa": {
+    "src": "/images/guides/transformation-sarl-en-sa.webp",
+    "smallSrc": "/images/guides/transformation-sarl-en-sa-640.webp",
+    "alt": "Associés réunis autour des documents de transformation d’une SARL en société anonyme",
+    "width": 1280,
+    "height": 800
+  },
+  "conventions-reglementees-ce-quil-faut-savoir": {
+    "src": "/images/guides/conventions-reglementees-ce-quil-faut-savoir.webp",
+    "smallSrc": "/images/guides/conventions-reglementees-ce-quil-faut-savoir-640.webp",
+    "alt": "Responsables examinant un dossier de conventions entre une société et ses dirigeants",
+    "width": 1280,
+    "height": 800
+  },
+  "cession-de-parts-actions-comparaison-sa-et-sarl": {
+    "src": "/images/guides/cession-de-parts-actions-comparaison-sa-et-sarl.webp",
+    "smallSrc": "/images/guides/cession-de-parts-actions-comparaison-sa-et-sarl-640.webp",
+    "alt": "Associés signant un acte de cession de titres en présence d’une conseillère",
+    "width": 1280,
+    "height": 800
+  },
+  "difficultes-dentreprises": {
+    "src": "/images/guides/difficultes-dentreprises.webp",
+    "smallSrc": "/images/guides/difficultes-dentreprises-640.webp",
+    "alt": "Dirigeant et conseillère examinant les finances d’une entreprise dans son entrepôt",
+    "width": 1280,
+    "height": 800
+  },
+  "societe-anonyme-au-maroc": {
+    "src": "/images/guides/societe-anonyme-au-maroc.webp",
+    "smallSrc": "/images/guides/societe-anonyme-au-maroc-640.webp",
+    "alt": "Réunion du conseil d’administration d’une société anonyme dans un bureau à Casablanca",
+    "width": 1280,
+    "height": 800
+  },
+  "logiciel-de-comptabilite-que-choisir": {
+    "src": "/images/guides/logiciel-de-comptabilite-que-choisir.webp",
+    "smallSrc": "/images/guides/logiciel-de-comptabilite-que-choisir-640.webp",
+    "alt": "Professionnels comparant des solutions de comptabilité sur leurs ordinateurs",
+    "width": 1280,
+    "height": 800
+  },
+  "transfert-de-siege-social-au-maroc": {
+    "src": "/images/guides/transfert-de-siege-social-au-maroc.webp",
+    "smallSrc": "/images/guides/transfert-de-siege-social-au-maroc-640.webp",
+    "alt": "Équipe préparant les dossiers et cartons d’un transfert de siège social",
+    "width": 1280,
+    "height": 800
+  },
+  "domiciliation-de-societe": {
+    "src": "/images/guides/domiciliation-de-societe.webp",
+    "smallSrc": "/images/guides/domiciliation-de-societe-640.webp",
+    "alt": "Remise du courrier d’une entreprise à l’accueil d’un centre de domiciliation",
+    "width": 1280,
+    "height": 800
+  },
+  "augmentation-de-capital-sarl": {
+    "src": "/images/guides/augmentation-de-capital-sarl.webp",
+    "smallSrc": "/images/guides/augmentation-de-capital-sarl-640.webp",
+    "alt": "Associés examinant un projet d’augmentation de capital dans leur atelier industriel",
+    "width": 1280,
+    "height": 800
+  },
+  "commissaire-aux-comptes-a-casablanca": {
+    "src": "/images/guides/commissaire-aux-comptes-a-casablanca.webp",
+    "smallSrc": "/images/guides/commissaire-aux-comptes-a-casablanca-640.webp",
+    "alt": "Commissaire aux comptes examinant un dossier financier dans un bureau à Casablanca",
+    "width": 1280,
+    "height": 800
+  },
+  "taxe-de-services-communaux-tsc": {
+    "src": "/images/guides/taxe-de-services-communaux-tsc.webp",
+    "smallSrc": "/images/guides/taxe-de-services-communaux-tsc-640.webp",
+    "alt": "Professionnel devant un immeuble tandis qu’une équipe entretient les espaces communaux",
+    "width": 1280,
+    "height": 800
+  },
+  "expert-comptable-casablanca": {
+    "src": "/images/guides/expert-comptable-casablanca.webp",
+    "smallSrc": "/images/guides/expert-comptable-casablanca-640.webp",
+    "alt": "Consultation comptable dans un bureau avec vue sur Casablanca",
+    "width": 1280,
+    "height": 800
+  },
+  "taxe-professionnelle-au-maroc": {
+    "src": "/images/guides/taxe-professionnelle-au-maroc.webp",
+    "smallSrc": "/images/guides/taxe-professionnelle-au-maroc-640.webp",
+    "alt": "Commerçante et conseiller examinant le dossier fiscal de son activité",
+    "width": 1280,
+    "height": 800
+  },
+  "residence-fiscale-en-droit-marocain": {
+    "src": "/images/guides/residence-fiscale-en-droit-marocain.webp",
+    "smallSrc": "/images/guides/residence-fiscale-en-droit-marocain-640.webp",
+    "alt": "Résident international examinant ses documents fiscaux avec ses effets de voyage à proximité",
+    "width": 1280,
+    "height": 800
+  },
+  "expert-comptable-au-maroc": {
+    "src": "/images/guides/expert-comptable-au-maroc.webp",
+    "smallSrc": "/images/guides/expert-comptable-au-maroc-640.webp",
+    "alt": "Entrepreneur et experte comptable examinant ensemble les dossiers de l’entreprise",
+    "width": 1280,
+    "height": 800
+  },
+  "comment-rediger-un-business-plan": {
+    "src": "/images/guides/comment-rediger-un-business-plan.webp",
+    "smallSrc": "/images/guides/comment-rediger-un-business-plan-640.webp",
+    "alt": "Entrepreneuse préparant son plan d’affaires avec un conseiller et des échantillons de produits",
+    "width": 1280,
+    "height": 800
+  },
+  "impot-sur-les-societes-au-maroc": {
+    "src": "/images/guides/impot-sur-les-societes-au-maroc.webp",
+    "smallSrc": "/images/guides/impot-sur-les-societes-au-maroc-640.webp",
+    "alt": "Comptable examinant les comptes annuels pour préparer l’impôt sur les sociétés",
+    "width": 1280,
+    "height": 800
+  },
+  "investir-au-maroc-cadre-juridique-et-fiscal": {
+    "src": "/images/guides/investir-au-maroc-cadre-juridique-et-fiscal.webp",
+    "smallSrc": "/images/guides/investir-au-maroc-cadre-juridique-et-fiscal-640.webp",
+    "alt": "Investisseurs examinant un dossier d’implantation devant un site industriel au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "le-remboursement-de-credit-de-tva-au-maroc": {
+    "src": "/images/guides/le-remboursement-de-credit-de-tva-au-maroc.webp",
+    "smallSrc": "/images/guides/le-remboursement-de-credit-de-tva-au-maroc-640.webp",
+    "alt": "Responsable préparant un dossier de remboursement de TVA dans une entreprise exportatrice",
+    "width": 1280,
+    "height": 800
+  },
+  "investissements-etrangers-au-maroc": {
+    "src": "/images/guides/investissements-etrangers-au-maroc.webp",
+    "smallSrc": "/images/guides/investissements-etrangers-au-maroc-640.webp",
+    "alt": "Investisseur international et conseillère examinant un projet d’entreprise au Maroc",
+    "width": 1280,
+    "height": 800
+  },
+  "representation-fiscale-au-maroc": {
+    "src": "/images/guides/representation-fiscale-au-maroc.webp",
+    "smallSrc": "/images/guides/representation-fiscale-au-maroc-640.webp",
+    "alt": "Représentante fiscale expliquant un dossier de TVA à un dirigeant étranger",
+    "width": 1280,
+    "height": 800
+  },
+  "externalisation-paie-maroc-guide-2026": {
+    "src": "/images/guides/externalisation-paie-maroc-guide-2026.webp",
+    "smallSrc": "/images/guides/externalisation-paie-maroc-guide-2026-640.webp",
+    "alt": "Équipe spécialisée préparant les dossiers de paie d’entreprises clientes",
+    "width": 1280,
+    "height": 800
+  },
+  "dissolution-de-societe-sarl-au-maroc": {
+    "src": "/images/guides/dissolution-de-societe-sarl-au-maroc.webp",
+    "smallSrc": "/images/guides/dissolution-de-societe-sarl-au-maroc-640.webp",
+    "alt": "Dirigeants examinant les documents de dissolution dans des bureaux en cours de fermeture",
+    "width": 1280,
+    "height": 800
+  },
+  "expert-comptable-devenir": {
+    "src": "/images/guides/expert-comptable-devenir.webp",
+    "smallSrc": "/images/guides/expert-comptable-devenir-640.webp",
+    "alt": "Étudiante en expertise comptable accompagnée par un professionnel dans une bibliothèque",
+    "width": 1280,
+    "height": 800
+  },
+  "formes-juridiques-societes-maroc": {
+    "src": "/images/guides/formes-juridiques-societes-maroc.webp",
+    "smallSrc": "/images/guides/formes-juridiques-societes-maroc-640.webp",
+    "alt": "Entrepreneurs examinant les différentes formes juridiques avec une conseillère",
+    "width": 1280,
+    "height": 800
+  }
+}

@@ -2,29 +2,36 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "outputDirectory": "dist-site",
   "functions": {
     "api/contact.js": {
+      "maxDuration": 30
+    },
+    "api/intelligence.js": {
+      "maxDuration": 240,
+      "includeFiles": "{dist/route-manifest.json,dist/fr/guides/**/*.html,docs/INTELLIGENCE-INVENTAIRE-GUIDES.json,src/intelligence/reserve*.json}"
+    },
+    "api/intelligence-cron.js": {
+      "maxDuration": 240,
+      "includeFiles": "{dist/route-manifest.json,docs/INTELLIGENCE-INVENTAIRE-GUIDES.json,src/intelligence/reserve.json}"
+    },
+    "api/intelligence-public.js": {
+      "maxDuration": 30,
+      "includeFiles": "dist/{route-manifest.json,{fr,en,ar}/guides/**/*.html}"
+    },
+    "api/intelligence-sitemap.js": {
+      "maxDuration": 30,
+      "includeFiles": "dist/sitemap.xml"
+    },
+    "api/intelligence-media.js": {
       "maxDuration": 30
     }
   },
   "redirects": [
     {
-      "source": "/fr/guides/",
-      "has": [
-        {
-          "type": "query",
-          "key": "page",
-          "value": "2"
-        }
-      ],
-      "destination": "/fr/guides/page/2/",
-      "statusCode": 308
-    },
-    {
       "source": "/",
       "destination": "/fr/",
-      "statusCode": 302
+      "statusCode": 308
     },
     {
       "source": "/:locale(fr|en|ar)",
@@ -71,6 +78,30 @@
     {
       "source": "/api/contact/",
       "destination": "/api/contact"
+    },
+    {
+      "source": "/:locale(fr|en|ar)/guides/page/:page/",
+      "destination": "/api/intelligence-public?lang=:locale&page=:page"
+    },
+    {
+      "source": "/:locale(fr|en|ar)/guides/theme/:theme/page/:page/",
+      "destination": "/api/intelligence-public?lang=:locale&theme=:theme&page=:page"
+    },
+    {
+      "source": "/:locale(fr|en|ar)/guides/theme/:theme/",
+      "destination": "/api/intelligence-public?lang=:locale&theme=:theme"
+    },
+    {
+      "source": "/:locale(fr|en|ar)/guides/",
+      "destination": "/api/intelligence-public?lang=:locale"
+    },
+    {
+      "source": "/:locale(fr|en|ar)/guides/:slug/",
+      "destination": "/api/intelligence-public?lang=:locale&slug=:slug"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/intelligence-sitemap"
     }
   ],
   "headers": [
