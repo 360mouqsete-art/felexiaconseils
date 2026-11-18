@@ -1,0 +1,57 @@
+/* Direction B — a product path: one chooser, numbered steps, a comparison. */
+.fx-home-b { background: #f7f8fb; color: #12182b; }
+.fx-home-b > header.sticky > div:first-child { background: rgba(255,255,255,.94); border-bottom: 1px solid #e4e8f2; box-shadow: none; }
+.b { max-width: 1120px; margin: 0 auto; padding: 1.25rem 1rem 4rem; }
+.b-kicker { margin: 0 0 .7rem; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #2446d8; }
+.b h1, .b h2, .b h3 { font-family: Sora, Inter, Arial, sans-serif; font-weight: 600; letter-spacing: -.03em; margin: 0; }
+.b h1 { font-size: clamp(2.2rem, 6vw, 4.4rem); line-height: 1.02; max-width: 14ch; }
+.b-copy > p:last-child { max-width: 36rem; font-size: 1.08rem; line-height: 1.55; color: #3c4660; }
+.b-hero { display: grid; gap: 1.5rem; padding: 1.5rem 0 2rem; }
+.b-chooser { display: grid; background: #fff; border: 1px solid #d9e0ef; border-radius: 20px; overflow: hidden; }
+.b-chooser a {
+  display: grid; grid-template-columns: auto 1fr; grid-template-areas: "n t" "n d"; gap: .1rem .8rem;
+  padding: 1rem 1.1rem; min-height: 72px; color: inherit; text-decoration: none; border-top: 1px solid #e6ebf5;
+}
+.b-chooser a:first-child { border-top: 0; background: #2446d8; color: #fff; }
+.b-chooser a:hover { background: #eef2ff; }
+.b-chooser a:first-child:hover { background: #1d3cc4; }
+.b-chooser span { grid-area: n; font-family: Sora, Inter, sans-serif; font-size: 1.1rem; align-self: center; }
+.b-chooser strong { grid-area: t; font-size: 1.15rem; }
+.b-chooser small { grid-area: d; opacity: .8; }
+.b-steps { padding: 1rem 0 2rem; }
+.b-steps h2, .b-packs h2, .b-close h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); }
+.b-steps ol { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .75rem; }
+.b-steps li { background: #fff; border-radius: 16px; padding: 1rem 1rem 1rem 4.2rem; position: relative; border: 1px solid #e4e8f2; }
+.b-steps li > span {
+  position: absolute; inset-inline-start: .9rem; top: .95rem; width: 2.4rem; height: 2.4rem; border-radius: 999px;
+  display: grid; place-items: center; background: #12182b; color: #fff; font-family: Sora, Inter, sans-serif;
+}
+.b-steps h3 { font-size: 1.05rem; }
+.b-steps p, .b-packs > p, .b-close p { margin: .35rem 0 0; color: #3c4660; }
+.b-packs { padding: 1.5rem 0; }
+.b-table-wrap { overflow-x: auto; margin: 1rem 0 1.2rem; border: 1px solid #d9e0ef; border-radius: 16px; background: #fff; }
+.b-table { width: 100%; border-collapse: collapse; min-width: 36rem; }
+.b-table th, .b-table td { text-align: start; padding: .85rem 1rem; border-bottom: 1px solid #eef1f7; }
+.b-table thead th { background: #12182b; color: #fff; font-weight: 600; }
+.b-table thead th:nth-child(n+2), .b-table td { text-align: center; }
+.b-table tbody th { font-weight: 600; }
+.b-primary, .b-secondary, .b-more a { text-decoration: none; }
+.b-primary, .b-secondary {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 1.15rem; border-radius: 999px; font-weight: 700;
+}
+.b-primary { background: #2446d8; color: #fff; }
+.b-primary:hover { background: #1b39b4; }
+.b-secondary { background: #fff; color: #12182b; box-shadow: inset 0 0 0 1px #cfd6e6; }
+.b-close { display: grid; gap: 1rem; margin-top: 1.5rem; padding: 1.4rem; border-radius: 20px; background: #12182b; color: #f4f6fb; }
+.b-close h2, .b-close p { color: inherit; }
+.b-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.b-more { display: flex; flex-wrap: wrap; gap: .7rem 1rem; padding-top: 1.4rem; }
+.b-more a { color: #2446d8; text-decoration: underline; text-underline-offset: .18em; min-height: 44px; display: inline-flex; align-items: center; }
+.b a:focus-visible { outline: 3px solid #2446d8; outline-offset: 3px; }
+html[dir="rtl"] .b :is(h1, h2, h3) { font-family: "Noto Sans Arabic", Inter, sans-serif; letter-spacing: 0; line-height: 1.4; }
+@media (min-width: 900px) {
+  .b { padding-top: 2rem; }
+  .b-hero { grid-template-columns: 1.15fr .85fr; align-items: center; min-height: calc(100svh - 10rem); gap: 3rem; }
+  .b-steps ol { grid-template-columns: repeat(4, 1fr); }
+  .b-close { grid-template-columns: 1.4fr auto; align-items: center; padding: 2rem 2.2rem; }
+}
