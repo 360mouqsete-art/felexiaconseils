@@ -18,7 +18,9 @@ export function languageSwitch(language, slug = '', knownPaths) {
     const equivalent = !knownPaths || knownPaths.has(exact);
     let href = equivalent ? exact : pathFor(targetLanguage, sectionFor(slug));
     if (knownPaths && !knownPaths.has(href)) href = pathFor(targetLanguage, '');
-    return `<a href="${href}" lang="${targetLanguage}" hreflang="${targetLanguage}" data-language-target="${equivalent ? 'equivalent' : 'section'}" aria-label="${name}${equivalent ? '' : ` — ${t.section}`}" title="${name}${equivalent ? '' : ` — ${t.section}`}"${targetLanguage === language ? ' aria-current="true"' : ''}>${targetLanguage === 'ar' ? 'العربية' : targetLanguage.toUpperCase()}</a>`;
+    const visible = targetLanguage === 'ar' ? 'العربية' : targetLanguage.toUpperCase();
+    const accessible = `${visible}, ${name}${equivalent ? '' : ` — ${t.section}`}`;
+    return `<a href="${href}" lang="${targetLanguage}" hreflang="${targetLanguage}" data-language-target="${equivalent ? 'equivalent' : 'section'}" aria-label="${accessible}" title="${name}${equivalent ? '' : ` — ${t.section}`}"${targetLanguage === language ? ' aria-current="true"' : ''}>${visible}</a>`;
   }).join('')}</nav>`;
 }
 

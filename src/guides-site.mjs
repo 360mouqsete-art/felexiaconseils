@@ -22,6 +22,47 @@ function attachDesign($) {
   $('link[href^="/design-premium.css"]').remove();
   $('head').append(`<link rel="stylesheet" href="/design-premium.css?v=${designVersion}">`);
 }
+function relaxHeadings($, root) {
+  let previous = 1;
+  root.find('h1,h2,h3,h4,h5,h6').each((_, element) => {
+    const level = Number(element.name[1]);
+    const next = Math.min(6, Math.max(2, Math.min(level, previous + 1)));
+    previous = next;
+    if (next === level) return;
+    const current = $(element);
+    const replacement = $(`<h${next}>`);
+    for (const [name, value] of Object.entries(element.attribs || {})) replacement.attr(name, value);
+    replacement.html(current.html());
+    current.replaceWith(replacement);
+  });
+}
+const themeSeo = {
+  creation: {
+    fr: ['Rubrique création de société | Felexia Conseils', 'Guides pour créer une société au Maroc : SARL, SARL AU et démarches, avec un cabinet à Marrakech.'],
+    en: ['SARL formation guides for Morocco | Felexia Conseils', 'Guides on forming a company in Morocco, including a SARL and a single-member SARL.'],
+    ar: ['أدلة إنشاء SARL في المغرب | Felexia Conseils', 'أدلة لتأسيس شركة في المغرب، بما فيها SARL وSARL AU، مع مكتب بمراكش.']
+  },
+  domiciliation: {
+    fr: ['Guides domiciliation à Marrakech | Felexia Conseils', 'Guides sur le siège social et la domiciliation d’entreprise au Maroc.'],
+    en: ['Company domiciliation guides | Felexia Conseils', 'Guides on a registered office and company domiciliation in Morocco.'],
+    ar: ['أدلة التوطين في المغرب | Felexia Conseils', 'أدلة حول المقر الاجتماعي وتوطين المقاولة في المغرب.']
+  },
+  mre: {
+    fr: ['Guides création depuis l’étranger | Felexia Conseils', 'Guides pour les MRE et les investisseurs qui préparent une société au Maroc.'],
+    en: ['Forming a Moroccan company from abroad | Felexia Conseils', 'Guides for Moroccans abroad and investors preparing a company in Morocco.'],
+    ar: ['أدلة التأسيس من الخارج | Felexia Conseils', 'أدلة لمغاربة العالم والمستثمرين الذين يحضّرون شركة في المغرب.']
+  },
+  modification: {
+    fr: ['Guides modification de société | Felexia Conseils', 'Guides pour modifier le gérant, le siège, le capital ou l’objet d’une société au Maroc.'],
+    en: ['Company change guides for Morocco | Felexia Conseils', 'Guides on changing a manager, office, capital or purpose in Morocco.'],
+    ar: ['أدلة تعديل الشركة في المغرب | Felexia Conseils', 'أدلة لتعديل المسيّر أو المقر أو رأس المال أو الغرض في المغرب.']
+  },
+  fiscalite: {
+    fr: ['Guides fiscalité des sociétés au Maroc | Felexia Conseils', 'Guides de lecture sur la fiscalité des sociétés au Maroc. Le cabinet précise votre situation sur devis.'],
+    en: ['Moroccan company tax guides | Felexia Conseils', 'Reading guides on company taxation in Morocco. The firm confirms your own situation in a quote.'],
+    ar: ['أدلة جباية الشركات في المغرب | Felexia Conseils', 'أدلة للقراءة حول جباية الشركات في المغرب. يحدد المكتب وضعيتكم في عرض.']
+  }
+};
 const labels = {
   fr: {search:'Rechercher un guide…', searchLabel:'Rechercher dans les guides', category:'Catégorie', all:'Toutes les catégories', count:'guides', empty:'Aucun guide ne correspond à votre recherche.', practical:'Guide pratique', toc:'Sommaire', related:'À lire aussi', authors:'Texte d’origine', reading:'min de lecture', supplement:'Pour approfondir ce sujet', date:'Publié le', imageIllustration:'Illustration générée par IA.'},
   en: {search:'Search guides…', searchLabel:'Search the guides', category:'Category', all:'All categories', count:'guides', empty:'No guides match your search.', practical:'Practical guide', toc:'Contents', related:'Read next', authors:'Original text', reading:'min read', supplement:'Explore this topic further', date:'Published on', imageIllustration:'AI-generated illustration.'},
@@ -211,7 +252,9 @@ function enrichArticle(pages, guide, lang, template, knownPaths, version) {
     image.attr('aria-describedby','guide-cover-illustration-caption');
     image.parent().after(`<p id="guide-cover-illustration-caption" class="guide-image-caption" data-guide-image-caption data-ai-cover-credit>${labels[lang].imageIllustration}</p>`);
   }
+  relaxHeadings($, prose);
   ensureHeadingIds($, prose, guide.slug);
+  if (image.attr('src')) $('head').append(`<link rel="preload" as="image" href="${esc(image.attr('src'))}">`);
   toc($, prose, lang);
   prose.find('table').each((_, e) => { if (!$(e).parent().hasClass('guide-table-scroll')) $(e).wrap('<div class="guide-table-scroll" tabindex="0" role="region" aria-label="Tableau"></div>'); });
   prose.find('img').attr({loading:'lazy',decoding:'async'}).removeAttr('fetchpriority');
@@ -263,11 +306,39 @@ function renderThemePages(pages) {
       const matching = themeGrid.children('[data-guide-card]').toArray().filter(element => themeOfCategory(themePage(element).attr('data-category')) === theme.id);
       themeGrid.empty().append(matching);
       const themePath = `/${lang}/guides/theme/${theme.id}/`;
-      const themeTitle = `${themeLabel(theme.id, lang)} | Felexia Conseils`;
-      const description = themePage('meta[name="description"]').attr('content') || themeTitle;
+      const [themeTitle, description] = themeSeo[theme.id][lang];
+      const crumbHome = lang === 'fr' ? 'Accueil' : lang === 'en' ? 'Home' : 'الرئيسية';
+      const crumbGuides = lang === 'ar' ? 'الأدلة' : 'Guides';
+      const crumbName = themeLabel(theme.id, lang);
       themePage('title').text(themeTitle);
       themePage('meta[name="description"],meta[property="og:description"],meta[name="twitter:description"]').attr('content', description);
       themePage('meta[property="og:title"],meta[name="twitter:title"]').attr('content', themeTitle);
+      themePage('main .seo-breadcrumb').first().html(`<ol><li><a href="/${lang}/">${esc(crumbHome)}</a></li><li><a href="/${lang}/guides/">${esc(crumbGuides)}</a></li><li><span aria-current="page">${esc(crumbName)}</span></li></ol>`);
+      themePage('script[type="application/ld+json"]').each((_, element) => {
+        let data;
+        try { data = JSON.parse(themePage(element).text()); } catch { return; }
+        const graph = data['@graph'] || [];
+        const pageNode = graph.find(node => node['@type'] === 'WebPage');
+        const crumbs = graph.find(node => node['@type'] === 'BreadcrumbList');
+        const pageId = company.origin + themePath + '#webpage';
+        const crumbId = company.origin + themePath + '#breadcrumb';
+        if (pageNode) {
+          pageNode['@id'] = pageId;
+          pageNode.url = company.origin + themePath;
+          pageNode.name = themeTitle;
+          pageNode.description = description;
+          pageNode.breadcrumb = {'@id': crumbId};
+        }
+        if (crumbs) {
+          crumbs['@id'] = crumbId;
+          crumbs.itemListElement = [
+            {'@type':'ListItem', position:1, name:crumbHome, item:company.origin + `/${lang}/`},
+            {'@type':'ListItem', position:2, name:crumbGuides, item:company.origin + `/${lang}/guides/`},
+            {'@type':'ListItem', position:3, name:crumbName, item:company.origin + themePath}
+          ];
+        }
+        themePage(element).text(JSON.stringify(data).replace(/</g, '\\u003c'));
+      });
       themePage('link[rel="canonical"],meta[property="og:url"]').attr('href', company.origin + themePath).attr('content', company.origin + themePath);
       themePage('link[rel="alternate"][hreflang]').remove();
       for (const language of ['fr','en','ar']) themePage('head').append(`<link rel="alternate" hreflang="${language}" href="${company.origin}/${language}/guides/theme/${theme.id}/">`);

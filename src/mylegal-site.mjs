@@ -166,7 +166,7 @@ export function renderReferenceSite(existing) {
     for(const [label,network] of [['Partager sur LinkedIn','linkedin'],['Partager sur X','x'],['Partager sur Facebook','facebook']])$(`a[aria-label="${label}"]`).attr('data-share-guide',network);
     for(const position of ['header','footer']) {
       const brandLink=$(`${position} img.felexia-brand-slot`).first().closest('a');
-      brandLink.html(simplifiedLogo({footer:position==='footer'})).addClass('felexia-brand-link');
+      brandLink.html(simplifiedLogo({footer:position==='footer'})).addClass('felexia-brand-link').attr('aria-label','FELEXIACONSEILS, Felexia Conseils');
     }
     const routeSlug=route.replace(/^\/+|\/+$/g,'');
     const tools=headerTools('fr',routeSlug,knownPaths);

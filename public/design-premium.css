@@ -46,7 +46,15 @@ body > header a.bg-brand-ocean {
   padding-inline: 1.05rem;
 }
 body > header a.border-brand-ocean { border-radius: 999px; min-height: 44px; }
-.felexia-header-tools { padding-block: 4px 6px; }
+.felexia-header-tools {
+  border-top: 0;
+  width: min(100%, 80rem);
+  margin: 0 auto;
+  padding: 0 1rem .7rem;
+  justify-content: flex-end;
+  background: transparent;
+}
+html[data-theme="dark"] .felexia-header-tools { border-top: 0; }
 
 html[dir="ltr"] main :is(h1, h2) {
   font-family: Sora, Inter, Arial, sans-serif;
@@ -69,7 +77,9 @@ main > section.from-brand-cloud h1 {
 }
 html[dir="ltr"] main > section.from-brand-cloud h1 { line-height: 1.06; }
 html[dir="rtl"] main > section.from-brand-cloud h1 { line-height: 1.45; letter-spacing: 0; }
-main > section.from-brand-cloud p { color: #e7ecf8; }
+html:not(.dark):not([data-theme="dark"]) main > section.from-brand-cloud :is(p, p.text-brand-steel, .text-brand-steel),
+html:not(.dark):not([data-theme="dark"]) body > footer :is(p, .text-brand-steel, a, li, span) { color: #f4f7ff; }
+html[data-theme="dark"] main > section.from-brand-cloud :is(p, .text-brand-steel) { color: #f4f7ff; }
 main > section.from-brand-cloud span.w-px { display: none; }
 main > section.from-brand-cloud > .relative.mx-auto { padding-top: 5.75rem; }
 main > section.from-brand-cloud a.bg-brand-ocean {
@@ -135,15 +145,17 @@ html[data-theme="dark"] .fx-trust li + li { border-color: #344865; }
   html[data-theme="dark"] .fx-trust li + li { border-color: #344865; }
 }
 
-html:not([data-theme="dark"]) main > section.bg-white,
-html:not([data-theme="dark"]) main > section.bg-brand-fog\/40,
-html:not([data-theme="dark"]) main article.bg-white { background-color: transparent; }
+html:not([data-theme="dark"]) main > section.bg-white { background-color: #fff; }
+html:not([data-theme="dark"]) main > section[class*="bg-brand-cloud"],
+html:not([data-theme="dark"]) main > section[class*="bg-brand-fog"] { background-color: #efeae1; }
+html:not([data-theme="dark"]) main > section.from-brand-cloud { background-color: var(--fx-ink); }
+html:not([data-theme="dark"]) main article.bg-white { background-color: #fff; }
 
-main > section > .mx-auto.max-w-7xl { padding-block: 3.5rem; }
-main > section > .mx-auto.max-w-6xl { padding-block: 3.5rem; }
+main > section > .mx-auto.max-w-7xl { padding-block: 4.25rem; }
+main > section > .mx-auto.max-w-6xl { padding-block: 4.25rem; }
 @media (min-width: 1024px) {
   main > section > .mx-auto.max-w-7xl,
-  main > section > .mx-auto.max-w-6xl { padding-block: 6rem; }
+  main > section > .mx-auto.max-w-6xl { padding-block: 7rem; }
 }
 
 html:not([data-theme="dark"]) main :is(li.rounded-2xl, a[data-guide-card]) {
@@ -210,7 +222,7 @@ html:not([data-theme="dark"]) body > footer {
   background: var(--fx-ink);
   color: #d7e0f2;
 }
-html:not([data-theme="dark"]) body > footer :is(a, p, li, h2, h3, span) { color: #d7e0f2; }
+html:not([data-theme="dark"]) body > footer :is(a, p, li, h2, h3, span, .text-brand-steel) { color: #e7eefc; }
 html:not([data-theme="dark"]) body > footer a:hover { color: #fff; }
 html:not([data-theme="dark"]) body > footer .felexia-logo-wordmark,
 html:not([data-theme="dark"]) body > footer .felexia-logo-wordmark strong { color: #fff; }
@@ -274,7 +286,92 @@ html[data-theme="dark"] .fx-dock a:nth-child(2) { background: #192c4c; color: #f
 @media (prefers-reduced-motion: reduce) {
   a[data-guide-card], main article.rounded-3xl, main li.rounded-2xl { transition: none; }
 }
+/* Organism logos: a complete row, not a clipped marquee. */
+main .marquee-left {
+  animation: none;
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 1.75rem;
+  column-gap: 2.25rem;
+}
+main .marquee-left > :nth-child(n+9) { display: none; }
+main > section.border-t .group.relative.overflow-hidden,
+main > section.border-t [class*="mask-image"] {
+  overflow: visible;
+  mask-image: none;
+  -webkit-mask-image: none;
+}
+main .marquee-left > div { width: 8.75rem; height: 4.6rem; }
+main .marquee-left img {
+  max-width: 7.75rem;
+  max-height: 3.5rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* How it works: a quiet vertical rail between the numbered steps. */
+main ol.space-y-6 { position: relative; }
+main ol.space-y-6 > li { position: relative; transition: transform .2s ease; }
+main ol.space-y-6 > li::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 1.3rem;
+  top: 3.1rem;
+  bottom: -1.6rem;
+  width: 2px;
+  background: rgba(36, 70, 216, .28);
+}
+main ol.space-y-6 > li:last-child::before { display: none; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  main ol.space-y-6 > li:hover,
+  main article.rounded-3xl:hover,
+  a[data-guide-card]:hover { transform: translateY(-3px); }
+}
+
+main .prose a { text-decoration: underline; text-underline-offset: .18em; }
+main time[class*="text-brand-steel"] { color: #3e5163; }
+html[data-theme="dark"] main time[class*="text-brand-steel"] { color: #d5deee; }
+
+.fx-related {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+}
+.fx-related h2 { font-size: 1.35rem; margin: 0 0 .8rem; }
+.fx-related ul { list-style: none; display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; padding: 0; }
+.fx-related a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: .45rem .9rem;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--fx-ink);
+  text-decoration: none;
+  box-shadow: inset 0 0 0 1px rgba(11, 19, 64, .14);
+}
+.fx-related a:hover { box-shadow: inset 0 0 0 1px var(--fx-ocean); color: var(--fx-ocean); }
+html[data-theme="dark"] .fx-related a { background: #192c4c; color: #f1f5ff; box-shadow: inset 0 0 0 1px #344865; }
+
+@media (min-width: 768px) {
+  .audience-consent {
+    inset-inline-start: 1.25rem;
+    inset-inline-end: auto;
+    margin: 0;
+    width: min(28rem, calc(100vw - 12.5rem));
+    max-width: none;
+  }
+}
+
 @media print {
   .fx-dock, a[href^="https://wa.me/"][class*="size-14"] { display: none; }
   body { padding-bottom: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  main ol.space-y-6 > li,
+  main article.rounded-3xl,
+  a[data-guide-card] { transition: none; }
 }
