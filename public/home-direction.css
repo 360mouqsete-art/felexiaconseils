@@ -1,0 +1,42 @@
+/* Direction C — a Marrakech room: one wide photograph, then people and place. */
+.fx-home-c { background: #f6efe4; color: #2c241c; }
+.fx-home-c > header.sticky > div:first-child { background: rgba(246, 239, 228, .94); border-bottom: 1px solid #e6d8c6; box-shadow: none; }
+.c-kicker { margin: 0 0 .6rem; letter-spacing: .14em; text-transform: uppercase; font-size: .75rem; }
+.c h1, .c h2, .c h3 { font-family: Sora, Inter, Arial, sans-serif; font-weight: 600; letter-spacing: -.03em; margin: 0; }
+.c-hero { position: relative; min-height: 92svh; display: grid; align-items: end; color: #fffaf3; overflow: hidden; }
+.c-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.c-hero-copy { position: relative; z-index: 1; padding: 7rem 1.25rem 1.6rem; background: linear-gradient(to top, rgba(32, 18, 12, .82), rgba(32, 18, 12, .2) 70%, transparent); }
+.c h1 { font-size: clamp(2.3rem, 6vw, 4.8rem); line-height: 1.02; max-width: 14ch; }
+.c-hero p { max-width: 36rem; font-size: 1.08rem; line-height: 1.5; }
+.c-hero-actions, .c-phones { display: flex; flex-wrap: wrap; gap: .7rem; align-items: center; }
+.c-primary, .c-ghost, .c-text, .c-who a, .c-more a, .c-phones a { text-decoration: none; }
+.c-primary, .c-ghost { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 1.15rem; border-radius: 999px; font-weight: 700; }
+.c-primary { background: #f3e6d4; color: #3a2418; }
+.c-primary:hover { background: #fff; }
+.c-ghost { color: #fffaf3; box-shadow: inset 0 0 0 1px rgba(255,255,255,.7); }
+.c-person { display: grid; gap: 1.25rem; padding: 2.2rem 1.25rem; max-width: 1100px; margin: 0 auto; }
+.c-person h2 { font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1.08; max-width: 16ch; }
+.c-person p { color: #5c4b3c; font-size: 1.05rem; line-height: 1.6; }
+.c-person img { width: 100%; height: auto; border-radius: 18px 70px 18px 18px; }
+.c-text { color: #8d3b2c; font-weight: 700; border-bottom: 1px solid #8d3b2c; }
+.c-who { padding: 1rem 1.25rem 2rem; max-width: 1100px; margin: 0 auto; }
+.c-who h2 { font-size: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: 1rem; }
+.c-who > div { display: grid; gap: 1.2rem; }
+.c-who article { padding-top: 1rem; border-top: 1px solid #e4d3bf; }
+.c-who h3 { font-size: 1.25rem; }
+.c-who p { color: #5c4b3c; }
+.c-who a { color: #8d3b2c; font-weight: 700; }
+.c-visit { display: grid; gap: 1.2rem; margin: 0 1rem 1rem; padding: 1.4rem; border-radius: 24px; background: #3a2418; color: #f6efe4; }
+.c-address { margin: 0; font-size: clamp(1.4rem, 3vw, 2.2rem); line-height: 1.25; font-family: Sora, Inter, sans-serif; }
+.c-phones a { color: #f6efe4; min-height: 44px; display: inline-flex; align-items: center; }
+.c-visit .c-primary { background: #f6efe4; color: #3a2418; }
+.c-more { display: flex; flex-wrap: wrap; gap: .7rem 1rem; max-width: 1100px; margin: 0 auto; padding: .5rem 1.25rem 3rem; }
+.c-more a { color: #8d3b2c; text-decoration: underline; text-underline-offset: .18em; min-height: 44px; display: inline-flex; align-items: center; }
+.c a:focus-visible { outline: 3px solid #8d3b2c; outline-offset: 3px; }
+html[dir="rtl"] .c :is(h1, h2, h3, .c-address) { font-family: "Noto Sans Arabic", Inter, sans-serif; letter-spacing: 0; line-height: 1.4; }
+@media (min-width: 900px) {
+  .c-hero-copy { padding: 8rem 8vw 3rem; }
+  .c-person { grid-template-columns: .9fr 1.1fr; align-items: center; gap: 3rem; padding-top: 4rem; }
+  .c-who > div { grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+  .c-visit { grid-template-columns: 1.4fr .8fr; align-items: end; margin: 1rem auto 1rem; max-width: 1060px; padding: 2.2rem; }
+}
