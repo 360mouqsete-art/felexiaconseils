@@ -2,7 +2,7 @@ import {createHash} from 'node:crypto';
 import {readFileSync} from 'node:fs';
 
 const version = createHash('sha256').update(readFileSync(new URL('../public/home-direction.css', import.meta.url))).digest('hex').slice(0,12);
-const hero = '/assets/optimized/4efd96d7535341fb.webp';
+const hero = '/mylegal/images/brand/felexia-exterior-sans-enseigne.webp';
 
 const copy = {
   fr: {
@@ -10,7 +10,7 @@ const copy = {
     h1: 'Un cabinet à Marrakech, pour créer votre société au Maroc.',
     lead: 'Entrepreneurs, MRE et investisseurs étrangers : un interlocuteur vous reçoit sur rendez-vous, ou échange d’abord à distance.',
     meet: 'Rencontrer le cabinet', write: 'Écrire',
-    heroAlt: 'Architecture marocaine — visuel d’illustration',
+    heroAlt: 'Bâtiment professionnel de style marocain sans enseigne — visuel d’illustration',
     personTitle: 'Quelqu’un du cabinet suit votre dossier.',
     person: 'Un interlocuteur vous accompagne de la préparation des pièces jusqu’aux formalités. Le devis détaille les honoraires et les frais avant tout engagement.',
     photoAlt: 'Échange autour d’un dossier — visuel d’illustration',
@@ -29,7 +29,7 @@ const copy = {
     h1: 'A Marrakech firm, for starting your company in Morocco.',
     lead: 'Entrepreneurs, Moroccans abroad and foreign investors: someone at the firm meets you by appointment, or talks with you remotely first.',
     meet: 'Meet the firm', write: 'Write to us',
-    heroAlt: 'Moroccan architecture — illustration',
+    heroAlt: 'A Moroccan-style professional building without a sign — illustration',
     personTitle: 'Someone at the firm stays with your file.',
     person: 'An adviser goes with you from preparing the papers to the formalities. The quote sets out fees and charges before you commit.',
     photoAlt: 'A discussion over a file — illustration',
@@ -48,7 +48,7 @@ const copy = {
     h1: 'مكتب بمراكش لتأسيس شركتك في المغرب.',
     lead: 'رواد الأعمال ومغاربة العالم والمستثمرون الأجانب: يستقبلكم أحد مستشاري المكتب بموعد، أو يبدأ التبادل عن بُعد.',
     meet: 'لقاء المكتب', write: 'مراسلة',
-    heroAlt: 'عمارة مغربية — صورة توضيحية',
+    heroAlt: 'مبنى مهني بطراز مغربي دون لافتة — صورة توضيحية',
     personTitle: 'أحد مستشاري المكتب يتابع ملفك.',
     person: 'يرافقك مخاطب من تحضير الوثائق حتى الإجراءات. يفصّل العرض الأتعاب والمصاريف قبل أي التزام.',
     photoAlt: 'تبادل حول ملف — صورة توضيحية',
@@ -69,7 +69,7 @@ function markup(lang) {
   const p = path => `/${lang}/${path}`;
   return `<div class="c">
   <section class="c-hero">
-    <img src="${hero}" srcset="/assets/corporate/morocco-architecture-small.jpg 480w, ${hero} 938w" sizes="100vw" width="938" height="1280" alt="${c.heroAlt}" fetchpriority="high" decoding="async">
+    <img src="${hero}" width="1280" height="853" alt="${c.heroAlt}" fetchpriority="high" decoding="async">
     <div class="c-hero-copy">
       <p class="c-kicker">${c.kicker}</p>
       <h1>${c.h1}</h1>
