@@ -1,0 +1,61 @@
+/* Direction A — editorial. Type, asymmetry, almost no cards. */
+.fx-home-a { background: #f3f1eb; color: #1a1c21; }
+.fx-home-a > header.sticky > div:first-child {
+  background: rgba(243, 241, 235, .94);
+  border-bottom: 1px solid #e3dcd0;
+  box-shadow: none;
+}
+.a { max-width: 1180px; margin: 0 auto; padding: 1.5rem 1.25rem 4.5rem; }
+.a-kicker { margin: 0 0 .8rem; font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: #5c564c; }
+.a h1, .a h2, .a h3 { font-family: Sora, Inter, Arial, sans-serif; font-weight: 600; letter-spacing: -.03em; color: #14161b; }
+.a h1 { margin: 0; font-size: clamp(2.6rem, 8vw, 6.5rem); line-height: .94; max-width: 12ch; }
+.a-lead { max-width: 36rem; margin: 1.4rem 0 0; font-size: 1.15rem; line-height: 1.55; color: #3a3834; }
+.a-actions { display: flex; flex-wrap: wrap; gap: .8rem 1.4rem; align-items: center; margin-top: 1.8rem; }
+.a-primary, .a-quiet, .a-reach a, .a-more a, .a-index a { text-decoration: none; }
+.a-primary {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 48px;
+  padding: 0 1.25rem; border-radius: 999px; background: #1c3fbf; color: #fff; font-weight: 650;
+}
+.a-primary:hover { background: #16339a; }
+.a-quiet { color: #1a1c21; border-bottom: 1px solid #1a1c21; padding-bottom: .1rem; font-weight: 600; }
+.a-hero { display: grid; gap: 2.5rem; padding: 2.2rem 0 1rem; }
+.a-index { display: grid; gap: 0; align-content: end; }
+.a-index a {
+  display: grid; grid-template-columns: auto 1fr; grid-template-areas: "n t" "n d"; column-gap: .9rem;
+  padding: 1rem 0; border-top: 1px solid #d9d1c3; color: inherit;
+}
+.a-index a:last-child { border-bottom: 1px solid #d9d1c3; }
+.a-index span { grid-area: n; font-family: Sora, Inter, sans-serif; color: #1c3fbf; padding-top: .15rem; }
+.a-index strong { grid-area: t; font-size: 1.35rem; font-family: Sora, Inter, sans-serif; }
+.a-index em { grid-area: d; font-style: normal; color: #5c564c; margin-top: .2rem; }
+.a-quote { padding: 4.5rem 0 1rem; }
+.a-quote h2 { margin: 0; font-size: clamp(2rem, 5vw, 4.2rem); line-height: 1.02; max-width: 16ch; }
+.a-quote p { max-width: 34rem; margin: 1.2rem 0 0; font-size: 1.05rem; line-height: 1.6; color: #3a3834; }
+.a-steps { padding-top: 3.5rem; }
+.a-steps-intro h2 { margin: 0; font-size: clamp(1.7rem, 3vw, 2.4rem); }
+.a-steps-intro p { max-width: 34rem; color: #5c564c; }
+.a-steps ol { list-style: none; margin: 1.5rem 0 0; padding: 0; }
+.a-steps li { display: grid; grid-template-columns: 3.2rem 1fr; gap: .4rem 1rem; padding: 1.35rem 0; border-top: 1px solid #d9d1c3; }
+.a-steps li:last-child { border-bottom: 1px solid #d9d1c3; }
+.a-steps li > span { font-family: Sora, Inter, sans-serif; font-size: 1.15rem; color: #1c3fbf; }
+.a-steps h3 { margin: 0; font-size: 1.2rem; }
+.a-steps li p { margin: .35rem 0 0; color: #3a3834; }
+.a-close { display: grid; gap: 1.5rem; padding: 4rem 0 1rem; }
+.a-address { margin: 0; font-family: Sora, Inter, sans-serif; font-size: clamp(1.6rem, 3vw, 2.5rem); line-height: 1.15; letter-spacing: -.03em; max-width: 16ch; }
+.a-note { color: #5c564c; max-width: 28rem; }
+.a-reach { display: flex; flex-direction: column; align-items: flex-start; gap: .7rem; }
+.a-reach a:not(.a-primary) { color: #1a1c21; min-height: 44px; display: inline-flex; align-items: center; }
+.a-more { display: flex; flex-wrap: wrap; gap: .6rem .9rem; padding-top: 2.5rem; border-top: 1px solid #d9d1c3; }
+.a-more a { color: #1c3fbf; text-decoration: underline; text-underline-offset: .18em; min-height: 44px; display: inline-flex; align-items: center; }
+.a a:focus-visible { outline: 3px solid #1c3fbf; outline-offset: 3px; }
+html[dir="rtl"] .a h1, html[dir="rtl"] .a h2, html[dir="rtl"] .a h3 { font-family: "Noto Sans Arabic", Inter, sans-serif; letter-spacing: 0; line-height: 1.35; }
+html[dir="rtl"] .a h1 { max-width: 20ch; }
+@media (min-width: 960px) {
+  .a { padding-top: 2rem; }
+  .a-hero { grid-template-columns: minmax(0, 1.45fr) minmax(16rem, .7fr); align-items: end; min-height: calc(100svh - 9rem); padding-bottom: 3rem; }
+  .a-index { padding-bottom: .4rem; }
+  .a-quote { margin-inline-start: 28%; padding-top: 7rem; }
+  .a-steps { display: grid; grid-template-columns: .7fr 1.3fr; gap: 3rem; padding-top: 6rem; align-items: start; }
+  .a-close { grid-template-columns: 1.3fr .7fr; align-items: end; padding-top: 6rem; }
+}
+@media (prefers-reduced-motion: reduce) { .fx-home-a { scroll-behavior: auto; } }
