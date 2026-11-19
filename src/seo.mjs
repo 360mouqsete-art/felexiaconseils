@@ -9,7 +9,7 @@ import {applyDirection} from './direction-pages.mjs';
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const canonicalAliases={legal:'mentions-legales',privacy:'politique-confidentialite',terms:'cgu'};
-export const nonIndexable=new Set(['404','espace-client','create','rendez-vous']);
+export const nonIndexable=new Set(['404','espace-client','espace-client/administration','create','rendez-vous']);
 export const revisedSlugs=new Set(['','creation-entreprise','tarif/creation','contact',...['general','online','sarl','foreign'].map(k=>editorial[k].slug)]);
 const copyCatalog=Object.assign({},...[1,2,3].map(n=>JSON.parse(readFileSync(new URL(`./translations/part-${n}.json`,import.meta.url),'utf8'))));
 const translated=(s,l)=>l==='fr'?s:copyCatalog[createHash('sha1').update(s).digest('hex').slice(0,12)]?.[l];

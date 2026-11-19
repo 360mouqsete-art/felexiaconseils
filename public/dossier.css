@@ -1,0 +1,45 @@
+.fx-dossier { max-width: 72rem; }
+.fx-dossier-eyebrow { margin: 0; font-size: .78rem; letter-spacing: .16em; font-weight: 700; color: #2446d8; }
+.fx-dossier h1 { font-family: Sora, "Noto Sans Arabic", sans-serif; letter-spacing: -.04em; }
+.fx-dossier-intro { max-width: 42rem; }
+.fx-dossier-login, .fx-dossier-card, .fx-dossier-panel { display: grid; gap: .8rem; }
+.fx-dossier label { display: grid; gap: .35rem; font-weight: 650; }
+.fx-dossier input, .fx-dossier select, .fx-dossier textarea {
+  width: 100%; box-sizing: border-box; border: 1px solid #d5def2; border-radius: 12px;
+  padding: .85rem 1rem; background: #fff; color: #0e1730; font: inherit;
+}
+.fx-dossier-actions, .fx-dossier-admin-steps p { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+.fx-dossier-actions { margin: .6rem 0 0; }
+.fx-dossier button:not(.felexia-action) {
+  border: 1px solid #d5def2; background: #fff; color: #0e1730; border-radius: 999px; padding: .45rem .85rem; cursor: pointer;
+}
+.fx-dossier-card, .fx-dossier-panel {
+  margin: 1rem 0; padding: 1.1rem; border: 1px solid #d9e1f2; border-radius: 18px; background: #fff; color: #0e1730;
+}
+.fx-dossier-steps { list-style: none; display: grid; gap: .7rem; margin: 0; padding: 0; }
+.fx-dossier-steps li { display: grid; gap: .15rem; padding: .75rem .9rem; border-radius: 14px; background: #f4f7fd; }
+.fx-dossier-steps li.is-current { background: #2446d8; color: #f7f9ff; }
+.fx-dossier-steps li.is-done { background: #e7f8ef; }
+.fx-dossier-steps small, .fx-dossier-list small, .fx-dossier-notes small { color: #536079; }
+.fx-dossier-steps li.is-current small { color: #d7e4ff; }
+.fx-dossier-list, .fx-dossier-notes { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; }
+.fx-dossier-list li, .fx-dossier-notes li { display: grid; gap: .35rem; padding-bottom: .7rem; border-bottom: 1px solid #e6ecf7; }
+.fx-dossier-list li > div:first-child, .fx-dossier-notes li { display: grid; gap: .15rem; }
+.fx-dossier-example, .fx-dossier-unavailable, .fx-dossier-feedback { border-radius: 12px; padding: .8rem 1rem; background: #fff6df; color: #0e1730; }
+.fx-dossier button { font: inherit; }
+html.dark .fx-dossier-card, html.dark .fx-dossier-panel, html[data-theme="dark"] .fx-dossier-card, html[data-theme="dark"] .fx-dossier-panel {
+  background: #121a3d; color: #f7f9ff; border-color: #2c3d7d;
+}
+html.dark .fx-dossier input, html.dark .fx-dossier select, html.dark .fx-dossier textarea,
+html[data-theme="dark"] .fx-dossier input, html[data-theme="dark"] .fx-dossier select, html[data-theme="dark"] .fx-dossier textarea {
+  background: #0b1340; color: #f7f9ff; border-color: #2c3d7d;
+}
+html.dark .fx-dossier-steps li, html[data-theme="dark"] .fx-dossier-steps li { background: #1a2558; color: #f7f9ff; }
+html.dark .fx-dossier-steps li.is-done, html[data-theme="dark"] .fx-dossier-steps li.is-done { background: #16362a; }
+html.dark .fx-dossier-steps small, html[data-theme="dark"] .fx-dossier-steps small { color: #d5def5; }
+html.dark .fx-dossier button:not(.felexia-action), html[data-theme="dark"] .fx-dossier button:not(.felexia-action) {
+  background: #0b1340; color: #f7f9ff; border-color: #2c3d7d;
+}
+@media (min-width: 800px) {
+  .fx-dossier-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

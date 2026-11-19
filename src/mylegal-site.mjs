@@ -7,6 +7,7 @@ import {adaptReferenceContent} from './reference-content.mjs';
 import {headerTools, languageSwitch, simplifiedLogo} from './header-tools.mjs';
 import {localizeReferenceSite} from './localize-reference.mjs';
 import {optimizeSeo} from './seo.mjs';
+import {dossierMain, dossierCopy} from './dossier-page.mjs';
 
 // Frozen public pages supplied by the owner. Remote scripts are never executed.
 const read = path => readFileSync(new URL('../'+path, import.meta.url), 'utf8');
@@ -206,6 +207,30 @@ export function renderReferenceSite(existing) {
   const account=`<section class="felexia-extra-section"><span class="felexia-eyebrow">FELEXIA CONSEILS</span><h1>Parlons de votre dossier.</h1><p>Pour connaître l’avancement de votre accompagnement, contactez directement votre cabinet en précisant votre nom et, si vous en disposez, la référence de votre demande.</p><div class="felexia-account-actions"><a class="felexia-action" href="/fr/contact/?service=support">Contacter le cabinet ↗</a><a class="felexia-action secondary" href="https://wa.me/${company.whatsapp}">Échanger sur WhatsApp ↗</a></div><p class="felexia-account-note">Aucun compte en ligne n’est nécessaire pour nous contacter. Cet espace ne donne pas accès à des documents privés.</p></section>`;
   const $account=load(render(homeSource,'/espace-client',account));$account('title').text('Mon dossier | Felexia Conseils');$account('meta[property="og:title"]').attr('content','Mon dossier | Felexia Conseils');$account('meta[name="description"],meta[property="og:description"]').attr('content','Contactez Felexia Conseils pour faire le point sur votre dossier et les prochaines étapes de votre accompagnement.');out['fr/espace-client/index.html']=$account.html();
   Object.assign(out,localizeReferenceSite(out,existing,version));
+  const dossierVersion=createHash('sha256').update(read('public/dossier.css')).update(read('public/dossier.js')).digest('hex').slice(0,12);
+  const dossierKnown=new Set(['fr','en','ar'].flatMap(language=>[`/${language}/espace-client/`,`/${language}/espace-client/administration/`]));
+  for (const lang of ['fr','en','ar']) {
+    const source=out[`${lang}/espace-client/index.html`]||out['fr/espace-client/index.html'];
+    for (const view of ['client','admin']) {
+      const path=view==='admin'?'espace-client/administration':'espace-client';
+      const $=load(source);
+      const meta=dossierCopy(lang);
+      $('main').html(dossierMain(lang, view));
+      $('html').attr({lang, dir:lang==='ar'?'rtl':'ltr'});
+      $('title').text(view==='admin'?meta.adminTitle:meta.title);
+      $('meta[name="description"],meta[property="og:description"]').attr('content', meta.description);
+      $('meta[property="og:title"]').attr('content', view==='admin'?meta.adminTitle:meta.title);
+      const canonical=`${company.origin}/${lang}/${path}/`;
+      $('link[rel="canonical"],meta[property="og:url"]').attr('href', canonical).attr('content', canonical);
+      $('link[rel="alternate"][hreflang]').remove();
+      for (const language of ['fr','en','ar']) $('head').append(`<link rel="alternate" hreflang="${language}" href="${company.origin}/${language}/${path}/">`);
+      $('head').append(`<link rel="alternate" hreflang="x-default" href="${company.origin}/fr/${path}/">`);
+      if (!$('link[href^="/dossier.css"]').length) $('head').append(`<link rel="stylesheet" href="/dossier.css?v=${dossierVersion}"><script src="/dossier.js?v=${dossierVersion}" defer></script>`);
+      $('.felexia-header-tools').replaceWith(headerTools(lang, path, dossierKnown));
+      $('footer .felexia-languages').html(languageSwitch(lang, path, dossierKnown));
+      out[`${lang}/${path}/index.html`]=$.html();
+    }
+  }
   writeFileSync(new URL('../public/mylegal/site-inline.css',import.meta.url),[...inline].map(([style,cls])=>`.${cls}{${style}}`).join('\n'));
   return optimizeSeo(out);
 }
