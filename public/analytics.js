@@ -6,28 +6,30 @@ if (root) {
   const maxAge = 180 * 86400000;
   let choice = null, loaded = false;
   try { const saved = JSON.parse(localStorage.getItem(key)); if (saved && Date.now() - saved.at < maxAge && ['granted','denied'].includes(saved.value)) choice = saved.value; } catch {}
-  const production = location.hostname === 'www.felexiaconseils.com';
+  const collect = location.hostname === 'www.felexiaconseils.com' || location.hostname.endsWith('.vercel.app') || location.hostname === '127.0.0.1' || location.hostname === 'localhost';
   const measurement = createMeasurement((name, params) => {
-    if (production && loaded) window.gtag('event', name, params);
+    if (collect && loaded) window.gtag('event', name, params);
   }, location.href, document.documentElement.lang);
   function enable() {
     measurement.consent(true);
     if (loaded) return;
     loaded = true;
-    if (!production) return;
+    if (!collect) return;
     window['ga-disable-' + id] = false;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function(){ window.dataLayer.push(arguments); };
-    window.gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+    window.gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
     window.gtag('js',new Date());
+    window.gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});
     let referrer = ''; try { referrer = new URL(document.referrer).origin; } catch {}
     window.gtag('config',id,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:15552000,page_location:location.origin+location.pathname,page_referrer:referrer});
+    window.gtag('config','AW-18492364232');
     const script = document.createElement('script'); script.async = true; script.src = 'https://www.googletagmanager.com/gtag/js?id='+id; document.head.append(script);
     measurement.pageView();
   }
   function clearCookies() {
     for (const cookie of document.cookie.split(';')) {
-      const name = cookie.split('=')[0].trim(); if (!/^_ga(?:_|$)/.test(name)) continue;
+      const name = cookie.split('=')[0].trim(); if (!/^_ga(?:_|$)|^_gcl_/.test(name)) continue;
       for (const domain of ['',location.hostname,'.felexiaconseils.com']) document.cookie = name+'=; Max-Age=0; Path=/'+(domain?'; Domain='+domain:'')+'; SameSite=Lax; Secure';
     }
   }
@@ -39,7 +41,7 @@ if (root) {
     else {
       measurement.consent(false); window['ga-disable-'+id] = true; clearCookies();
       // Reload unloads the third-party library and its listeners immediately.
-      if (loaded && production) location.reload();
+      if (loaded && collect) location.reload();
     }
     document.querySelector('[data-audience-settings]')?.focus({preventScroll:true});
   }));
