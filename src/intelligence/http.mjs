@@ -16,7 +16,7 @@ function send(req,res,status,body,type='application/json; charset=utf-8') {
   res.statusCode=status;res.setHeader('Content-Type',type);res.setHeader('Cache-Control','no-store');res.setHeader('X-Content-Type-Options','nosniff');
   if(type.startsWith('text/html')) {
     const hashes=[...String(body).matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match=>`'sha256-${createHash('sha256').update(match[1]).digest('base64')}'`);
-    res.setHeader('Content-Security-Policy',`default-src 'self'; script-src 'self' ${hashes.join(' ')}; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'`);
+    res.setHeader('Content-Security-Policy',`default-src 'self'; script-src 'self' https://www.googletagmanager.com ${hashes.join(' ')}; style-src 'self'; font-src 'self'; img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://www.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://www.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://stats.g.doubleclick.net; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'`);
   }
   let payload=type.startsWith('application/json')?JSON.stringify(body):body;
   if(req.method!=='HEAD'&&type.startsWith('text/html')&&typeof payload==='string'){
