@@ -46,13 +46,23 @@ export async function verifyPublicTopic(topic,urls,{fetcher=fetch,origin=process
     try{const response=await fetcher(trustedUrl(path),{redirect:'error',signal:AbortSignal.timeout(10000)});const check={kind:'image',asset:path,status:response.status,ok:response.ok&&/^image\//.test(response.headers.get('content-type')||'')};await response.body?.cancel();return check;}
     catch{return {kind:'image',asset:path,status:null,ok:false};}
   });
-  const catalogues=languages.map(async language=>{
+  async function catalogueCheck(language) {
+    const visited=new Set();
+    let path=`/${language}/guides/`;
     try{
-      const response=await document(`/${language}/guides/`,/^text\/html(?:\s*;|$)/i),$=load(response.text);
-      const card=$('[data-guide-card][href]').toArray().some(element=>{try{return trustedUrl($(element).attr('href')).href===urls[language];}catch{return false;}});
-      return {kind:'catalogue',language,status:response.status,ok:response.ok&&$('html').attr('lang')===language&&card};
+      for(let step=0;step<40&&path&&!visited.has(path);step++){
+        visited.add(path);
+        const response=await document(path,/^text\/html(?:\s*;|$)/i);
+        if(!response.ok)return {kind:'catalogue',language,status:response.status,ok:false};
+        const $=load(response.text);
+        const card=$('[data-guide-card][href]').toArray().some(element=>{try{return trustedUrl($(element).attr('href')).href===urls[language];}catch{return false;}});
+        if(card)return {kind:'catalogue',language,status:response.status,ok:$('html').attr('lang')===language};
+        path=$('[data-guide-pagination] a[href]').toArray().map(element=>$(element).attr('href')).map(href=>{try{return trustedUrl(href).pathname;}catch{return '';}}).find(pathname=>pathname&&!visited.has(pathname))||'';
+      }
+      return {kind:'catalogue',language,status:200,ok:false};
     }catch{return {kind:'catalogue',language,status:null,ok:false};}
-  });
+  }
+  const catalogues=languages.map(language=>catalogueCheck(language));
   const sitemap=(async()=>{
     try{
       const response=await document('/sitemap.xml',/^(?:application|text)\/xml(?:\s*;|$)/i),$=load(response.text,{xmlMode:true});

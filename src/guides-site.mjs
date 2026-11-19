@@ -4,6 +4,7 @@ import {load} from 'cheerio';
 import {company} from './content.mjs';
 import {headerTools, languageSwitch} from './header-tools.mjs';
 import {auditGuidesFor} from './audit-guides.mjs';
+import {originalGuidesFor} from './original-guides.mjs';
 import {guideThemes, themeOfCategory, themeLabel} from './guide-themes.mjs';
 
 // Extend the existing, already localised Guides templates at build time. Only
@@ -317,7 +318,7 @@ export function renderGuidesSite(pages) {
     }
   }
   for (const lang of ['fr','en','ar']) {
-    for (const item of auditGuidesFor(lang)) {
+    for (const item of [...auditGuidesFor(lang), ...originalGuidesFor(lang)]) {
       const file = articleFile(item.slug, lang);
       if (pages[file]) throw new TypeError(`Audit guide route is already used: ${file}`);
       catalogues[lang].push(item);

@@ -20,6 +20,19 @@ function fetcher({missingCard,missingSitemap,oversizedCatalogue=false}={}) {
   };
 }
 
+test('public verification finds a catalogue card on a later hub page',async()=>{
+  const later=await verifyPublicTopic(topic,urls,{origin,fetcher:async(value,options)=>{
+    const url=new URL(value);assert.equal(options.redirect,'error');
+    if(url.pathname.endsWith('.webp'))return new Response('image',{headers:{'Content-Type':'image/webp'}});
+    if(url.pathname==='/sitemap.xml')return new Response(`<urlset>${languages.map(language=>`<url><loc>${urls[language]}</loc></url>`).join('')}</urlset>`,{headers:{'Content-Type':'application/xml; charset=utf-8'}});
+    const language=url.pathname.split('/')[1];
+    if(url.pathname===`/${language}/guides/`)return new Response(`<html lang="${language}"><body><nav data-guide-pagination><a href="/${language}/guides/page/2/">2</a></nav></body></html>`,{headers:{'Content-Type':'text/html; charset=utf-8'}});
+    if(url.pathname===`/${language}/guides/page/2/`)return new Response(`<html lang="${language}"><body><a data-guide-card href="${new URL(urls[language]).pathname}">Guide</a></body></html>`,{headers:{'Content-Type':'text/html; charset=utf-8'}});
+    return new Response(`<html lang="${language}"><head><link rel="canonical" href="${urls[language]}">${languages.map(code=>`<link rel="alternate" hreflang="${code}" href="${urls[code]}">`).join('')}</head><body><main><h1>${topic.translations[language].title}</h1></main></body></html>`,{headers:{'Content-Type':'text/html; charset=utf-8'}});
+  }});
+  assert.equal(later.status,'verified');assert.equal(later.checks.length,9);
+});
+
 test('public verification fails when all pages return 200 but a catalogue card or sitemap URL is missing',async()=>{
   const missingCard=await verifyPublicTopic(topic,urls,{origin,fetcher:fetcher({missingCard:'ar'})});
   assert.equal(missingCard.status,'failed');assert.ok(missingCard.checks.filter(check=>check.kind==='article'||check.kind==='image').every(check=>check.ok));
