@@ -7,6 +7,9 @@
     "api/contact.js": {
       "maxDuration": 30
     },
+    "api/dossier.js": {
+      "maxDuration": 30
+    },
     "api/intelligence.js": {
       "maxDuration": 240,
       "includeFiles": "{dist/route-manifest.json,dist/fr/guides/**/*.html,docs/INTELLIGENCE-INVENTAIRE-GUIDES.json,src/intelligence/reserve*.json}"
@@ -78,6 +81,10 @@
     {
       "source": "/api/contact/",
       "destination": "/api/contact"
+    },
+    {
+      "source": "/api/dossier/",
+      "destination": "/api/dossier"
     },
     {
       "source": "/:locale(fr|en|ar)/guides/page/:page/",
