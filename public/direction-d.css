@@ -263,6 +263,22 @@ body.fx-d footer {
 body.fx-d footer a { color: #2446d8; }
 body.fx-d footer h3,
 body.fx-d footer strong { color: #0e1730; }
+/* Midnight surfaces keep light type. Footer rules above would otherwise
+   paint the support card title and button in dark ink on a dark fill. */
+body.fx-d .bg-brand-midnight :is(h1, h2, h3, h4, p, li, strong) {
+  color: #f7f9ff;
+}
+body.fx-d .bg-brand-midnight a[class*="bg-transparent"],
+body.fx-d .bg-brand-midnight a[class*="border-white"],
+body.fx-d footer .bg-brand-midnight a {
+  background: #fff;
+  color: #0b1340;
+  border-color: transparent;
+}
+body.fx-d footer .bg-brand-midnight a:hover {
+  background: #e7eeff;
+  color: #0b1340;
+}
 
 html.d-motion body.fx-d:not(.fx-home) .d-reveal { opacity: 0; transform: translateY(18px); }
 html.d-motion body.fx-d:not(.fx-home) .d-reveal.is-in { opacity: 1; transform: none; transition: opacity .6s ease, transform .6s ease; }
