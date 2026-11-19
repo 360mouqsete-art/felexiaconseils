@@ -56,9 +56,19 @@ test('real server publishes one group, serves three SEO pages and retains histor
     assert.equal($('main .prose-lg a[href="/'+language+'/contact/"]').length,1);
     for(const alternate of ['fr','en','ar'])assert.equal($(`head link[hreflang="${alternate}"]`).attr('href'),`${app.origin}/${alternate}/guides/http-publication-${alternate}/`);
     const head=await app.request(path,{method:'HEAD'});assert.equal(head.status,200);assert.equal(await head.text(),'');
-    const catalogue=load(await(await app.request(`/${language}/guides/`)).text());
+    let catalogue=load(await(await app.request(`/${language}/guides/`)).text());
     assert.equal(catalogue('[data-guide-card]').length,24);
     assert.ok(catalogue('[data-guide-pagination] a').length>1);
+    const seen=new Set([`/${language}/guides/`]);
+    let found=catalogue(`[data-guide-card][href="${path}"]`).length===1;
+    for(let step=0;!found&&step<40;step++){
+      const next=catalogue('[data-guide-pagination] a[href]').toArray().map(element=>catalogue(element).attr('href')).find(href=>href&&!seen.has(href));
+      if(!next)break;
+      seen.add(next);
+      catalogue=load(await(await app.request(next)).text());
+      found=catalogue(`[data-guide-card][href="${path}"]`).length===1;
+    }
+    assert.equal(found,true);
     assert.equal((await app.request(`/${language}/guides/creation-entreprise-rabat/`)).status,200);
   }
   const historical=load(await(await app.request('/fr/guides/creation-entreprise-rabat/')).text());

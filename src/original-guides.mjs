@@ -5,11 +5,10 @@ import {lot1} from './guides-lot-1.mjs';
 import {lot1b} from './guides-lot-1b.mjs';
 import {lot1c} from './guides-lot-1c.mjs';
 
-// Catalogue order is newest-first, 24 cards per page. A publication date after
-// 12 October 2026 would push that day’s public guide off the first page.
-// The prose still carries the 19 November 2026 legal update.
-const date = '2026-10-11';
+// dateModified stays 19 November 2026. The catalogue date and datePublished
+// are the day the lot goes online.
 const modified = '2026-11-19';
+const lot1Published = '2026-11-19';
 const cover = {
   src:'/assets/corporate/documents.jpg',
   smallSrc:'/assets/corporate/documents-small.jpg',
@@ -77,7 +76,7 @@ function publish(guide, language) {
     metaDescription:guide.description[language],
     html:article(language, guide),
     faq:guide.faqs.map(item => ({question:item.q[language], answer:item.a[language]})),
-    publicationDate:date,
+    publicationDate:guide.publishedOn,
     modifiedDate:modified,
     authors:[],
     audit:true,
@@ -85,6 +84,10 @@ function publish(guide, language) {
   };
 }
 
+function dated(guides, publishedOn) {
+  return guides.map(guide => ({...guide, publishedOn}));
+}
+
 export function originalGuidesFor(language) {
-  return [...lot1, ...lot1b, ...lot1c].map(guide => publish(guide, language));
+  return dated([...lot1, ...lot1b, ...lot1c], lot1Published).map(guide => publish(guide, language));
 }
