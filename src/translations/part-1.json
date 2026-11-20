@@ -440,8 +440,8 @@
     "ar": "المكتب: +212 520 825 825"
   },
   "34c954f5b61e": {
-    "en": "Mobile: +212 661 080 862",
-    "ar": "المحمول: +212 661 080 862"
+    "en": "Mobile: +212 520 825 825",
+    "ar": "المحمول: +212 520 825 825"
   },
   "7ffb25e099fc": {
     "en": "WhatsApp: +212 661 400 352",
@@ -1312,8 +1312,8 @@
     "ar": "موارد وإجراءات ونصائح لتأسيس شركتك وتوطينها وتطويرها."
   },
   "5c0d5b5e1980": {
-    "en": "Accounting & Taxation",
-    "ar": "المحاسبة والضرائب"
+    "en": "tax filings & Taxation",
+    "ar": "الضرائب"
   },
   "09904560b360": {
     "en": "Electronic invoicing in Morocco: what changes in 2026",
@@ -1340,12 +1340,12 @@
     "ar": "17 أغسطس 2026"
   },
   "af659a4ef425": {
-    "en": "Accounting firm in Casablanca: how to choose well in 2026",
-    "ar": "مكتب محاسبة في الدار البيضاء: كيف تحسن الاختيار في 2026"
+    "en": "tax filings firm in Casablanca: how to choose well in 2026",
+    "ar": "مكتب تصاريح في الدار البيضاء: كيف تحسن الاختيار في 2026"
   },
   "3876a07152da": {
-    "en": "Casablanca has the largest concentration of accounting firms in Morocco, which can make choosing harder rather than easier. Here are practical selection criteria, expected fees and mistakes to avoid before signing.",
-    "ar": "تتركز في الدار البيضاء معظم مكاتب المحاسبة بالمغرب، مما قد يعقّد الاختيار أكثر مما يسهله. إليك معايير عملية للاختيار والأسعار المتوقعة والأخطاء التي ينبغي تجنبها قبل التوقيع."
+    "en": "Casablanca has the largest concentration of tax filings firms in Morocco, which can make choosing harder rather than easier. Here are practical selection criteria, expected fees and mistakes to avoid before signing.",
+    "ar": "تتركز في الدار البيضاء معظم مكاتب التصاريح بالمغرب، مما قد يعقّد الاختيار أكثر مما يسهله. إليك معايير عملية للاختيار والأسعار المتوقعة والأخطاء التي ينبغي تجنبها قبل التوقيع."
   },
   "96a36013b6e5": {
     "en": "3 July 2026",
@@ -1576,8 +1576,8 @@
     "ar": "تواكب Felexia Conseils رواد الأعمال والمستثمرين في تأسيس أنشطتهم بالمغرب وهيكلتها وتطويرها."
   },
   "732742298d9e": {
-    "en": "Our mission is to make entrepreneurs' lives easier through an approach combining legal expertise, accounting and technology.",
-    "ar": "مهمتنا تسهيل حياة رواد الأعمال بمقاربة تجمع القانون والمحاسبة والتكنولوجيا."
+    "en": "Our mission is to make entrepreneurs' lives easier through an approach combining legal expertise, tax filings and technology.",
+    "ar": "مهمتنا تسهيل حياة رواد الأعمال بمقاربة تجمع القانون والتصاريح والتكنولوجيا."
   },
   "c971d5a35055": {
     "en": "Would you like to contribute to supporting entrepreneurs? Tell us about your experience and the assignments that interest you.",
@@ -1664,12 +1664,12 @@
     "ar": "ما عواقب عدم الامتثال؟"
   },
   "9fdb997125ae": {
-    "en": "How will this affect your relationship with your accounting firm?",
-    "ar": "ما أثر ذلك على علاقتك بمكتب المحاسبة؟"
+    "en": "How will this affect your relationship with your tax filings firm?",
+    "ar": "ما أثر ذلك على علاقتك بمكتب التصاريح؟"
   },
   "e4237074a24c": {
-    "en": "Accounting ready for the reform, from the outset",
-    "ar": "محاسبة مهيأة للإصلاح منذ التأسيس"
+    "en": "tax filings ready for the reform, from the outset",
+    "ar": "تصاريح مهيأة للإصلاح منذ التأسيس"
   },
   "c75d6b8019a9": {
     "en": "FAQ — Electronic invoicing in Morocco",
@@ -1708,8 +1708,8 @@
     "ar": "مشاركة"
   },
   "16b74722ff3c": {
-    "en": "Felexia Conseils supports your company formation and puts you in touch with accounting firms already prepared for electronic invoicing.",
-    "ar": "تواكب Felexia Conseils تأسيس مقاولتك وتربطك بمكاتب محاسبة مستعدة للفوترة الإلكترونية."
+    "en": "Felexia Conseils supports your company formation and puts you in touch with tax filings firms already prepared for electronic invoicing.",
+    "ar": "تواكب Felexia Conseils تأسيس مقاولتك وتربطك بمكاتب تصاريح مستعدة للفوترة الإلكترونية."
   },
   "d420f3671b24": {
     "en": "Electronic invoicing is no longer optional in Morocco: the DGI is making it a progressive legal requirement, business by business, from 2026. Whether you are already covered or your company will only be affected in a few years, it is better to understand the reform now than discover it under pressure. This guide explains the principle, timeline, practical changes and how to prepare.",
@@ -1729,7 +1729,7 @@
   },
   "26d7ae2143ea": {
     "en": "The stated objectives are clear: reduce false invoices and VAT fraud, improve the traceability of business transactions, streamline tax returns, and reduce informal practices that sometimes enter otherwise structured accounts. The reform builds on other recent measures—VAT withholding, tax compliance certificates and payment-term rules—that had already prepared the ground.",
-    "ar": "الأهداف المعلنة واضحة: الحد من الفواتير الوهمية والغش في الضريبة على القيمة المضافة، وتحسين تتبع المعاملات التجارية، وتيسير التصريحات الضريبية، وتقليص الممارسات غير المهيكلة التي تتسلل أحياناً إلى محاسبة منظمة. ويأتي الإصلاح امتداداً لتدابير حديثة أخرى مهّدت له، منها اقتطاع الضريبة على القيمة المضافة من المنبع وشهادات الانتظام الضريبي وتنظيم آجال الأداء."
+    "ar": "الأهداف المعلنة واضحة: الحد من الفواتير الوهمية والغش في الضريبة على القيمة المضافة، وتحسين تتبع المعاملات التجارية، وتيسير التصريحات الضريبية، وتقليص الممارسات غير المهيكلة التي تتسلل أحياناً إلى تصاريح منظمة. ويأتي الإصلاح امتداداً لتدابير حديثة أخرى مهّدت له، منها اقتطاع الضريبة على القيمة المضافة من المنبع وشهادات الانتظام الضريبي وتنظيم آجال الأداء."
   },
   "663d7a561e4a": {
     "en": "Ultimately, the reform will cover almost all Moroccan businesses subject to VAT—potentially over one million businesses, from large groups to auto-entrepreneurs. However, implementation is phased, starting with the largest organisations:",
@@ -1748,8 +1748,8 @@
     "ar": "المقاولات الصغرى والمتوسطة والصغيرة جداً والمقاولون الذاتيون الذين يتجاوزون رقم معاملات معيناً — يُرتقب التعميم في المراحل اللاحقة، في أفق 2027–2028."
   },
   "ffaa4cc011cc": {
-    "en": "A key point: the exact turnover thresholds separating the phases still vary between sources until the DGI publishes the final implementing decree. To know exactly which phase your company falls into, the most reliable approach is to check directly with your accounting firm or the official DGI portal when the text is published, rather than relying on a single date announced beforehand.",
-    "ar": "نقطة أساسية: لا تزال عتبات رقم المعاملات الدقيقة الفاصلة بين المراحل تختلف بحسب المصادر إلى حين نشر DGI المرسوم التطبيقي النهائي. لمعرفة المرحلة التي ستشمل شركتك بدقة، الأفضل التحقق مباشرة مع مكتب محاسبتك أو عبر البوابة الرسمية لـDGI عند نشر النص، بدلاً من الاعتماد على تاريخ واحد أُعلن مسبقاً."
+    "en": "A key point: the exact turnover thresholds separating the phases still vary between sources until the DGI publishes the final implementing decree. To know exactly which phase your company falls into, the most reliable approach is to check directly with your tax filings firm or the official DGI portal when the text is published, rather than relying on a single date announced beforehand.",
+    "ar": "نقطة أساسية: لا تزال عتبات رقم المعاملات الدقيقة الفاصلة بين المراحل تختلف بحسب المصادر إلى حين نشر DGI المرسوم التطبيقي النهائي. لمعرفة المرحلة التي ستشمل شركتك بدقة، الأفضل التحقق مباشرة مع مكتب مستشارتك أو عبر البوابة الرسمية لـDGI عند نشر النص، بدلاً من الاعتماد على تاريخ واحد أُعلن مسبقاً."
   },
   "e4c9614c4fbc": {
     "en": "Initially, the system will cover only B2B transactions between businesses, before any potential extension to B2C.",
@@ -1788,32 +1788,32 @@
     "ar": "ثلاث نتائج عملية ينبغي الاستعداد لها، مهما كان حجم مؤسستك:"
   },
   "920e912a5c89": {
-    "en": "Your invoicing or accounting software must comply with DGI standards: structured format, platform connection and electronic signature capability.",
-    "ar": "يجب أن يتوافق برنامج الفوترة أو المحاسبة مع معايير DGI: صيغة مهيكلة، وربط بالمنصة، وإمكانية تدبير التوقيع الإلكتروني."
+    "en": "Your invoicing or tax filings software must comply with DGI standards: structured format, platform connection and electronic signature capability.",
+    "ar": "يجب أن يتوافق برنامج الفوترة أو التصاريح مع معايير DGI: صيغة مهيكلة، وربط بالمنصة، وإمكانية تدبير التوقيع الإلكتروني."
   },
   "4faf3a88f625": {
     "en": "Electronic signatures become a routine working tool, requiring a qualified digital certificate for the company or its representative.",
     "ar": "يصبح التوقيع الإلكتروني أداة عمل معتادة، مما يستلزم اقتناء شهادة رقمية مؤهلة للشركة أو ممثلها."
   },
   "b4e03408a535": {
-    "en": "Accounting follow-up becomes tighter: as every invoice is validated by the DGI in near real time, the time available for recording and correcting errors is reduced.",
-    "ar": "يصبح التتبع المحاسبي أدق: مع اعتماد DGI لكل فاتورة في وقت شبه آني، تتقلص تلقائياً آجال التسجيل وتصحيح الأخطاء."
+    "en": "tax filings follow-up becomes tighter: as every invoice is validated by the DGI in near real time, the time available for recording and correcting errors is reduced.",
+    "ar": "يصبح التتبع المستشاري أدق: مع اعتماد DGI لكل فاتورة في وقت شبه آني، تتقلص تلقائياً آجال التسجيل وتصحيح الأخطاء."
   },
   "29b67a4f4f25": {
     "en": "Even if your company is not in the first phase, preparing ahead is easier than being caught unprepared. Three useful steps:",
     "ar": "حتى إن لم تكن شركتك ضمن المرحلة الأولى، فالاستعداد المبكر أفضل من مواجهة الأمر دون جاهزية. ثلاث خطوات مفيدة:"
   },
   "1ea826e27d8c": {
-    "en": "Check with your software provider or accounting firm that your accounting software is compatible with future DGI standards.",
-    "ar": "تحقق مع مزود البرنامج أو مكتب المحاسبة من توافق برنامجك المحاسبي مع معايير DGI المرتقبة."
+    "en": "Check with your software provider or tax filings firm that your tax filings software is compatible with future DGI standards.",
+    "ar": "تحقق مع مزود البرنامج أو مكتب التصاريح من توافق برنامجك المستشاري مع معايير DGI المرتقبة."
   },
   "27f6677dfa92": {
     "en": "Plan the budget: software updates, electronic signature certificate and any support needed—costs vary according to company size and invoice volumes.",
     "ar": "خطط للميزانية: تحديث البرنامج وشهادة التوقيع الإلكتروني والمواكبة المحتملة؛ تختلف التكاليف بحسب حجم المقاولة وعدد الفواتير المعالجة."
   },
   "c67da8db3f21": {
-    "en": "Involve your accounting firm early: it can tell you precisely which implementation phase covers your company and help audit your current tools beforehand.",
-    "ar": "أشرك مكتب المحاسبة منذ البداية: يمكنه تحديد المرحلة التي ستشمل شركتك بدقة ومساعدتك على تقييم أدواتك الحالية مسبقاً."
+    "en": "Involve your tax filings firm early: it can tell you precisely which implementation phase covers your company and help audit your current tools beforehand.",
+    "ar": "أشرك مكتب التصاريح منذ البداية: يمكنه تحديد المرحلة التي ستشمل شركتك بدقة ومساعدتك على تقييم أدواتك الحالية مسبقاً."
   },
   "929f7d8b9376": {
     "en": "Once a company falls within the mandatory scope of the reform, issuing invoices outside the DGI-validated process creates a direct tax risk: an invoice that does not comply with the new format loses its status as the legal original. This may undermine VAT deductions for both customer and supplier and expose them to penalties under the General Tax Code. That is another reason not to wait until the last minute to upgrade your tools.",
@@ -1824,12 +1824,12 @@
     "ar": "لا يقتصر الخطر على الجانب الضريبي، بل يشمل الجانب التجاري. فالعميل الخاضع للإصلاح لن يستطيع قبول فاتورة لم تمر عبر منصة DGI، حتى لو كانت صحيحة من حيث المضمون. وقد يستبعد العملاء الملزمون بالنظام مورداً يتأخر في الامتثال، بصرف النظر عن العقوبات الإدارية. وبالنسبة للمقاولات التي تتعامل مع كبار العملاء، وهم غالباً أول المعنيين، قد يأتي ضغط التحديث أبكر مما يوحي به الجدول الرسمي بحسب حجم المقاولة."
   },
   "454bb4843997": {
-    "en": "Electronic invoicing partly reshapes the roles of the business and its accounting firm. Today, much accounting work involves re-entering and checking paper or PDF invoices. With structured invoices validated in advance by the DGI, some manual entry can be automated, freeing time for higher-value advice.",
-    "ar": "تعيد الفوترة الإلكترونية توزيع بعض الأدوار بين المقاولة ومكتب المحاسبة. يعتمد جزء كبير من العمل المحاسبي اليوم على إعادة إدخال فواتير ورقية أو بصيغة PDF والتحقق منها. ومع الفواتير المهيكلة والمعتمدة مسبقاً من DGI، يمكن أتمتة جزء من الإدخال اليدوي، مما يتيح وقتاً أكبر للاستشارة ذات القيمة المضافة."
+    "en": "Electronic invoicing partly reshapes the roles of the business and its tax filings firm. Today, much tax filings work involves re-entering and checking paper or PDF invoices. With structured invoices validated in advance by the DGI, some manual entry can be automated, freeing time for higher-value advice.",
+    "ar": "تعيد الفوترة الإلكترونية توزيع بعض الأدوار بين المقاولة ومكتب التصاريح. يعتمد جزء كبير من العمل المستشاري اليوم على إعادة إدخال فواتير ورقية أو بصيغة PDF والتحقق منها. ومع الفواتير المهيكلة والمعتمدة مسبقاً من DGI، يمكن أتمتة جزء من الإدخال اليدوي، مما يتيح وقتاً أكبر للاستشارة ذات القيمة المضافة."
   },
   "43a20b753541": {
-    "en": "In practice, your accounting firm is also best placed to identify the reform phase covering your company from your file, and to support the choice or update of invoicing software. It is better to involve it early than wait until the requirement takes effect.",
-    "ar": "عملياً، مكتب المحاسبة هو الأنسب لتحديد المرحلة التي ستشمل شركتك استناداً إلى ملفك، ولمواكبتك في اختيار برنامج الفوترة أو تحديثه. لذلك من الأفضل إشراكه في التفكير مسبقاً بدلاً من انتظار دخول الالتزام حيز التنفيذ."
+    "en": "In practice, your tax filings firm is also best placed to identify the reform phase covering your company from your file, and to support the choice or update of invoicing software. It is better to involve it early than wait until the requirement takes effect.",
+    "ar": "عملياً، مكتب التصاريح هو الأنسب لتحديد المرحلة التي ستشمل شركتك استناداً إلى ملفك، ولمواكبتك في اختيار برنامج الفوترة أو تحديثه. لذلك من الأفضل إشراكه في التفكير مسبقاً بدلاً من انتظار دخول الالتزام حيز التنفيذ."
   },
   "f4e9ad2f16e9": {
     "en": "Felexia Conseils supports the preparation of your company formation in Morocco. You can present your project remotely; the firm then explains the documents, formalities and arrangements suited to your circumstances.",
@@ -1844,8 +1844,8 @@
     "ar": "المديرية العامة للضرائب (DGI)، استناداً إلى المادة 145 من المدونة العامة للضرائب كما عدلتها قوانين المالية المتعاقبة."
   },
   "22bedb8308f1": {
-    "en": "Not necessarily: it depends on whether your current solution meets DGI standards. A preliminary audit, often carried out with your accounting firm, determines whether an update is enough or a new solution is needed.",
-    "ar": "ليس بالضرورة: يتوقف الأمر على توافق حلك الحالي مع معايير DGI. يحدد تقييم مسبق، غالباً مع مكتب المحاسبة، ما إذا كان التحديث كافياً أو كان تغيير الحل ضرورياً."
+    "en": "Not necessarily: it depends on whether your current solution meets DGI standards. A preliminary audit, often carried out with your tax filings firm, determines whether an update is enough or a new solution is needed.",
+    "ar": "ليس بالضرورة: يتوقف الأمر على توافق حلك الحالي مع معايير DGI. يحدد تقييم مسبق، غالباً مع مكتب التصاريح، ما إذا كان التحديث كافياً أو كان تغيير الحل ضرورياً."
   },
   "c702c4349e5a": {
     "en": "No, for businesses within the mandatory scope: the DGI-validated electronic version becomes the legally recognised original invoice, and paper loses its evidentiary value.",
@@ -1864,12 +1864,12 @@
     "ar": "الجريدة الرسمية للمملكة المغربية (المراسيم التطبيقية، محينة عند النشر)"
   },
   "215e0257a7c6": {
-    "en": "Your online accounting firm in Morocco",
-    "ar": "مكتبك للمحاسبة عبر الإنترنت في المغرب"
+    "en": "Your advisory firm in Morocco",
+    "ar": "مكتبك الاستشاري في المغرب"
   },
   "40ad2e0f61bd": {
-    "en": "Company formation, domiciliation, accounting and legal support—an expert team by your side. Responses during business days.",
-    "ar": "تأسيس الشركات والتوطين والمحاسبة والمواكبة القانونية — فريق خبراء إلى جانبك. الرد خلال أيام العمل."
+    "en": "Company formation, domiciliation, and legal, social and tax advice.",
+    "ar": "تأسيس الشركات والتوطين والاستشارة القانونية والاجتماعية والجبائية."
   },
   "d3b023eabc9c": {
     "en": "Phone",
@@ -1904,12 +1904,12 @@
     "ar": "جميع الأدلة"
   },
   "67f505330337": {
-    "en": "Accounting firms in Morocco: everything to know in 2026",
-    "ar": "مكاتب المحاسبة في المغرب: كل ما تحتاج إلى معرفته في 2026"
+    "en": "tax filings firms in Morocco: everything to know in 2026",
+    "ar": "مكاتب التصاريح في المغرب: كل ما تحتاج إلى معرفته في 2026"
   },
   "34af35ff27fd": {
-    "en": "Everything to know about the role of an accounting firm in Morocco in 2026. Discover how to optimise your bookkeeping, secure your tax returns (VAT, corporate and income tax) and ensure your company's legal compliance with Felexia Conseils.",
-    "ar": "كل ما تحتاج إلى معرفته عن دور مكتب المحاسبة بالمغرب في 2026. اكتشف كيفية تحسين تدبيرك المحاسبي وتأمين تصريحاتك الضريبية (TVA وIS وIR) وضمان امتثال مقاولتك القانوني مع Felexia Conseils."
+    "en": "Everything to know about the role of an tax filings firm in Morocco in 2026. Discover how to optimise your record follow-up, secure your tax returns (VAT, corporate and income tax) and ensure your company's legal compliance with Felexia Conseils.",
+    "ar": "كل ما تحتاج إلى معرفته عن دور مكتب التصاريح بالمغرب في 2026. اكتشف كيفية تحسين تدبيرك المستشاري وتأمين تصريحاتك الضريبية (TVA وIS وIR) وضمان امتثال مقاولتك القانوني مع Felexia Conseils."
   },
   "0ce130385a0a": {
     "en": "Electronic invoicing in Morocco 2026 — Felexia Conseils",
@@ -1940,8 +1940,8 @@
     "ar": "نسخ الرابط"
   },
   "32e996ad69ac": {
-    "en": "Accounting firm",
-    "ar": "مكتب محاسبة"
+    "en": "tax filings firm",
+    "ar": "مكتب تصاريح"
   },
   "4d27afc74b51": {
     "en": "7-minute read",
@@ -2272,16 +2272,16 @@
     "ar": "أسّس شركتك ونوجّهك إلى المكتب المناسب"
   },
   "d49ce8112c9e": {
-    "en": "Accounting firm, fiduciary firm, chartered accountant: what do these mean?",
-    "ar": "مكتب محاسبة، مكتب خدمات محاسبية، خبير محاسب: ما المقصود بها؟"
+    "en": "tax filings firm, fiduciary firm, chartered filing adviser: what do these mean?",
+    "ar": "مكتب تصاريح، مكتب خدمات مستشارية، خبير مستشار: ما المقصود بها؟"
   },
   "5b2e45628698": {
     "en": "Why Casablanca has the largest concentration of firms",
     "ar": "لماذا تتركز المكاتب في الدار البيضاء"
   },
   "7f9d47ce56db": {
-    "en": "Criteria for choosing your accounting firm",
-    "ar": "معايير اختيار مكتب المحاسبة المناسب"
+    "en": "Criteria for choosing your tax filings firm",
+    "ar": "معايير اختيار مكتب التصاريح المناسب"
   },
   "46801da10bfa": {
     "en": "Firm size and specialisation",
@@ -2300,12 +2300,12 @@
     "ar": "شفافية الأتعاب"
   },
   "d3bc96451de5": {
-    "en": "How much does an accounting firm in Casablanca cost?",
-    "ar": "ما تكلفة مكتب محاسبة في الدار البيضاء؟"
+    "en": "How much does an tax filings firm in Casablanca cost?",
+    "ar": "ما تكلفة مكتب تصاريح في الدار البيضاء؟"
   },
   "16d265d78cfb": {
-    "en": "Traditional firm or online accounting service?",
-    "ar": "مكتب تقليدي أم خدمة محاسبة عبر الإنترنت؟"
+    "en": "Traditional firm or online tax filings service?",
+    "ar": "مكتب تقليدي أم خدمة تصاريح عبر الإنترنت؟"
   },
   "2e669f1b888e": {
     "en": "Questions to ask before signing",
@@ -2320,12 +2320,12 @@
     "ar": "أسّس شركتك ونساعدك على الانطلاق الصحيح"
   },
   "9d0a97da61ba": {
-    "en": "FAQ — Accounting firms in Casablanca",
-    "ar": "أسئلة شائعة — مكاتب المحاسبة في الدار البيضاء"
+    "en": "FAQ — tax filings firms in Casablanca",
+    "ar": "أسئلة شائعة — مكاتب التصاريح في الدار البيضاء"
   },
   "5d56ec5b3b8e": {
-    "en": "What is the difference between an accounting firm and a chartered accountant?",
-    "ar": "ما الفرق بين مكتب محاسبة وخبير محاسب؟"
+    "en": "What is the difference between an tax filings firm and a chartered filing adviser?",
+    "ar": "ما الفرق بين مكتب تصاريح وخبير مستشار؟"
   },
   "78278b877c04": {
     "en": "Should I choose a firm specialising in my sector?",
@@ -2336,20 +2336,20 @@
     "ar": "كيف أعرف إن كان المكتب مستعداً للفوترة الإلكترونية؟"
   },
   "0e58c33b9fb3": {
-    "en": "Casablanca has the largest concentration of Moroccan businesses, and therefore of accounting firms and chartered accountants. What should make choosing easier often makes it harder: it is difficult to distinguish dozens of firms based solely on a website or word of mouth. This guide gives practical criteria for choosing an accounting firm in Casablanca, its costs and the most common mistakes.",
-    "ar": "تتركز بالدار البيضاء معظم الأنشطة الاقتصادية المغربية، وبالتالي معظم مكاتب المحاسبة والخبراء المحاسبين. وما يفترض أن يسهل الاختيار يجعله أصعب أحياناً؛ فمن الصعب المفاضلة بين عشرات المكاتب بناءً على موقع إلكتروني أو توصية شفوية فقط. يقدم هذا الدليل معايير عملية للاختيار والتكاليف والأخطاء الأكثر شيوعاً."
+    "en": "Casablanca has the largest concentration of Moroccan businesses, and therefore of tax filings firms and chartered filing advisers. What should make choosing easier often makes it harder: it is difficult to distinguish dozens of firms based solely on a website or word of mouth. This guide gives practical criteria for choosing an tax filings firm in Casablanca, its costs and the most common mistakes.",
+    "ar": "تتركز بالدار البيضاء معظم الأنشطة الاقتصادية المغربية، وبالتالي معظم مكاتب التصاريح والخبراء المستشارين. وما يفترض أن يسهل الاختيار يجعله أصعب أحياناً؛ فمن الصعب المفاضلة بين عشرات المكاتب بناءً على موقع إلكتروني أو توصية شفوية فقط. يقدم هذا الدليل معايير عملية للاختيار والتكاليف والأخطاء الأكثر شيوعاً."
   },
   "835b7a1e453b": {
-    "en": "These three terms are often used interchangeably. In brief, an accounting firm and a fiduciary firm generally refer to the same kind of business in Morocco: an organisation handling accounting, tax and often payroll for several clients. A chartered accountant is registered with the Order of Chartered Accountants and authorised to certify accounts and undertake regulated assignments; they may run a firm or handle specific assignments requiring their signature.",
-    "ar": "غالباً ما تتداخل هذه المصطلحات في الاستعمال. باختصار، يشير مكتب المحاسبة والمكتب الائتماني عملياً إلى الواقع نفسه بالمغرب: مؤسسة تتولى المحاسبة والضرائب وغالباً الأجور لعدة مقاولات. أما الخبير المحاسب فهو مهني مسجل بهيئة الخبراء المحاسبين، مخول له المصادقة على الحسابات والقيام بمهام منظمة؛ وقد يدير مكتباً أو يتدخل في مهام محددة تستلزم توقيعه."
+    "en": "These three terms are often used interchangeably. In brief, an tax filings firm and a fiduciary firm generally refer to the same kind of business in Morocco: an organisation handling tax filings, tax and often payroll for several clients. A chartered filing adviser is registered with the Order of Chartered filing advisers and authorised to certify accounts and undertake regulated assignments; they may run a firm or handle specific assignments requiring their signature.",
+    "ar": "غالباً ما تتداخل هذه المصطلحات في الاستعمال. باختصار، يشير مكتب التصاريح والمكتب الائتماني عملياً إلى الواقع نفسه بالمغرب: مؤسسة تتولى الضرائب وغالباً الأجور لعدة مقاولات. أما الخبير المستشار فهو مهني مسجل بهيئة الخبراء المستشارين، مخول له المصادقة على الحسابات والقيام بمهام منظمة؛ وقد يدير مكتباً أو يتدخل في مهام محددة تستلزم توقيعه."
   },
   "8d57824d4e38": {
-    "en": "This guide focuses on the practical choice of a firm in Casablanca. If you first want a detailed understanding of an accounting firm's role, services and prices, our complete guide to accounting firms in Morocco covers these points in depth.",
-    "ar": "يركز هذا الدليل على الاختيار العملي لمكتب بالدار البيضاء. وإذا أردت أولاً فهم دوره ومهامه وأسعاره بالتفصيل، فإن دليلنا الشامل لمكاتب المحاسبة بالمغرب يتناول ذلك بعمق."
+    "en": "This guide focuses on the practical choice of a firm in Casablanca. If you first want a detailed understanding of an tax filings firm's role, services and prices, our complete guide to tax filings firms in Morocco covers these points in depth.",
+    "ar": "يركز هذا الدليل على الاختيار العملي لمكتب بالدار البيضاء. وإذا أردت أولاً فهم دوره ومهامه وأسعاره بالتفصيل، فإن دليلنا الشامل لمكاتب التصاريح بالمغرب يتناول ذلك بعمق."
   },
   "2a20065ae3a6": {
-    "en": "The Kingdom's economic capital, Casablanca has a disproportionately large share of headquarters, business centres and Moroccan accounting firms. This is an advantage—wide choice and competition improve service quality—but also a challenge: the denser the market, the easier it is to choose poorly based on superficial criteria such as proximity alone or the lowest advertised fee.",
-    "ar": "تضم الدار البيضاء، العاصمة الاقتصادية للمملكة، حصة كبيرة من المقرات الاجتماعية ومراكز الأعمال ومكاتب المحاسبة المغربية. وهذه ميزة لتنوع الاختيارات وتحفيز المنافسة لجودة الخدمة، لكنها صعوبة أيضاً: كلما كثرت العروض سهل الخطأ بالاعتماد على معايير سطحية كالقرب الجغرافي وحده أو أدنى سعر معلن."
+    "en": "The Kingdom's economic capital, Casablanca has a disproportionately large share of headquarters, business centres and Moroccan tax filings firms. This is an advantage—wide choice and competition improve service quality—but also a challenge: the denser the market, the easier it is to choose poorly based on superficial criteria such as proximity alone or the lowest advertised fee.",
+    "ar": "تضم الدار البيضاء، العاصمة الاقتصادية للمملكة، حصة كبيرة من المقرات الاجتماعية ومراكز الأعمال ومكاتب التصاريح المغربية. وهذه ميزة لتنوع الاختيارات وتحفيز المنافسة لجودة الخدمة، لكنها صعوبة أيضاً: كلما كثرت العروض سهل الخطأ بالاعتماد على معايير سطحية كالقرب الجغرافي وحده أو أدنى سعر معلن."
   },
   "d293bfe1b277": {
     "en": "In practice, this concentration means several types of providers operate in Casablanca:",
@@ -2364,16 +2364,16 @@
     "ar": "مكاتب متوسطة الحجم، عامة أو متخصصة بحسب قطاعات النشاط."
   },
   "0901fd0a09a5": {
-    "en": "Smaller practices, sometimes run by an independent chartered accountant, providing highly personalised support.",
-    "ar": "مكاتب أصغر، يدير بعضها خبير محاسب مستقل، وتقدم تتبعاً شخصياً للغاية."
+    "en": "Smaller practices, sometimes run by an independent chartered filing adviser, providing highly personalised support.",
+    "ar": "مكاتب أصغر، يدير بعضها خبير مستشار مستقل، وتقدم تتبعاً شخصياً للغاية."
   },
   "f3e1f9af3f8d": {
     "en": "Beyond price, four criteria really make a difference over time.",
     "ar": "إلى جانب السعر، هناك أربعة معايير تصنع فرقاً حقيقياً على المدى الطويل."
   },
   "277008fc2375": {
-    "en": "A large generalist firm is not necessarily the right choice for a new SARL or auto-entrepreneur: support may be less personalised and fees are often designed for larger businesses. Conversely, a small firm specialising in your sector—e-commerce, construction, import-export or liberal professions—already understands its accounting and tax specifics, speeding up the start and reducing errors.",
-    "ar": "ليس المكتب الكبير العام الاختصاص بالضرورة الأنسب لشركة SARL حديثة أو مقاول ذاتي؛ فقد تكون المواكبة أقل تخصيصاً والأتعاب موجهة لمؤسسات أكبر. في المقابل، يعرف المكتب الصغير المتخصص في قطاعك، كالتجارة الإلكترونية أو البناء أو الاستيراد والتصدير أو المهن الحرة، خصوصيات مهنتك المحاسبية والضريبية مسبقاً، مما يسرّع الانطلاقة ويقلل الأخطاء."
+    "en": "A large generalist firm is not necessarily the right choice for a new SARL or auto-entrepreneur: support may be less personalised and fees are often designed for larger businesses. Conversely, a small firm specialising in your sector—e-commerce, construction, import-export or liberal professions—already understands its tax filings and tax specifics, speeding up the start and reducing errors.",
+    "ar": "ليس المكتب الكبير العام الاختصاص بالضرورة الأنسب لشركة SARL حديثة أو مقاول ذاتي؛ فقد تكون المواكبة أقل تخصيصاً والأتعاب موجهة لمؤسسات أكبر. في المقابل، يعرف المكتب الصغير المتخصص في قطاعك، كالتجارة الإلكترونية أو البناء أو الاستيراد والتصدير أو المهن الحرة، خصوصيات مهنتك المستشارية والضريبية مسبقاً، مما يسرّع الانطلاقة ويقلل الأخطاء."
   },
   "998e046ff534": {
     "en": "This criterion is most often overlooked when signing and most regretted later. Before committing, ask: will you have a named, reachable contact, or be one of hundreds of files handled by a rotating team? A responsive firm that answers within hours makes a considerable difference when an urgent return or cash-flow question arises.",
@@ -2384,24 +2384,24 @@
     "ar": "مع التعميم التدريجي للفوترة الإلكترونية بالمغرب، يصبح النضج الرقمي للمكتب معيار اختيار قائماً بذاته. فالمكتب الذي يوفر بوابة للعملاء لرقمنة الوثائق ويتابع معايير DGI سيجنبك انتقالاً صعباً حين تدخل مقاولتك ضمن النطاق الإلزامي للإصلاح."
   },
   "2c1db795edde": {
-    "en": "A good firm clearly details what its monthly subscription includes—bookkeeping, tax returns and payroll—and what costs extra, such as occasional advice, exceptional assignments and financing applications. An unclear offer or a quote always left “to be discussed” is often a warning sign worth taking seriously.",
-    "ar": "يوضح المكتب الجيد ما يشمله الاشتراك الشهري من مسك المحاسبة والتصريحات الضريبية والأجور، وما يُحتسب إضافياً كالاستشارات العرضية والمهام الاستثنائية وملفات التمويل. والعرض الغامض أو التسعير المتروك دائماً «للنقاش» مؤشر ينبغي أخذه بجدية."
+    "en": "A good firm clearly details what its monthly subscription includes—record follow-up, tax returns and payroll—and what costs extra, such as occasional advice, exceptional assignments and financing applications. An unclear offer or a quote always left “to be discussed” is often a warning sign worth taking seriously.",
+    "ar": "يوضح المكتب الجيد ما يشمله الاشتراك الشهري من مسك التصاريح والتصريحات الضريبية والأجور، وما يُحتسب إضافياً كالاستشارات العرضية والمهام الاستثنائية وملفات التمويل. والعرض الغامض أو التسعير المتروك دائماً «للنقاش» مؤشر ينبغي أخذه بجدية."
   },
   "155e91def856": {
-    "en": "Price mainly depends on the volume of accounting entries, the number of employees on payroll and the scope of work. Billing is usually monthly, with lower fees for a service business issuing few invoices than for a high-volume retailer or a company with several employees.",
-    "ar": "يعتمد السعر أساساً على حجم القيود المحاسبية وعدد الأجراء المشمولين بتدبير الأجور ونطاق المهام المسندة. وتُحدد الأتعاب غالباً باشتراك شهري، يكون أقل لنشاط خدمات ذي فواتير محدودة مقارنة بتجارة كثيفة المعاملات أو شركة تضم عدة أجراء."
+    "en": "Price mainly depends on the volume of tax filings entries, the number of employees on payroll and the scope of work. Billing is usually monthly, with lower fees for a service business issuing few invoices than for a high-volume retailer or a company with several employees.",
+    "ar": "يعتمد السعر أساساً على حجم القيود المستشارية وعدد الأجراء المشمولين بتدبير الأجور ونطاق المهام المسندة. وتُحدد الأتعاب غالباً باشتراك شهري، يكون أقل لنشاط خدمات ذي فواتير محدودة مقارنة بتجارة كثيفة المعاملات أو شركة تضم عدة أجراء."
   },
   "98080bcb65b7": {
-    "en": "Avoid choosing solely on the lowest price. Poor accounting almost always costs more in the medium term through tax penalties, reassessments and time spent correcting errors. This is even more true as electronic invoicing approaches and leaves less room for error.",
-    "ar": "تجنب الاختيار على أساس أدنى سعر وحده. فالمحاسبة غير المتقنة تكلف غالباً أكثر على المدى المتوسط بسبب الغرامات والتصحيحات الضريبية والوقت الضائع في معالجة الأخطاء. ويزداد ذلك أهمية مع اقتراب الفوترة الإلكترونية التي تترك هامشاً أضيق للخطأ."
+    "en": "Avoid choosing solely on the lowest price. Poor tax filings almost always costs more in the medium term through tax penalties, reassessments and time spent correcting errors. This is even more true as electronic invoicing approaches and leaves less room for error.",
+    "ar": "تجنب الاختيار على أساس أدنى سعر وحده. فالتصاريح غير المتقنة تكلف غالباً أكثر على المدى المتوسط بسبب الغرامات والتصحيحات الضريبية والوقت الضائع في معالجة الأخطاء. ويزداد ذلك أهمية مع اقتراب الفوترة الإلكترونية التي تترك هامشاً أضيق للخطأ."
   },
   "1d9d43ae940b": {
-    "en": "Casablanca increasingly offers a choice between a traditional local accounting firm and an online service. A traditional firm remains suitable if you prefer regular in-person contact, dropping off documents at the office, or your activity generates documents that are hard to digitise, such as a retailer with many receipts.",
-    "ar": "تتيح الدار البيضاء بشكل متزايد الاختيار بين مكتب محاسبة تقليدي قريب وخدمة محاسبة عبر الإنترنت. يبقى المكتب التقليدي مناسباً إذا كنت تفضل التواصل الحضوري المنتظم أو إيداع الوثائق بالمكتب، أو كان نشاطك ينتج وثائق يصعب رقمنتها، كتجارة كثيرة إيصالات البيع."
+    "en": "Casablanca increasingly offers a choice between a traditional local tax filings firm and an online service. A traditional firm remains suitable if you prefer regular in-person contact, dropping off documents at the office, or your activity generates documents that are hard to digitise, such as a retailer with many receipts.",
+    "ar": "تتيح الدار البيضاء بشكل متزايد الاختيار بين مكتب تصاريح تقليدي قريب وخدمة تصاريح عبر الإنترنت. يبقى المكتب التقليدي مناسباً إذا كنت تفضل التواصل الحضوري المنتظم أو إيداع الوثائق بالمكتب، أو كان نشاطك ينتج وثائق يصعب رقمنتها، كتجارة كثيرة إيصالات البيع."
   },
   "b303fab67ce1": {
-    "en": "Online accounting relies on a fully paperless approach: sending documents through an app or portal, monitoring indicators in real time and communicating through messages rather than physical appointments. For service companies, e-commerce or remotely managed businesses, particularly those run by Moroccans abroad, this is often smoother and quicker to set up. The choice mainly depends on daily working methods and habits, rather than one option being inherently better or more reliable.",
-    "ar": "تعتمد المحاسبة عبر الإنترنت على الرقمنة الكاملة: إرسال الوثائق بتطبيق أو بوابة وتتبع المؤشرات آنياً والتواصل بالرسائل بدل المواعيد الحضورية. وغالباً يكون هذا الخيار أكثر سلاسة وأسرع إعداداً لشركات الخدمات والتجارة الإلكترونية والمؤسسات المدارة عن بُعد، خصوصاً من طرف مغاربة العالم. يتوقف الاختيار أساساً على أسلوب عملك اليومي وعاداتك، وليس على تفوق أحد الخيارين مطلقاً في الجودة أو الموثوقية."
+    "en": "Online tax filings relies on a fully paperless approach: sending documents through an app or portal, monitoring indicators in real time and communicating through messages rather than physical appointments. For service companies, e-commerce or remotely managed businesses, particularly those run by Moroccans abroad, this is often smoother and quicker to set up. The choice mainly depends on daily working methods and habits, rather than one option being inherently better or more reliable.",
+    "ar": "تعتمد التصاريح عبر الإنترنت على الرقمنة الكاملة: إرسال الوثائق بتطبيق أو بوابة وتتبع المؤشرات آنياً والتواصل بالرسائل بدل المواعيد الحضورية. وغالباً يكون هذا الخيار أكثر سلاسة وأسرع إعداداً لشركات الخدمات والتجارة الإلكترونية والمؤسسات المدارة عن بُعد، خصوصاً من طرف مغاربة العالم. يتوقف الاختيار أساساً على أسلوب عملك اليومي وعاداتك، وليس على تفوق أحد الخيارين مطلقاً في الجودة أو الموثوقية."
   },
   "d0f4874e4ea4": {
     "en": "Who will be my day-to-day contact, and what is their usual response time?",
@@ -2432,36 +2432,36 @@
     "ar": "إهمال التوافق العملي: لا يمثل بُعد المكتب مشكلة إذا كان التواصل إلكترونياً، لكنه يصبح عائقاً إذا كان المكتب يفضل إيداع الوثائق حضورياً."
   },
   "0a8bdecfc2ac": {
-    "en": "Waiting for a problem—a late return or tax audit—before engaging an accounting firm, rather than organising things from formation.",
-    "ar": "انتظار حدوث مشكلة، كتأخر تصريح أو مراقبة ضريبية، قبل الاستعانة بمكتب محاسبة، بدلاً من التنظيم منذ التأسيس."
+    "en": "Waiting for a problem—a late return or tax audit—before engaging an tax filings firm, rather than organising things from formation.",
+    "ar": "انتظار حدوث مشكلة، كتأخر تصريح أو مراقبة ضريبية، قبل الاستعانة بمكتب تصاريح، بدلاً من التنظيم منذ التأسيس."
   },
   "f8d01bdc6b50": {
-    "en": "Organising accounting from the outset prevents backlogs, a common trap that turns the first year-end into an administrative nightmare that costs far more to remedy later than to prevent.",
-    "ar": "التنظيم منذ التأسيس يمنع تراكم التأخر المحاسبي، وهو فخ شائع يحوّل أول إقفال سنوي إلى كابوس إداري يكلف تداركه لاحقاً أكثر بكثير من استباقه."
+    "en": "Organising tax filings from the outset prevents backlogs, a common trap that turns the first year-end into an administrative nightmare that costs far more to remedy later than to prevent.",
+    "ar": "التنظيم منذ التأسيس يمنع تراكم التأخر المستشاري، وهو فخ شائع يحوّل أول إقفال سنوي إلى كابوس إداري يكلف تداركه لاحقاً أكثر بكثير من استباقه."
   },
   "03cf3f701e00": {
-    "en": "An accounting firm handles day-to-day accounting, tax and payroll for multiple business clients. A chartered accountant is registered with the Order and authorised to certify accounts; they may run a firm or undertake specific regulated assignments.",
-    "ar": "يتولى مكتب المحاسبة التدبير اليومي للمحاسبة والضرائب والأجور لعدة مقاولات. أما الخبير المحاسب فمسجل بالهيئة ومخول له المصادقة على الحسابات، وقد يدير مكتباً أو يتولى مهام منظمة محددة."
+    "en": "An tax filings firm handles day-to-day tax filings, tax and payroll for multiple business clients. A chartered filing adviser is registered with the Order and authorised to certify accounts; they may run a firm or undertake specific regulated assignments.",
+    "ar": "يتولى مكتب التصاريح التدبير اليومي للتصاريح والضرائب والأجور لعدة مقاولات. أما الخبير المستشار فمسجل بالهيئة ومخول له المصادقة على الحسابات، وقد يدير مكتباً أو يتولى مهام منظمة محددة."
   },
   "f789beaf13b5": {
-    "en": "It depends on accounting volume, employee numbers and assigned work. Billing is usually monthly; request a quote clearly detailing the included scope.",
-    "ar": "يعتمد ذلك على الحجم المحاسبي وعدد الأجراء والمهام المسندة. وتُحتسب الأتعاب عادة باشتراك شهري؛ اطلب عرضاً يحدد نطاق الخدمات المشمولة بدقة."
+    "en": "It depends on tax filings volume, employee numbers and assigned work. Billing is usually monthly; request a quote clearly detailing the included scope.",
+    "ar": "يعتمد ذلك على الحجم المستشاري وعدد الأجراء والمهام المسندة. وتُحتسب الأتعاب عادة باشتراك شهري؛ اطلب عرضاً يحدد نطاق الخدمات المشمولة بدقة."
   },
   "e39ee881227e": {
-    "en": "It is not mandatory, but it is a real advantage: a firm already familiar with your sector's accounting and tax specifics is usually faster and more reliable from the start.",
-    "ar": "ليس إلزامياً، لكنه ميزة حقيقية: فالمكتب العارف مسبقاً بخصوصيات قطاعك المحاسبية والضريبية يكون عادة أسرع وأكثر موثوقية منذ البداية."
+    "en": "It is not mandatory, but it is a real advantage: a firm already familiar with your sector's tax filings and tax specifics is usually faster and more reliable from the start.",
+    "ar": "ليس إلزامياً، لكنه ميزة حقيقية: فالمكتب العارف مسبقاً بخصوصيات قطاعك المستشارية والضريبية يكون عادة أسرع وأكثر موثوقية منذ البداية."
   },
   "b5aae07042bd": {
     "en": "Ask directly whether it has a paperless document portal and monitors DGI regulatory developments. A firm experienced with these tools will help you avoid a rushed transition.",
     "ar": "اسأله مباشرة إن كان يوفر بوابة لرقمنة الوثائق ويتابع مستجدات DGI التنظيمية. المكتب المتمكن من هذه الأدوات يجنبك الانتقال تحت الضغط."
   },
   "91f30a98e5f8": {
-    "en": "Accounting firm in Casablanca: how to choose — Felexia Conseils",
-    "ar": "مكتب محاسبة بالدار البيضاء: كيف تختار — Felexia Conseils"
+    "en": "tax filings firm in Casablanca: how to choose — Felexia Conseils",
+    "ar": "مكتب تصاريح بالدار البيضاء: كيف تختار — Felexia Conseils"
   },
   "5c15b2e13333": {
-    "en": "How to choose an accounting firm in Casablanca: criteria, fees and mistakes to avoid.",
-    "ar": "كيف تختار مكتب محاسبة بالدار البيضاء: المعايير والأتعاب والأخطاء التي ينبغي تجنبها."
+    "en": "How to choose an tax filings firm in Casablanca: criteria, fees and mistakes to avoid.",
+    "ar": "كيف تختار مكتب تصاريح بالدار البيضاء: المعايير والأتعاب والأخطاء التي ينبغي تجنبها."
   },
   "d78b678a937b": {
     "en": "Register your company without visiting the court",

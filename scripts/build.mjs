@@ -7,6 +7,7 @@ import { renderSite } from '../src/templates.mjs';
 import {company,languages} from '../src/content.mjs';
 import {load} from 'cheerio';
 import {revisedSlugs} from '../src/seo.mjs';
+import {scrubAccountingHtml} from '../src/accounting-language.mjs';
 import {editorialDate} from '../src/seo-content.mjs';
 await mkdir('dist', {recursive:true});
 // Only retire the old, generated Guides pagination directories. Verify each
@@ -22,7 +23,7 @@ await writeFile('dist/route-manifest.json',JSON.stringify(Object.keys(pages).map
 await writeFile('public/mylegal/legacy.css','@scope (.felexia-legacy) {\n'+await readFile('public/styles.css','utf8')+'\n}\n');
 await cp('public', 'dist', {recursive:true});
 const hashes=Object.fromEntries(await Promise.all(['app.js','styles.css'].map(async name=>[name,createHash('sha256').update(await readFile('public/'+name)).digest('hex').slice(0,12)])));
-for(const [path,source] of Object.entries(pages)){ const file=`dist/${path}`;const html=source.replace('/app.js"',`/app.js?v=${hashes['app.js']}"`).replace('/styles.css"',`/styles.css?v=${hashes['styles.css']}"`);pages[path]=html;await mkdir(file.slice(0,file.lastIndexOf('/')), {recursive:true}); await writeFile(file,html); }
+for(const [path,source] of Object.entries(pages)){ const file=`dist/${path}`;const html=scrubAccountingHtml(source).replace('/app.js"',`/app.js?v=${hashes['app.js']}"`).replace('/styles.css"',`/styles.css?v=${hashes['styles.css']}"`);pages[path]=html;await mkdir(file.slice(0,file.lastIndexOf('/')), {recursive:true}); await writeFile(file,html); }
 const routes=Object.entries(pages).filter(([p,html])=>{
   if(p==='index.html')return false;
   const $=load(html);

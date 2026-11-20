@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
 import { load } from 'cheerio';
+import { isUnpublishedAccountingGuide } from '../src/unpublished-accounting-guides.mjs';
 
 const root = new URL('../', import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('reference/mylegal/pages-manifest.json', root), 'utf8'));
@@ -39,6 +40,11 @@ function decoded(value) {
 test('every imported page exists locally with its own canonical URL', () => {
   for (const { route } of manifest.pages) {
     const path = localPath(route);
+    const withdrawn = route.match(/^\/guides\/([^/]+)\/?$/);
+    if (withdrawn && isUnpublishedAccountingGuide(withdrawn[1])) {
+      assert.equal(documents.get(`${path}index.html`), undefined, `${path}: withdrawn guide stays unpublished`);
+      continue;
+    }
     const document = documents.get(`${path}index.html`);
     assert.ok(document, `Missing imported page: ${path}`);
     const { $ } = document;

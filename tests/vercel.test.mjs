@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
 import { readFile, access } from 'node:fs/promises';
+import { isUnpublishedAccountingGuide } from '../src/unpublished-accounting-guides.mjs';
 import http from 'node:http';
 import { createVercelContactHandler } from '../src/vercel-contact.mjs';
 
@@ -128,6 +129,14 @@ test('Vercel keeps every imported reference path inside the French site', async 
     regex: new RegExp('^' + rule.source.replace(/:(page|plan|slug)(\([^)]*\))?/g, (_, _name, pattern) => pattern || '([^/]+)') + '$'),
   }));
   for (const { route } of manifest.pages) {
+    const withdrawn = route.match(/^\/guides\/([^/]+)\/?$/);
+    if (withdrawn && isUnpublishedAccountingGuide(withdrawn[1])) {
+      const source = `/fr/guides/${withdrawn[1]}/`;
+      const rule = config.redirects.find(item => item.source === source);
+      assert.equal(rule?.destination, '/fr/guides/', `${source}: redirect to the guide hub`);
+      assert.equal(rule?.statusCode, 301, source);
+      continue;
+    }
     const expected = route === '/' ? '/fr/' : `/fr${route}/`;
     if (route !== '/') for (const path of [route, `${route}/`]) {
       const rule = redirects.find(item => item.regex.test(path));

@@ -173,7 +173,7 @@ export function adaptReferenceContent($, route) {
       const premiumAnchor = bulletin(pack('Pack Premium'));
       const premiumItem = premiumAnchor.clone();
       const premiumLabel = premiumItem.find('span').last().empty();
-      for (const [text, separator] of [['Application de gestion de l’entreprise', ''], ['Mini ERP', ' — '], ['Vente', ' : '], ['Achat', ' • '], ['Stock', ' • '], ['Comptabilité', ' • '], ['CRM', ' • ']]) {
+      for (const [text, separator] of [['Application de gestion de l’entreprise', ''], ['Mini ERP', ' — '], ['Vente', ' : '], ['Achat', ' • '], ['Stock', ' • '], ['CRM', ' • ']]) {
         if (separator) premiumLabel.append($('<span></span>').text(separator));
         premiumLabel.append($('<span></span>').text(text));
       }

@@ -388,8 +388,8 @@
     "ar": "، فتتيح الجمع بين شريكين و50 شريكاً، أشخاصاً ذاتيين أو اعتباريين، لتطوير مشروع مشترك في إطار قانوني آمن."
   },
   "914461147535": {
-    "en": "Both company forms also offer relatively straightforward management, with administrative and accounting obligations suited to microbusinesses, SMEs and startups. They strengthen credibility with banks, investors, suppliers and customers, helping businesses access finance and growth opportunities.",
-    "ar": "ويتميز الشكلان بتسيير بسيط نسبياً والتزامات إدارية ومحاسبية ملائمة للمقاولات الصغيرة جداً والصغرى والمتوسطة والناشئة. كما يعززان المصداقية لدى البنوك والمستثمرين والموردين والعملاء، مما يسهل الولوج إلى التمويل وفرص التطوير."
+    "en": "Both company forms also offer relatively straightforward management, with administrative and tax filings obligations suited to microbusinesses, SMEs and startups. They strengthen credibility with banks, investors, suppliers and customers, helping businesses access finance and growth opportunities.",
+    "ar": "ويتميز الشكلان بتسيير بسيط نسبياً والتزامات إدارية ومستشارية ملائمة للمقاولات الصغيرة جداً والصغرى والمتوسطة والناشئة. كما يعززان المصداقية لدى البنوك والمستثمرين والموردين والعملاء، مما يسهل الولوج إلى التمويل وفرص التطوير."
   },
   "b6d038882dc9": {
     "en": "For all these reasons, SARL and SARLAU are now the leading legal structures for entrepreneurs wishing to",
@@ -604,8 +604,8 @@
     "ar": "يُنشر إعلان التأسيس في جريدة للإعلانات القانونية ثم في الجريدة الرسمية، لتصبح الشركة معلنة رسمياً ويُحتج بتأسيسها تجاه الغير."
   },
   "aba8e25e19bf": {
-    "en": "An SARL is generally subject to corporate tax, VAT and Business Tax, with annual accounting obligations.",
-    "ar": "تخضع SARL عموماً للضريبة على الشركات والضريبة على القيمة المضافة والضريبة المهنية، مع مسك محاسبة سنوية."
+    "en": "An SARL is generally subject to corporate tax, VAT and Business Tax, with annual tax filings obligations.",
+    "ar": "تخضع SARL عموماً للضريبة على الشركات والضريبة على القيمة المضافة والضريبة المهنية، مع مسك تصاريح سنوية."
   },
   "ad2fb1589958": {
     "en": "The company opens a business bank account in its own name.",
@@ -1113,15 +1113,15 @@
   },
   "37e3838d4a2e": {
     "en": "An invoice without an ICE can cause real problems: your customer may refuse to record it, and the tax authorities may challenge the deductibility of the expense or related VAT. An invoice without an ICE is therefore vulnerable. Include your ICE from your very first invoice.",
-    "ar": "قد يسبب غياب ICE عن الفاتورة مشكلات فعلية: فقد يرفض العميل إدراجها في المحاسبة، وقد تعترض الإدارة الضريبية على خصم النفقة أو الضريبة على القيمة المضافة المرتبطة بها. لذلك تظل الفاتورة دون ICE عرضة للاعتراض، ويجب إدراجه منذ أول فاتورة."
+    "ar": "قد يسبب غياب ICE عن الفاتورة مشكلات فعلية: فقد يرفض العميل إدراجها في التصاريح، وقد تعترض الإدارة الضريبية على خصم النفقة أو الضريبة على القيمة المضافة المرتبطة بها. لذلك تظل الفاتورة دون ICE عرضة للاعتراض، ويجب إدراجه منذ أول فاتورة."
   },
   "6a4bde6b5922": {
     "en": "Felexia Conseils supports you from company formation to business management.",
     "ar": "تواكبك Felexia Conseils من تأسيس مقاولتك إلى تسييرها."
   },
   "78f9f0303173": {
-    "en": "Need help with your administrative and accounting obligations?",
-    "ar": "هل تحتاج إلى مساعدة في التزاماتك الإدارية والمحاسبية؟"
+    "en": "Need help with your administrative and tax filings obligations?",
+    "ar": "هل تحتاج إلى مساعدة في التزاماتك الإدارية والمستشارية؟"
   },
   "3d173ce33c02": {
     "en": "Explore our services",
@@ -1424,8 +1424,8 @@
     "ar": "إجراءات تأسيس كاملة: الشهادة السلبية والنظام الأساسي ورأس المال والتسجيل."
   },
   "6652622df7f1": {
-    "en": "Independent accounting and management to maintain locally.",
-    "ar": "محاسبة وتسيير مستقلان يجب تدبيرهما محلياً."
+    "en": "Independent tax filings and management to maintain locally.",
+    "ar": "تصاريح وتسيير مستقلان يجب تدبيرهما محلياً."
   },
   "8b8358005124": {
     "en": "A branch meets the need for a lighter or temporary presence.",
@@ -1448,8 +1448,8 @@
     "ar": "قد يُنظر إليه ككيان أجنبي، مما قد يقلل من اطمئنان بعض الشركاء أو الإدارات المحلية."
   },
   "b3563da236af": {
-    "en": "It must still register in the Commercial Register and comply with Moroccan accounting and tax obligations.",
-    "ar": "يبقى ملزماً بالتقييد في السجل التجاري والامتثال للالتزامات المحاسبية والضريبية المغربية."
+    "en": "It must still register in the Commercial Register and comply with Moroccan tax filings and tax obligations.",
+    "ar": "يبقى ملزماً بالتقييد في السجل التجاري والامتثال للالتزامات المستشارية والضريبية المغربية."
   },
   "528a00ad615e": {
     "en": "A third, often overlooked option is a liaison or representative office. Unlike a subsidiary or branch, it does not carry out revenue-generating commercial activities in Morocco. Its role is limited to market prospecting, representation and coordination on behalf of the parent company.",
@@ -1520,8 +1520,8 @@
     "ar": "الشركة التابعة شركة خاضعة للقانون المغربي، لها شخصية قانونية مستقلة عن الشركة الأم. أما الفرع فلا يملك شخصية قانونية خاصة؛ بل هو امتداد للشركة الأجنبية التي تبقى مسؤولة بالكامل عن التزاماته."
   },
   "cf2ff2155d18": {
-    "en": "Yes. Even without its own legal personality, a branch must register in the Commercial Register, obtain an ICE and Tax Identifier, and comply with local accounting and tax obligations.",
-    "ar": "نعم. رغم عدم تمتعه بشخصية قانونية مستقلة، يجب على الفرع التقييد في السجل التجاري والحصول على ICE والتعريف الضريبي والامتثال للالتزامات المحاسبية والضريبية المحلية."
+    "en": "Yes. Even without its own legal personality, a branch must register in the Commercial Register, obtain an ICE and Tax Identifier, and comply with local tax filings and tax obligations.",
+    "ar": "نعم. رغم عدم تمتعه بشخصية قانونية مستقلة، يجب على الفرع التقييد في السجل التجاري والحصول على ICE والتعريف الضريبي والامتثال للالتزامات المستشارية والضريبية المحلية."
   },
   "73e3a6e805e2": {
     "en": "A subsidiary is usually preferred for a long-term presence because it limits the parent company’s liability and inspires greater confidence. A branch may suit a limited presence or a market-testing phase.",
@@ -1856,8 +1856,8 @@
     "ar": "بمجرد الحصول على RC، يمكنك فتح حسابك البنكي المهني وإصدار فواتير تتضمن ICE والتعريف الضريبي والانخراط في CNSS إذا كنت ستشغّل أجراء، والتصريح لدى الإدارة الضريبية لاختيار نظامك الضريبي."
   },
   "a409ef6b782b": {
-    "en": "During your first weeks of activity, set up rigorous accounting and establish your invoicing plan.",
-    "ar": "يُنصح خلال الأسابيع الأولى من النشاط باعتماد محاسبة دقيقة ووضع خطة للفوترة."
+    "en": "During your first weeks of activity, set up rigorous tax filings and establish your invoicing plan.",
+    "ar": "يُنصح خلال الأسابيع الأولى من النشاط باعتماد تصاريح دقيقة ووضع خطة للفوترة."
   },
   "d8241d00f858": {
     "en": "Felexia Conseils provides a complete file containing all your official identifiers, with a guide explaining the purpose of each document. You have everything needed to get started confidently.",

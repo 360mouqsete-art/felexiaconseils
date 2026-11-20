@@ -72,6 +72,756 @@
       "source": "/guides/:slug/",
       "destination": "/fr/guides/:slug/",
       "statusCode": 308
+    },
+    {
+      "source": "/fr/guides/7-principes-comptables-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/7-principes-comptables-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/7-principes-comptables-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/amortissements-comptables-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/amortissements-comptables-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/amortissements-comptables-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/audit-contractuel/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/audit-contractuel/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/audit-contractuel/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/audit-de-fraude-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/audit-de-fraude-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/audit-de-fraude-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/audit-des-comptes-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/audit-des-comptes-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/audit-des-comptes-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/audit-financier/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/audit-financier/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/audit-financier/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/auditeur-junior-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/auditeur-junior-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/auditeur-junior-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/cabinet-comptable-casablanca/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/cabinet-comptable-casablanca/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/cabinet-comptable-casablanca/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/cgnc-code-general-de-normalisation-comptable/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/cgnc-code-general-de-normalisation-comptable/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/cgnc-code-general-de-normalisation-comptable/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/choisir-expert-comptable-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/choisir-expert-comptable-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/choisir-expert-comptable-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/cloture-comptable-annuelle-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/cloture-comptable-annuelle-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/cloture-comptable-annuelle-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/commissaire-aux-comptes-a-casablanca/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/commissaire-aux-comptes-a-casablanca/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/commissaire-aux-comptes-a-casablanca/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/commissaire-aux-comptes-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/commissaire-aux-comptes-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/commissaire-aux-comptes-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/commissariat-aux-comptes-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/commissariat-aux-comptes-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/commissariat-aux-comptes-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/comptabilite-analytique-mise-en-place/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/comptabilite-analytique-mise-en-place/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/comptabilite-analytique-mise-en-place/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/comptabilite-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/comptabilite-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/comptabilite-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/comptabilite-au-maroc-1-guide/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/comptabilite-au-maroc-1-guide/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/comptabilite-au-maroc-1-guide/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/comptabilite-immobilisations-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/comptabilite-immobilisations-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/comptabilite-immobilisations-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/comptabilite-quest-ce-que-cest/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/comptabilite-quest-ce-que-cest/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/comptabilite-quest-ce-que-cest/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/comptable-junior-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/comptable-junior-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/comptable-junior-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/consolidation-comptes-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/consolidation-comptes-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/consolidation-comptes-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/continuite-dexploitation/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/continuite-dexploitation/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/continuite-dexploitation/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/devenir-expert-comptable-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/devenir-expert-comptable-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/devenir-expert-comptable-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/dotations-dexploitation/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/dotations-dexploitation/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/dotations-dexploitation/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/ecritures-regularisation-fin-exercice-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/ecritures-regularisation-fin-exercice-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/ecritures-regularisation-fin-exercice-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/erreurs-comptables-reserves-cac/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/erreurs-comptables-reserves-cac/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/erreurs-comptables-reserves-cac/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/etats-synthese-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/etats-synthese-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/etats-synthese-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/expert-comptable-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/expert-comptable-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/expert-comptable-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/expert-comptable-casablanca/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/expert-comptable-casablanca/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/expert-comptable-casablanca/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/expert-comptable-devenir/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/expert-comptable-devenir/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/expert-comptable-devenir/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/fiduciaire-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/fiduciaire-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/fiduciaire-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/grand-livre/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/grand-livre/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/grand-livre/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/ifrs-vs-cgnc-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/ifrs-vs-cgnc-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/ifrs-vs-cgnc-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/information-comptable-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/information-comptable-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/information-comptable-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/juriste-affaires-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/juriste-affaires-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/juriste-affaires-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/linventaire-physique-des-immobilisations/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/linventaire-physique-des-immobilisations/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/linventaire-physique-des-immobilisations/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/livre-journal-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/livre-journal-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/livre-journal-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/logiciel-de-comptabilite-que-choisir/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/logiciel-de-comptabilite-que-choisir/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/logiciel-de-comptabilite-que-choisir/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/manuel-de-procedures-comptables/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/manuel-de-procedures-comptables/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/manuel-de-procedures-comptables/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/plan-comptable-maroc-pdf/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/plan-comptable-maroc-pdf/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/plan-comptable-maroc-pdf/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/plan-comptable-marocain-pcge/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/plan-comptable-marocain-pcge/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/plan-comptable-marocain-pcge/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/rapport-cac-reserves-consequences/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/rapport-cac-reserves-consequences/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/rapport-cac-reserves-consequences/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/rapprochement-bancaire-au-maroc-erb/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/rapprochement-bancaire-au-maroc-erb/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/rapprochement-bancaire-au-maroc-erb/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/reevaluation-libre/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/reevaluation-libre/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/reevaluation-libre/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/regles-comptables-en-vigueur-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/regles-comptables-en-vigueur-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/regles-comptables-en-vigueur-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/rejet-de-la-comptabilite/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/rejet-de-la-comptabilite/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/rejet-de-la-comptabilite/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/separation-des-exercices/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/separation-des-exercices/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/separation-des-exercices/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/tenue-de-comptabilite/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/tenue-de-comptabilite/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/tenue-de-comptabilite/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/resultat-comptable-resultat-fiscal-is-maroc/",
+      "destination": "/fr/guides/passage-resultat-fiscal-is-maroc/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/resultat-comptable-resultat-fiscal-is-maroc/",
+      "destination": "/en/guides/passage-resultat-fiscal-is-maroc/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/resultat-comptable-resultat-fiscal-is-maroc/",
+      "destination": "/ar/guides/passage-resultat-fiscal-is-maroc/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/reporting-financier-au-maroc/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/reporting-financier-au-maroc/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/reporting-financier-au-maroc/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
     }
   ],
   "rewrites": [

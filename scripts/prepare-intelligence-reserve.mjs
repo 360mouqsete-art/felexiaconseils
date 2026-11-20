@@ -54,7 +54,7 @@ const extraIdeas=[
  ['preparer-un-plan-de-continuite-operationnelle','Préparer un plan de continuité des activités courantes'],
  ['clarifier-la-repartition-des-responsabilites','Clarifier les responsabilités dans une petite équipe'],
  ['preparer-un-cahier-de-tests-logiciel','Préparer une recette métier avant de choisir un logiciel'],
- ['organiser-la-reception-des-pieces-comptables','Organiser la collecte des pièces destinées au comptable'],
+ ['organiser-la-reception-des-pieces-déclaratifs','Organiser la collecte des pièces justificatives des déclarations'],
  ['suivre-les-dependances-dun-projet','Suivre les dépendances d’un projet sans multiplier les réunions'],
  ['structurer-un-compte-rendu-actionnable','Rédiger un compte rendu qui débouche sur des actions'],
  ['organiser-une-base-de-connaissances-interne','Organiser une base de connaissances accessible à l’équipe'],

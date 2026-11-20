@@ -61,9 +61,9 @@ export const lot2a = [
         heading:t('Les flux entre la mère et la filiale', 'Flows between the parent and the subsidiary', 'التدفقات بين الأم والتابعة'),
         paragraphs:[
           t(
-            'Un prix de vente au groupe, une redevance, un prêt, une refacturation de personnel ou un compte courant ne sont pas des détails comptables qu’on régularise en fin d’année. Ce sont des conventions. Écrivez l’objet, le montant ou la méthode de calcul, la durée et qui signe des deux côtés. Une méthode vaut mieux qu’un chiffre figé qui ne correspondra plus à l’activité. Ce guide ne publie aucun prix de pleine concurrence et ne dit pas qu’une convention est « au prix du marché » parce que le groupe l’affirme. La qualification fiscale se vérifie dans le Code général des impôts, pour l’opération réelle. Faites-la relire par un professionnel.',
-            'A sale price to the group, a royalty, a loan, a recharge of staff or a current account are not accounting details to be tidied at year end. They are agreements. Write the purpose, the amount or the method of calculation, the term and who signs on both sides. A method is better than a frozen figure that will no longer match the activity. This guide publishes no arm’s-length price and does not say an agreement is “at market price” because the group says so. The tax classification is checked in the General Tax Code, for the real operation. Have it reread by a professional.',
-            'ثمن بيع للمجموعة أو إتاوة أو قرض أو إعادة فوترة مستخدمين أو حساب جار ليست تفاصيل محاسبية تُسوّى في آخر السنة. إنها اتفاقيات. اكتبوا الغرض والمبلغ أو طريقة الحساب والمدة ومن يوقّع من الجانبين. والطريقة أفضل من رقم مجمد لن يطابق النشاط. ولا ينشر هذا الدليل أي ثمن منافسة كاملة ولا يقول إن اتفاقية «بسعر السوق» لأن المجموعة تؤكد ذلك. والتكييف الضريبي يُتحقق في المدونة العامة للضرائب، للعملية الحقيقية. اطلبوا إعادة قراءته من مهني.'
+            'Un prix de vente au groupe, une redevance, un prêt, une refacturation de personnel ou un compte courant ne sont pas des détails déclaratifs qu’on régularise en fin d’année. Ce sont des conventions. Écrivez l’objet, le montant ou la méthode de calcul, la durée et qui signe des deux côtés. Une méthode vaut mieux qu’un chiffre figé qui ne correspondra plus à l’activité. Ce guide ne publie aucun prix de pleine concurrence et ne dit pas qu’une convention est « au prix du marché » parce que le groupe l’affirme. La qualification fiscale se vérifie dans le Code général des impôts, pour l’opération réelle. Faites-la relire par un professionnel.',
+            'A sale price to the group, a royalty, a loan, a recharge of staff or a current account are not tax filings details to be tidied at year end. They are agreements. Write the purpose, the amount or the method of calculation, the term and who signs on both sides. A method is better than a frozen figure that will no longer match the activity. This guide publishes no arm’s-length price and does not say an agreement is “at market price” because the group says so. The tax classification is checked in the General Tax Code, for the real operation. Have it reread by a professional.',
+            'ثمن بيع للمجموعة أو إتاوة أو قرض أو إعادة فوترة مستخدمين أو حساب جار ليست تفاصيل مستشارية تُسوّى في آخر السنة. إنها اتفاقيات. اكتبوا الغرض والمبلغ أو طريقة الحساب والمدة ومن يوقّع من الجانبين. والطريقة أفضل من رقم مجمد لن يطابق النشاط. ولا ينشر هذا الدليل أي ثمن منافسة كاملة ولا يقول إن اتفاقية «بسعر السوق» لأن المجموعة تؤكد ذلك. والتكييف الضريبي يُتحقق في المدونة العامة للضرائب، للعملية الحقيقية. اطلبوا إعادة قراءته من مهني.'
           ),
           t(
             'Si l’argent vient de l’étranger ou doit y retourner, l’Office des Changes publie le régime applicable à certains investissements et à certains revenus. Lire ce régime ne crée pas un virement automatique. Conservez la trace : qui a versé, sur quel compte, au titre de quel apport ou de quel prêt. Le [guide du capital](guides/capital-social-maroc-quel-montant) distingue l’apport des autres financements. Le [guide depuis la France](guides/creer-societe-maroc-depuis-la-france) revient sur les pièces de la société étrangère associée.',
@@ -76,9 +76,9 @@ export const lot2a = [
         heading:t('Information, comptes et marque', 'Information, accounts and the brand', 'الإخبار والحسابات والعلامة'),
         paragraphs:[
           t(
-            'La mère a besoin des comptes. La filiale a besoin que quelqu’un les tienne au Maroc, avec les pièces locales : factures, relevés, contrats, paie. Un reporting de groupe en anglais ne remplace pas les obligations comptables et fiscales marocaines. Le calendrier de ces obligations se confirme auprès de la Direction générale des impôts et d’un professionnel. Il n’est pas recopié ici. Si la filiale emploie, l’affiliation et les déclarations à la CNSS suivent les règles de cet organisme, quel que soit le pays de la mère.',
-            'The parent needs the accounts. The subsidiary needs someone to keep them in Morocco, with the local documents: invoices, statements, contracts, payroll. Group reporting in English does not replace Moroccan accounting and tax obligations. The calendar of those obligations is confirmed with the General Tax Directorate and a professional. It is not copied here. If the subsidiary employs people, affiliation and filings with the CNSS follow that body’s rules, whatever the parent’s country.',
-            'تحتاج الأم إلى الحسابات. وتحتاج التابعة إلى من يمسكها في المغرب، بالوثائق المحلية: الفواتير، والكشوف، والعقود، والأجور. وتقرير المجموعة بالإنجليزية لا يعوّض الواجبات المحاسبية والضريبية المغربية. وجدول هذه الواجبات يُؤكد لدى المديرية العامة للضرائب ولدى مهني. وهو غير منسوخ هنا. وإذا شغّلت التابعة أجراء، فالانخراط والتصاريح لدى الصندوق الوطني للضمان الاجتماعي تتبع قواعد هذه الهيئة، أياً كان بلد الأم.'
+            'La mère a besoin des comptes. La filiale a besoin que quelqu’un les tienne au Maroc, avec les pièces locales : factures, relevés, contrats, paie. Un reporting de groupe en anglais ne remplace pas les obligations déclaratifs et fiscales marocaines. Le calendrier de ces obligations se confirme auprès de la Direction générale des impôts et d’un professionnel. Il n’est pas recopié ici. Si la filiale emploie, l’affiliation et les déclarations à la CNSS suivent les règles de cet organisme, quel que soit le pays de la mère.',
+            'The parent needs the accounts. The subsidiary needs someone to keep them in Morocco, with the local documents: invoices, statements, contracts, payroll. Group reporting in English does not replace Moroccan tax filings and tax obligations. The calendar of those obligations is confirmed with the General Tax Directorate and a professional. It is not copied here. If the subsidiary employs people, affiliation and filings with the CNSS follow that body’s rules, whatever the parent’s country.',
+            'تحتاج الأم إلى الحسابات. وتحتاج التابعة إلى من يمسكها في المغرب، بالوثائق المحلية: الفواتير، والكشوف، والعقود، والأجور. وتقرير المجموعة بالإنجليزية لا يعوّض الواجبات المستشارية والضريبية المغربية. وجدول هذه الواجبات يُؤكد لدى المديرية العامة للضرائب ولدى مهني. وهو غير منسوخ هنا. وإذا شغّلت التابعة أجراء، فالانخراط والتصاريح لدى الصندوق الوطني للضمان الاجتماعي تتبع قواعد هذه الهيئة، أياً كان بلد الأم.'
           ),
           t(
             'Le nom de la filiale et la marque du groupe ne sont pas le même dépôt. Le certificat négatif réserve une dénomination. La marque se dépose à part, auprès de l’OMPIC, si vous voulez cette protection. Le [guide du certificat négatif](guides/certificat-negatif-ompic) sépare ces démarches. Une enseigne utilisée à Marrakech sans titre sur le signe peut être un sujet distinct du siège. Le siège, lui, se justifie par domiciliation, bail ou local, comme pour toute société. La page [domiciliation](domiciliation) décrit le besoin. Elle n’attribue pas l’adresse du cabinet.',
@@ -102,7 +102,7 @@ export const lot2a = [
             'La personne qui vote pour la société mère a un mandat qui couvre cet acte.',
             'Les conventions avec le groupe sont écrites, avec une méthode de calcul, pas seulement un usage.',
             'Les signataires bancaires et les pouvoirs statutaires se correspondent.',
-            'Les pièces comptables restent au Maroc, même si le reporting part à l’étranger.',
+            'Les pièces justificatives restent au Maroc, même si le reporting part à l’étranger.',
             'Le capital, les prêts et les apports en compte courant ne sont pas mélangés.',
             'Le pacte, s’il existe, ne contredit pas la loi marocaine de la forme. Le [guide du pacte](guides/pacte-associes-que-prevoir) sert à cette lecture.'
           ],
@@ -111,7 +111,7 @@ export const lot2a = [
             'The person who votes for the parent has a mandate that covers that act.',
             'Agreements with the group are in writing, with a method of calculation, not only a habit.',
             'The bank signatories and the statutory powers match.',
-            'The accounting documents stay in Morocco, even if the reporting goes abroad.',
+            'The tax filings documents stay in Morocco, even if the reporting goes abroad.',
             'Capital, loans and current-account contributions are not mixed.',
             'The shareholders’ agreement, if there is one, does not contradict the Moroccan law of the form. The [agreement guide](guides/pacte-associes-que-prevoir) is for that reading.'
           ],
@@ -120,7 +120,7 @@ export const lot2a = [
             'الشخص الذي يصوّت عن الشركة الأم له وكالة تغطي هذا العمل.',
             'الاتفاقيات مع المجموعة مكتوبة، بطريقة حساب، لا بعادة فقط.',
             'الموقّعون البنكيون والسلطات النظامية متطابقون.',
-            'وثائق المحاسبة تبقى في المغرب، حتى لو ذهب التقرير إلى الخارج.',
+            'وثائق التصاريح تبقى في المغرب، حتى لو ذهب التقرير إلى الخارج.',
             'رأس المال والقروض والمساهمات في الحساب الجاري غير مختلطة.',
             'اتفاق الشركاء، إن وُجد، لا يناقض القانون المغربي للشكل. و[دليل الاتفاق](guides/pacte-associes-que-prevoir) يخدم هذه القراءة.'
           ]
