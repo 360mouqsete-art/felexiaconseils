@@ -20,6 +20,34 @@ test('withdrawn accounting guides are listed once and redirected away from the p
   assert.equal(unpublishedAccountingSlugs.includes('declaration-is-maroc'), false);
 });
 
+test('Intelligence reserves and curated cover texts do not name the withdrawn activity', async () => {
+  const files = [
+    '../src/intelligence/reserve.json',
+    '../src/intelligence/reserve-b.json'
+  ];
+  const hits = [];
+  for (const file of files) {
+    const text = await readFile(new URL(file, import.meta.url), 'utf8');
+    if (forbidden.test(text)) hits.push(file);
+  }
+  const curated = JSON.parse(await readFile(new URL('../src/guide-images-curated.json', import.meta.url), 'utf8'));
+  for (const [id, entry] of Object.entries(curated.entries || {})) {
+    for (const [language, alt] of Object.entries(entry.alt || {})) {
+      if (forbidden.test(alt)) hits.push(`guide-images-curated.json:${id}:${language}`);
+    }
+  }
+  const covers = JSON.parse(await readFile(new URL('../src/guide-covers.json', import.meta.url), 'utf8'));
+  for (const [slug, cover] of Object.entries(covers)) {
+    if (cover && typeof cover.alt === 'string' && forbidden.test(cover.alt)) hits.push(`guide-covers.json:${slug}`);
+  }
+  const topic = JSON.parse(await readFile(new URL('../src/intelligence/reserve.json', import.meta.url), 'utf8'))
+    .topics.find(item => item.translations?.fr?.slug === 'liste-suivi-reglements-clients');
+  assert.equal(topic.translations.fr.alt.startsWith('Une gestionnaire rapproche'), true);
+  assert.equal(topic.translations.en.alt.startsWith('A manager reconciles'), true);
+  assert.equal(topic.translations.ar.alt.startsWith('مديرة تطابق'), true);
+  assert.deepEqual(hits, []);
+});
+
 test('the generated site no longer names the withdrawn accounting activity', async () => {
   const root = new URL('../dist/', import.meta.url);
   const files = await walk(root);
