@@ -6,6 +6,8 @@ import {headerTools, languageSwitch} from './header-tools.mjs';
 import {auditGuidesFor} from './audit-guides.mjs';
 import {originalGuidesFor} from './original-guides.mjs';
 import {guideThemes, themeOfCategory, themeLabel} from './guide-themes.mjs';
+import {isUnpublishedAccountingGuide, publishedSlugFor, unpublishedAccountingSlugs} from './unpublished-accounting-guides.mjs';
+import {scrubAccountingText} from './accounting-language.mjs';
 
 // Extend the existing, already localised Guides templates at build time. Only
 // catalogue summaries reach the browser; article bodies remain static HTML.
@@ -26,7 +28,7 @@ const labels = {
 const categoryNames = {
   "Création d'entreprise":"Création d’entreprise",
   "Création d'Entreprise":"Création d’entreprise", 'CRÉATION D’ENTREPRISE':'Création d’entreprise',
-  'Comptabilité & Fiscalité':'Comptabilité', 'GESTION & FISCALITÉ':'Comptabilité',
+  'Comptabilité & Fiscalité':'Fiscalité', 'GESTION & FISCALITÉ':'Fiscalité', 'Comptabilité':'Fiscalité',
   'INVESTISSEMENT':'Investissement', 'Propriété Intellectuelle':'Juridique', 'Domiciliation':'Création d’entreprise'
 };
 const dateLabel = (value, lang) => value ? new Intl.DateTimeFormat({fr:'fr-FR',en:'en-GB',ar:'ar-MA'}[lang], {day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(value)) : labels[lang].practical;
@@ -276,6 +278,7 @@ function renderThemePages(pages) {
 }
 
 export function renderGuidesSite(pages) {
+  for (const lang of ['fr','en','ar']) for (const slug of unpublishedAccountingSlugs) delete pages[articleFile(slug, lang)];
   const importedData = readJson('./guides-imported.json', []);
   const imported = Array.isArray(importedData) ? importedData : importedData.articles || [];
   const ministryData = readJson('./guides-ministry.json', {articles:[]});
@@ -287,17 +290,21 @@ export function renderGuidesSite(pages) {
   const template = pages['fr/guides/creation-entreprise-rabat/index.html'];
   const ministryTemplates = Object.fromEntries(['fr','en','ar'].map(lang => [lang,pages[articleFile('creation-entreprise-rabat',lang)]]));
   for (const item of imported) {
-    const previous = catalogues.fr.find(guide => guide.slug === item.slug);
+    if (isUnpublishedAccountingGuide(item.slug)) continue;
+    const slug = publishedSlugFor(item.slug);
+    const previous = catalogues.fr.find(guide => guide.slug === slug);
     if (previous) {
-      previous.html = [previous.html,`<div data-imported-editorial data-source-url="${esc(item.sourceUrl)}">${item.html}</div>`].filter(Boolean).join('\n');
-      previous.faq = [...previous.faq || [],...item.faq || []];
+      previous.html = [previous.html,`<div data-imported-editorial data-source-url="${esc(item.sourceUrl)}">${scrubAccountingText(item.html)}</div>`].filter(Boolean).join('\n');
+      previous.faq = [...previous.faq || [],...(item.faq || []).map(entry => ({...entry, question:scrubAccountingText(entry.question), answer:scrubAccountingText(entry.answer)}))];
       previous.sourceArticles = [...previous.sourceArticles || [],...item.sourceArticles || [item.sourceUrl]];
     } else {
       const sourceCategory = Array.isArray(item.category) ? item.category[0] : item.category;
-      const guide = {...item,category:categoryNames[sourceCategory] || sourceCategory,cover:coverFor(item.slug,item.title,covers)};
+      const baseCover = coverFor(item.slug, item.title, covers);
+      const cover = slug === item.slug ? baseCover : {...baseCover, src:`/images/guides/${slug}.webp`, smallSrc:`/images/guides/${slug}-640.webp`, alt:scrubAccountingText(baseCover.alt)};
+      const guide = {...item, slug, title:scrubAccountingText(item.title), excerpt:scrubAccountingText(item.excerpt), metaTitle:scrubAccountingText(item.metaTitle || item.title), metaDescription:scrubAccountingText(item.metaDescription || item.excerpt), html:scrubAccountingText(item.html), category:categoryNames[sourceCategory] || sourceCategory, cover};
       catalogues.fr.push(guide);
       // Reserve all routes before generating hreflang and language controls.
-      pages[articleFile(item.slug)] = template;
+      pages[articleFile(slug)] = template;
     }
   }
   // Ministry editorial is a separate, explicit publication set. Reserve every

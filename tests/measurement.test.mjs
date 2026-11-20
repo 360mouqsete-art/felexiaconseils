@@ -6,7 +6,7 @@ import {load} from 'cheerio';
 test('measurement requires consent, strips URL data and never sends form values',()=>{
   const events=[];const m=createMeasurement((...e)=>events.push(e),'https://www.felexiaconseils.com/fr/contact/?email=private@example.test#secret','fr');
   m.pageView();m.click('https://wa.me/212661400352?text=private');m.received({kind:'contact',requestId:'a'});assert.equal(events.length,0);
-  m.consent(true);m.pageView();m.click('tel:+212661080862');m.click('https://wa.me/212661400352?text=private');m.click('https://wa.me.evil.test');
+  m.consent(true);m.pageView();m.click('tel:+212520825825');m.click('https://wa.me/212661400352?text=private');m.click('https://wa.me.evil.test');
   m.received({kind:'contact',requestId:'a',email:'private@example.test',message:'secret'});m.received({kind:'contact',requestId:'a'});
   assert.deepEqual(events.map(e=>e[0]),['page_view','click_phone','conversion','click_whatsapp','conversion','generate_lead','submit_contact','conversion']);
   assert(events.filter(e=>e[0]==='conversion').every(e=>e[1].send_to==='AW-18492364232/sQ1vCJnUpbsdEMir7PFE'));

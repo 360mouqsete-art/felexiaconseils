@@ -43,11 +43,16 @@ function brandText(value) {
     .replace(/Quartier Maarif/gi,'Mabrouka, Marrakech').replace(/Bureau 304/g,'Immeuble 3 · Appartement 4')
     .replace(/Notre bureau à Casablanca/g,'Notre cabinet au Maroc')
     .replace(/Ilyass et toute l['’]équipe d['’]experts Felexia Conseils/g,'Toute l’équipe de Felexia Conseils')
-    .replace(/Toute l’équipe de Felexia Conseils sont/g,'Toute l’équipe de Felexia Conseils est');
+    .replace(/Toute l’équipe de Felexia Conseils sont/g,'Toute l’équipe de Felexia Conseils est')
+    .replace(/Création de société, domiciliation, comptabilité, accompagnement juridique — une équipe d['’]experts à vos côtés, en moyenne en moins d['’]une heure de réponse pendant les jours ouvrés\./g,'Création de société, domiciliation, conseil juridique, social et fiscal.')
+    .replace(/mêle juridique, comptabilité et technologie/g,'mêle juridique, social, fiscal et technologie')
+    .replace(/juridique, comptabilité, growth/g,'juridique, social, fiscal, growth')
+    .replace(/Comptabilité & Fiscalité/g,'Fiscalité')
+    .replace(/Comptabilité et fiscalité/g,'Fiscalité');
 }
 
 const formZone = content => `<div class="felexia-form-zone">${content}</div>`;
-const contactBlock = () => `<div><h3 class="felexia-contact-title">Contactez-nous</h3><ul class="felexia-contact-details text-sm text-brand-midnight/85"><li><a href="${esc(mapHref)}">${esc(company.address)}</a></li><li><a href="tel:${company.officeTel}">Bureau : ${company.officePhone}</a></li><li><a href="tel:${company.tel}">Mobile : ${company.phone}</a></li><li><a href="https://wa.me/${company.whatsapp}">WhatsApp : +212 661 400 352</a></li><li><a href="mailto:${company.email}">${company.email}</a></li></ul></div>`;
+const contactBlock = () => `<div><h3 class="felexia-contact-title">Contactez-nous</h3><ul class="felexia-contact-details text-sm text-brand-midnight/85"><li><a href="${esc(mapHref)}">${esc(company.address)}</a></li><li><a href="tel:${company.officeTel}">Bureau : ${company.officePhone}</a></li><li><a href="https://wa.me/${company.whatsapp}">WhatsApp : +212 661 400 352</a></li><li><a href="mailto:${company.email}">${company.email}</a></li></ul></div>`;
 
 export function renderReferenceSite(existing) {
   const pages=[...manifest().pages,{route:'/guides/page/2',file:'reference/mylegal/pages/guides-page-2.html'}];

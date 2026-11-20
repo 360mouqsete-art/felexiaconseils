@@ -9,7 +9,7 @@
   "cabinet-comptable-casablanca": {
     "src": "/images/guides/cabinet-comptable-casablanca.webp",
     "smallSrc": "/images/guides/cabinet-comptable-casablanca-640.webp",
-    "alt": "Conseiller comptable examinant les comptes d’une entreprise à Casablanca",
+    "alt": "Conseiller déclaratif examinant les comptes d’une entreprise à Casablanca",
     "width": 1280,
     "height": 800
   },
@@ -58,14 +58,14 @@
   "facturation-electronique-maroc": {
     "src": "/images/guides/facturation-electronique-maroc.webp",
     "smallSrc": "/images/guides/facturation-electronique-maroc-640.webp",
-    "alt": "Factures et ordinateur sur le poste de travail d’un comptable",
+    "alt": "Factures et ordinateur sur le poste de travail d’un professionnel agréé",
     "width": 1280,
     "height": 800
   },
   "fiduciaire-maroc": {
     "src": "/images/guides/fiduciaire-maroc.webp",
     "smallSrc": "/images/guides/fiduciaire-maroc-640.webp",
-    "alt": "Examen de pièces comptables dans un cabinet fiduciaire marocain",
+    "alt": "Examen de pièces justificatives dans un cabinet fiduciaire marocain",
     "width": 1280,
     "height": 800
   },
@@ -205,14 +205,14 @@
   "cloture-comptable-annuelle-maroc": {
     "src": "/images/guides/cloture-comptable-annuelle-maroc.webp",
     "smallSrc": "/images/guides/cloture-comptable-annuelle-maroc-640.webp",
-    "alt": "Comptable rapprochant les pièces nécessaires à la clôture annuelle",
+    "alt": "déclaratif rapprochant les pièces nécessaires à la clôture annuelle",
     "width": 1280,
     "height": 800
   },
   "comptabilite-immobilisations-maroc": {
     "src": "/images/guides/comptabilite-immobilisations-maroc.webp",
     "smallSrc": "/images/guides/comptabilite-immobilisations-maroc-640.webp",
-    "alt": "Comptable vérifiant le registre des machines dans un atelier industriel",
+    "alt": "déclaratif vérifiant le registre des machines dans un atelier industriel",
     "width": 1280,
     "height": 800
   },
@@ -233,14 +233,14 @@
   "ecritures-regularisation-fin-exercice-maroc": {
     "src": "/images/guides/ecritures-regularisation-fin-exercice-maroc.webp",
     "smallSrc": "/images/guides/ecritures-regularisation-fin-exercice-maroc-640.webp",
-    "alt": "Comptable rapprochant un grand livre et des documents de fin d’exercice",
+    "alt": "déclaratif rapprochant un grand livre et des documents de fin d’exercice",
     "width": 1280,
     "height": 800
   },
   "choisir-expert-comptable-maroc": {
     "src": "/images/guides/choisir-expert-comptable-maroc.webp",
     "smallSrc": "/images/guides/choisir-expert-comptable-maroc-640.webp",
-    "alt": "Dirigeant échangeant avec un expert-comptable autour d’une lettre de mission",
+    "alt": "Dirigeant échangeant avec un conseillers autour d’une lettre de mission",
     "width": 1280,
     "height": 800
   },
@@ -254,7 +254,7 @@
   "ifrs-vs-cgnc-maroc": {
     "src": "/images/guides/ifrs-vs-cgnc-maroc.webp",
     "smallSrc": "/images/guides/ifrs-vs-cgnc-maroc-640.webp",
-    "alt": "Contrôleur financier comparant deux référentiels comptables et leurs dossiers",
+    "alt": "Contrôleur financier comparant deux référentiels déclaratifs et leurs dossiers",
     "width": 1280,
     "height": 800
   },
@@ -268,7 +268,7 @@
   "erreurs-comptables-reserves-cac": {
     "src": "/images/guides/erreurs-comptables-reserves-cac.webp",
     "smallSrc": "/images/guides/erreurs-comptables-reserves-cac-640.webp",
-    "alt": "Auditeur vérifiant des factures et des rapprochements comptables annotés",
+    "alt": "Auditeur vérifiant des factures et des rapprochements déclaratifs annotés",
     "width": 1280,
     "height": 800
   },
@@ -289,7 +289,7 @@
   "rapport-cac-reserves-consequences": {
     "src": "/images/guides/rapport-cac-reserves-consequences.webp",
     "smallSrc": "/images/guides/rapport-cac-reserves-consequences-640.webp",
-    "alt": "Commissaire aux comptes expliquant un rapport avec réserves au dirigeant",
+    "alt": "professionnels agréés pour le contrôle légal expliquant un rapport avec réserves au dirigeant",
     "width": 1280,
     "height": 800
   },
@@ -373,7 +373,7 @@
   "tva-promoteurs-immobiliers-lotisseurs-maroc": {
     "src": "/images/guides/tva-promoteurs-immobiliers-lotisseurs-maroc.webp",
     "smallSrc": "/images/guides/tva-promoteurs-immobiliers-lotisseurs-maroc-640.webp",
-    "alt": "Promoteur et comptable examinant des factures près d’une maquette immobilière",
+    "alt": "Promoteur et déclaratif examinant des factures près d’une maquette immobilière",
     "width": 1280,
     "height": 800
   },
@@ -401,7 +401,7 @@
   "amortissements-comptables-maroc": {
     "src": "/images/guides/amortissements-comptables-maroc.webp",
     "smallSrc": "/images/guides/amortissements-comptables-maroc-640.webp",
-    "alt": "Comptable et responsable d’atelier vérifiant le registre d’amortissement des machines",
+    "alt": "déclaratif et responsable d’atelier vérifiant le registre d’amortissement des machines",
     "width": 1280,
     "height": 800
   },
@@ -464,7 +464,7 @@
   "obligations-declaratives-tva-maroc": {
     "src": "/images/guides/obligations-declaratives-tva-maroc.webp",
     "smallSrc": "/images/guides/obligations-declaratives-tva-maroc-640.webp",
-    "alt": "Comptable préparant une déclaration de TVA avec les factures et le calendrier",
+    "alt": "déclaratif préparant une déclaration de TVA avec les factures et le calendrier",
     "width": 1280,
     "height": 800
   },
@@ -513,7 +513,7 @@
   "revenus-fonciers-ir-maroc": {
     "src": "/images/guides/revenus-fonciers-ir-maroc.webp",
     "smallSrc": "/images/guides/revenus-fonciers-ir-maroc-640.webp",
-    "alt": "Propriétaire et comptable examinant les loyers dans un appartement",
+    "alt": "Propriétaire et déclaratif examinant les loyers dans un appartement",
     "width": 1280,
     "height": 800
   },
@@ -541,21 +541,21 @@
   "tva-agriculture-maroc": {
     "src": "/images/guides/tva-agriculture-maroc.webp",
     "smallSrc": "/images/guides/tva-agriculture-maroc-640.webp",
-    "alt": "Exploitant agricole et comptable vérifiant des factures près d’un tracteur",
+    "alt": "Exploitant agricole et déclaratif vérifiant des factures près d’un tracteur",
     "width": 1280,
     "height": 800
   },
   "etats-synthese-maroc": {
     "src": "/images/guides/etats-synthese-maroc.webp",
     "smallSrc": "/images/guides/etats-synthese-maroc-640.webp",
-    "alt": "Cinq états financiers disposés sur un bureau pour leur examen comptable",
+    "alt": "Cinq états financiers disposés sur un bureau pour leur examen déclaratif",
     "width": 1280,
     "height": 800
   },
   "declaration-is-maroc": {
     "src": "/images/guides/declaration-is-maroc.webp",
     "smallSrc": "/images/guides/declaration-is-maroc-640.webp",
-    "alt": "Comptable préparant une liasse fiscale avec ses pièces et ses annexes",
+    "alt": "déclaratif préparant une liasse fiscale avec ses pièces et ses annexes",
     "width": 1280,
     "height": 800
   },
@@ -597,7 +597,7 @@
   "retenue-source-tva-maroc": {
     "src": "/images/guides/retenue-source-tva-maroc.webp",
     "smallSrc": "/images/guides/retenue-source-tva-maroc-640.webp",
-    "alt": "Comptable séparant le dossier de paiement du fournisseur et les documents de retenue de TVA",
+    "alt": "déclaratif séparant le dossier de paiement du fournisseur et les documents de retenue de TVA",
     "width": 1280,
     "height": 800
   },
@@ -618,7 +618,7 @@
   "base-imposable-tva-maroc": {
     "src": "/images/guides/base-imposable-tva-maroc.webp",
     "smallSrc": "/images/guides/base-imposable-tva-maroc-640.webp",
-    "alt": "Comptable d’un grossiste calculant la TVA à partir des factures et frais de livraison",
+    "alt": "déclaratif d’un grossiste calculant la TVA à partir des factures et frais de livraison",
     "width": 1280,
     "height": 800
   },
@@ -632,7 +632,7 @@
   "charges-non-deductibles-is-maroc": {
     "src": "/images/guides/charges-non-deductibles-is-maroc.webp",
     "smallSrc": "/images/guides/charges-non-deductibles-is-maroc-640.webp",
-    "alt": "Comptable triant les justificatifs de dépenses selon leur traitement fiscal",
+    "alt": "déclaratif triant les justificatifs de dépenses selon leur traitement fiscal",
     "width": 1280,
     "height": 800
   },
@@ -653,7 +653,7 @@
   "amortissements-fiscaux-maroc": {
     "src": "/images/guides/amortissements-fiscaux-maroc.webp",
     "smallSrc": "/images/guides/amortissements-fiscaux-maroc-640.webp",
-    "alt": "Comptable et ingénieur vérifiant le registre des immobilisations près d’une machine industrielle",
+    "alt": "déclaratif et ingénieur vérifiant le registre des immobilisations près d’une machine industrielle",
     "width": 1280,
     "height": 800
   },
@@ -723,7 +723,7 @@
   "fait-generateur-exigibilite-tva-maroc": {
     "src": "/images/guides/fait-generateur-exigibilite-tva-maroc.webp",
     "smallSrc": "/images/guides/fait-generateur-exigibilite-tva-maroc-640.webp",
-    "alt": "Commerçant et comptable rapprochant une facture de son justificatif de paiement",
+    "alt": "Commerçant et déclaratif rapprochant une facture de son justificatif de paiement",
     "width": 1280,
     "height": 800
   },
@@ -751,7 +751,7 @@
   "declaration-annuelle-ir-maroc": {
     "src": "/images/guides/declaration-annuelle-ir-maroc.webp",
     "smallSrc": "/images/guides/declaration-annuelle-ir-maroc-640.webp",
-    "alt": "Préparation de la déclaration annuelle de revenus avec dossiers comptables et calculatrice",
+    "alt": "Préparation de la déclaration annuelle de revenus avec dossiers déclaratifs et calculatrice",
     "width": 1280,
     "height": 800
   },
@@ -814,7 +814,7 @@
   "devenir-expert-comptable-maroc": {
     "src": "/images/guides/devenir-expert-comptable-maroc.webp",
     "smallSrc": "/images/guides/devenir-expert-comptable-maroc-640.webp",
-    "alt": "Étudiant en expertise comptable et mentor consultant des ouvrages dans une bibliothèque",
+    "alt": "Étudiant en conseil et mentor consultant des ouvrages dans une bibliothèque",
     "width": 1280,
     "height": 800
   },
@@ -905,7 +905,7 @@
   "comptable-junior-maroc": {
     "src": "/images/guides/comptable-junior-maroc.webp",
     "smallSrc": "/images/guides/comptable-junior-maroc-640.webp",
-    "alt": "Comptable débutant rapprochant des justificatifs et un registre avec un collègue",
+    "alt": "déclaratif débutant rapprochant des justificatifs et un registre avec un collègue",
     "width": 1280,
     "height": 800
   },
@@ -947,7 +947,7 @@
   "exonerations-tva-sans-droit-deduction-article-91": {
     "src": "/images/guides/exonerations-tva-sans-droit-deduction-article-91.webp",
     "smallSrc": "/images/guides/exonerations-tva-sans-droit-deduction-article-91-640.webp",
-    "alt": "Comptable et gestionnaire de clinique examinant des factures de soins",
+    "alt": "déclaratif et gestionnaire de clinique examinant des factures de soins",
     "width": 1280,
     "height": 800
   },
@@ -989,7 +989,7 @@
   "reforme-tva-maroc-2024-2026": {
     "src": "/images/guides/reforme-tva-maroc-2024-2026.webp",
     "smallSrc": "/images/guides/reforme-tva-maroc-2024-2026-640.webp",
-    "alt": "Comptable d’un commerce vérifiant la facturation à proximité de la caisse",
+    "alt": "déclaratif d’un commerce vérifiant la facturation à proximité de la caisse",
     "width": 1280,
     "height": 800
   },
@@ -1003,14 +1003,14 @@
   "plan-comptable-maroc-pdf": {
     "src": "/images/guides/plan-comptable-maroc-pdf.webp",
     "smallSrc": "/images/guides/plan-comptable-maroc-pdf-640.webp",
-    "alt": "Consultation d’un classeur de comptes à onglets dans un bureau comptable",
+    "alt": "Consultation d’un classeur de comptes à onglets dans un bureà la personne chargée des déclarations",
     "width": 1280,
     "height": 800
   },
   "resultat-comptable-resultat-fiscal-is-maroc": {
     "src": "/images/guides/resultat-comptable-resultat-fiscal-is-maroc.webp",
     "smallSrc": "/images/guides/resultat-comptable-resultat-fiscal-is-maroc-640.webp",
-    "alt": "Comptable rapprochant deux dossiers pour passer du résultat comptable au résultat fiscal",
+    "alt": "déclaratif rapprochant deux dossiers pour passer du résultat avant retraitements fiscaux au résultat fiscal",
     "width": 1280,
     "height": 800
   },
@@ -1101,7 +1101,7 @@
   "contribution-sociale-de-solidarite-2021": {
     "src": "/images/guides/contribution-sociale-de-solidarite-2021.webp",
     "smallSrc": "/images/guides/contribution-sociale-de-solidarite-2021-640.webp",
-    "alt": "Directrice financière et comptable examinant un dossier de contribution sociale",
+    "alt": "Directrice financière et déclaratif examinant un dossier de contribution sociale",
     "width": 1280,
     "height": 800
   },
@@ -1143,7 +1143,7 @@
   "quelle-fiscalite-des-hotels": {
     "src": "/images/guides/quelle-fiscalite-des-hotels.webp",
     "smallSrc": "/images/guides/quelle-fiscalite-des-hotels-640.webp",
-    "alt": "Gestionnaire d’hôtel et comptable étudiant des dossiers dans un patio marocain",
+    "alt": "Gestionnaire d’hôtel et déclaratif étudiant des dossiers dans un patio marocain",
     "width": 1280,
     "height": 800
   },
@@ -1178,14 +1178,14 @@
   "cotisation-minimale-is-2026": {
     "src": "/images/guides/cotisation-minimale-is-2026.webp",
     "smallSrc": "/images/guides/cotisation-minimale-is-2026-640.webp",
-    "alt": "Comptable comparant un registre de recettes et un calcul fiscal",
+    "alt": "déclaratif comparant un registre de recettes et un calcul fiscal",
     "width": 1280,
     "height": 800
   },
   "cgnc-code-general-de-normalisation-comptable": {
     "src": "/images/guides/cgnc-code-general-de-normalisation-comptable.webp",
     "smallSrc": "/images/guides/cgnc-code-general-de-normalisation-comptable-640.webp",
-    "alt": "Consultation d’un référentiel comptable accompagné de cinq dossiers financiers",
+    "alt": "Consultation d’un référentiel déclaratif accompagné de cinq dossiers financiers",
     "width": 1280,
     "height": 800
   },
@@ -1220,7 +1220,7 @@
   "reporting-financier-au-maroc": {
     "src": "/images/guides/reporting-financier-au-maroc.webp",
     "smallSrc": "/images/guides/reporting-financier-au-maroc-640.webp",
-    "alt": "Directrice financière présentant des états comptables à une équipe de direction",
+    "alt": "Directrice financière présentant des états déclaratifs à une équipe de direction",
     "width": 1280,
     "height": 800
   },
@@ -1234,7 +1234,7 @@
   "manuel-de-procedures-comptables": {
     "src": "/images/guides/manuel-de-procedures-comptables.webp",
     "smallSrc": "/images/guides/manuel-de-procedures-comptables-640.webp",
-    "alt": "Mise à jour d’un manuel de procédures comptables dans un classeur à onglets",
+    "alt": "Mise à jour d’un manuel de procédures déclaratifs dans un classeur à onglets",
     "width": 1280,
     "height": 800
   },
@@ -1262,7 +1262,7 @@
   "elaborer-1-budget-au-maroc": {
     "src": "/images/guides/elaborer-1-budget-au-maroc.webp",
     "smallSrc": "/images/guides/elaborer-1-budget-au-maroc-640.webp",
-    "alt": "Entrepreneur et comptable préparant le budget d’une entreprise près de son atelier",
+    "alt": "Entrepreneur et déclaratif préparant le budget d’une entreprise près de son atelier",
     "width": 1280,
     "height": 800
   },
@@ -1297,7 +1297,7 @@
   "dotations-dexploitation": {
     "src": "/images/guides/dotations-dexploitation.webp",
     "smallSrc": "/images/guides/dotations-dexploitation-640.webp",
-    "alt": "Comptable vérifiant les dotations liées aux équipements d’une entreprise industrielle",
+    "alt": "déclaratif vérifiant les dotations liées aux équipements d’une entreprise industrielle",
     "width": 1280,
     "height": 800
   },
@@ -1311,21 +1311,21 @@
   "livre-journal-maroc": {
     "src": "/images/guides/livre-journal-maroc.webp",
     "smallSrc": "/images/guides/livre-journal-maroc-640.webp",
-    "alt": "Comptable enregistrant une opération dans un livre-journal ouvert sur son bureau",
+    "alt": "déclaratif enregistrant une opération dans un livre-journal ouvert sur son bureau",
     "width": 1280,
     "height": 800
   },
   "grand-livre": {
     "src": "/images/guides/grand-livre.webp",
     "smallSrc": "/images/guides/grand-livre-640.webp",
-    "alt": "Examen des comptes d’un grand-livre dans un cabinet comptable marocain",
+    "alt": "Examen des comptes d’un grand-livre dans un cabinet déclaratif marocain",
     "width": 1280,
     "height": 800
   },
   "regles-comptables-en-vigueur-au-maroc": {
     "src": "/images/guides/regles-comptables-en-vigueur-au-maroc.webp",
     "smallSrc": "/images/guides/regles-comptables-en-vigueur-au-maroc-640.webp",
-    "alt": "Professionnel comparant un manuel de normes comptables et les comptes d’une entreprise",
+    "alt": "Professionnel comparant un manuel de normes déclaratifs et les comptes d’une entreprise",
     "width": 1280,
     "height": 800
   },
@@ -1388,7 +1388,7 @@
   "controle-fiscal-au-maroc-ce-quil-faut-savoir": {
     "src": "/images/guides/controle-fiscal-au-maroc-ce-quil-faut-savoir.webp",
     "smallSrc": "/images/guides/controle-fiscal-au-maroc-ce-quil-faut-savoir-640.webp",
-    "alt": "Responsable financier présentant les pièces comptables lors d’un contrôle fiscal",
+    "alt": "Responsable financier présentant les pièces justificatives lors d’un contrôle fiscal",
     "width": 1280,
     "height": 800
   },
@@ -1409,7 +1409,7 @@
   "commissariat-aux-comptes-au-maroc": {
     "src": "/images/guides/commissariat-aux-comptes-au-maroc.webp",
     "smallSrc": "/images/guides/commissariat-aux-comptes-au-maroc-640.webp",
-    "alt": "Commissaire aux comptes examinant le rapport financier annuel avec un responsable de société",
+    "alt": "professionnels agréés pour le contrôle légal examinant le rapport financier annuel avec un responsable de société",
     "width": 1280,
     "height": 800
   },
@@ -1423,21 +1423,21 @@
   "operations-en-monnaies-etrangeres": {
     "src": "/images/guides/operations-en-monnaies-etrangeres.webp",
     "smallSrc": "/images/guides/operations-en-monnaies-etrangeres-640.webp",
-    "alt": "Comptable rapprochant les factures en devises et les documents de paiement international",
+    "alt": "déclaratif rapprochant les factures en devises et les documents de paiement international",
     "width": 1280,
     "height": 800
   },
   "7-principes-comptables-au-maroc": {
     "src": "/images/guides/7-principes-comptables-au-maroc.webp",
     "smallSrc": "/images/guides/7-principes-comptables-au-maroc-640.webp",
-    "alt": "Comptable expérimenté expliquant les principes comptables à un collègue",
+    "alt": "déclaratif expérimenté expliquant les principes de présentation des comptes à un collègue",
     "width": 1280,
     "height": 800
   },
   "comptabilite-quest-ce-que-cest": {
     "src": "/images/guides/comptabilite-quest-ce-que-cest.webp",
     "smallSrc": "/images/guides/comptabilite-quest-ce-que-cest-640.webp",
-    "alt": "Professionnelle classant les factures et justificatifs comptables d’un commerce",
+    "alt": "Professionnelle classant les factures et justificatifs déclaratifs d’un commerce",
     "width": 1280,
     "height": 800
   },
@@ -1486,14 +1486,14 @@
   "rapprochement-bancaire-au-maroc-erb": {
     "src": "/images/guides/rapprochement-bancaire-au-maroc-erb.webp",
     "smallSrc": "/images/guides/rapprochement-bancaire-au-maroc-erb-640.webp",
-    "alt": "Comptable rapprochant les relevés bancaires et les écritures à l’aide d’une calculatrice",
+    "alt": "déclaratif rapprochant les relevés bancaires et les écritures à l’aide d’une calculatrice",
     "width": 1280,
     "height": 800
   },
   "audit-de-fraude-au-maroc": {
     "src": "/images/guides/audit-de-fraude-au-maroc.webp",
     "smallSrc": "/images/guides/audit-de-fraude-au-maroc-640.webp",
-    "alt": "Professionnels contrôlant les pièces comptables dans le cadre d’un audit de fraude",
+    "alt": "Professionnels contrôlant les pièces justificatives dans le cadre d’un audit de fraude",
     "width": 1280,
     "height": 800
   },
@@ -1507,7 +1507,7 @@
   "tva-sur-les-prestations-de-service": {
     "src": "/images/guides/tva-sur-les-prestations-de-service.webp",
     "smallSrc": "/images/guides/tva-sur-les-prestations-de-service-640.webp",
-    "alt": "Comptable vérifiant des factures de prestations de service et leur traitement de TVA",
+    "alt": "déclaratif vérifiant des factures de prestations de service et leur traitement de TVA",
     "width": 1280,
     "height": 800
   },
@@ -1535,7 +1535,7 @@
   "livraison-a-soi-meme-tva": {
     "src": "/images/guides/livraison-a-soi-meme-tva.webp",
     "smallSrc": "/images/guides/livraison-a-soi-meme-tva-640.webp",
-    "alt": "Comptable vérifiant les écritures et les justificatifs d’une livraison à soi-même",
+    "alt": "déclaratif vérifiant les écritures et les justificatifs d’une livraison à soi-même",
     "width": 1280,
     "height": 800
   },
@@ -1556,14 +1556,14 @@
   "tva-au-maroc": {
     "src": "/images/guides/tva-au-maroc.webp",
     "smallSrc": "/images/guides/tva-au-maroc-640.webp",
-    "alt": "Comptable examinant des factures et calculant la TVA dans un bureau marocain",
+    "alt": "déclaratif examinant des factures et calculant la TVA dans un bureau marocain",
     "width": 1280,
     "height": 800
   },
   "comptabilite-au-maroc": {
     "src": "/images/guides/comptabilite-au-maroc.webp",
     "smallSrc": "/images/guides/comptabilite-au-maroc-640.webp",
-    "alt": "Professionnelle tenant les livres et dossiers comptables d’une entreprise",
+    "alt": "Professionnelle tenant les livres et dossiers déclaratifs d’une entreprise",
     "width": 1280,
     "height": 800
   },
@@ -1591,7 +1591,7 @@
   "acomptes-provisionnels-dis-au-maroc": {
     "src": "/images/guides/acomptes-provisionnels-dis-au-maroc.webp",
     "smallSrc": "/images/guides/acomptes-provisionnels-dis-au-maroc-640.webp",
-    "alt": "Comptable préparant le calcul des acomptes d’impôt sur les sociétés",
+    "alt": "déclaratif préparant le calcul des acomptes d’impôt sur les sociétés",
     "width": 1280,
     "height": 800
   },
@@ -1612,7 +1612,7 @@
   "comptabilite-analytique-mise-en-place": {
     "src": "/images/guides/comptabilite-analytique-mise-en-place.webp",
     "smallSrc": "/images/guides/comptabilite-analytique-mise-en-place-640.webp",
-    "alt": "Comptable analysant les coûts à partir des documents financiers de l’entreprise",
+    "alt": "déclaratif analysant les coûts à partir des documents financiers de l’entreprise",
     "width": 1280,
     "height": 800
   },
@@ -1633,14 +1633,14 @@
   "pieces-justificatives-des-achats-article-146-du-cgi": {
     "src": "/images/guides/pieces-justificatives-des-achats-article-146-du-cgi.webp",
     "smallSrc": "/images/guides/pieces-justificatives-des-achats-article-146-du-cgi-640.webp",
-    "alt": "Comptable contrôlant les justificatifs d’achat avant leur enregistrement",
+    "alt": "déclaratif contrôlant les justificatifs d’achat avant leur enregistrement",
     "width": 1280,
     "height": 800
   },
   "rejet-de-la-comptabilite": {
     "src": "/images/guides/rejet-de-la-comptabilite.webp",
     "smallSrc": "/images/guides/rejet-de-la-comptabilite-640.webp",
-    "alt": "Professionnel vérifiant les livres et pièces d’une comptabilité soumise à contrôle",
+    "alt": "Professionnel vérifiant les livres et pièces d’une suivi des obligations déclaratives soumise à contrôle",
     "width": 1280,
     "height": 800
   },
@@ -1703,7 +1703,7 @@
   "simpl-is-ir-tva": {
     "src": "/images/guides/simpl-is-ir-tva.webp",
     "smallSrc": "/images/guides/simpl-is-ir-tva-640.webp",
-    "alt": "Comptable remplissant une déclaration fiscale en ligne avec ses justificatifs",
+    "alt": "déclaratif remplissant une déclaration fiscale en ligne avec ses justificatifs",
     "width": 1280,
     "height": 800
   },
@@ -1731,7 +1731,7 @@
   "debours-et-frais-en-fiscalite-marocaine": {
     "src": "/images/guides/debours-et-frais-en-fiscalite-marocaine.webp",
     "smallSrc": "/images/guides/debours-et-frais-en-fiscalite-marocaine-640.webp",
-    "alt": "Comptable comparant des reçus aux frais avancés pour le compte d’un client",
+    "alt": "déclaratif comparant des reçus aux frais avancés pour le compte d’un client",
     "width": 1280,
     "height": 800
   },
@@ -1745,28 +1745,28 @@
   "commissaire-aux-comptes-au-maroc": {
     "src": "/images/guides/commissaire-aux-comptes-au-maroc.webp",
     "smallSrc": "/images/guides/commissaire-aux-comptes-au-maroc-640.webp",
-    "alt": "Commissaire aux comptes expérimenté examinant un dossier avec la responsable financière",
+    "alt": "professionnels agréés pour le contrôle légal expérimenté examinant un dossier avec la responsable financière",
     "width": 1280,
     "height": 800
   },
   "plan-comptable-marocain-pcge": {
     "src": "/images/guides/plan-comptable-marocain-pcge.webp",
     "smallSrc": "/images/guides/plan-comptable-marocain-pcge-640.webp",
-    "alt": "Deux comptables consultant un classeur organisé et des ouvrages de référence",
+    "alt": "Deux déclaratifs consultant un classeur organisé et des ouvrages de référence",
     "width": 1280,
     "height": 800
   },
   "comptabilite-au-maroc-1-guide": {
     "src": "/images/guides/comptabilite-au-maroc-1-guide.webp",
     "smallSrc": "/images/guides/comptabilite-au-maroc-1-guide-640.webp",
-    "alt": "Comptables classant les factures et enregistrant les écritures sur ordinateur",
+    "alt": "déclaratifs classant les factures et enregistrant les écritures sur ordinateur",
     "width": 1280,
     "height": 800
   },
   "tenue-de-comptabilite": {
     "src": "/images/guides/tenue-de-comptabilite.webp",
     "smallSrc": "/images/guides/tenue-de-comptabilite-640.webp",
-    "alt": "Comptable vérifiant des dossiers clients près d’un scanner de documents",
+    "alt": "déclaratif vérifiant des dossiers clients près d’un scanner de documents",
     "width": 1280,
     "height": 800
   },
@@ -1780,7 +1780,7 @@
   "prorata-de-deduction-de-la-tva": {
     "src": "/images/guides/prorata-de-deduction-de-la-tva.webp",
     "smallSrc": "/images/guides/prorata-de-deduction-de-la-tva-640.webp",
-    "alt": "Comptable répartissant les factures entre deux dossiers pour analyser le droit à déduction",
+    "alt": "déclaratif répartissant les factures entre deux dossiers pour analyser le droit à déduction",
     "width": 1280,
     "height": 800
   },
@@ -1815,7 +1815,7 @@
   "retenue-a-la-source-quels-sont-les-produits-soumis": {
     "src": "/images/guides/retenue-a-la-source-quels-sont-les-produits-soumis.webp",
     "smallSrc": "/images/guides/retenue-a-la-source-quels-sont-les-produits-soumis-640.webp",
-    "alt": "Comptable calculant la retenue fiscale à partir d’un dossier de paiement",
+    "alt": "déclaratif calculant la retenue fiscale à partir d’un dossier de paiement",
     "width": 1280,
     "height": 800
   },
@@ -1836,7 +1836,7 @@
   "separation-des-exercices": {
     "src": "/images/guides/separation-des-exercices.webp",
     "smallSrc": "/images/guides/separation-des-exercices-640.webp",
-    "alt": "Comptables séparant les archives de l’exercice précédent du nouveau livre comptable",
+    "alt": "déclaratifs séparant les archives de l’exercice précédent du nouveau livre déclaratif",
     "width": 1280,
     "height": 800
   },
@@ -1913,7 +1913,7 @@
   "declarations-fiscales-de-fin-d-annee": {
     "src": "/images/guides/declarations-fiscales-de-fin-d-annee.webp",
     "smallSrc": "/images/guides/declarations-fiscales-de-fin-d-annee-640.webp",
-    "alt": "Comptable préparant la liasse fiscale annuelle avec ses classeurs et son ordinateur",
+    "alt": "déclaratif préparant la liasse fiscale annuelle avec ses classeurs et son ordinateur",
     "width": 1280,
     "height": 800
   },
@@ -1955,7 +1955,7 @@
   "is-deficits-reportables": {
     "src": "/images/guides/is-deficits-reportables.webp",
     "smallSrc": "/images/guides/is-deficits-reportables-640.webp",
-    "alt": "Comptable comparant des archives fiscales aux documents de l’exercice en cours",
+    "alt": "déclaratif comparant des archives fiscales aux documents de l’exercice en cours",
     "width": 1280,
     "height": 800
   },
@@ -1976,14 +1976,14 @@
   "notes-de-frais": {
     "src": "/images/guides/notes-de-frais.webp",
     "smallSrc": "/images/guides/notes-de-frais-640.webp",
-    "alt": "Salariée et comptable rapprochant les reçus d’un déplacement d’une note de frais",
+    "alt": "Salariée et déclaratif rapprochant les reçus d’un déplacement d’une note de frais",
     "width": 1280,
     "height": 800
   },
   "charges-deductibles-i-s-au-maroc": {
     "src": "/images/guides/charges-deductibles-i-s-au-maroc.webp",
     "smallSrc": "/images/guides/charges-deductibles-i-s-au-maroc-640.webp",
-    "alt": "Comptable vérifiant les justificatifs de charges déductibles de l’entreprise",
+    "alt": "déclaratif vérifiant les justificatifs de charges déductibles de l’entreprise",
     "width": 1280,
     "height": 800
   },
@@ -2053,7 +2053,7 @@
   "logiciel-de-comptabilite-que-choisir": {
     "src": "/images/guides/logiciel-de-comptabilite-que-choisir.webp",
     "smallSrc": "/images/guides/logiciel-de-comptabilite-que-choisir-640.webp",
-    "alt": "Professionnels comparant des solutions de comptabilité sur leurs ordinateurs",
+    "alt": "Professionnels comparant des solutions de suivi des obligations déclaratives sur leurs ordinateurs",
     "width": 1280,
     "height": 800
   },
@@ -2081,7 +2081,7 @@
   "commissaire-aux-comptes-a-casablanca": {
     "src": "/images/guides/commissaire-aux-comptes-a-casablanca.webp",
     "smallSrc": "/images/guides/commissaire-aux-comptes-a-casablanca-640.webp",
-    "alt": "Commissaire aux comptes examinant un dossier financier dans un bureau à Casablanca",
+    "alt": "professionnels agréés pour le contrôle légal examinant un dossier financier dans un bureau à Casablanca",
     "width": 1280,
     "height": 800
   },
@@ -2095,7 +2095,7 @@
   "expert-comptable-casablanca": {
     "src": "/images/guides/expert-comptable-casablanca.webp",
     "smallSrc": "/images/guides/expert-comptable-casablanca-640.webp",
-    "alt": "Consultation comptable dans un bureau avec vue sur Casablanca",
+    "alt": "Consultation déclaratif dans un bureau avec vue sur Casablanca",
     "width": 1280,
     "height": 800
   },
@@ -2116,7 +2116,7 @@
   "expert-comptable-au-maroc": {
     "src": "/images/guides/expert-comptable-au-maroc.webp",
     "smallSrc": "/images/guides/expert-comptable-au-maroc-640.webp",
-    "alt": "Entrepreneur et experte comptable examinant ensemble les dossiers de l’entreprise",
+    "alt": "Entrepreneur et experte déclaratif examinant ensemble les dossiers de l’entreprise",
     "width": 1280,
     "height": 800
   },
@@ -2130,7 +2130,7 @@
   "impot-sur-les-societes-au-maroc": {
     "src": "/images/guides/impot-sur-les-societes-au-maroc.webp",
     "smallSrc": "/images/guides/impot-sur-les-societes-au-maroc-640.webp",
-    "alt": "Comptable examinant les comptes annuels pour préparer l’impôt sur les sociétés",
+    "alt": "déclaratif examinant les comptes annuels pour préparer l’impôt sur les sociétés",
     "width": 1280,
     "height": 800
   },
@@ -2179,7 +2179,7 @@
   "expert-comptable-devenir": {
     "src": "/images/guides/expert-comptable-devenir.webp",
     "smallSrc": "/images/guides/expert-comptable-devenir-640.webp",
-    "alt": "Étudiante en expertise comptable accompagnée par un professionnel dans une bibliothèque",
+    "alt": "Étudiante en conseil accompagnée par un professionnel dans une bibliothèque",
     "width": 1280,
     "height": 800
   },
