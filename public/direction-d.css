@@ -82,7 +82,7 @@ body.fx-d-article .d-page-art { width: 100%; height: auto; display: block; }
   body.fx-d-service .d-hero-solo .d-illu { float: none; width: min(220px, 40%); margin: 0 auto 1rem; }
 }
 
-body.fx-d-service main > section:not(.d-service-hero) { background: transparent !important; }
+body.fx-d-service main > section:not(.d-service-hero):not(.bg-brand-midnight) { background: transparent !important; }
 body.fx-d-service main article,
 body.fx-d-service main .side-card,
 body.fx-d-service main .detail-item,
@@ -96,10 +96,8 @@ body.fx-d-service main .related-card {
   border-radius: 22px;
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
-html.dark body.fx-d-service main article,
-html[data-theme="dark"] body.fx-d-service main article,
-html.dark body.fx-d-service main .offer-card,
-html[data-theme="dark"] body.fx-d-service main .offer-card {
+html.dark body.fx-d-service main :is(article:not(.bg-brand-midnight), .side-card, .detail-item, .step, .value-card, .related-card, .offer-card),
+html[data-theme="dark"] body.fx-d-service main :is(article:not(.bg-brand-midnight), .side-card, .detail-item, .step, .value-card, .related-card, .offer-card) {
   background: #141c3a;
   color: #f5f7ff;
   border-color: rgba(255,255,255,.14);
@@ -279,6 +277,67 @@ body.fx-d footer .bg-brand-midnight a:hover {
   background: #e7eeff;
   color: #0b1340;
 }
+
+html.dark body.fx-d-article,
+html[data-theme="dark"] body.fx-d-article { background: #0b1340; }
+html.dark body.fx-d-article main .prose-lg,
+html.dark body.fx-d-article main .article,
+html.dark body.fx-d-article .intelligence-disclosure,
+html.dark body.fx-d-article .intelligence-sources,
+html[data-theme="dark"] body.fx-d-article main .prose-lg,
+html[data-theme="dark"] body.fx-d-article main .article,
+html[data-theme="dark"] body.fx-d-article .intelligence-disclosure,
+html[data-theme="dark"] body.fx-d-article .intelligence-sources { color: #d5def2; }
+html.dark body.fx-d-article main .prose-lg :where(h2, h3),
+html[data-theme="dark"] body.fx-d-article main .prose-lg :where(h2, h3) { color: #f7f9ff; }
+html.dark body.fx-d-article main nav[aria-label],
+html.dark body.fx-d-article main details,
+html[data-theme="dark"] body.fx-d-article main nav[aria-label],
+html[data-theme="dark"] body.fx-d-article main details {
+  background: #141c3a;
+  color: #f5f7ff;
+  border-color: rgba(255, 255, 255, .16);
+}
+html.dark body.fx-d-legal main :is(h1, h2, h3),
+html[data-theme="dark"] body.fx-d-legal main :is(h1, h2, h3) { color: #f7f9ff; }
+html.dark body.fx-d-legal main :is(p, li),
+html[data-theme="dark"] body.fx-d-legal main :is(p, li) { color: #d5def2; }
+html.dark body.fx-d footer,
+html[data-theme="dark"] body.fx-d footer {
+  background: #09152b !important;
+  color: #d5def2;
+  border-top-color: rgba(255, 255, 255, .12);
+}
+html.dark body.fx-d footer a,
+html[data-theme="dark"] body.fx-d footer a { color: #d4e0ff; }
+html.dark body.fx-d footer :is(h3, strong),
+html[data-theme="dark"] body.fx-d footer :is(h3, strong) { color: #f7f9ff; }
+html.dark body.fx-d-hub main a.group,
+html[data-theme="dark"] body.fx-d-hub main a.group {
+  background: #141c3a;
+  border-color: rgba(255, 255, 255, .16);
+  color: #f5f7ff;
+}
+html.dark body.fx-d-hub :is(#guide-search, #guide-category, .guide-search, .guide-category, select),
+html[data-theme="dark"] body.fx-d-hub :is(#guide-search, #guide-category, .guide-search, .guide-category, select) {
+  background: #0c1930;
+  color: #f5f7ff;
+  border-color: #8ea2c8;
+}
+html.dark body.fx-d-hub #guide-search::placeholder,
+html[data-theme="dark"] body.fx-d-hub #guide-search::placeholder { color: #c5d2ea; }
+html.dark body.fx-d:not(.fx-home) :is(.form-card, .felexia-form-zone),
+html[data-theme="dark"] body.fx-d:not(.fx-home) :is(.form-card, .felexia-form-zone) {
+  background: #141c3a;
+  border-color: rgba(255, 255, 255, .16);
+  color: #f5f7ff;
+}
+html.dark body.fx-d .felexia-header,
+html[data-theme="dark"] body.fx-d .felexia-header { background: rgba(9, 21, 43, .9); }
+html.dark body.fx-d:not(.fx-home) main :is(p, li),
+html[data-theme="dark"] body.fx-d:not(.fx-home) main :is(p, li) { color: #d5def2; }
+html.dark body.fx-d .bg-brand-midnight :is(h1, h2, h3, h4, p, li, strong),
+html[data-theme="dark"] body.fx-d .bg-brand-midnight :is(h1, h2, h3, h4, p, li, strong) { color: #f7f9ff; }
 
 html.d-motion body.fx-d:not(.fx-home) .d-reveal { opacity: 0; transform: translateY(18px); }
 html.d-motion body.fx-d:not(.fx-home) .d-reveal.is-in { opacity: 1; transform: none; transition: opacity .6s ease, transform .6s ease; }

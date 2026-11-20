@@ -192,6 +192,83 @@ html[dir="rtl"] .d-track { animation-name: d-marquee-rtl; }
 html[dir="rtl"] .d { font-family: "Noto Sans Arabic", sans-serif; }
 html[dir="rtl"] .d h1, html[dir="rtl"] .d h2 { font-family: "Noto Sans Arabic", sans-serif; }
 
+html.dark .fx-home-d,
+html[data-theme="dark"] .fx-home-d {
+  background:
+    radial-gradient(900px 520px at 8% -10%, rgba(57, 195, 255, .14), transparent 60%),
+    radial-gradient(800px 480px at 100% 0%, rgba(36, 70, 216, .22), transparent 55%),
+    #09152b;
+  color: #f4f7ff;
+}
+html.dark .fx-home-d .felexia-header,
+html[data-theme="dark"] .fx-home-d .felexia-header { background: rgba(9, 21, 43, .9); }
+html.dark .d h1,
+html.dark .d h2,
+html[data-theme="dark"] .d h1,
+html[data-theme="dark"] .d h2 { color: #f7f9ff; }
+html.dark .d-brand,
+html.dark .d-kicker,
+html.dark .d-more a,
+html.dark .d-steps li span,
+html[data-theme="dark"] .d-brand,
+html[data-theme="dark"] .d-kicker,
+html[data-theme="dark"] .d-more a,
+html[data-theme="dark"] .d-steps li span { color: #d4e0ff; }
+html.dark .d-grad,
+html[data-theme="dark"] .d-grad {
+  background: none;
+  -webkit-text-fill-color: #d6e4ff;
+  color: #d6e4ff;
+}
+html.dark .d-lead,
+html.dark .d-tile p,
+html.dark .d-steps p,
+html.dark .d-steps-head p,
+html[data-theme="dark"] .d-lead,
+html[data-theme="dark"] .d-tile p,
+html[data-theme="dark"] .d-steps p,
+html[data-theme="dark"] .d-steps-head p { color: #d5def2; }
+html.dark .d-quiet,
+html[data-theme="dark"] .d-quiet {
+  background: #192c4c;
+  color: #f4f7ff;
+  box-shadow: inset 0 0 0 1px #9aafd4;
+}
+html.dark .d-tile,
+html.dark .d-steps li,
+html[data-theme="dark"] .d-tile,
+html[data-theme="dark"] .d-steps li {
+  background: #141c3a;
+  border-color: rgba(255, 255, 255, .16);
+  color: #f5f7ff;
+}
+html.dark .d-sheet,
+html.dark .d-board,
+html[data-theme="dark"] .d-sheet,
+html[data-theme="dark"] .d-board {
+  background: rgba(20, 28, 58, .94);
+  border-color: rgba(255, 255, 255, .18);
+  color: #f5f7ff;
+}
+html.dark .d-board li,
+html[data-theme="dark"] .d-board li { color: #f4f7ff; }
+html.dark .d-track img,
+html[data-theme="dark"] .d-track img {
+  background: #f4f7fb;
+  border-radius: 12px;
+  padding: 6px 8px;
+}
+html.dark .d-close,
+html[data-theme="dark"] .d-close {
+  background: linear-gradient(145deg, #0b1340, #1a2f86 78%);
+}
+html.dark .d-close .d-quiet,
+html[data-theme="dark"] .d-close .d-quiet {
+  background: transparent;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .6);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .fx-home-d::before, .fx-home-d::after,
   .d-bar span, .d-mark, .d-mark path, .d-bob, .d-stamp, .d-spin, .d-track, .d-gear { animation: none !important; }
