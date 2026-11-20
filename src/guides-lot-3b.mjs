@@ -63,9 +63,9 @@ export const lot3b = [
             'منذ أول أجير، الشركة مشغّل. والعقد والأجر والانخراط والتصاريح تتبع قواعد الصندوق وقانون الشغل. والتعريفات غير منسوخة. وعامل إضافي يُؤدى نقداً بلا تصريح ليس مرونة: إنه خلل. عيّنوا من يمسك الحضور حين لا يكون المسيّر في القاعة. ويفيد [دليل التسيير من الخارج](guides/mre-gerer-societe-depuis-letranger) إذا كان المستغل لا يعيش بمراكش طوال السنة. والمطبخ، من جهته، لا يُدار بالرسائل فقط.'
           ),
           t(
-            'L’impôt de l’activité, la TVA si elle s’applique, et les obligations liées aux recettes se vérifient dans le CGI pour un restaurant, pas pour une activité de conseil. Aucun taux n’est donné. Faites qualifier le régime avant d’imprimer les tickets. La caisse et le compte de la société racontent la même histoire. Un écart permanent entre les deux est le premier sujet qu’un contrôle regarde. Le professionnel qui tient la comptabilité doit recevoir les pièces chaque mois, pas une boîte en fin d’année.',
-            'The tax on the activity, VAT if it applies, and the duties linked to takings are checked in the General Tax Code for a restaurant, not for a consulting activity. No rate is given. Have the regime classified before you print the receipts. The till and the company’s account tell the same story. A permanent gap between the two is the first subject an audit looks at. The professional who keeps the accounts must receive the documents each month, not a box at year end.',
-            'ضريبة النشاط، والضريبة على القيمة المضافة إن انطبقت، والواجبات المرتبطة بالمقبوضات تُتحقق في المدونة لمطعم، لا لنشاط استشارة. ولا يُعطى أي سعر. اطلبوا تكييف النظام قبل طبع التذاكر. والصندوق وحساب الشركة يرويان القصة نفسها. وفرق دائم بينهما أول موضوع ينظر إليه فحص. والمهني الذي يمسك المحاسبة يجب أن يتلقى الوثائق كل شهر، لا صندوقاً في آخر السنة.'
+            'L’impôt de l’activité, la TVA si elle s’applique, et les obligations liées aux recettes se vérifient dans le CGI pour un restaurant, pas pour une activité de conseil. Aucun taux n’est donné. Faites qualifier le régime avant d’imprimer les tickets. La caisse et le compte de la société racontent la même histoire. Un écart permanent entre les deux est le premier sujet qu’un contrôle regarde. La personne chargée des déclarations doit recevoir les pièces chaque mois, pas une boîte en fin d’année.',
+            'The tax on the activity, VAT if it applies, and the duties linked to takings are checked in the General Tax Code for a restaurant, not for a consulting activity. No rate is given. Have the regime classified before you print the receipts. The till and the company’s account tell the same story. A permanent gap between the two is the first subject an audit looks at. The person in charge of the filings must receive the documents each month, not a box at year end.',
+            'ضريبة النشاط، والضريبة على القيمة المضافة إن انطبقت، والواجبات المرتبطة بالمقبوضات تُتحقق في المدونة لمطعم، لا لنشاط استشارة. ولا يُعطى أي سعر. اطلبوا تكييف النظام قبل طبع التذاكر. والصندوق وحساب الشركة يرويان القصة نفسها. وفرق دائم بينهما أول موضوع ينظر إليه فحص. والمكلف بالتصاريح يجب أن يتلقى الوثائق كل شهر، لا صندوقاً في آخر السنة.'
           )
         ]
       },
@@ -182,9 +182,9 @@ export const lot3b = [
         heading:t('L’argent des clients', 'The clients’ money', 'مال الزبناء'),
         paragraphs:[
           t(
-            'L’agence encaisse souvent avant de payer le fournisseur. Cet écart de trésorerie n’est pas un bénéfice. Il appartient, selon le contrat, au voyage ou au prestataire. Le tenir sur le même compte que les frais de l’agence, sans écriture, rend les comptes illisibles et complique un contrôle. Séparez, au moins dans la comptabilité, l’argent des clients et le produit de la commission. La commission, elle, est le revenu. Son régime fiscal se vérifie dans le CGI. Aucun taux de marge ni de TVA n’est indiqué ici. Faites-le confirmer par un professionnel avant d’afficher des prix.',
-            'The agency often collects before it pays the supplier. That cash gap is not a profit. It belongs, under the contract, to the trip or to the provider. Holding it in the same account as the agency’s expenses, with no entry, makes the accounts unreadable and complicates an audit. Separate, at least in the accounts, the clients’ money and the commission income. The commission is the revenue. Its tax regime is checked in the General Tax Code. No margin rate and no VAT rate is stated here. Have it confirmed by a professional before you display prices.',
-            'غالباً ما تقبض الوكالة قبل أن تؤدي للمزود. وهذه الفجوة في الخزينة ليست ربحاً. فهي تخص، حسب العقد، السفر أو المقدم. وإبقاؤها في الحساب نفسه مع مصاريف الوكالة، بلا قيد، يجعل الحسابات غير مقروءة ويعقّد الفحص. افصلوا، على الأقل في المحاسبة، مال الزبناء ودخل العمولة. والعمولة هي الإيراد. ونظامها الضريبي يُتحقق في المدونة. ولا يُذكر هنا سعر هامش ولا سعر ضريبة على القيمة المضافة. اطلبوا تأكيده من مهني قبل عرض الأسعار.'
+            'L’agence encaisse souvent avant de payer le fournisseur. Cet écart de trésorerie n’est pas un bénéfice. Il appartient, selon le contrat, au voyage ou au prestataire. Le tenir sur le même compte que les frais de l’agence, sans écriture, rend les comptes illisibles et complique un contrôle. Séparez, au moins dans les enregistrements, l’argent des clients et le produit de la commission. La commission, elle, est le revenu. Son régime fiscal se vérifie dans le CGI. Aucun taux de marge ni de TVA n’est indiqué ici. Faites-le confirmer par un professionnel avant d’afficher des prix.',
+            'The agency often collects before it pays the supplier. That cash gap is not a profit. It belongs, under the contract, to the trip or to the provider. Holding it in the same account as the agency’s expenses, with no entry, makes the accounts unreadable and complicates an audit. Separate, at least in the records, the clients’ money and the commission income. The commission is the revenue. Its tax regime is checked in the General Tax Code. No margin rate and no VAT rate is stated here. Have it confirmed by a professional before you display prices.',
+            'غالباً ما تقبض الوكالة قبل أن تؤدي للمزود. وهذه الفجوة في الخزينة ليست ربحاً. فهي تخص، حسب العقد، السفر أو المقدم. وإبقاؤها في الحساب نفسه مع مصاريف الوكالة، بلا قيد، يجعل الحسابات غير مقروءة ويعقّد الفحص. افصلوا، على الأقل في السجلات، مال الزبناء ودخل العمولة. والعمولة هي الإيراد. ونظامها الضريبي يُتحقق في المدونة. ولا يُذكر هنا سعر هامش ولا سعر ضريبة على القيمة المضافة. اطلبوا تأكيده من مهني قبل عرض الأسعار.'
           ),
           t(
             'Payer un hôtel ou une compagnie à l’étranger suit le régime de l’Office des Changes et les conditions de la banque. Conservez le contrat client, la facture fournisseur et la preuve du paiement. Le [guide du rapatriement](guides/rapatrier-benefices-depuis-le-maroc) concerne la sortie des bénéfices, pas le paiement d’une prestation pour un client. Les deux dossiers ne se mélangent pas. Si l’agence a des salariés, la CNSS s’applique comme pour toute entreprise. Les guides ne fixent pas les cotisations.',
@@ -204,7 +204,7 @@ export const lot3b = [
             'La garantie financière, s’il y en a une, est celle demandée aujourd’hui, sans montant inventé.',
             'L’objet social et l’adresse correspondent au dossier d’agrément.',
             'Le local est compatible avec l’accueil du public si l’administration l’exige.',
-            'L’argent des clients est distingué de la commission dans la comptabilité.',
+            'L’argent des clients est distingué de la commission dans les enregistrements.',
             'Les paiements vers l’étranger sont prévus avec la banque et l’Office des Changes.',
             'L’impôt de la commission est confirmé par un professionnel.'
           ],
@@ -213,7 +213,7 @@ export const lot3b = [
             'The financial guarantee, if there is one, is the one asked today, with no invented amount.',
             'The corporate purpose and the address match the approval file.',
             'The premises are compatible with receiving the public if the administration requires it.',
-            'Clients’ money is distinguished from the commission in the accounts.',
+            'Clients’ money is distinguished from the commission in the records.',
             'Payments abroad are planned with the bank and the Foreign Exchange Office.',
             'The tax on the commission is confirmed by a professional.'
           ],
@@ -222,7 +222,7 @@ export const lot3b = [
             'الضمانة المالية، إن وُجدت، هي المطلوبة اليوم، بلا مبلغ مخترع.',
             'الغرض والعنوان يطابقان ملف الاعتماد.',
             'المحل متوافق مع استقبال العموم إذا اشترطته الإدارة.',
-            'مال الزبناء مميز عن العمولة في المحاسبة.',
+            'مال الزبناء مميز عن العمولة في السجلات.',
             'الأداءات إلى الخارج مخططة مع البنك ومكتب الصرف.',
             'ضريبة العمولة أكدها مهني.'
           ]
