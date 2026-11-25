@@ -19,12 +19,12 @@ test('quote requests count once after receipt and recruitment is excluded',()=>{
   m.received({kind:'recruitment',requestId:'r'});m.received({kind:'project'});assert.equal(events.length,0);
   m.received({kind:'project',requestId:'p'});m.received({kind:'project',requestId:'p'});assert.deepEqual(events,['generate_lead','request_quote','conversion']);
 });
-test('privacy choices are translated and no Google script loads in static HTML',()=>{
+test('privacy choices are translated and the Google Ads tag is in the head before consent',()=>{
   for(const lang of ['fr','en','ar']){
-    const $=load(readFileSync(`dist/${lang}/index.html`));assert.equal($('[data-analytics-consent]').length,1);assert.equal($('[data-audience-choice]').length,2);assert.equal($('[data-audience-settings]').length,1);assert.equal($('script[src*="googletagmanager"]').length,0);
+    const $=load(readFileSync(`dist/${lang}/index.html`));assert.equal($('[data-analytics-consent]').length,1);assert.equal($('[data-audience-choice]').length,2);assert.equal($('[data-audience-settings]').length,1);assert.equal($('head script[src*="googletagmanager.com/gtag/js?id=AW-18492364232"]').length,1);
     const policy=readFileSync(`dist/${lang}/cookies/index.html`,'utf8');assert(policy.includes('Google Analytics'));assert(policy.includes('Google Ads'));assert(!/aucun cookie publicitaire|no advertising cookies|لا يثبت الموقع/.test(policy));
-    const source=readFileSync('public/analytics.js','utf8')+readFileSync('public/measurement-core.js','utf8');
-    assert(source.includes("gtag('config','AW-18492364232')"));
+    const source=readFileSync('public/analytics.js','utf8')+readFileSync('public/measurement-core.js','utf8')+readFileSync('public/google-consent.js','utf8');
+    assert(source.includes("gtag('config', 'AW-18492364232')"));
     assert(source.includes('AW-18492364232/sQ1vCJnUpbsdEMir7PFE'));
     assert(!source.includes('7CimCP-S5rodEMir7PFE'));
   }

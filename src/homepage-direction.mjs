@@ -1,4 +1,5 @@
 import {createHash} from 'node:crypto';
+import {privateAdvice} from './private-status.mjs';
 
 const version = createHash('sha1').update('home-d-illustrated-v2').digest('hex').slice(0, 8);
 
@@ -22,14 +23,13 @@ const copy = {
     stepsP: 'Les pièces et l’ordre se précisent avec le cabinet.',
     t1: 'Échange', t1d: 'Votre situation, la forme envisagée et les pièces à réunir.',
     t2: 'Statuts', t2d: 'Rédaction et signature, y compris par procuration.',
-    t3: 'Dépôt', t3d: 'Registre de commerce, ICE, identifiants fiscaux et CNSS.',
+    t3: 'Dossier', t3d: privateAdvice.fr,
     t4: 'Suite', t4d: 'Domiciliation, modifications et questions après l’immatriculation.',
     close: 'Parlons de votre projet.',
     closeP: 'Écrivez au cabinet ou prenez rendez-vous. Le devis vient avant l’engagement.',
     book: 'Prendre rendez-vous',
-    rows: ['Certificat négatif', 'Statuts', 'Registre de commerce', 'ICE', 'CNSS'],
-    paperA: 'Statuts', paperB: 'ICE',
-    logos: 'Organismes utiles à vos démarches',
+    advice: privateAdvice.fr,
+    paperA: 'Statuts', paperB: 'Dossier',
     more: 'Pour aller plus loin',
     l1: 'Création de société au Maroc', l2: 'Domiciliation à Marrakech', l3: 'Modifier une société', l4: 'Créer une SARL', l5: 'Créer depuis l’étranger', l6: 'Tous les guides'
   },
@@ -52,14 +52,13 @@ const copy = {
     stepsP: 'The documents and their order are confirmed with the firm.',
     t1: 'A conversation', t1d: 'Your situation, the form you have in mind and the papers to gather.',
     t2: 'Bylaws', t2d: 'Drafting and signature, including under a power of attorney.',
-    t3: 'Filing', t3d: 'Trade register, ICE, tax identifiers and CNSS.',
+    t3: 'File', t3d: privateAdvice.en,
     t4: 'Afterward', t4d: 'Domiciliation, amendments and questions once the company exists.',
     close: 'Tell us about the project.',
     closeP: 'Write to the firm or book a meeting. The quote comes first.',
     book: 'Book a meeting',
-    rows: ['Negative certificate', 'Bylaws', 'Trade register', 'ICE', 'CNSS'],
-    paperA: 'Bylaws', paperB: 'ICE',
-    logos: 'Authorities involved in these filings',
+    advice: privateAdvice.en,
+    paperA: 'Bylaws', paperB: 'File',
     more: 'Read on',
     l1: 'Form a company in Morocco', l2: 'Domiciliation in Marrakech', l3: 'Amend a company', l4: 'Form an SARL', l5: 'Form a company from abroad', l6: 'All guides'
   },
@@ -82,14 +81,13 @@ const copy = {
     stepsP: 'تتضح الوثائق وترتيبها مع المكتب.',
     t1: 'تبادل', t1d: 'وضعكم، والصيغة المتوقعة، والوثائق اللازمة.',
     t2: 'النظام الأساسي', t2d: 'الصياغة والتوقيع، بما في ذلك عبر وكالة.',
-    t3: 'الإيداع', t3d: 'السجل التجاري، ICE، المعرفات الجبائية وCNSS.',
+    t3: 'الملف', t3d: privateAdvice.ar,
     t4: 'المتابعة', t4d: 'التوطين والتعديلات والأسئلة بعد التسجيل.',
     close: 'لنتحدث عن مشروعكم.',
     closeP: 'اكتبوا إلى المكتب أو احجزوا موعداً. عرض السعر يسبق الالتزام.',
     book: 'حجز موعد',
-    rows: ['الشهادة السلبية', 'النظام الأساسي', 'السجل التجاري', 'ICE', 'CNSS'],
-    paperA: 'النظام الأساسي', paperB: 'ICE',
-    logos: 'هيئات تفيد في هذه المساطر',
+    advice: privateAdvice.ar,
+    paperA: 'النظام الأساسي', paperB: 'الملف',
     more: 'للمتابعة',
     l1: 'تأسيس شركة في المغرب', l2: 'التوطين بمراكش', l3: 'تعديل شركة', l4: 'تأسيس SARL', l5: 'التأسيس من الخارج', l6: 'جميع الأدلة'
   }
@@ -148,25 +146,9 @@ function art(kind, id) {
   return `${head}${scenes[kind]}</svg>`;
 }
 
-function logos() {
-  const items = [
-    ['/mylegal/images/logos/confiance/logo-ompic.png', 'OMPIC'],
-    ['/mylegal/images/logos/confiance/Direction-generale-des-impots-logo.png', 'Direction générale des impôts'],
-    ['/mylegal/images/logos/confiance/logo-mic.png', 'Ministère de l’Industrie et du Commerce'],
-    ['/mylegal/images/logos/confiance/ministere-transfer-num.svg', 'Ministère de la Transition numérique'],
-    ['/mylegal/images/logos/confiance/Tamwilcom.png', 'Tamwilcom'],
-    ['/mylegal/images/logos/partenaires/ADA.png', 'ADA'],
-    ['/mylegal/images/logos/partenaires/ADD.png', 'ADD'],
-    ['/mylegal/images/logos/confiance/direct-info.png', 'Direct Info']
-  ];
-  const group = items.map(([src, alt]) => `<img src="${src}" alt="${alt}" width="120" height="48" loading="lazy" decoding="async">`).join('');
-  return `<div class="d-marquee"><div class="d-track">${group}${group}</div></div>`;
-}
-
 function markup(lang) {
   const c = copy[lang];
   const p = (path) => `/${lang}/${path}`;
-  const rows = c.rows.map((name, index) => `<li class="d-i${index}"><span class="d-mark"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.2l3 3 6-6.4"/></svg></span><span>${name}</span></li>`).join('');
   const tiles = [
     ['create', 'creation-entreprise/', c.b1, c.b1d],
     ['home', 'domiciliation/', c.b2, c.b2d],
@@ -188,6 +170,7 @@ function markup(lang) {
       <p class="d-kicker">${c.kicker}</p>
       <h1><span class="d-brand">${c.h1a}</span><span class="d-rest"><span class="d-grad">${c.h1b}</span> ${c.h1c}</span></h1>
       <p class="d-lead">${c.lead}</p>
+      <p class="d-scope">${c.advice}</p>
       <p class="d-actions"><a class="d-primary" href="${p('create/')}">${c.primary}</a><a class="d-quiet" href="${p('contact/')}">${c.quiet}</a></p>
     </div>
     <div class="d-stage">
@@ -195,17 +178,12 @@ function markup(lang) {
       <div class="d-front"><div class="d-y">
         <article class="d-sheet d-sheet-a"><strong>${c.paperA}</strong><span></span><span></span><span></span></article>
         <article class="d-sheet d-sheet-b"><strong>${c.paperB}</strong><span></span><span></span></article>
-        <div class="d-board"><div class="d-bar" aria-hidden="true"><span></span></div><ol>${rows}</ol></div>
       </div></div>
     </div>
   </section>
   <section class="d-bento" aria-labelledby="d-services" data-reveal>
     <h2 id="d-services">${c.services}</h2>
     <div class="d-grid">${grid}</div>
-  </section>
-  <section class="d-logos" aria-label="${c.logos}" data-reveal>
-    <h2>${c.logos}</h2>
-    ${logos()}
   </section>
   <section class="d-steps" aria-labelledby="d-steps" data-reveal>
     <div class="d-steps-head"><h2 id="d-steps">${c.steps}</h2><p>${c.stepsP}</p></div>

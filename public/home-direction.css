@@ -31,7 +31,7 @@
 .d-brand { display: block; margin-bottom: .55rem; color: #2446d8; font-size: .36em; font-weight: 650; letter-spacing: 0; }
 .d-rest { display: block; max-width: 11em; text-wrap: balance; }
 .d-grad { background: linear-gradient(100deg, #1d3ec8, #2a62ea); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.d-lead { max-width: 38rem; margin: 1rem 0 0; color: #3c4a66; font-size: 1.05rem; line-height: 1.55; }
+.d-lead, .d-scope { max-width: 38rem; margin: 1rem 0 0; color: #3c4a66; font-size: 1.05rem; line-height: 1.55; }
 .d-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1.3rem 0 0; }
 .d-primary, .d-quiet { position: relative; display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: .75rem 1.2rem; overflow: hidden; border-radius: 999px; font-weight: 700; text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .d-primary { background: #2446d8; color: #fff; box-shadow: 0 10px 24px rgba(36, 70, 216, .22); }
@@ -221,10 +221,12 @@ html[data-theme="dark"] .d-grad {
   color: #d6e4ff;
 }
 html.dark .d-lead,
+html.dark .d-scope,
 html.dark .d-tile p,
 html.dark .d-steps p,
 html.dark .d-steps-head p,
 html[data-theme="dark"] .d-lead,
+html[data-theme="dark"] .d-scope,
 html[data-theme="dark"] .d-tile p,
 html[data-theme="dark"] .d-steps p,
 html[data-theme="dark"] .d-steps-head p { color: #d5def2; }

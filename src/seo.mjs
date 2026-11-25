@@ -6,6 +6,7 @@ import {addAnalytics} from './analytics.mjs';
 import {editorial,editorialDate,creationSections,guideBody,contentHelpers,pick} from './seo-content.mjs';
 import {applyHomepage} from './homepage-direction.mjs';
 import {applyDirection} from './direction-pages.mjs';
+import {privateNotice, privateNoticeSlugs} from './private-status.mjs';
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const canonicalAliases={legal:'mentions-legales',privacy:'politique-confidentialite',terms:'cgu'};
@@ -31,7 +32,7 @@ export function optimizeSeo(pages){
     const footerServices=[
       ['services',t('Tous nos services','All our services','جميع خدماتنا')],
       ['offres',t('Nos offres','Our offers','عروضنا')],
-      ['formalites-administratives',t('Formalités administratives','Administrative procedures','الإجراءات الإدارية')],
+      ['formalites-administratives',t('Préparation du dossier','Preparing your file','إعداد الملف')],
       ['modify-company',t('Modifier ma société','Change my company','تعديل شركتي')],
       ['support',t('Accompagnement de mon entreprise','Support for my business','مواكبة مقاولتي')]
     ].filter(([target])=>pages[`${l}/${target}/index.html`]&&!footer.find('a[href]').toArray().some(el=>$(el).attr('href')===route(target)));
@@ -161,6 +162,12 @@ export function optimizeSeo(pages){
     addAnalytics($,l,slug);
     applyDirection($, l, file);
     if(/^(fr|en|ar)\/index\.html$/.test(file)) applyHomepage($, l);
+    if(privateNoticeSlugs.has(slug)){
+      const notice=$(`<p class="felexia-private-notice" role="note"></p>`).text(privateNotice[l]);
+      const header=$('body > header').first();
+      if(header.length)header.after(notice);
+      else $('main').prepend(notice);
+    }
     pages[file]=$.html();
   }
   return pages;
