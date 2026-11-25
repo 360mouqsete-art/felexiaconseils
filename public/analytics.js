@@ -1,31 +1,25 @@
 import {createMeasurement} from './measurement-core.js';
 const root = document.querySelector('[data-analytics-consent]');
 if (root) {
-  const id = root.dataset.measurementId;
   const key = 'felexia-audience-choice-v1';
   const maxAge = 180 * 86400000;
   let choice = null, loaded = false;
   try { const saved = JSON.parse(localStorage.getItem(key)); if (saved && Date.now() - saved.at < maxAge && ['granted','denied'].includes(saved.value)) choice = saved.value; } catch {}
   const collect = location.hostname === 'www.felexiaconseils.com' || location.hostname.endsWith('.vercel.app') || location.hostname === '127.0.0.1' || location.hostname === 'localhost';
   const measurement = createMeasurement((name, params) => {
-    if (collect && loaded) window.gtag('event', name, params);
+    if (collect && typeof window.gtag === 'function') window.gtag('event', name, params);
   }, location.href, document.documentElement.lang);
-  function enable() {
+  function grant() {
     measurement.consent(true);
+    if (typeof window.gtag === 'function') window.gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});
     if (loaded) return;
     loaded = true;
-    if (!collect) return;
-    window['ga-disable-' + id] = false;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function(){ window.dataLayer.push(arguments); };
-    window.gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
-    window.gtag('js',new Date());
-    window.gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});
-    let referrer = ''; try { referrer = new URL(document.referrer).origin; } catch {}
-    window.gtag('config',id,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:15552000,page_location:location.origin+location.pathname,page_referrer:referrer});
-    window.gtag('config','AW-18492364232');
-    const script = document.createElement('script'); script.async = true; script.src = 'https://www.googletagmanager.com/gtag/js?id='+id; document.head.append(script);
-    measurement.pageView();
+    if (collect) measurement.pageView();
+  }
+  function deny() {
+    measurement.consent(false);
+    if (typeof window.gtag === 'function') window.gtag('consent','update',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});
+    clearCookies();
   }
   function clearCookies() {
     for (const cookie of document.cookie.split(';')) {
@@ -37,11 +31,11 @@ if (root) {
     choice = button.dataset.audienceChoice;
     try {localStorage.setItem(key,JSON.stringify({value:choice,at:Date.now()}));} catch {}
     root.hidden = true;
-    if (choice === 'granted') enable();
+    if (choice === 'granted') grant();
     else {
-      measurement.consent(false); window['ga-disable-'+id] = true; clearCookies();
-      // Reload unloads the third-party library and its listeners immediately.
-      if (loaded && collect) location.reload();
+      const hadGrant = loaded;
+      deny();
+      if (hadGrant && collect) location.reload();
     }
     document.querySelector('[data-audience-settings]')?.focus({preventScroll:true});
   }));
@@ -50,7 +44,7 @@ if (root) {
   document.addEventListener('felexia:request-received',event=>measurement.received(event.detail));
   // Changes in another tab also revoke collection in this tab.
   window.addEventListener('storage',event=>{if(event.key===key)location.reload();});
-  if(choice==='granted')enable();
-  else {window['ga-disable-'+id]=true;clearCookies();}
+  if(choice==='granted')grant();
+  else deny();
   root.hidden=choice!==null;
 }

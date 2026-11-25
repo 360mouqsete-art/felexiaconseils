@@ -1,4 +1,5 @@
 import {company} from './content.mjs';
+import {officialDeliverables, privateAdvice} from './private-status.mjs';
 // Keep the source layout, but never transfer another brand's prices, guarantees,
 // reviews or software capabilities to Felexia without evidence.
 const normalize = value => value.replace(/\s+/g, ' ').trim();
@@ -19,7 +20,8 @@ const replacements = new Map(Object.entries({
   'Sans déplacement': 'Échanges à distance',
   '100% en ligne, depuis chez vous.': 'Un premier échange depuis chez vous.',
   'Une prise en charge complète': 'Des démarches coordonnées',
-  "Dossier pris en charge de A à Z : Certificat négatif, statuts, RC, IF, ICE, CNSS… nous gérons l'ensemble des démarches administratives pour vous.": 'Certificat négatif, statuts, RC, IF, ICE, CNSS : nous définissons avec vous les formalités et le périmètre de notre accompagnement.',
+  "Dossier pris en charge de A à Z : Certificat négatif, statuts, RC, IF, ICE, CNSS… nous gérons l'ensemble des démarches administratives pour vous.": "Nous vous conseillons sur l'organisation juridique, sociale et fiscale de votre projet, et nous vous accompagnons dans la préparation de votre dossier, sans nous substituer à l'administration.",
+  'Certificat négatif, statuts, RC, IF, ICE, CNSS : nous définissons avec vous les formalités et le périmètre de notre accompagnement.': "Nous vous conseillons sur l'organisation juridique, sociale et fiscale de votre projet, et nous vous accompagnons dans la préparation de votre dossier, sans nous substituer à l'administration.",
   'Une plateforme pensée pour les entrepreneurs marocains et MRE qui veulent aller vite, sans sacrifier la conformité.': 'Un accompagnement pensé pour les entrepreneurs marocains, MRE et investisseurs qui souhaitent structurer leur projet.',
   'Forfait tout inclus, zéro frais cachés. Vous savez exactement ce que vous payez avant de démarrer.': 'Un devis détaille le périmètre de la mission, les honoraires et les frais à prévoir avant votre engagement.',
   'Tarif transparent': 'Un devis détaillé',
@@ -97,6 +99,7 @@ export function adaptReferenceContent($, route) {
   $('a[aria-label]').filter((_, el) => /avis Google|\b4[,.]9\s*\/\s*5/i.test($(el).attr('aria-label'))).remove();
   $('footer a').filter((_, el) => /Laisser un avis Google/i.test($(el).text())).remove();
 
+  $('img').filter((_, el) => /\/logos\/confiance\//.test($(el).attr('src') || '')).remove();
   rewriteText($, 'body', value => {
     let result = replacements.get(normalize(value)) ?? value;
     if(normalize(result)==='Notre adresse à Casablanca')result='Adresse du cabinet';
@@ -260,6 +263,13 @@ export function adaptReferenceContent($, route) {
     setParagraphs($, 'main h2,main h3,main h4', /La solution Felexia Conseils.*domiciliation de prestige/, 'La domiciliation adaptée à votre projet');
   }
 
+  if (!isGuide) {
+    $('main li').each((_, el) => { if (officialDeliverables.has(normalize($(el).text()))) $(el).remove(); });
+    $('main article').each((_, article) => {
+      if ($(article).find('li').length && !$(article).text().includes(privateAdvice.fr)) $(article).find('ul').first().after(`<p>${privateAdvice.fr}</p>`);
+    });
+    $('main ul').filter((_, el) => !$(el).children('li').length).each((_, el) => { $(el).replaceWith(`<p>${privateAdvice.fr}</p>`); });
+  }
   const values = metadata[route];
   const title = values?.[0] || $('title').text();
   const description = values?.[1] || ($('meta[name="description"]').attr('content') || '').replace(/100\s*%\s*en ligne/gi, 'avec un accompagnement adapté').replace(/sans déplacement/gi, 'selon votre situation');
