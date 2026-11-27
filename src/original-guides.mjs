@@ -8,6 +8,7 @@ import {lot2a} from './guides-lot-2.mjs';
 import {lot2b} from './guides-lot-2b.mjs';
 import {lot3a} from './guides-lot-3.mjs';
 import {lot3b} from './guides-lot-3b.mjs';
+import {lot4} from './guides-lot-4.mjs';
 
 // dateModified stays 19 November 2026. The catalogue date and datePublished
 // are the day the lot goes online.
@@ -15,6 +16,7 @@ const modified = '2026-11-19';
 const lot1Published = '2026-11-19';
 const lot2Published = '2026-11-20';
 const lot3Published = '2026-11-21';
+const lot4Published = '2026-11-27';
 const cover = {
   src:'/assets/corporate/documents.jpg',
   smallSrc:'/assets/corporate/documents-small.jpg',
@@ -69,7 +71,8 @@ function article(language, guide) {
   const links = guide.links.map(item => `<li><a href="/${language}/${item.path}/">${esc(t(item.label))}</a></li>`).join('');
   const sources = guide.sources.map(item => `<li><a href="${esc(item.href)}">${esc(t(item.name))}</a></li>`).join('');
   const fiscal = guide.fiscal ? `<p>${esc(copy.fiscal[language])}</p>` : '';
-  return `${sections}<h2 id="questions">${esc(copy.questions[language])}</h2>${faqs}<h2 id="liens">${esc(copy.links[language])}</h2><ul>${links}</ul><h2 id="sources">${esc(copy.sources[language])}</h2><p>${esc(copy.updated[language])}</p>${fiscal}<p>${esc(copy.caution[language])}</p><ul>${sources}</ul>`;
+  const updated = guide.updated ? guide.updated[language] : copy.updated[language];
+  return `${sections}<h2 id="questions">${esc(copy.questions[language])}</h2>${faqs}<h2 id="liens">${esc(copy.links[language])}</h2><ul>${links}</ul><h2 id="sources">${esc(copy.sources[language])}</h2><p>${esc(updated)}</p>${fiscal}<p>${esc(copy.caution[language])}</p><ul>${sources}</ul>`;
 }
 
 function publish(guide, language) {
@@ -83,7 +86,7 @@ function publish(guide, language) {
     html:article(language, guide),
     faq:guide.faqs.map(item => ({question:item.q[language], answer:item.a[language]})),
     publicationDate:guide.publishedOn,
-    modifiedDate:modified,
+    modifiedDate:guide.modifiedOn || modified,
     authors:[],
     audit:true,
     cover:{...cover, alt:guide.title[language]}
@@ -98,6 +101,7 @@ export function originalGuidesFor(language) {
   return [
     ...dated([...lot1, ...lot1b, ...lot1c], lot1Published),
     ...dated([...lot2a, ...lot2b], lot2Published),
-    ...dated([...lot3a, ...lot3b], lot3Published)
+    ...dated([...lot3a, ...lot3b], lot3Published),
+    ...dated(lot4, lot4Published)
   ].map(guide => publish(guide, language));
 }
