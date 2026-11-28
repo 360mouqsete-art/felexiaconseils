@@ -9,6 +9,7 @@ import {lot2b} from './guides-lot-2b.mjs';
 import {lot3a} from './guides-lot-3.mjs';
 import {lot3b} from './guides-lot-3b.mjs';
 import {lot4} from './guides-lot-4.mjs';
+import {lot5} from './guides-lot-5.mjs';
 
 // dateModified stays 19 November 2026. The catalogue date and datePublished
 // are the day the lot goes online.
@@ -17,6 +18,7 @@ const lot1Published = '2026-11-19';
 const lot2Published = '2026-11-20';
 const lot3Published = '2026-11-21';
 const lot4Published = '2026-11-27';
+const lot5Published = '2026-11-28';
 const cover = {
   src:'/assets/corporate/documents.jpg',
   smallSrc:'/assets/corporate/documents-small.jpg',
@@ -102,6 +104,7 @@ export function originalGuidesFor(language) {
     ...dated([...lot1, ...lot1b, ...lot1c], lot1Published),
     ...dated([...lot2a, ...lot2b], lot2Published),
     ...dated([...lot3a, ...lot3b], lot3Published),
-    ...dated(lot4, lot4Published)
+    ...dated(lot4, lot4Published),
+    ...dated(lot5, lot5Published)
   ].map(guide => publish(guide, language));
 }
