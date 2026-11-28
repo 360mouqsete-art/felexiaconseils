@@ -11,7 +11,22 @@ export const privateAdvice = {
   ar: 'ننصحكم في التنظيم القانوني والاجتماعي والجبائي لمشروعكم، ونواكبكم في إعداد ملفكم، دون أن نحل محل الإدارة.'
 };
 
-export const privateNoticeSlugs = new Set(['', 'creation-entreprise', 'domiciliation', 'guides/creer-une-sarl-maroc', 'guides/mre-etranger']);
+export const privateNoticeSlugs = new Set(['', 'creation-entreprise', 'domiciliation', 'guides/creer-une-sarl-maroc', 'guides/mre-etranger', 'darija']);
+
+export const privateNoticeShort = {
+  fr: "Cabinet privé de conseil, non affilié à l'administration.",
+  en: 'A private advisory firm, not affiliated with the administration.',
+  ar: 'مكتب خاص للاستشارة، غير تابع للإدارة.'
+};
+
+export const privateNoticeMore = {
+  fr: 'En savoir plus',
+  en: 'Learn more',
+  ar: 'المزيد'
+};
+
+export const darijaNoticeShort = 'مكتب خاص ديال الاستشارة، ماشي تابع للإدارة.';
+export const darijaNoticeMore = 'قرا كثر';
 
 // Extra notice at the top of the Google Ads landing pages. The header banner stays.
 export const landingDisclaimerSlugs = new Set(['creation-entreprise', 'guides/creer-une-sarl-maroc']);

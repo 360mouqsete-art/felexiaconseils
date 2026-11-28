@@ -24,6 +24,7 @@ html[data-theme="dark"] :is(.seo-content,.seo-breadcrumb) a:not(.felexia-action)
 html[data-theme="dark"] :is(.seo-breadcrumb,.seo-revised){color:#b5c0d4}
 [dir="rtl"] .seo-content h2{font-family:'Noto Sans Arabic',Inter,sans-serif;letter-spacing:0;line-height:1.6}
 @media(max-width:600px){.seo-content{padding:32px 20px}.seo-content>section{margin-bottom:30px}.seo-breadcrumb{padding:14px 20px}}
+.fx-mobile-actions{display:none}
 .audience-consent{position:fixed;z-index:200;inset-inline:20px;bottom:20px;max-width:620px;margin-inline:auto;padding:22px;background:#fff;color:#0b1340;border:1px solid #c8d2e8;border-radius:16px;box-shadow:0 12px 44px #0b13402b;font:14px/1.6 Inter,sans-serif;max-height:85vh;overflow:auto}
 .audience-consent[hidden]{display:none}
 .audience-consent h2{font:600 18px/1.4 Sora,Inter,sans-serif;margin:0 0 10px}
@@ -37,3 +38,15 @@ html[data-theme="dark"] :is(.seo-breadcrumb,.seo-revised){color:#b5c0d4}
 .audience-consent button:focus-visible,.audience-footer button:focus-visible{outline:3px solid #00c2b8;outline-offset:3px}
 html[data-theme="dark"] .audience-consent{background:#0b1340;color:#fff;border-color:#536579}
 html[data-theme="dark"] .audience-consent a{color:#aabaff}
+@media(max-width:900px){
+ .fx-mobile-actions{position:fixed;z-index:210;left:8px;right:8px;bottom:8px;display:flex;gap:8px}
+ .fx-mobile-actions a{flex:1;min-height:44px;display:flex;align-items:center;justify-content:center;border-radius:999px;font:700 15px/1 Inter,sans-serif;text-decoration:none}
+ .fx-wa{background:#128c7e;color:#fff}
+ .fx-quote{background:#2446d8;color:#fff}
+ a.whatsapp{display:none}
+ body{padding-bottom:64px}
+ .audience-consent{inset-inline:8px;bottom:60px;max-width:none;padding:8px 10px;border-radius:12px}
+ .audience-consent h2{margin:0;height:0;overflow:hidden;font-size:0}
+ .audience-consent p{margin:0 0 8px;font-size:12px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+ .audience-consent button{min-width:0;min-height:40px;padding:8px 10px;font-size:13px}
+}

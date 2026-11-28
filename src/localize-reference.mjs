@@ -68,7 +68,7 @@ export function localizeReferenceSite(frenchPages, existing, version) {
       const element=$(zone);
       if(element.find('.wizard').length)element.html(wizard(language));
       else if(element.find('form').length) {
-        const appointment=element.find('[name="kind"]').attr('value')==='appointment';
+        const appointment=element.find('form').attr('data-contact-form')==='detailed'?'detailed':element.find('[name="kind"]').attr('value')==='appointment';
         const fragment=load(contactForm(language,appointment),null,false);
         if(element.hasClass('is-embedded')){fragment('form>h2').remove();element.html(fragment('form').prop('outerHTML'));}
         else element.html(fragment.html());

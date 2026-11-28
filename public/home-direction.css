@@ -172,8 +172,11 @@ html.d-motion .d-steps.is-in ol::before { transform: scaleX(1); transition: tran
   html.d-motion .d-steps ol::before { content: none; }
   .d h1 { font-size: 2.05rem; }
   .d-lead { font-size: 1rem; }
-  .d-copy { min-height: 23.5rem; }
-  .d-stage { min-height: 30rem; }
+  .d-copy { min-height: 0; }
+  .d-stage { display: none; }
+  .d-hero { padding: .35rem 0 .2rem; }
+  .d-kicker { margin-bottom: .35rem; }
+  .d-lead, .d-scope, .d-actions-more { margin-top: .65rem; }
   .d-back { position: relative; height: 160px; }
   .d-stamp { animation: none; transform: translate(-78px, -16px); }
   .d-sheet { display: none; }
