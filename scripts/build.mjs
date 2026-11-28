@@ -8,7 +8,7 @@ import {company,languages} from '../src/content.mjs';
 import {load} from 'cheerio';
 import {scrubAccountingHtml} from '../src/accounting-language.mjs';
 import {editorialDate} from '../src/seo-content.mjs';
-import {withdrawnGuideSlugs} from '../src/withdrawn-guides.mjs';
+import {isRedirectedPath} from '../src/sitemap-redirects.mjs';
 await mkdir('dist', {recursive:true});
 // Only retire the old, generated Guides pagination directories. Verify each
 // absolute target stays inside this workspace's output before recursive removal.
@@ -25,7 +25,7 @@ await cp('public', 'dist', {recursive:true});
 const hashes=Object.fromEntries(await Promise.all(['app.js','styles.css'].map(async name=>[name,createHash('sha256').update(await readFile('public/'+name)).digest('hex').slice(0,12)])));
 for(const [path,source] of Object.entries(pages)){ const file=`dist/${path}`;const html=scrubAccountingHtml(source).replace('/app.js"',`/app.js?v=${hashes['app.js']}"`).replace('/styles.css"',`/styles.css?v=${hashes['styles.css']}"`);pages[path]=html;await mkdir(file.slice(0,file.lastIndexOf('/')), {recursive:true}); await writeFile(file,html); }
 const routes=Object.entries(pages).filter(([p,html])=>{
-  if(p==='index.html'||withdrawnGuideSlugs.some(slug=>p.includes(`/guides/${slug}/`)))return false;
+  if(p==='index.html'||isRedirectedPath('/'+p.replace(/index\.html$/,'')))return false;
   const $=load(html);
   return !/noindex/.test($('meta[name="robots"]').attr('content')||'')&&$('link[rel="canonical"]').attr('href')===company.origin+'/'+p.replace(/index\.html$/,'');
 }).map(([p])=>'/'+p.replace(/index\.html$/,''));
