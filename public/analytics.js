@@ -1,4 +1,5 @@
 import {createMeasurement} from './measurement-core.js';
+import {loadMetaPixel, trackLead} from './meta-pixel.js';
 const root = document.querySelector('[data-analytics-consent]');
 if (root) {
   const key = 'felexia-audience-choice-v1';
@@ -12,6 +13,8 @@ if (root) {
   function grant() {
     measurement.consent(true);
     if (typeof window.gtag === 'function') window.gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});
+    loadMetaPixel();
+    if (/\/merci\/?$/.test(location.pathname)) trackLead();
     if (loaded) return;
     loaded = true;
     if (collect) measurement.pageView();

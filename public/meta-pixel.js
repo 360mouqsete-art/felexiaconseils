@@ -17,8 +17,13 @@ export function loadMetaPixel(id = META_PIXEL_ID) {
   return true;
 }
 
+function alreadyTracked(name) {
+  const queue = window.fbq?.queue;
+  return Array.isArray(queue) && queue.some(entry => entry?.[0] === 'track' && entry?.[1] === name);
+}
+
 export function trackLead(id = META_PIXEL_ID) {
-  if (!id) return;
+  if (!id || alreadyTracked('Lead')) return;
   loadMetaPixel(id);
   if (typeof window.fbq === 'function') window.fbq('track', 'Lead');
 }
