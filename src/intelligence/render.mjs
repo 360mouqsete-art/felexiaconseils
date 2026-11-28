@@ -3,6 +3,7 @@ import {company} from '../content.mjs';
 import {guidePageSize, guideThemes, themeOfCategory, themeLabel} from '../guide-themes.mjs';
 import {headerTools} from '../header-tools.mjs';
 import {resolveCuratedCover} from './curated-covers.mjs';
+import {isRedirectedPath} from '../sitemap-redirects.mjs';
 
 const languages = ['fr', 'en', 'ar'];
 const copy = {
@@ -237,8 +238,11 @@ export function mergeIntelligenceSitemap(baseXml, topics, {origin:originInput} =
   const root = $('urlset').first();
   if (!root.length) throw new TypeError('Existing sitemap urlset is missing');
   root.attr('xmlns:xhtml', 'http://www.w3.org/1999/xhtml').attr('xmlns:image', 'http://www.google.com/schemas/sitemap-image/1.1');
+  root.children('url').each((_, node) => { if (isRedirectedPath($(node).children('loc').text())) $(node).remove(); });
   for (const topic of publicTopics(topics)) for (const language of languages) {
-    const loc = origin + route(topic, language);
+    const path = route(topic, language);
+    if (isRedirectedPath(path)) continue;
+    const loc = origin + path;
     const existing = root.children('url').filter((_, node) => $(node).children('loc').text() === loc);
     const retainedLastmod = existing.first().children('lastmod').text();
     existing.remove();
