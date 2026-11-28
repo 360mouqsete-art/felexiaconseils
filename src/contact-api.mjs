@@ -1,20 +1,23 @@
 import {randomUUID,createHash} from 'node:crypto';
 import {persistContactToSupabase} from './supabase-contact.mjs';
 import {canonicalOrigin} from './site-origin.mjs';
-const SERVICE_VALUES=['creation-entreprise','conseil-fiscal','conseil-gestion','formalites-administratives','investir-au-maroc','legal-advisory','modify-company','support','other'];
+const SERVICE_VALUES=['creation-entreprise','domiciliation','conseil-fiscal','conseil-gestion','formalites-administratives','investir-au-maroc','legal-advisory','modify-company','mre','support','other'];
 const PROFILE_VALUES=['resident','mre','foreign','company'];
 const STRUCTURE_VALUES=['undecided','sarl','sarl-au','sa','sas','filiale','succursale','auto-entrepreneur','association'];
 export function validateContact(input){
  if(!input||typeof input!=='object'||Array.isArray(input))return {error:'invalid_body'};
- const required=['name','email','message','locale','language','kind','consent'];
+ const brief=input.brief==='yes'&&input.kind==='contact';
+ const required=brief?['name','phone','service','locale','language','kind','consent']:['name','email','message','locale','language','kind','consent'];
  for(const k of required)if(typeof input[k]!=='string'||!input[k].trim())return {error:'required',field:k};
  if(!['fr','en','ar'].includes(input.locale)||!['fr','en','ar'].includes(input.language))return {error:'language'};
  if(!['contact','project','appointment'].includes(input.kind))return {error:'kind'};
  if(input.consent!=='yes')return {error:'consent'};
- const bounds={name:[2,120],email:[3,254],phone:[0,40],message:[10,3000],country:[0,100],city:[0,120],activity:[0,180],partners:[0,5],service:[0,50],profile:[0,30],structure:[0,40],date:[0,10],time:[0,30],mode:[0,30],requestId:[0,60],website:[0,200]};
+ const bounds={name:[2,120],email:brief?[0,254]:[3,254],phone:brief?[6,40]:[0,40],message:brief?[0,3000]:[10,3000],country:[0,100],city:[0,120],activity:[0,180],partners:[0,5],service:[0,50],profile:[0,30],structure:[0,40],date:[0,10],time:[0,30],mode:[0,30],requestId:[0,60],website:[0,200]};
  const data={kind:input.kind,locale:input.locale,language:input.language,consent:true};
  for(const [key,[min,max]] of Object.entries(bounds)){if(input[key]!==undefined&&typeof input[key]!=='string')return {error:'type',field:key};const value=(input[key]||'').trim();if(value.length<min||value.length>max||/[\x00-\x08\x0b\x0c\x0e-\x1f]/.test(value))return {error:'length',field:key};data[key]=value;}
- if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)||/[\r\n]/.test(data.email)||/[\r\n]/.test(data.name))return {error:'email',field:'email'};
+ if(data.email&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)||/[\r\n]/.test(data.email)||/[\r\n]/.test(data.name))return {error:'email',field:'email'};
+ if(!brief&&!data.email)return {error:'email',field:'email'};
+ if(brief)data.message=data.message||`Demande WhatsApp. Besoin : ${data.service}.`;
  if(data.phone&&!/^[+\d\s().-]{6,40}$/.test(data.phone))return {error:'phone',field:'phone'};
  if(data.partners&&(!/^\d+$/.test(data.partners)||+data.partners<1||+data.partners>10000))return {error:'partners'};
  if(input.kind!=='appointment'&&!SERVICE_VALUES.includes(data.service))return {error:'service'};
@@ -41,7 +44,7 @@ export function createContactHandler({env=process.env,fetcher=fetch}={}){
    const response=await fetcher(target,{method:'POST',headers:{'Content-Type':'application/json','Idempotency-Key':requestId,...(env.CONTACT_WEBHOOK_TOKEN?{'Authorization':`Bearer ${env.CONTACT_WEBHOOK_TOKEN}`}:{})},body:JSON.stringify(payload),signal:AbortSignal.timeout(12000),redirect:'error'});if(!response.ok)throw new Error('delivery_failed');
   }else if(env.RESEND_API_KEY&&env.CONTACT_FROM_EMAIL&&env.CONTACT_TO_EMAIL){
    const text=Object.entries(payload).filter(([k,v])=>v&&!['requestId','receivedAt'].includes(k)).map(([k,v])=>`${k}: ${v}`).join('\n\n');
-   const response=await fetcher('https://api.resend.com/emails',{method:'POST',headers:{'Content-Type':'application/json','Authorization':`Bearer ${env.RESEND_API_KEY}`,'Idempotency-Key':requestId},body:JSON.stringify({from:env.CONTACT_FROM_EMAIL,to:[env.CONTACT_TO_EMAIL],reply_to:data.email,subject:`Felexia — ${data.kind} — ${reference}`,text}),signal:AbortSignal.timeout(12000)});if(!response.ok)throw new Error('delivery_failed');
+   const response=await fetcher('https://api.resend.com/emails',{method:'POST',headers:{'Content-Type':'application/json','Authorization':`Bearer ${env.RESEND_API_KEY}`,'Idempotency-Key':requestId},body:JSON.stringify({from:env.CONTACT_FROM_EMAIL,to:[env.CONTACT_TO_EMAIL],...(data.email?{reply_to:data.email}:{}),subject:`Felexia — ${data.kind} — ${reference}`,text}),signal:AbortSignal.timeout(12000)});if(!response.ok)throw new Error('delivery_failed');
   }else return {status:503,body:{ok:false,code:'not_configured'}};
   return {status:200,body:{ok:true,reference}};
  }

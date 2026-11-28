@@ -1,5 +1,6 @@
 import {createHash} from 'node:crypto';
 import {privateAdvice} from './private-status.mjs';
+import {company} from './content.mjs';
 
 const version = createHash('sha1').update('home-d-illustrated-v2').digest('hex').slice(0, 8);
 
@@ -12,6 +13,7 @@ const copy = {
     lead: 'Un cabinet à Marrakech pour la création de société, la domiciliation et les modifications. Un devis précède tout engagement.',
     primary: 'Créer une société',
     quiet: 'Demander un devis',
+    quoteFree: 'Devis gratuit',
     services: 'Ce que le cabinet prend en charge',
     b1: 'Création de société', b1d: 'SARL, SARL AU et les autres formes, selon votre activité.',
     b2: 'Domiciliation', b2d: 'Une adresse de siège à Marrakech, avec le contrat et l’attestation.',
@@ -41,6 +43,7 @@ const copy = {
     lead: 'A Marrakech firm for company formation, a registered office and later changes. A quote comes before any commitment.',
     primary: 'Form a company',
     quiet: 'Request a quote',
+    quoteFree: 'Free quote',
     services: 'What the firm handles',
     b1: 'Company formation', b1d: 'SARL, single-member SARL and other forms, matched to the activity.',
     b2: 'Registered office', b2d: 'A Marrakech address, with the contract and the certificate.',
@@ -70,6 +73,7 @@ const copy = {
     lead: 'مكتب بمراكش لتأسيس الشركات والتوطين والتعديلات. يسبق كل التزام عرض سعر.',
     primary: 'تأسيس شركة',
     quiet: 'طلب عرض سعر',
+    quoteFree: 'عرض مجاني',
     services: 'ما يتولاه المكتب',
     b1: 'تأسيس شركة', b1d: 'SARL وSARL AU والصيغ الأخرى، حسب النشاط.',
     b2: 'التوطين', b2d: 'عنوان مقر بمراكش، مع العقد والشهادة.',
@@ -170,9 +174,10 @@ function markup(lang) {
       <p class="d-kicker">${c.kicker}</p>
       <h1><span class="d-grad">${c.h1b}</span> ${c.h1c}</h1>
       <p class="d-brand">${c.h1a}</p>
+      <p class="d-actions"><a class="d-primary" href="https://wa.me/${company.whatsapp}">WhatsApp</a><a class="d-quiet" href="${p('contact/')}">${c.quoteFree}</a></p>
       <p class="d-lead">${c.lead}</p>
       <p class="d-scope">${c.advice}</p>
-      <p class="d-actions"><a class="d-primary" href="${p('create/')}">${c.primary}</a><a class="d-quiet" href="${p('contact/')}">${c.quiet}</a></p>
+      <p class="d-actions d-actions-more"><a href="${p('create/')}">${c.primary}</a></p>
     </div>
     <div class="d-stage">
       <div class="d-back"><div class="d-y">${heroArt()}</div></div>

@@ -7,6 +7,7 @@ import {adaptReferenceContent} from './reference-content.mjs';
 import {headerTools, languageSwitch, simplifiedLogo} from './header-tools.mjs';
 import {localizeReferenceSite} from './localize-reference.mjs';
 import {optimizeSeo} from './seo.mjs';
+import {addConversionPages} from './conversion-pages.mjs';
 
 // Frozen public pages supplied by the owner. Remote scripts are never executed.
 const read = path => readFileSync(new URL('../'+path, import.meta.url), 'utf8');
@@ -52,7 +53,7 @@ function brandText(value) {
 }
 
 const formZone = content => `<div class="felexia-form-zone">${content}</div>`;
-const contactBlock = () => `<div><h3 class="felexia-contact-title">Contactez-nous</h3><ul class="felexia-contact-details text-sm text-brand-midnight/85"><li><a href="${esc(mapHref)}">${esc(company.address)}</a></li><li><a href="tel:${company.officeTel}">Bureau : ${company.officePhone}</a></li><li><a href="https://wa.me/${company.whatsapp}">WhatsApp : +212 661 400 352</a></li><li><a href="mailto:${company.email}">${company.email}</a></li></ul></div>`;
+const contactBlock = () => `<div><h3 class="felexia-contact-title">Contactez-nous</h3><ul class="felexia-contact-details text-sm text-brand-midnight/85"><li><a href="${esc(mapHref)}">${esc(company.address)}</a></li><li><a href="tel:${company.officeTel}">Bureau : ${company.officePhone}</a></li><li><a href="https://wa.me/${company.whatsapp}">WhatsApp : ${company.whatsappDisplay}</a></li><li><a href="mailto:${company.email}">${company.email}</a></li></ul></div>`;
 
 export function renderReferenceSite(existing) {
   const pages=[...manifest().pages,{route:'/guides/page/2',file:'reference/mylegal/pages/guides-page-2.html'}];
@@ -141,7 +142,7 @@ export function renderReferenceSite(existing) {
       section.find('h2').text('Échangeons sur votre profil');
       section.find('article').remove();
       $('main button').filter((_,e)=>$(e).text().includes('Envoyer mon profil')).replaceWith('<a class="felexia-action" href="#candidature">Envoyer mon profil ↗</a>');
-      $('main').append(`<section id="candidature" class="felexia-extra-section"><h2>Présentez votre candidature</h2><p>Décrivez votre expérience et les missions qui vous intéressent. Vous pouvez adresser votre CV directement à <a href="mailto:${company.email}?subject=Candidature%20Felexia%20Conseils">${company.email}</a>.</p>${formZone(contactForm('fr'))}</section>`);
+      $('main').append(`<section id="candidature" class="felexia-extra-section"><h2>Présentez votre candidature</h2><p>Décrivez votre expérience et les missions qui vous intéressent. Vous pouvez adresser votre CV directement à <a href="mailto:${company.email}?subject=Candidature%20Felexia%20Conseils">${company.email}</a>.</p>${formZone(contactForm('fr','detailed'))}</section>`);
     }
     if(route==='/'){
       $('main h2').filter((_,e)=>$(e).text().includes('Des entrepreneurs comme vous')).closest('section').remove();
@@ -211,6 +212,7 @@ export function renderReferenceSite(existing) {
   const account=`<section class="felexia-extra-section"><span class="felexia-eyebrow">FELEXIA CONSEILS</span><h1>Parlons de votre dossier.</h1><p>Pour connaître l’avancement de votre accompagnement, contactez directement votre cabinet en précisant votre nom et, si vous en disposez, la référence de votre demande.</p><div class="felexia-account-actions"><a class="felexia-action" href="/fr/contact/?service=support">Contacter le cabinet ↗</a><a class="felexia-action secondary" href="https://wa.me/${company.whatsapp}">Échanger sur WhatsApp ↗</a></div><p class="felexia-account-note">Aucun compte en ligne n’est nécessaire pour nous contacter. Cet espace ne donne pas accès à des documents privés.</p></section>`;
   const $account=load(render(homeSource,'/espace-client',account));$account('title').text('Mon dossier | Felexia Conseils');$account('meta[property="og:title"]').attr('content','Mon dossier | Felexia Conseils');$account('meta[name="description"],meta[property="og:description"]').attr('content','Contactez Felexia Conseils pour faire le point sur votre dossier et les prochaines étapes de votre accompagnement.');out['fr/espace-client/index.html']=$account.html();
   Object.assign(out,localizeReferenceSite(out,existing,version));
+  addConversionPages(out);
   writeFileSync(new URL('../public/mylegal/site-inline.css',import.meta.url),[...inline].map(([style,cls])=>`.${cls}{${style}}`).join('\n'));
   return optimizeSeo(out);
 }

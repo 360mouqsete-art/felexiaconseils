@@ -107,6 +107,7 @@ test('language controls link to real translations or clearly identified availabl
       const equivalent = documents.has('/'+relative.replace(/^(fr|en|ar)\//,$(anchor).attr('lang')+'/'));
       assert.equal($(anchor).attr('data-language-target'),equivalent?'equivalent':'section',`${relative}: accurately identifies available translations`);
       if(equivalent)assert.equal(path.slice(4),`/${relative}`.slice(4).replace(/index\.html$/,''),`${relative}: equivalent page retained`);
+      else if(relative==='ar/darija/index.html')assert.equal(path,`/${$(anchor).attr('lang')}/`);
       else {assert.match(relative,/^fr\/guides\/[^/]+\/index\.html$/);assert.equal(path,`/${$(anchor).attr('lang')}/guides/`);}
     });
     assert.equal($('header [data-theme-toggle]').length,1,`${relative}: theme toggle`);
@@ -238,7 +239,8 @@ test('contact, creation, meeting and recruitment forms use the implemented local
     assert.equal(forms.attr('action'), '/api/contact');
     assert.equal(forms.attr('method'), 'post');
     assert.ok(forms.attr('data-form-copy'));
-    for (const field of ['kind', 'locale', 'name', 'email', 'message', 'consent']) {
+    const fields = slug === 'contact' ? ['kind', 'locale', 'name', 'phone', 'service', 'consent'] : ['kind', 'locale', 'name', 'email', 'message', 'consent'];
+    for (const field of fields) {
       assert.ok(forms.find(`[name="${field}"]`).length, `${slug}: ${field}`);
     }
     assert.equal(forms.find('[type="submit"]').length, 1);

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {load} from 'cheerio';
 import {company} from '../src/content.mjs';
-import {landingDisclaimer, privateNotice} from '../src/private-status.mjs';
+import {landingDisclaimer, privateNotice, privateNoticeShort} from '../src/private-status.mjs';
 
 const page = path => load(readFileSync(path));
 const languages = ['fr', 'en', 'ar'];
@@ -87,7 +87,8 @@ test('creation and SARL landing pages state the private status and link to the p
       assert.equal(box.find('p').first().text(), landingDisclaimer[lang].text);
       assert.equal(box.find('a[href="https://www.cri-invest.ma/"]').length, 1);
       assert.equal(box.find('a[href="https://www.ompic.ma/"]').length, 1);
-      assert.equal($('.felexia-private-notice').text(), privateNotice[lang]);
+      assert.equal($('.felexia-private-notice span').text(), privateNoticeShort[lang]);
+      assert.equal($('#cabinet-prive').text(), privateNotice[lang]);
       const main = $('main').text();
       assert.equal(/obtention du Registre du Commerce|Nous finalisons les démarches administratives|Délai moyen\s*:\s*10 jours|Votre société est créée/i.test(main), false, `/${lang}/${slug}`);
     }

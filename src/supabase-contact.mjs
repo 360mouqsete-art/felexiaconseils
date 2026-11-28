@@ -33,7 +33,8 @@ function prepare(payload) {
     if (payload[field] !== undefined && typeof payload[field] !== 'string') return null;
     body[field] = payload[field] || '';
   }
-  if (!body.name || !body.email || !body.message || !['contact','project','appointment'].includes(body.kind) || !['fr','en','ar'].includes(body.locale) || !['fr','en','ar'].includes(body.language)) return null;
+  if (!body.name || !body.message || !['contact','project','appointment'].includes(body.kind) || !['fr','en','ar'].includes(body.locale) || !['fr','en','ar'].includes(body.language)) return null;
+  if (!body.email && !(body.kind === 'contact' && body.phone)) return null;
   body.consent = true;
   const serialized = JSON.stringify(body);
   if (Buffer.byteLength(serialized) > 16384) return null;

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {load} from 'cheerio';
 import {createMeasurement} from '../public/measurement-core.js';
-import {privateNotice, privateAdvice} from '../src/private-status.mjs';
+import {privateNotice, privateNoticeShort, privateAdvice} from '../src/private-status.mjs';
 
 const consentSource = readFileSync(new URL('../public/google-consent.js', import.meta.url), 'utf8');
 const analyticsSource = readFileSync(new URL('../public/analytics.js', import.meta.url), 'utf8');
@@ -55,7 +55,8 @@ test('the private-firm notice is on the requested pages and official deliverable
   ];
   for (const [lang, slug] of pages) {
     const $ = load(readFileSync(`dist/${lang}/${slug}index.html`));
-    assert.equal($('.felexia-private-notice').text(), privateNotice[lang], `/${lang}/${slug}`);
+    assert.equal($('.felexia-private-notice span').text(), privateNoticeShort[lang], `/${lang}/${slug}`);
+    assert.equal($('#cabinet-prive').text(), privateNotice[lang], `/${lang}/${slug}`);
   }
   const home = readFileSync('dist/fr/index.html', 'utf8');
   assert.equal(home.includes('Certificat négatif'), false);

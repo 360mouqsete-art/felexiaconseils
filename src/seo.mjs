@@ -6,11 +6,11 @@ import {addAnalytics} from './analytics.mjs';
 import {editorial,editorialDate,creationSections,guideBody,contentHelpers,pick} from './seo-content.mjs';
 import {applyHomepage} from './homepage-direction.mjs';
 import {applyDirection} from './direction-pages.mjs';
-import {landingDisclaimer, landingDisclaimerSlugs, officialPortals, privateNotice, privateNoticeSlugs} from './private-status.mjs';
+import {darijaNoticeMore, darijaNoticeShort, landingDisclaimer, landingDisclaimerSlugs, officialPortals, privateNotice, privateNoticeMore, privateNoticeShort, privateNoticeSlugs} from './private-status.mjs';
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const canonicalAliases={legal:'mentions-legales',privacy:'politique-confidentialite',terms:'cgu'};
-export const nonIndexable=new Set(['404','espace-client','create','rendez-vous']);
+export const nonIndexable=new Set(['404','espace-client','create','rendez-vous','merci','darija']);
 export const revisedSlugs=new Set(['','creation-entreprise','tarif/creation','contact',...['general','online','sarl','foreign'].map(k=>editorial[k].slug)]);
 const copyCatalog=Object.assign({},...[1,2,3].map(n=>JSON.parse(readFileSync(new URL(`./translations/part-${n}.json`,import.meta.url),'utf8'))));
 const translated=(s,l)=>l==='fr'?s:copyCatalog[createHash('sha1').update(s).digest('hex').slice(0,12)]?.[l];
@@ -151,7 +151,7 @@ export function optimizeSeo(pages){
     for(const [name,value]of Object.entries({'twitter:card':'summary_large_image','twitter:title':title,'twitter:description':description,'twitter:image':absoluteImage})){$(`meta[name="${name}"]`).remove();$('head').append(`<meta name="${name}" content="${esc(value)}">`);}
     // Replace, never append to, the previous single ProfessionalService block.
     const org=company.origin+'/#organization',site=company.origin+'/#website';
-    const graph=[{'@type':['Organization','LegalService','LocalBusiness'],'@id':org,name:company.name,url:company.origin,logo:{'@type':'ImageObject','@id':company.origin+'/#logo',url:company.origin+'/assets/logo-original.png'},image:company.origin+'/assets/logo-original.png',telephone:company.mobilePhone,email:company.email,address:{'@type':'PostalAddress',streetAddress:'Résidence Al Ihssane, Immeuble 3, Appartement 4, Mabrouka',addressLocality:'Marrakech',postalCode:company.postalCode,addressCountry:'MA'},areaServed:[{'@type':'City',name:'Marrakech'},{'@type':'Country',name:'Morocco'}],contactPoint:[{'@type':'ContactPoint',telephone:company.mobilePhone,contactType:'mobile',areaServed:'MA',availableLanguage:['French','English','Arabic']},{'@type':'ContactPoint',telephone:company.officeTel,contactType:'office',areaServed:'MA',availableLanguage:['French','English','Arabic']},{'@type':'ContactPoint',telephone:'+212661400352',contactType:'customer support',areaServed:'MA',availableLanguage:['French','English','Arabic']}]},{'@type':'WebSite','@id':site,url:company.origin,name:company.name,inLanguage:['fr','en','ar'],publisher:{'@id':org}},{'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description,inLanguage:l,isPartOf:{'@id':site},about:{'@id':org}}];
+    const graph=[{'@type':['Organization','LegalService','LocalBusiness'],'@id':org,name:company.name,url:company.origin,logo:{'@type':'ImageObject','@id':company.origin+'/#logo',url:company.origin+'/assets/logo-original.png'},image:company.origin+'/assets/logo-original.png',telephone:company.mobilePhone,email:company.email,address:{'@type':'PostalAddress',streetAddress:'Résidence Al Ihssane, Immeuble 3, Appartement 4, Mabrouka',addressLocality:'Marrakech',postalCode:company.postalCode,addressCountry:'MA'},areaServed:[{'@type':'City',name:'Marrakech'},{'@type':'Country',name:'Morocco'}],contactPoint:[{'@type':'ContactPoint',telephone:company.mobilePhone,contactType:'mobile',areaServed:'MA',availableLanguage:['French','English','Arabic']},{'@type':'ContactPoint',telephone:company.officeTel,contactType:'office',areaServed:'MA',availableLanguage:['French','English','Arabic']},{'@type':'ContactPoint',telephone:'+212661400352',contactType:'whatsapp',areaServed:'MA',availableLanguage:['French','English','Arabic']}]},{'@type':'WebSite','@id':site,url:company.origin,name:company.name,inLanguage:['fr','en','ar'],publisher:{'@id':org}},{'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description,inLanguage:l,isPartOf:{'@id':site},about:{'@id':org}}];
     if(slug){graph.push({'@type':'BreadcrumbList','@id':canonical+'#breadcrumb',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,name:c.name,item:c.url}))});graph[2].breadcrumb={'@id':canonical+'#breadcrumb'};}
     if(guide){const article={'@type':'Article','@id':canonical+'#article',headline:$('main h1').first().text(),description,inLanguage:l,image:absoluteImage,mainEntityOfPage:{'@id':canonical+'#webpage'},publisher:{'@id':org}};if($('main').text().includes('Felexia Conseils'))article.author={'@id':org};if(key)article.dateModified=editorialDate;graph.push(article);}
     if(slug==='faq'){const faqPairs=[];$('main details').each((_,element)=>{const question=$(element).find('summary').first().text().replace(/\s+/g,' ').trim();const clone=$(element).clone();clone.find('summary').remove();const answer=clone.text().replace(/\s+/g,' ').trim();if(question&&answer)faqPairs.push([question,answer]);});if(faqPairs.length)graph.push({'@type':'FAQPage','@id':canonical+'#faq',mainEntity:faqPairs.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))});}
@@ -174,11 +174,24 @@ export function optimizeSeo(pages){
       else $('main').prepend(box);
     }
     if(privateNoticeSlugs.has(slug)){
-      const notice=$(`<p class="felexia-private-notice" role="note"></p>`).text(privateNotice[l]);
+      const line=slug==='darija'?darijaNoticeShort:privateNoticeShort[l];
+      const more=slug==='darija'?darijaNoticeMore:privateNoticeMore[l];
+      const notice=$(`<p class="felexia-private-notice" role="note"><span></span><a href="#cabinet-prive"></a></p>`);
+      notice.find('span').text(line);
+      notice.find('a').text(more);
       const header=$('body > header').first();
       if(header.length)header.after(notice);
       else $('main').prepend(notice);
     }
+    const fullNotice=$(`<p id="cabinet-prive" class="felexia-private-full"></p>`).text(privateNotice[l]);
+    const pageFooter=$('footer').first();
+    if(pageFooter.length)pageFooter.append(fullNotice);
+    else $('body').append(fullNotice);
+    const quickLabel={fr:'Devis gratuit',en:'Free quote',ar:'عرض مجاني'}[l];
+    const quick=$(`<nav class="fx-mobile-actions" aria-label="WhatsApp"><a class="fx-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a><a class="fx-quote"></a></nav>`);
+    quick.find('.fx-wa').attr('href','https://wa.me/'+company.whatsapp);
+    quick.find('.fx-quote').attr('href',`/${l}/contact/`).text(quickLabel);
+    $('body').append(quick);
     pages[file]=$.html();
   }
   return pages;
