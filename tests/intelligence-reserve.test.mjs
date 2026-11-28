@@ -39,9 +39,9 @@ async function fixture(t) {
   return {engine, store, calls, setDate:value => {date = new Date(value);}};
 }
 
-test('the real reserve contains fourteen complete trilingual guides and thirty topics in total', async () => {
-  assert.equal(reserve.topics.length, 30, 'Thirty subjects includes the complete reserve and further ideas');
-  assert.equal(completeTopics.length, 14);
+test('the real reserve contains thirteen complete trilingual guides and twenty-nine topics in total', async () => {
+  assert.equal(reserve.topics.length, 29, 'Twenty-nine subjects includes the complete reserve and further ideas');
+  assert.equal(completeTopics.length, 13);
   assert.equal(ideas.length, 16, 'The remaining sixteen subjects are ideas, not publication-ready guides');
   const config = intelligenceConfig(env);
   const state = {topics:reserve.topics, sources:reserve.sources};
@@ -86,18 +86,18 @@ test('all real reserve covers and responsive variants are decodable WebP with ac
     assert.equal(topic.image.verified, true);
     assert.equal(topic.image.method, 'ai-generated-imagegen');
   }
-  assert.equal(checksums.size, 28);
+  assert.equal(checksums.size, completeTopics.length * 2);
 });
 
-test('the actual fourteen-topic reserve publishes once on each Casablanca day with three usable routes', async t => {
+test('the actual reserve publishes once on each Casablanca day with three usable routes', async t => {
   const {engine, store, calls, setDate} = await fixture(t);
-  assert.equal((await engine.importTopics(reserve.topics, reserve.sources)).inserted, 30);
+  assert.equal((await engine.importTopics(reserve.topics, reserve.sources)).inserted, reserve.topics.length);
   assert.equal((await engine.importTopics(reserve.topics, reserve.sources)).inserted, 0);
   for (const topic of completeTopics) assert.equal((await engine.prepareTopic(topic.id)).ok, true, topic.id);
   const shells = Object.fromEntries(await Promise.all(languages.map(async language => [language, await readFile(new URL(`../dist/${language}/guides/creation-entreprise-rabat/index.html`, import.meta.url), 'utf8')])));
   const baseSitemap = await readFile(new URL('../dist/sitemap.xml', import.meta.url), 'utf8');
   const days = new Set(), publishedIds = new Set();
-  for (let index = 0; index < 14; index++) {
+  for (let index = 0; index < completeTopics.length; index++) {
     const date = new Date(initialDate.getTime() + index * 86400000); setDate(date);
     const clock = localClock(date, 'Africa/Casablanca');
     const result = await engine.publishOne();
@@ -128,14 +128,14 @@ test('the actual fourteen-topic reserve publishes once on each Casablanca day wi
     for (const url of Object.values(result.urls)) assert.equal(sitemap('url>loc').filter((_, element) => sitemap(element).text() === url).length, 1);
   }
   const state = await store.read();
-  assert.equal(state.topics.filter(topic => topic.status === 'published').length, 14);
+  assert.equal(state.topics.filter(topic => topic.status === 'published').length, completeTopics.length);
   assert.equal(state.topics.filter(topic => topic.status === 'idea').length, 16);
-  assert.equal(state.reports.filter(report => report.type === 'daily' && report.topicId).length, 14);
-  assert.equal(days.size, 14); assert.equal(publishedIds.size, 14);
+  assert.equal(state.reports.filter(report => report.type === 'daily' && report.topicId).length, completeTopics.length);
+  assert.equal(days.size, completeTopics.length); assert.equal(publishedIds.size, completeTopics.length);
   assert.deepEqual(calls, {research:0, draft:0, image:0, upload:0});
 
   // The next day has no complete reserve. An incomplete idea job may not spend.
-  const emptyDate = new Date(initialDate.getTime() + 14 * 86400000); setDate(emptyDate);
+  const emptyDate = new Date(initialDate.getTime() + completeTopics.length * 86400000); setDate(emptyDate);
   await store.transaction(next => enqueue(next, {id:'reserve-exhaustion-idea', type:'draft', topicId:ideas[0].id}, emptyDate));
   const exhausted = await engine.tick();
   assert.equal(exhausted.status, 'completed');
@@ -144,7 +144,7 @@ test('the actual fourteen-topic reserve publishes once on each Casablanca day wi
   const day = localClock(emptyDate).day;
   assert.ok(after.events.some(event => event.type === 'daily_publication_missed' && event.details.day === day));
   assert.ok(after.events.some(event => event.type === 'reserve_low' && event.details.day === day && event.details.ready === 0));
-  assert.equal(after.topics.filter(topic => topic.status === 'published').length, 14);
+  assert.equal(after.topics.filter(topic => topic.status === 'published').length, completeTopics.length);
   assert.deepEqual(calls, {research:1, draft:0, image:0, upload:0});
   const repeated = await engine.tick();
   assert.equal(repeated.publication.status, 'no_ready_topic');

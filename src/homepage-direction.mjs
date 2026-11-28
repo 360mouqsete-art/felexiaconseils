@@ -7,7 +7,7 @@ const copy = {
   fr: {
     kicker: 'Marrakech · MRE · investisseurs étrangers',
     h1a: 'Felexia Conseils',
-    h1b: 'créez et développez',
+    h1b: 'Créez et développez',
     h1c: 'votre entreprise au Maroc.',
     lead: 'Un cabinet à Marrakech pour la création de société, la domiciliation et les modifications. Un devis précède tout engagement.',
     primary: 'Créer une société',
@@ -36,7 +36,7 @@ const copy = {
   en: {
     kicker: 'Marrakech · Moroccans abroad · foreign investors',
     h1a: 'Felexia Conseils',
-    h1b: 'form and grow',
+    h1b: 'Form and grow',
     h1c: 'your company in Morocco.',
     lead: 'A Marrakech firm for company formation, a registered office and later changes. A quote comes before any commitment.',
     primary: 'Form a company',
@@ -168,7 +168,8 @@ function markup(lang) {
   <section class="d-hero">
     <div class="d-copy">
       <p class="d-kicker">${c.kicker}</p>
-      <h1><span class="d-brand">${c.h1a}</span><span class="d-rest"><span class="d-grad">${c.h1b}</span> ${c.h1c}</span></h1>
+      <h1><span class="d-grad">${c.h1b}</span> ${c.h1c}</h1>
+      <p class="d-brand">${c.h1a}</p>
       <p class="d-lead">${c.lead}</p>
       <p class="d-scope">${c.advice}</p>
       <p class="d-actions"><a class="d-primary" href="${p('create/')}">${c.primary}</a><a class="d-quiet" href="${p('contact/')}">${c.quiet}</a></p>

@@ -6,7 +6,7 @@ import {addAnalytics} from './analytics.mjs';
 import {editorial,editorialDate,creationSections,guideBody,contentHelpers,pick} from './seo-content.mjs';
 import {applyHomepage} from './homepage-direction.mjs';
 import {applyDirection} from './direction-pages.mjs';
-import {privateNotice, privateNoticeSlugs} from './private-status.mjs';
+import {landingDisclaimer, landingDisclaimerSlugs, officialPortals, privateNotice, privateNoticeSlugs} from './private-status.mjs';
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const canonicalAliases={legal:'mentions-legales',privacy:'politique-confidentialite',terms:'cgu'};
@@ -143,14 +143,15 @@ export function optimizeSeo(pages){
     $('meta[name="robots"]').remove();
     if(nonIndexable.has(slug))$('head').append('<meta name="robots" content="noindex,follow">');
     const socialPhoto=$('main img').filter((_,e)=>!/logos?\//.test($(e).attr('src')||'')&&!/logo-/.test($(e).attr('src')||'')).first();
-    const image=socialPhoto.attr('src')||'/assets/logo-original.png';
+    const raw=socialPhoto.attr('src')||'';
+    const image=!raw||slug===''||/\/mylegal\/images\/static\/|Why-you-should-get-help/i.test(raw)?'/assets/og-felexia-conseils.png':raw;
     const absoluteImage=new URL(image,company.origin).href;
-    const social={'og:title':title,'og:description':description,'og:url':canonical,'og:type':guide?'article':'website','og:site_name':company.name,'og:locale':{fr:'fr_MA',en:'en_GB',ar:'ar_MA'}[l],'og:image':absoluteImage,'og:image:alt':socialPhoto.attr('alt')||company.name};
+    const social={'og:title':title,'og:description':description,'og:url':canonical,'og:type':guide?'article':'website','og:site_name':company.name,'og:locale':{fr:'fr_MA',en:'en_GB',ar:'ar_MA'}[l],'og:image':absoluteImage,'og:image:alt':socialPhoto.attr('alt')||'FELEXIA CONSEILS'};
     for(const [name,value]of Object.entries(social)){$(`meta[property="${name}"]`).remove();$('head').append(`<meta property="${name}" content="${esc(value)}">`);}
     for(const [name,value]of Object.entries({'twitter:card':'summary_large_image','twitter:title':title,'twitter:description':description,'twitter:image':absoluteImage})){$(`meta[name="${name}"]`).remove();$('head').append(`<meta name="${name}" content="${esc(value)}">`);}
     // Replace, never append to, the previous single ProfessionalService block.
     const org=company.origin+'/#organization',site=company.origin+'/#website';
-    const graph=[{'@type':['Organization','LegalService','LocalBusiness'],'@id':org,name:company.name,url:company.origin,logo:{'@type':'ImageObject','@id':company.origin+'/#logo',url:company.origin+'/assets/logo-original.png'},image:company.origin+'/assets/logo-original.png',telephone:company.officeTel,email:company.email,address:{'@type':'PostalAddress',streetAddress:'Résidence Al Ihssane, Immeuble 3, Appartement 4, Mabrouka',addressLocality:'Marrakech',addressCountry:'MA'},areaServed:[{'@type':'City',name:'Marrakech'},{'@type':'Country',name:'Morocco'}],contactPoint:[{'@type':'ContactPoint',telephone:company.officeTel,contactType:'office',areaServed:'MA',availableLanguage:['French','English','Arabic']},{'@type':'ContactPoint',telephone:'+212661400352',contactType:'customer support',areaServed:'MA',availableLanguage:['French','English','Arabic']}]},{'@type':'WebSite','@id':site,url:company.origin,name:company.name,inLanguage:['fr','en','ar'],publisher:{'@id':org}},{'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description,inLanguage:l,isPartOf:{'@id':site},about:{'@id':org}}];
+    const graph=[{'@type':['Organization','LegalService','LocalBusiness'],'@id':org,name:company.name,url:company.origin,logo:{'@type':'ImageObject','@id':company.origin+'/#logo',url:company.origin+'/assets/logo-original.png'},image:company.origin+'/assets/logo-original.png',telephone:company.mobilePhone,email:company.email,address:{'@type':'PostalAddress',streetAddress:'Résidence Al Ihssane, Immeuble 3, Appartement 4, Mabrouka',addressLocality:'Marrakech',postalCode:company.postalCode,addressCountry:'MA'},areaServed:[{'@type':'City',name:'Marrakech'},{'@type':'Country',name:'Morocco'}],contactPoint:[{'@type':'ContactPoint',telephone:company.mobilePhone,contactType:'mobile',areaServed:'MA',availableLanguage:['French','English','Arabic']},{'@type':'ContactPoint',telephone:company.officeTel,contactType:'office',areaServed:'MA',availableLanguage:['French','English','Arabic']},{'@type':'ContactPoint',telephone:'+212661400352',contactType:'customer support',areaServed:'MA',availableLanguage:['French','English','Arabic']}]},{'@type':'WebSite','@id':site,url:company.origin,name:company.name,inLanguage:['fr','en','ar'],publisher:{'@id':org}},{'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description,inLanguage:l,isPartOf:{'@id':site},about:{'@id':org}}];
     if(slug){graph.push({'@type':'BreadcrumbList','@id':canonical+'#breadcrumb',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,name:c.name,item:c.url}))});graph[2].breadcrumb={'@id':canonical+'#breadcrumb'};}
     if(guide){const article={'@type':'Article','@id':canonical+'#article',headline:$('main h1').first().text(),description,inLanguage:l,image:absoluteImage,mainEntityOfPage:{'@id':canonical+'#webpage'},publisher:{'@id':org}};if($('main').text().includes('Felexia Conseils'))article.author={'@id':org};if(key)article.dateModified=editorialDate;graph.push(article);}
     if(slug==='faq'){const faqPairs=[];$('main details').each((_,element)=>{const question=$(element).find('summary').first().text().replace(/\s+/g,' ').trim();const clone=$(element).clone();clone.find('summary').remove();const answer=clone.text().replace(/\s+/g,' ').trim();if(question&&answer)faqPairs.push([question,answer]);});if(faqPairs.length)graph.push({'@type':'FAQPage','@id':canonical+'#faq',mainEntity:faqPairs.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))});}
@@ -162,6 +163,16 @@ export function optimizeSeo(pages){
     addAnalytics($,l,slug);
     applyDirection($, l, file);
     if(/^(fr|en|ar)\/index\.html$/.test(file)) applyHomepage($, l);
+    if(landingDisclaimerSlugs.has(slug)){
+      const note=landingDisclaimer[l];
+      const links=officialPortals.map(portal=>`<a href="${portal.href}">${esc(portal[l])}</a>`).join(' · ');
+      const box=$(`<aside class="felexia-landing-disclaimer" role="note"><p></p><p><span></span> ${links}</p></aside>`);
+      box.children('p').eq(0).text(note.text);
+      box.children('p').eq(1).children('span').text(note.label+' ');
+      const crumb=$('main .seo-breadcrumb, main nav').first();
+      if(crumb.length)crumb.after(box);
+      else $('main').prepend(box);
+    }
     if(privateNoticeSlugs.has(slug)){
       const notice=$(`<p class="felexia-private-notice" role="note"></p>`).text(privateNotice[l]);
       const header=$('body > header').first();

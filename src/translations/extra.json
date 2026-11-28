@@ -39,10 +39,6 @@
     "en": "Business management application",
     "ar": "تطبيق لإدارة الشركة"
   },
-  "0a8bcab0f8cf": {
-    "en": "Mini ERP",
-    "ar": "نظام ERP مصغر"
-  },
   "9e7753e0d6c3": {
     "en": "Sales",
     "ar": "المبيعات"
@@ -62,5 +58,25 @@
   "9056c73c3d6f": {
     "en": "We advise you on the legal, social and tax organisation of your project, and we help you prepare your file, without taking the place of the administration.",
     "ar": "ننصحكم في التنظيم القانوني والاجتماعي والجبائي لمشروعكم، ونواكبكم في إعداد ملفكم، دون أن نحل محل الإدارة."
+  },
+  "f8742f92b302": {
+    "en": "We advise you and support you in preparing your file, without taking the place of the administration.",
+    "ar": "ننصحكم ونواكبكم في إعداد ملفكم، دون أن نحل محل الإدارة."
+  },
+  "2fcea978b5d5": {
+    "en": "Personal support from our team to prepare your file. The trade register is issued by the competent body, not by the firm.",
+    "ar": "مواكبة من فريقنا لإعداد ملفكم. السجل التجاري تسلمه الهيئة المختصة، وليس المكتب."
+  },
+  "25186c5861ec": {
+    "en": "Tell the firm about your project. We then set out the papers to gather.",
+    "ar": "اعرضوا مشروعكم على المكتب. ثم نحدد الوثائق الواجب جمعها."
+  },
+  "4b5201b2a81e": {
+    "en": "Your file is prepared with the firm",
+    "ar": "يُحضَّر ملفكم مع المكتب"
+  },
+  "64a2b8c2035a": {
+    "en": "We advise you and support you in preparing your file.",
+    "ar": "ننصحكم ونواكبكم في إعداد ملفكم."
   }
 }

@@ -49,6 +49,12 @@ html[data-theme="dark"] {
   color: var(--theme-text);
 }
 html[data-theme="dark"] body { background: var(--theme-background); color: var(--theme-text); }
+.felexia-landing-disclaimer { margin: 0 0 1.25rem; padding: 16px 18px; background: #fff; color: #0e1730; border: 1px solid #2446d8; border-radius: 12px; font-size: 16px; line-height: 1.55; }
+.felexia-landing-disclaimer p { margin: 0 0 .65rem; }
+.felexia-landing-disclaimer p:last-child { margin: 0; }
+.felexia-landing-disclaimer a { color: #2446d8; font-weight: 700; }
+html[data-theme="dark"] .felexia-landing-disclaimer, html.dark .felexia-landing-disclaimer { background: #10182f; color: #f4f7ff; border-color: #8eabff; }
+html[data-theme="dark"] .felexia-landing-disclaimer a, html.dark .felexia-landing-disclaimer a { color: #d4e0ff; }
 .felexia-private-notice { margin: 0; padding: 12px 20px; background: #eef2ff; color: #0e1730; border-bottom: 1px solid #d5deef; font-size: 15px; line-height: 1.55; }
 html[data-theme="dark"] .felexia-private-notice, html.dark .felexia-private-notice { background: #141c3a; color: #f4f7ff; border-bottom-color: rgba(255,255,255,.16); }
 @media (max-width: 640px) { .felexia-private-notice { padding: 12px 16px; font-size: 14px; } }

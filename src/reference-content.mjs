@@ -176,7 +176,7 @@ export function adaptReferenceContent($, route) {
       const premiumAnchor = bulletin(pack('Pack Premium'));
       const premiumItem = premiumAnchor.clone();
       const premiumLabel = premiumItem.find('span').last().empty();
-      for (const [text, separator] of [['Application de gestion de l’entreprise', ''], ['Mini ERP', ' — '], ['Vente', ' : '], ['Achat', ' • '], ['Stock', ' • '], ['CRM', ' • ']]) {
+      for (const [text, separator] of [['Application de gestion de l’entreprise', ''], ['Vente', ' : '], ['Achat', ' • '], ['Stock', ' • '], ['CRM', ' • ']]) {
         if (separator) premiumLabel.append($('<span></span>').text(separator));
         premiumLabel.append($('<span></span>').text(text));
       }
@@ -188,6 +188,14 @@ export function adaptReferenceContent($, route) {
   }
 
   if (route === '/creation-entreprise') {
+    rewriteText($, 'main', value => value
+      .replace(/jusqu['’]à l['’]obtention du Registre du Commerce/gi, 'pour préparer votre dossier. Le registre de commerce est délivré par l’organisme compétent, pas par le cabinet')
+      .replace(/Nous finalisons les démarches administratives et vous recevez votre dossier complet\.?/gi, 'Nous vous conseillons et vous accompagnons dans la préparation de votre dossier.')
+      .replace(/Votre société est créée/gi, 'Votre dossier se prépare avec le cabinet')
+      .replace(/Notre processus en ligne vous guide de la complétion du formulaire à l['’]immatriculation, assurant une transition fluide\.?/gi, 'Nous vous conseillons et vous accompagnons dans la préparation de votre dossier, sans nous substituer à l’administration.')
+      .replace(/Remplissez votre dossier en ligne en quelques minutes\.?/gi, 'Présentez votre projet au cabinet. Nous précisons ensuite les pièces à réunir.')
+      .replace(/Délai moyen\s*:\s*10 jours/gi, 'Le calendrier dépend de votre dossier et des organismes')
+      .replace(/gère toutes les démarches administratives\s*:\s*certificat négatif[\s\S]*$/gi, 'vous conseille et vous accompagne dans la préparation de votre dossier. Les organismes publics instruisent les formalités.'));
     $('main details').each((_, el) => {
       const question = $(el).find('summary').text();
       const answer = $(el).children().not('summary');

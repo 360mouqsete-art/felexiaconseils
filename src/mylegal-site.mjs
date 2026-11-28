@@ -130,7 +130,7 @@ export function renderReferenceSite(existing) {
       const fragment=load(contactForm('fr'),null,false);fragment('form>h2').remove();
       const form=fragment('form').prop('outerHTML');
       $('main form').replaceWith(`<div class="felexia-form-zone is-embedded">${form}</div>`);
-      const mobile=$('main a[href^="tel:"]').first();const office=mobile.clone();office.find('h3').text('Bureau');office.find('p').text(company.officePhone);office.attr('href','tel:'+company.officeTel);mobile.before(office);mobile.find('h3').text('Mobile');
+      const mobile=$('main a[href^="tel:"]').first();const office=mobile.clone();office.find('h3').text('Bureau');office.find('p').text(company.officePhone);office.attr('href','tel:'+company.officeTel);mobile.before(office);mobile.find('h3').text('Mobile');mobile.find('p').text(company.mobileDisplay);mobile.attr('href','tel:'+company.mobileTel);
       $('main a').filter((_,e)=>$(e).text().trim()==='Prendre rendez-vous').attr('href','/fr/rendez-vous/');
       $('main a[href*="google.com/maps"]').filter((_,e)=>/avis|expérience/i.test($(e).text())).remove();
       $('main dl').filter((_,e)=>/Lundi|Vendredi/.test($(e).text())).replaceWith('<p>Accueil au cabinet sur rendez-vous.</p><a class="text-brand-ocean" href="/fr/rendez-vous/">Choisir mes préférences de rendez-vous →</a>');

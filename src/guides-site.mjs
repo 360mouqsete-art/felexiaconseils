@@ -7,6 +7,7 @@ import {auditGuidesFor} from './audit-guides.mjs';
 import {originalGuidesFor} from './original-guides.mjs';
 import {guideThemes, themeOfCategory, themeLabel} from './guide-themes.mjs';
 import {isUnpublishedAccountingGuide, publishedSlugFor, unpublishedAccountingSlugs} from './unpublished-accounting-guides.mjs';
+import {withdrawnGuideSlugs} from './withdrawn-guides.mjs';
 import {scrubAccountingText} from './accounting-language.mjs';
 
 // Extend the existing, already localised Guides templates at build time. Only
@@ -278,7 +279,7 @@ function renderThemePages(pages) {
 }
 
 export function renderGuidesSite(pages) {
-  for (const lang of ['fr','en','ar']) for (const slug of unpublishedAccountingSlugs) delete pages[articleFile(slug, lang)];
+  for (const lang of ['fr','en','ar']) for (const slug of [...unpublishedAccountingSlugs, ...withdrawnGuideSlugs]) delete pages[articleFile(slug, lang)];
   const importedData = readJson('./guides-imported.json', []);
   const imported = Array.isArray(importedData) ? importedData : importedData.articles || [];
   const ministryData = readJson('./guides-ministry.json', {articles:[]});
@@ -290,7 +291,7 @@ export function renderGuidesSite(pages) {
   const template = pages['fr/guides/creation-entreprise-rabat/index.html'];
   const ministryTemplates = Object.fromEntries(['fr','en','ar'].map(lang => [lang,pages[articleFile('creation-entreprise-rabat',lang)]]));
   for (const item of imported) {
-    if (isUnpublishedAccountingGuide(item.slug)) continue;
+    if (isUnpublishedAccountingGuide(item.slug) || withdrawnGuideSlugs.includes(item.slug)) continue;
     const slug = publishedSlugFor(item.slug);
     const previous = catalogues.fr.find(guide => guide.slug === slug);
     if (previous) {
