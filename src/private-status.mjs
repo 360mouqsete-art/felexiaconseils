@@ -13,6 +13,29 @@ export const privateAdvice = {
 
 export const privateNoticeSlugs = new Set(['', 'creation-entreprise', 'domiciliation', 'guides/creer-une-sarl-maroc', 'guides/mre-etranger']);
 
+// Extra notice at the top of the Google Ads landing pages. The header banner stays.
+export const landingDisclaimerSlugs = new Set(['creation-entreprise', 'guides/creer-une-sarl-maroc']);
+
+export const landingDisclaimer = {
+  fr: {
+    text: 'FELEXIA CONSEILS est un cabinet de conseil privé, pas un site officiel. Nous vous conseillons et vous accompagnons dans la préparation de votre dossier. Nos honoraires sont distincts des frais officiels : droits, taxes et frais administratifs payés aux organismes publics. Cette page n’en publie pas le montant.',
+    label: 'Sites des organismes :'
+  },
+  en: {
+    text: 'FELEXIA CONSEILS is a private advisory firm, not an official website. We advise you and support you in preparing your file. Our fees are separate from official charges: duties, taxes and administrative fees paid to public bodies. This page does not state those amounts.',
+    label: 'Sites of the public bodies:'
+  },
+  ar: {
+    text: 'FELEXIA CONSEILS مكتب استشارة خاص، وليس موقعاً رسمياً. ننصحكم ونواكبكم في إعداد ملفكم. أتعابنا مستقلة عن الرسوم الرسمية: الحقوق والضرائب والمصاريف الإدارية المدفوعة للهيئات العمومية. لا تنشر هذه الصفحة مبالغها.',
+    label: 'مواقع الهيئات:'
+  }
+};
+
+export const officialPortals = [
+  {href: 'https://www.cri-invest.ma/', fr: 'CRI', en: 'CRI', ar: 'المركز الجهوي للاستثمار'},
+  {href: 'https://www.ompic.ma/', fr: 'OMPIC', en: 'OMPIC', ar: 'المكتب المغربي للملكية الصناعية والتجارية'}
+];
+
 export const officialDeliverables = new Set([
   'Certificat négatif',
   'Registre de commerce',

@@ -1,4 +1,5 @@
 import {isUnpublishedAccountingGuide, publishedSlugFor, unpublishedAccountingSlugs} from './unpublished-accounting-guides.mjs';
+import {withdrawnGuideSlugs} from './withdrawn-guides.mjs';
 
 // Visible wording only. The patterns are applied longest-first so a later,
 // broader replacement cannot rebuild a withdrawn phrase.
@@ -79,9 +80,7 @@ const replacements = [
   [/\bau bilan\b/gi, 'dans l’état de synthèse'],
   [/\bdu bilan\b/gi, 'de l’état de synthèse'],
   [/\bun bilan\b/gi, 'un état de synthèse'],
-  [/الميزانية العمومية/g, 'حالة الوضعية المالية'],
-  [/\+212[\s\u00a0\u200e]*661[\s\u00a0\u200e]*080[\s\u00a0\u200e]*862/g, '+212 520 825 825'],
-  [/\+212661080862/g, '+212520825825']
+  [/الميزانية العمومية/g, 'حالة الوضعية المالية']
 ];
 
 export function scrubAccountingText(value) {
@@ -93,7 +92,7 @@ export function scrubAccountingText(value) {
 export function scrubAccountingHtml(html) {
   let next = String(html ?? '');
   const lang = next.match(/<html[^>]*\blang="(fr|en|ar)"/)?.[1] || 'fr';
-  for (const slug of [...unpublishedAccountingSlugs].sort((a, b) => b.length - a.length)) {
+  for (const slug of [...unpublishedAccountingSlugs, ...withdrawnGuideSlugs].sort((a, b) => b.length - a.length)) {
     next = next.replaceAll(`/guides/${slug}/`, `/guides/`);
   }
   const renamed = publishedSlugFor('resultat-comptable-resultat-fiscal-is-maroc');

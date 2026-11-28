@@ -29,6 +29,31 @@
   },
   "redirects": [
     {
+      "source": "/fr/guides/brief-besoins-avant-choix-erp/",
+      "destination": "/fr/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/brief-besoins-avant-choix-erp/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/brief-besoins-avant-choix-erp/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/erp-needs-brief-before-selection/",
+      "destination": "/en/guides/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ar/guides/موجز-الاحتياجات-قبل-اختيار-نظام-تدبير/",
+      "destination": "/ar/guides/",
+      "statusCode": 301
+    },
+    {
       "source": "/",
       "destination": "/fr/",
       "statusCode": 308

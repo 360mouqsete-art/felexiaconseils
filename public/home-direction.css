@@ -28,7 +28,7 @@
 .d-hero { display: grid; gap: 1.5rem; align-items: center; padding: 1.4rem 0 1rem; }
 .d-kicker { margin: 0 0 .8rem; color: #2446d8; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .d h1 { margin: 0; max-width: 16em; color: #0e1730; font-family: Sora, sans-serif; font-size: clamp(2.2rem, 3.5vw, 3.55rem); font-weight: 600; letter-spacing: -.045em; line-height: 1.05; }
-.d-brand { display: block; margin-bottom: .55rem; color: #2446d8; font-size: .36em; font-weight: 650; letter-spacing: 0; }
+.d-brand { display: block; margin: .7rem 0 0; color: #2446d8; font-family: Sora, sans-serif; font-size: 1.05rem; font-weight: 650; letter-spacing: 0; }
 .d-rest { display: block; max-width: 11em; text-wrap: balance; }
 .d-grad { background: linear-gradient(100deg, #1d3ec8, #2a62ea); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .d-lead, .d-scope { max-width: 38rem; margin: 1rem 0 0; color: #3c4a66; font-size: 1.05rem; line-height: 1.55; }

@@ -6,9 +6,9 @@ import {promisify} from 'node:util';
 import { renderSite } from '../src/templates.mjs';
 import {company,languages} from '../src/content.mjs';
 import {load} from 'cheerio';
-import {revisedSlugs} from '../src/seo.mjs';
 import {scrubAccountingHtml} from '../src/accounting-language.mjs';
 import {editorialDate} from '../src/seo-content.mjs';
+import {withdrawnGuideSlugs} from '../src/withdrawn-guides.mjs';
 await mkdir('dist', {recursive:true});
 // Only retire the old, generated Guides pagination directories. Verify each
 // absolute target stays inside this workspace's output before recursive removal.
@@ -25,17 +25,22 @@ await cp('public', 'dist', {recursive:true});
 const hashes=Object.fromEntries(await Promise.all(['app.js','styles.css'].map(async name=>[name,createHash('sha256').update(await readFile('public/'+name)).digest('hex').slice(0,12)])));
 for(const [path,source] of Object.entries(pages)){ const file=`dist/${path}`;const html=scrubAccountingHtml(source).replace('/app.js"',`/app.js?v=${hashes['app.js']}"`).replace('/styles.css"',`/styles.css?v=${hashes['styles.css']}"`);pages[path]=html;await mkdir(file.slice(0,file.lastIndexOf('/')), {recursive:true}); await writeFile(file,html); }
 const routes=Object.entries(pages).filter(([p,html])=>{
-  if(p==='index.html')return false;
+  if(p==='index.html'||withdrawnGuideSlugs.some(slug=>p.includes(`/guides/${slug}/`)))return false;
   const $=load(html);
   return !/noindex/.test($('meta[name="robots"]').attr('content')||'')&&$('link[rel="canonical"]').attr('href')===company.origin+'/'+p.replace(/index\.html$/,'');
 }).map(([p])=>'/'+p.replace(/index\.html$/,''));
 const xmlEscape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
-const ministry=JSON.parse(await readFile('src/guides-ministry.json','utf8'));
-const ministryDates=new Map(ministry.articles.flatMap(article=>languages.map(language=>[`/${language}/guides/${article.slug}/`,(article.modifiedDate||article.publicationDate).slice(0,10)])));
-const lastmod=route=>{
-  const modified=ministryDates.get(route)||(revisedSlugs.has(route.replace(/^\/(fr|en|ar)\//,'').replace(/\/$/,''))?editorialDate:null);
-  return modified?`<lastmod>${modified}</lastmod>`:'';
+const isoDate=value=>{const match=String(value||'').match(/\d{4}-\d{2}-\d{2}/);return match?match[0]:'';};
+const contentDate=html=>{
+  const $=load(html);
+  const dates=[
+    isoDate($('meta[property="article:modified_time"]').attr('content')),
+    isoDate($('meta[property="article:published_time"]').attr('content')),
+    isoDate($('main time').first().attr('datetime'))
+  ].filter(Boolean).sort();
+  return dates.at(-1)||editorialDate;
 };
+const lastmod=route=>`<lastmod>${contentDate(pages[route.replace(/^\//,'')+'index.html']||'')}</lastmod>`;
 const alternates=route=>{const present=languages.filter(l=>routes.includes(route.replace(/^\/(fr|en|ar)\//,'/'+l+'/')));const french=route.replace(/^\/(fr|en|ar)\//,'/fr/');const fallback=routes.includes(french)?french:route;return present.map(l=>`<xhtml:link rel="alternate" hreflang="${l}" href="${xmlEscape(company.origin+route.replace(/^\/(fr|en|ar)\//,'/'+l+'/'))}"/>`).join('')+`<xhtml:link rel="alternate" hreflang="x-default" href="${xmlEscape(company.origin+fallback)}"/>`;};
 const sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+routes.map(route=>`<url><loc>${xmlEscape(company.origin+route)}</loc>${lastmod(route)}${alternates(route)}</url>`).join('')+'</urlset>';
 await writeFile('dist/sitemap.xml',sitemap);

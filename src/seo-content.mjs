@@ -4,9 +4,9 @@ export const pick = (l, fr, en, ar) => ({fr,en,ar})[l];
 const text = (fr,en,ar) => ({fr,en,ar});
 export const editorial = {
   creation: {
-    title:text('Créer une entreprise au Maroc en ligne | Felexia Conseils','Start a company in Morocco online | Felexia Conseils','تأسيس شركة في المغرب عن بُعد | Felexia Conseils'),
-    h1:text('Créer une entreprise au Maroc en ligne, avec un cabinet à vos côtés','Start a company in Morocco online, with a firm by your side','أسّس شركتك في المغرب عن بُعد، بمواكبة مكتب استشاري'),
-    intro:text('Démarrez votre dossier de création d’entreprise au Maroc à distance. Felexia Conseils vous accompagne dans le choix de la forme juridique, la préparation des documents et les formalités adaptées à votre situation.','Start your Moroccan company formation file remotely. Felexia Conseils helps you choose a legal structure, prepare documents and coordinate the formalities suited to your circumstances.','ابدأ ملف تأسيس شركتك في المغرب عن بُعد. تواكبك Felexia Conseils في اختيار الشكل القانوني وإعداد الوثائق وتنسيق الإجراءات المناسبة لوضعيتك.'),
+    title:text('Créer une entreprise au Maroc | Felexia Conseils','Start a company in Morocco | Felexia Conseils','تأسيس شركة في المغرب | Felexia Conseils'),
+    h1:text('Créer une entreprise au Maroc, avec un cabinet privé','Start a company in Morocco, with a private firm','أسّسوا شركتكم في المغرب، مع مكتب خاص'),
+    intro:text('Felexia Conseils vous conseille et vous accompagne dans la préparation de votre dossier de création au Maroc : forme juridique, documents et formalités adaptées à votre situation. Le cabinet ne se substitue pas aux organismes publics.','Felexia Conseils advises you and supports you in preparing your company-formation file in Morocco: legal structure, documents and the formalities that fit your situation. The firm does not take the place of public bodies.','تنصحكم Felexia Conseils وتواكبكم في إعداد ملف التأسيس في المغرب: الشكل القانوني والوثائق والإجراءات المناسبة لوضعيتكم. ولا يحل المكتب محل الهيئات العمومية.'),
     description:text('Créez votre société au Maroc avec Felexia Conseils : SARL, SARL AU, documents, formalités et accompagnement à distance. Demandez votre devis.','Start your company in Morocco with Felexia Conseils: SARL, single-member SARL, documents and remote support. Request a tailored quote.','أسّس شركتك في المغرب مع Felexia Conseils: شركة ذات مسؤولية محدودة، وثائق وإجراءات ومواكبة عن بُعد. اطلب عرضاً يناسب مشروعك.')
   },
   general: {
